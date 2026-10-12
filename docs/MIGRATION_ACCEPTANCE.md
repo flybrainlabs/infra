@@ -111,3 +111,26 @@ This acceptance covers repository assembly, component code and source publicatio
 It does not claim a fresh live deployment, a new SBF service-market integration,
 physical-device restoration, external biological accuracy or formal payments.
 Those gates remain in the English project status document.
+
+## Completed flybrainlabs source publication
+
+All ten public repositories were created under `flybrainlabs` and their write
+permissions verified. The actual component sources and English documents were
+uploaded to `main` using normal pushes, and every remote commit was checked.
+The dependency revisions and completion status are in
+[the release manifest](../release-manifest.json); structured evidence is in
+[the acceptance record](../migration-acceptance.json).
+
+A separate clean checkout cloned all ten repositories from GitHub, fetched the
+nine exact dependency pins and assembled the project using the published tools.
+All 716 owned source files matched the maintained, tested sources byte for byte.
+The clean checkout also passed the English documentation, ownership and private
+material source checks across 803 files. The final infrastructure revision is the
+commit containing this document and its release manifest.
+
+The maintained source workspace is `/workspace/flybrainlabs`; the disposable
+build workspace is `/workspace/flybrainlabs-workspace`. Every component records
+the current project name, English publication policy and automatic publication
+requirement in its development agreement. Retained model, result, browser and
+node state was preserved throughout the migration. Official model download bytes
+were zero, and this source publication did not redeploy the live website or node.
