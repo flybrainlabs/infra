@@ -134,3 +134,13 @@ the current project name, English publication policy and automatic publication
 requirement in its development agreement. Retained model, result, browser and
 node state was preserved throughout the migration. Official model download bytes
 were zero, and this source publication did not redeploy the live website or node.
+
+## Web access update
+
+On 2026-10-12 the owner requested private visibility for `flybrainlabs/web`.
+GitHub's authenticated API confirms `private: true` and `visibility: private`;
+anonymous access returns HTTP 404 and the authorized SSH identity retains read
+access. The other component repositories keep their existing visibility. The
+checkout tool now supports an explicit SSH transport and host alias while the
+manifest retains canonical repository URLs and exact commit pins. A complete
+checkout needs permission to read the private web component.

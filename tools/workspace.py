@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Assemble a reproducible flybrainlabs workspace from uniquely owned components."""
 from __future__ import annotations
-import argparse, hashlib, json, os, shutil, subprocess
+import argparse, hashlib, json, os, re, shutil, subprocess
 from pathlib import Path, PurePosixPath
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -60,7 +60,8 @@ def assemble(repos,output,working_tree=False,manifest=None):
     state={'schema':'flybrain-workspace-v1','repositories':str(repos),'mode':'working-tree' if working_tree else 'pinned-release','files':report}
     marker.write_text(json.dumps(state,indent=2)+'\n')
     return {'files':len(report),'output':str(output),'mode':state['mode']}
-def checkout(repos,manifest):
+def checkout(repos,manifest,transport='https',ssh_host='github.com'):
+    if transport not in ('https','ssh') or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9.-]*',ssh_host):raise ValueError('Invalid Git transport or SSH host')
     data=json.loads(manifest.read_text())
     if data.get('publication',{}).get('complete') is not True:raise ValueError('Release publication is incomplete; restore repository access and finish the pending pushes first')
     repos.mkdir(parents=True,exist_ok=True)
@@ -69,7 +70,8 @@ def checkout(repos,manifest):
         if pin['url']!=f'https://github.com/flybrainlabs/{name}.git':raise ValueError('Unexpected repository URL')
         target=repos/name
         created=not target.exists()
-        if created:subprocess.run(['git','clone','--no-checkout',pin['url'],str(target)],check=True)
+        clone_url=pin['url'] if transport=='https' else f'git@{ssh_host}:flybrainlabs/{name}.git'
+        if created:subprocess.run(['git','clone','--no-checkout',clone_url,str(target)],check=True)
         if not created and run(['git','status','--porcelain'],target):raise ValueError('Refusing to replace source edits: '+name)
         subprocess.run(['git','fetch','origin',pin['commit']],cwd=target,check=True)
         subprocess.run(['git','checkout','--detach',pin['commit']],cwd=target,check=True)
@@ -87,9 +89,9 @@ def sync(repos,output):
     for target,source in changed:shutil.copy2(target,source)
     return {'synchronizedFiles':len(changed),'repositories':sorted({str(s.relative_to(repos).parts[0]) for _,s in changed})}
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('action',choices=['assemble','checkout','sync','verify']);p.add_argument('--repos',type=Path,default=ROOT.parent);p.add_argument('--output',type=Path,default=ROOT.parent.parent/'flybrainlabs-workspace');p.add_argument('--manifest',type=Path,default=ROOT/'release-manifest.json');p.add_argument('--working-tree',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('action',choices=['assemble','checkout','sync','verify']);p.add_argument('--repos',type=Path,default=ROOT.parent);p.add_argument('--output',type=Path,default=ROOT.parent.parent/'flybrainlabs-workspace');p.add_argument('--manifest',type=Path,default=ROOT/'release-manifest.json');p.add_argument('--working-tree',action='store_true');p.add_argument('--transport',choices=['https','ssh'],default='https');p.add_argument('--ssh-host',default='github.com');a=p.parse_args()
     if a.action=='assemble':result=assemble(a.repos,a.output,a.working_tree,a.manifest)
-    elif a.action=='checkout':checkout(a.repos,a.manifest);result={'checkedOut':True}
+    elif a.action=='checkout':checkout(a.repos,a.manifest,a.transport,a.ssh_host);result={'checkedOut':True}
     elif a.action=='sync':result=sync(a.repos,a.output)
     else:verify_pins(a.repos,a.manifest);result={'pinsVerified':True,'files':len(load_components(a.repos))}
     print(json.dumps(result))

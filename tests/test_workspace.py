@@ -1,4 +1,5 @@
 import importlib.util,json,tempfile,unittest
+from unittest.mock import patch
 from pathlib import Path
 spec=importlib.util.spec_from_file_location('workspace',Path(__file__).resolve().parents[1]/'tools/workspace.py');w=importlib.util.module_from_spec(spec);spec.loader.exec_module(w)
 class WorkspaceSafety(unittest.TestCase):
@@ -21,4 +22,12 @@ class WorkspaceSafety(unittest.TestCase):
   w.assemble(self.repos,self.output,True);(self.output/'src/a.rs').write_text('workspace change');(self.repos/'node/src/a.rs').write_text('source change')
   with self.assertRaises(ValueError):w.sync(self.repos,self.output)
   self.assertEqual((self.repos/'node/src/a.rs').read_text(),'source change')
+ def test_private_repository_checkout_uses_requested_identity(self):
+  manifest=self.base/'release.json';manifest.write_text(json.dumps({'publication':{'complete':True},'repositories':{'web':{'url':'https://github.com/flybrainlabs/web.git','commit':'a'*40}}}))
+  destination=self.base/'checkout'
+  with patch.object(w.subprocess,'run') as run:
+   w.checkout(destination,manifest,'ssh','github-flybrainlabs')
+   self.assertEqual(run.call_args_list[0].args[0],['git','clone','--no-checkout','git@github-flybrainlabs:flybrainlabs/web.git',str(destination/'web')])
+   self.assertEqual(run.call_args_list[1].args[0],['git','fetch','origin','a'*40])
+  with self.assertRaises(ValueError):w.checkout(destination,manifest,'ssh','github.com;echo secret')
 if __name__=='__main__':unittest.main()

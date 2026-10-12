@@ -2,6 +2,13 @@
 
 Build, release and operations for [flybrainlabs](https://flybrain.work/).
 
+`flybrainlabs/web` is private. Complete workspace checkout requires an authorized
+identity for that component. Use an authenticated HTTPS credential helper or
+pass `--transport ssh` to `workspace.py checkout`. The operator environment uses
+`--ssh-host github-flybrainlabs` with `GIT_SSH_COMMAND='ssh -F
+/workspace/.ssh/config'`; keys remain outside repositories. Public components
+retain their existing visibility.
+
 ## Scope
 
 Pinned multi-repository assembly, source ownership and publication checks, systemd/nginx examples, release validation, backup and rollback tooling. Production runtime data and credentials are external to every repository.

@@ -1,13 +1,15 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "2026-10-12-flybrainlabs-initial",
+  "release": "2026-10-12-logo-fbw-devnet",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "7c160c1cdaee5ec0b398fa84097c778d28fe8bff",
-      "publicationStatus": "verified"
+      "commit": "d076bbacdb774d05693a12ebc9e8ee1a8bf16b4d",
+      "publicationStatus": "verified",
+      "visibility": "private",
+      "requiresAuthentication": true
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
@@ -31,7 +33,7 @@
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
-      "commit": "00db4e040fd3a2449545b5f974d65b73338311c2",
+      "commit": "3e4a5b75c8f230e2dcab409807303349c59c2ef0",
       "publicationStatus": "verified"
     },
     "sdk": {
@@ -46,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "5983188c7be1060298bb4fe6742da408260b225e",
+      "commit": "11fa53882c106b7a813dc912935702bf9be8ffe3",
       "publicationStatus": "verified"
     }
   },
@@ -66,5 +68,27 @@
     "databaseResetRequired": false,
     "browserProfileResetRequired": false
   },
-  "project": "flybrainlabs"
+  "project": "flybrainlabs",
+  "latestVerification": {
+    "websiteRevision": "flybrainlabs-brand-20261012-v1",
+    "changedWebsiteObjects": 41,
+    "localBrowserLayouts": 42,
+    "publicBrowserLayouts": 42,
+    "officialModelDownloadRequests": 0,
+    "physicalAndroid": false,
+    "physicalGPU": false,
+    "privateWebSshClone": "passed",
+    "workspaceSafetyTests": 4,
+    "nativeWebBuildCheck": "passed",
+    "devnetToken": "HCdV49RkqtC7pPwzHCYg5KtkmU8opifjojLbAyZXKgQW",
+    "tokenName": "flybrainwork",
+    "tokenSymbol": "FBW",
+    "tokenDecimals": 8,
+    "tokenSupplyAtoms": "31183324300000000",
+    "tokenFinalized": true,
+    "mintAuthorityRevoked": true,
+    "repeatIssuanceAdditionalTransactions": 0,
+    "sourceWalletPromptSha256": "dbaf5df05f10d06aeb7edaa25bbc200e8c1a3ffb4bd77ebf20f48aa7168a7f31",
+    "walletMiningPromptImplementation": "newly received; full implementation still required"
+  }
 }
