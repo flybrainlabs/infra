@@ -7,54 +7,57 @@
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
       "commit": "7c160c1cdaee5ec0b398fa84097c778d28fe8bff",
-      "publicationStatus": "pending_new_account"
+      "publicationStatus": "pending_upload"
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
       "commit": "0cecf1429c486687bd023076ac36057a4c871a11",
-      "publicationStatus": "pending_new_account"
+      "publicationStatus": "pending_upload"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
       "commit": "76647f028be64c68146292ba3af2c721dfae0a04",
-      "publicationStatus": "pending_new_account"
+      "publicationStatus": "pending_upload"
     },
     "explorer": {
       "url": "https://github.com/flybrainlabs/explorer.git",
       "commit": "3786880b5514362babe30886c1e3fc2c82cb12d3",
-      "publicationStatus": "pending_new_account"
+      "publicationStatus": "pending_upload"
     },
     "protocol": {
       "url": "https://github.com/flybrainlabs/protocol.git",
       "commit": "cee74bb1c19a5bb739b2686cfe4df130aab92824",
-      "publicationStatus": "pending_new_account"
+      "publicationStatus": "pending_upload"
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
       "commit": "00db4e040fd3a2449545b5f974d65b73338311c2",
-      "publicationStatus": "pending_new_account"
+      "publicationStatus": "pending_upload"
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
       "commit": "41c48297725fd9988b8656806b87686cb26b6c01",
-      "publicationStatus": "pending_new_account"
+      "publicationStatus": "pending_upload"
     },
     "research": {
       "url": "https://github.com/flybrainlabs/research.git",
       "commit": "ca1ab5979d748fb4a0c7166e66096cc607db4ca7",
-      "publicationStatus": "pending_new_account"
+      "publicationStatus": "pending_upload"
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
       "commit": "5983188c7be1060298bb4fe6742da408260b225e",
-      "publicationStatus": "pending_new_account"
+      "publicationStatus": "pending_upload"
     }
   },
   "publication": {
     "complete": false,
-    "blockingCondition": "Awaiting authenticated flybrainlabs API access and verified publication",
+    "blockingCondition": "Source uploads and fresh remote bootstrap verification pending",
     "verifiedRepositoryCount": 0,
-    "remainingRepositoryCount": 10
+    "remainingRepositoryCount": 10,
+    "apiIdentityVerified": true,
+    "sshIdentityVerified": true,
+    "repositoriesCreated": 10
   },
   "stateRetention": {
     "modelDownloadRequired": false,
