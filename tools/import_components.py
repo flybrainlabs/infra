@@ -87,7 +87,7 @@ def main():
         files.append({'workspacePath':name,'repository':o,'repositoryPath':name,'sha256':hashlib.sha256(q.read_bytes()).hexdigest()})
     for repo in REPOSITORIES:
         r=repos/repo;r.mkdir(parents=True,exist_ok=True)
-        (r/'component.json').write_text(json.dumps({'schema':'flybrain-component-v1','repository':repo,'owner':'flybrainwork','workspaceFiles':mapped.get(repo,{})},indent=2)+'\n')
+        (r/'component.json').write_text(json.dumps({'schema':'flybrain-component-v1','repository':repo,'owner':'flybrainlabs','workspaceFiles':mapped.get(repo,{})},indent=2)+'\n')
     report={'schema':'flybrain-source-import-v1','baselineCommit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=source).decode().strip(),'baselineTree':subprocess.check_output(['git','rev-parse','HEAD^{tree}'],cwd=source).decode().strip(),'files':files,'retainedOutsideNewRepositories':skipped,'productionDeploymentChanged':False}
     (repos/'infra'/'import-manifest.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({'mappedFiles':len(files),'repositories':{r:len(mapped.get(r,{})) for r in REPOSITORIES},'retainedHistoricalFiles':len(skipped)}))

@@ -1,6 +1,6 @@
 # Multi-repository migration acceptance
 
-Date: 2026-10-12. Owner: `flybrainwork`.
+Date: 2026-10-12. Owner: `flybrainlabs`.
 
 ## Imported source and ownership
 
@@ -70,25 +70,44 @@ disk-backed scratch storage passed without deleting model or anatomy caches.
 
 ## Publication identity and limitations
 
-SSH and GitHub CLI/API both authenticate as `flybrainwork`. Every component origin
-uses the dedicated SSH alias. English source policies run on GitHub push/PR events.
-Actual publication commits and dependency pins are recorded after each normal
-push. No force push or historical repository transfer is used.
+### Local account-transition verification
+
+The current `flybrainlabs` source layout contains 716 uniquely owned build files.
+The project-identity document, READMEs, component owners, CI ownership checks and
+publication targets now use the account selected by the owner. Existing model
+and browser caches, protocol identifiers and frozen vector bytes are retained.
+
+The following checks were rerun for this account and display-name transition:
+
+| Verification | Outcome |
+| --- | --- |
+| `cargo test --locked -p flypow --lib -- --test-threads=2` | 24 passed |
+| Static export `test_static_export.py` | Eight passed |
+| Infrastructure `test_workspace.py` | Three passed |
+| `npm run build:web` | Browser bundles built |
+| Current sources and all existing Git blob history | Known private material absent; 802 historical blobs checked |
+| English documentation, ownership and source publication paths | Passed |
+
+These checks used retained local dependencies and caches. They did not download
+official model data, reset browser profiles or change a live deployment.
+
+On 2026-10-12 the owner selected `flybrainlabs` as the project name and the GitHub
+account and authorized recreating all ten repositories. The replacement SSH key
+has been verified as `flybrainlabs`; GitHub CLI/API authentication and repository
+permissions are checked separately before creation and upload. All current
+component origins use `git@github-flybrainlabs:flybrainlabs/<component>.git`.
+
+The earlier `flybrainwork` attempt created ten repositories and verified four
+initial uploads before GitHub reported an account suspension. The protocol upload
+was unconfirmed and six uploads remained pending. Its local commits and verified
+Git bundles are retained as historical provenance, not current publication proof.
+
+The current release manifest records the new account's actual publication status
+and verified dependency pins. It stays incomplete until every required component
+has been uploaded and checked. No force push, remote deletion, repository transfer
+or former-account fallback is part of the current migration.
 
 This acceptance covers repository assembly, component code and source publication.
 It does not claim a fresh live deployment, a new SBF service-market integration,
-Android/physical GPU restoration, external biological accuracy or formal payments.
+physical-device restoration, external biological accuracy or formal payments.
 Those gates remain in the English project status document.
-
-### Actual publication status
-
-All ten remote repositories were created. Four initial uploads were accepted and
-verified: web, node, miner and explorer. The protocol upload received a GitHub
-Internal Server Error. A retry and independent read checks then returned an
-account-suspension error; the API confirms HTTP 403. Remaining uploads, including
-this infrastructure documentation, are blocked by the platform.
-
-Local component commits and the pending release manifest are complete. The
-manifest explicitly marks publication incomplete. It must not be represented as
-a remotely available release until account restoration and remaining verified
-normal pushes. Fresh remote bootstrap is not claimed as passed during suspension.

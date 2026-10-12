@@ -12,9 +12,9 @@ def main():
     checked=check(a.repos);results=[]
     a.report.parent.mkdir(parents=True,exist_ok=True)
     for name in a.only or NAMES:
-        root=a.repos/name;expected=f'git@github-flybrainwork:flybrainwork/{name}.git'
-        if run(['git','remote','get-url','--push','origin'],root)!=expected:raise ValueError('Unexpected publication target: '+name)
-        subprocess.run(['git','fetch','origin'],cwd=root,check=True)
+        root=a.repos/name;expected=f'git@github-flybrainlabs:flybrainlabs/{name}.git'
+        if run(['git','remote','get-url','origin'],root)!=expected or run(['git','remote','get-url','--push','origin'],root)!=expected:raise ValueError('Unexpected publication target: '+name)
+        subprocess.run(['git','fetch','--prune','origin'],cwd=root,check=True)
         branch=run(['git','branch','--show-current'],root)
         if not branch:raise ValueError('Check out a development branch before publishing: '+name)
         remote=subprocess.run(['git','rev-parse','--verify','refs/remotes/origin/'+branch],cwd=root,capture_output=True,text=True)
@@ -28,6 +28,6 @@ def main():
         actual=run(['git','ls-remote','origin','refs/heads/'+branch],root).split()[0]
         if actual!=head:raise ValueError('Remote publication verification failed: '+name)
         results.append({'repository':name,'branch':branch,'commit':head,'updated':bool(dirty),'remoteVerified':True})
-        a.report.write_text(json.dumps({'owner':'flybrainwork','checks':checked,'repositories':results,'complete':False},indent=2)+'\n')
-    a.report.write_text(json.dumps({'owner':'flybrainwork','checks':checked,'repositories':results,'complete':True},indent=2)+'\n');print(json.dumps(results))
+        a.report.write_text(json.dumps({'owner':'flybrainlabs','checks':checked,'repositories':results,'complete':False},indent=2)+'\n')
+    a.report.write_text(json.dumps({'owner':'flybrainlabs','checks':checked,'repositories':results,'complete':True},indent=2)+'\n');print(json.dumps(results))
 if __name__=='__main__':main()

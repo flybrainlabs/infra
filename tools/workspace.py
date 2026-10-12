@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble a reproducible Flybrain workspace from uniquely owned components."""
+"""Assemble a reproducible flybrainlabs workspace from uniquely owned components."""
 from __future__ import annotations
 import argparse, hashlib, json, os, shutil, subprocess
 from pathlib import Path, PurePosixPath
@@ -17,7 +17,7 @@ def load_components(repos):
     entries={}
     for name in NAMES:
         spec=json.loads((repos/name/'component.json').read_text())
-        if spec['schema']!='flybrain-component-v1' or spec['repository']!=name or spec['owner']!='flybrainwork':raise ValueError('Unexpected component identity: '+name)
+        if spec['schema']!='flybrain-component-v1' or spec['repository']!=name or spec['owner']!='flybrainlabs':raise ValueError('Unexpected component identity: '+name)
         for dst,src in spec['workspaceFiles'].items():
             safe_path(dst);safe_path(src)
             if dst in entries:raise ValueError('Duplicate source ownership: '+dst)
@@ -27,11 +27,11 @@ def load_components(repos):
     return entries
 def verify_pins(repos,manifest):
     data=json.loads(manifest.read_text())
-    if data['schema']!='flybrain-release-manifest-v1' or data['owner']!='flybrainwork':raise ValueError('Invalid release manifest')
+    if data['schema']!='flybrain-release-manifest-v1' or data['owner']!='flybrainlabs':raise ValueError('Invalid release manifest')
     for name in NAMES:
         if name=='infra':continue # The commit containing this manifest pins infra.
         pin=data['repositories'][name]
-        if pin['url']!=f'https://github.com/flybrainwork/{name}.git' or len(pin['commit'])!=40:raise ValueError('Invalid dependency pin: '+name)
+        if pin['url']!=f'https://github.com/flybrainlabs/{name}.git' or len(pin['commit'])!=40:raise ValueError('Invalid dependency pin: '+name)
         if run(['git','rev-parse','HEAD'],repos/name)!=pin['commit']:raise ValueError('Revision mismatch: '+name)
         if run(['git','status','--porcelain'],repos/name):raise ValueError('Dirty pinned dependency: '+name)
     return data
@@ -66,7 +66,7 @@ def checkout(repos,manifest):
     repos.mkdir(parents=True,exist_ok=True)
     for name,pin in data['repositories'].items():
         if name not in NAMES or name=='infra':raise ValueError('Unexpected dependency')
-        if pin['url']!=f'https://github.com/flybrainwork/{name}.git':raise ValueError('Unexpected repository URL')
+        if pin['url']!=f'https://github.com/flybrainlabs/{name}.git':raise ValueError('Unexpected repository URL')
         target=repos/name
         created=not target.exists()
         if created:subprocess.run(['git','clone','--no-checkout',pin['url'],str(target)],check=True)
@@ -87,7 +87,7 @@ def sync(repos,output):
     for target,source in changed:shutil.copy2(target,source)
     return {'synchronizedFiles':len(changed),'repositories':sorted({str(s.relative_to(repos).parts[0]) for _,s in changed})}
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('action',choices=['assemble','checkout','sync','verify']);p.add_argument('--repos',type=Path,default=ROOT.parent);p.add_argument('--output',type=Path,default=ROOT.parent.parent/'flybrain-workspace');p.add_argument('--manifest',type=Path,default=ROOT/'release-manifest.json');p.add_argument('--working-tree',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('action',choices=['assemble','checkout','sync','verify']);p.add_argument('--repos',type=Path,default=ROOT.parent);p.add_argument('--output',type=Path,default=ROOT.parent.parent/'flybrainlabs-workspace');p.add_argument('--manifest',type=Path,default=ROOT/'release-manifest.json');p.add_argument('--working-tree',action='store_true');a=p.parse_args()
     if a.action=='assemble':result=assemble(a.repos,a.output,a.working_tree,a.manifest)
     elif a.action=='checkout':checkout(a.repos,a.manifest);result={'checkedOut':True}
     elif a.action=='sync':result=sync(a.repos,a.output)

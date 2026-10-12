@@ -5,7 +5,7 @@ class WorkspaceSafety(unittest.TestCase):
  def setUp(self):
   self.tmp=tempfile.TemporaryDirectory();self.base=Path(self.tmp.name);self.repos=self.base/'repos';self.output=self.base/'assembled'
   for name in w.NAMES:
-   p=self.repos/name;p.mkdir(parents=True);(p/'component.json').write_text(json.dumps({'schema':'flybrain-component-v1','repository':name,'owner':'flybrainwork','workspaceFiles':{}}))
+   p=self.repos/name;p.mkdir(parents=True);(p/'component.json').write_text(json.dumps({'schema':'flybrain-component-v1','repository':name,'owner':'flybrainlabs','workspaceFiles':{}}))
   self.spec=self.repos/'node/component.json';self.doc=json.loads(self.spec.read_text());self.doc['workspaceFiles']={'src/a.rs':'src/a.rs'};self.spec.write_text(json.dumps(self.doc));(self.repos/'node/src').mkdir();(self.repos/'node/src/a.rs').write_text('original')
  def tearDown(self):self.tmp.cleanup()
  def test_unique_ownership_and_path_traversal(self):

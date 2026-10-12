@@ -1,7 +1,7 @@
 {
   "schema": "flybrain-component-v1",
   "repository": "infra",
-  "owner": "flybrainwork",
+  "owner": "flybrainlabs",
   "workspaceFiles": {
     "deploy/deploy-static.sh": "deploy/deploy-static.sh",
     "deploy/explorer-v1/chain-config.example.json": "deploy/explorer-v1/chain-config.example.json",
@@ -24,5 +24,6 @@
     "tools/upgrade_product_node.sh": "tools/upgrade_product_node.sh",
     "tools/upgrade_product_site_node.sh": "tools/upgrade_product_site_node.sh",
     "AGENTS.md": "AGENTS.md"
-  }
+  },
+  "project": "flybrainlabs"
 }
