@@ -1,54 +1,54 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "2026-10-12-logo-fbw-devnet",
+  "release": "2026-10-12-wallet-mining-v3-devnet",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "d076bbacdb774d05693a12ebc9e8ee1a8bf16b4d",
+      "commit": "3accd91eb1620c74403501c9b5e02c7e57135e87",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "0cecf1429c486687bd023076ac36057a4c871a11",
+      "commit": "6a26c478933e8925ec81bb19caf468f76419e927",
       "publicationStatus": "verified"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "76647f028be64c68146292ba3af2c721dfae0a04",
+      "commit": "e7e09390376e41b4339c10426180c0dfbcd22904",
       "publicationStatus": "verified"
     },
     "explorer": {
       "url": "https://github.com/flybrainlabs/explorer.git",
-      "commit": "3786880b5514362babe30886c1e3fc2c82cb12d3",
+      "commit": "6189071f1fd39ea7afb9c516b512518b7f6bbfcf",
       "publicationStatus": "verified"
     },
     "protocol": {
       "url": "https://github.com/flybrainlabs/protocol.git",
-      "commit": "cee74bb1c19a5bb739b2686cfe4df130aab92824",
+      "commit": "5ccb2c2048db27f9ba9ed50f10ebf324a878030b",
       "publicationStatus": "verified"
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
-      "commit": "3e4a5b75c8f230e2dcab409807303349c59c2ef0",
+      "commit": "014b852482c80c19bd10be8780c6b9aeafc97c95",
       "publicationStatus": "verified"
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "41c48297725fd9988b8656806b87686cb26b6c01",
+      "commit": "f24cbe17ad7d4f732be8e9bbcb0f5049c5b72191",
       "publicationStatus": "verified"
     },
     "research": {
       "url": "https://github.com/flybrainlabs/research.git",
-      "commit": "ca1ab5979d748fb4a0c7166e66096cc607db4ca7",
+      "commit": "0ae34a80234cfb319c7095c6ca6466c195ff8a3d",
       "publicationStatus": "verified"
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "11fa53882c106b7a813dc912935702bf9be8ffe3",
+      "commit": "120e2e708ec8cae454d28c798d017973f039bb8b",
       "publicationStatus": "verified"
     }
   },
@@ -90,5 +90,17 @@
     "repeatIssuanceAdditionalTransactions": 0,
     "sourceWalletPromptSha256": "dbaf5df05f10d06aeb7edaa25bbc200e8c1a3ffb4bd77ebf20f48aa7168a7f31",
     "walletMiningPromptImplementation": "newly received; full implementation still required"
+  },
+  "walletMiningV3": {
+    "testOnly": true,
+    "cluster": "devnet",
+    "programId": "5yxjnH1PSk8iQKfK3ejG4jfSkewkTKfcpJygojdb6sam",
+    "mint": "HCdV49RkqtC7pPwzHCYg5KtkmU8opifjojLbAyZXKgQW",
+    "budgetAtoms": "200000000",
+    "paidUnits": 2,
+    "budgetState": "completed",
+    "extensionConfirmation": false,
+    "physicalDevice": false,
+    "acceptance": "docs/WALLET_MINING_V3_ACCEPTANCE.json"
   }
 }

@@ -1,0 +1,25 @@
+[Unit]
+Description=flybrainlabs Devnet finite wallet mining gateway and relayer
+After=network-online.target flypow-target-authority.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=flypow
+Group=flypow
+WorkingDirectory=/opt/flypow
+ExecStart=/opt/flypow/runtime/node/bin/node --max-old-space-size=128 /opt/flypow/tools/wallet_mining_v3.mjs /etc/flypow/wallet-mining-v3-runtime.json
+Restart=on-failure
+RestartSec=15
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/flypow/authority
+MemoryHigh=192M
+MemoryMax=256M
+MemorySwapMax=256M
+
+[Install]
+WantedBy=multi-user.target

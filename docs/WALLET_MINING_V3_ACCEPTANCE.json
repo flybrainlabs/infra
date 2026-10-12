@@ -1,0 +1,54 @@
+{
+  "schema": "flybrainlabs-wallet-mining-v3-release-evidence",
+  "cluster": "devnet",
+  "programId": "5yxjnH1PSk8iQKfK3ejG4jfSkewkTKfcpJygojdb6sam",
+  "mint": "HCdV49RkqtC7pPwzHCYg5KtkmU8opifjojLbAyZXKgQW",
+  "testOnly": true,
+  "productionFunds": false,
+  "acceptanceBudgetAtoms": "200000000",
+  "paidUnits": 2,
+  "budgetState": "completed",
+  "localSbfChecks": 71,
+  "authorityTests": 16,
+  "loginChecks": 15,
+  "transportChecks": 9,
+  "browserWalletMockChecks": 7,
+  "explorerFaultChecks": 11,
+  "localLayouts": 24,
+  "publicLayouts": 24,
+  "extensionConfirmation": false,
+  "physicalDevice": false,
+  "independentOperators": 1,
+  "website": "https://flybrain.work/mining/",
+  "siteDeployment": {
+    "changed_files": 81,
+    "remote_before_matches_retained": true,
+    "remote_after_matches_release": true,
+    "backup_gzip_verified": true
+  },
+  "siteFinalDeployment": {
+    "changed_files": 5,
+    "remote_before_matches_retained": true,
+    "remote_after_matches_release": true,
+    "backup_gzip_verified": true
+  },
+  "devnetAcceptance": {
+    "sha256": "175f2ca6654c777144fcbc2394730d361c1c63b7cb510f5472ba7a4bc1221cfb",
+    "passed": true
+  },
+  "closeAcceptance": {
+    "sha256": "6cb4f5a9cf4c050db2c315c29bdc9591765c47c57288c16c1ab8a99093c73562",
+    "passed": true
+  },
+  "componentCommits": {
+    "web": "3accd91eb1620c74403501c9b5e02c7e57135e87",
+    "node": "6a26c478933e8925ec81bb19caf468f76419e927",
+    "miner": "e7e09390376e41b4339c10426180c0dfbcd22904",
+    "explorer": "6189071f1fd39ea7afb9c516b512518b7f6bbfcf",
+    "protocol": "5ccb2c2048db27f9ba9ed50f10ebf324a878030b",
+    "contracts": "014b852482c80c19bd10be8780c6b9aeafc97c95",
+    "sdk": "f24cbe17ad7d4f732be8e9bbcb0f5049c5b72191",
+    "research": "0ae34a80234cfb319c7095c6ca6466c195ff8a3d",
+    "docs": "120e2e708ec8cae454d28c798d017973f039bb8b"
+  }
+}

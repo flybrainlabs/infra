@@ -23,7 +23,11 @@
     "tools/deploy_mining_release.py": "tools/deploy_mining_release.py",
     "tools/upgrade_product_node.sh": "tools/upgrade_product_node.sh",
     "tools/upgrade_product_site_node.sh": "tools/upgrade_product_site_node.sh",
-    "AGENTS.md": "AGENTS.md"
+    "AGENTS.md": "AGENTS.md",
+    "tools/resume_program_buffer.mjs": "tools/resume_program_buffer.mjs",
+    "deploy/target-v2/flybrainlabs-wallet-mining-v3.service": "deploy/target-v2/flybrainlabs-wallet-mining-v3.service",
+    "deploy/target-v2/nginx-wallet-mining-v3.conf": "deploy/target-v2/nginx-wallet-mining-v3.conf",
+    "tools/upgrade_wallet_mining_v3.sh": "tools/upgrade_wallet_mining_v3.sh"
   },
   "project": "flybrainlabs"
 }
