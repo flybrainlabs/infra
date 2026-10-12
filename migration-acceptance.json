@@ -1,0 +1,73 @@
+{
+  "schema": "flybrain-repository-migration-acceptance-v1",
+  "owner": "flybrainwork",
+  "rust": [
+    {
+      "scope": "native",
+      "passed": 52,
+      "failed": 0,
+      "ignored": 1,
+      "logSha256": "cc9bb8881ebfa3969a477db92b2113580cf8d1490614a7785570bb37be08c153"
+    },
+    {
+      "scope": "core",
+      "passed": 35,
+      "failed": 0,
+      "ignored": 0,
+      "logSha256": "96b3021bd343ab6f119ac0b2d7ecae0564c29cae353267892341f884f70ee60b"
+    }
+  ],
+  "clientScripts": [
+    {
+      "test": "target_protocol_v2",
+      "exitCode": 0
+    },
+    {
+      "test": "receipt_v1",
+      "exitCode": 0
+    },
+    {
+      "test": "mining_workflow",
+      "exitCode": 0
+    },
+    {
+      "test": "goal_output_recovery",
+      "exitCode": 0
+    },
+    {
+      "test": "preparation_cancellation_v3",
+      "exitCode": 0
+    },
+    {
+      "test": "mining_pool",
+      "exitCode": 0
+    },
+    {
+      "test": "service_outbox",
+      "exitCode": 0
+    },
+    {
+      "test": "wallet_crypto",
+      "exitCode": 0
+    },
+    {
+      "test": "settlement_transport.test",
+      "exitCode": 0
+    }
+  ],
+  "staticExportTestsPassed": 8,
+  "workspaceSafetyTestsPassed": 3,
+  "browserBuild": "passed",
+  "hostContractCompile": "passed",
+  "sourcePolicy": "passed",
+  "knownPrivateMaterialScan": "passed",
+  "liveDeploymentChanged": false,
+  "productionFundsEnabled": false,
+  "publication": {
+    "repositoriesCreated": 10,
+    "verifiedPushesBeforeSuspension": 4,
+    "remainingUnconfirmedOrPending": 6,
+    "blockingCondition": "GitHub account suspended (Git error and API HTTP 403)",
+    "freshRemoteBootstrap": "not_executed_while_suspended"
+  }
+}

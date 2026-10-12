@@ -1,0 +1,28 @@
+[Unit]
+Description=FlyPoW development full-model verifier with serial local identities
+After=network-online.target flypow-target-authority.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=flypow
+Group=flypow
+WorkingDirectory=/opt/flypow
+# Three local identities exercise the protocol; they are not independent operators.
+# One process replays one complete background at a time on the 1 GiB test host.
+ExecStart=/opt/flypow/runtime/node/bin/node --max-old-space-size=128 /opt/flypow/tools/candidate_verifier_v2.mjs /etc/flypow/verifier-serial-runtime.json /etc/flypow/private/verifier-0.key /etc/flypow/private/verifier-1.key /etc/flypow/private/verifier-2.key
+Restart=on-failure
+RestartSec=5
+Nice=10
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/flypow/replays/serial
+MemoryHigh=384M
+MemoryMax=640M
+MemorySwapMax=512M
+
+[Install]
+WantedBy=multi-user.target

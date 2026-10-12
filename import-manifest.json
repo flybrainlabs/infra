@@ -1,0 +1,4428 @@
+{
+  "schema": "flybrain-source-import-v1",
+  "baselineCommit": "39645aaa5c74fe5cd9f981bf572a21a24b7311ec",
+  "baselineTree": "d6490a0fde3655fc8ee57f015f45135eafbfb8b8",
+  "files": [
+    {
+      "workspacePath": "Cargo.lock",
+      "repository": "node",
+      "repositoryPath": "Cargo.lock",
+      "sha256": "26c1dea5f4c2e3619866ecc5639f9a9d8647d8cdfc730ab191e8f89a10df07da"
+    },
+    {
+      "workspacePath": "Cargo.toml",
+      "repository": "node",
+      "repositoryPath": "Cargo.toml",
+      "sha256": "a639e166f45499ace2e7eaab2be984193b66802a5cab9a1a971c9436aacdf778"
+    },
+    {
+      "workspacePath": "config/brand-translations.json",
+      "repository": "node",
+      "repositoryPath": "config/brand-translations.json",
+      "sha256": "c73b424a8d571701c05336c3bb6b53e7d2b12da1fad2f61597861e7dc40a0368"
+    },
+    {
+      "workspacePath": "config/dataset-mainnet-v1.toml",
+      "repository": "node",
+      "repositoryPath": "config/dataset-mainnet-v1.toml",
+      "sha256": "fd7d4d826c215c5baf94a5db419400ba44a188e7552e8ce16c5070d7521a2a04"
+    },
+    {
+      "workspacePath": "config/explorer-source-v1.sql",
+      "repository": "explorer",
+      "repositoryPath": "config/explorer-source-v1.sql",
+      "sha256": "49d96dd55f65f6bdcda7f8e7b4b1157efdd99d4ac76283d98b04d9dd2df73dbe"
+    },
+    {
+      "workspacePath": "config/explorer-v1.sql",
+      "repository": "explorer",
+      "repositoryPath": "config/explorer-v1.sql",
+      "sha256": "cc53551a5441329cec0c55f018d3a3e58b59868e11b0764ea248944905446ac7"
+    },
+    {
+      "workspacePath": "config/legacy-translations.json",
+      "repository": "node",
+      "repositoryPath": "config/legacy-translations.json",
+      "sha256": "957cf3d72fdee06c4f8ea2b8c70aa61d515630183f9dce0718e57e1f480abd81"
+    },
+    {
+      "workspacePath": "config/market-v1.sql",
+      "repository": "node",
+      "repositoryPath": "config/market-v1.sql",
+      "sha256": "447ce213e7d9a5f9f6928b412ccd027d3c701118bc5ade54e585e18b3daaa8fb"
+    },
+    {
+      "workspacePath": "config/network-schema.sql",
+      "repository": "node",
+      "repositoryPath": "config/network-schema.sql",
+      "sha256": "61383c71ef913fcfe1d8b62f7fe23d1cb955e912e97e3c7690cab8f31e1c2470"
+    },
+    {
+      "workspacePath": "config/product-v1.sql",
+      "repository": "node",
+      "repositoryPath": "config/product-v1.sql",
+      "sha256": "68d80495dae1284aef2a18d70af3cf0ec7b5469ad132484f829172de421e5733"
+    },
+    {
+      "workspacePath": "config/target-mining-v2.sql",
+      "repository": "node",
+      "repositoryPath": "config/target-mining-v2.sql",
+      "sha256": "b98752603c25fc089b0b782e879e5fe2678ba97c80108523618bdc607d1869a5"
+    },
+    {
+      "workspacePath": "crates/campaign-core/Cargo.toml",
+      "repository": "protocol",
+      "repositoryPath": "crates/campaign-core/Cargo.toml",
+      "sha256": "c6e92115e3c2459b4aba2bf369a135c65262c22d98032fb8cd9e9c84cb721017"
+    },
+    {
+      "workspacePath": "crates/campaign-core/src/lib.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/campaign-core/src/lib.rs",
+      "sha256": "118c7b69684ffade7d0a723c2134a899c4ae6e285ac95a01651960475560436e"
+    },
+    {
+      "workspacePath": "crates/economic-core/Cargo.toml",
+      "repository": "protocol",
+      "repositoryPath": "crates/economic-core/Cargo.toml",
+      "sha256": "54ff9bbc0354ee22933037f96b6a559efe18a84dee2d6ae4f566a9b52ffa3ffe"
+    },
+    {
+      "workspacePath": "crates/economic-core/src/lib.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/economic-core/src/lib.rs",
+      "sha256": "a2f7538708b3ded8ce291d1f49749533f68303ace847fa352b94f567e51fc24f"
+    },
+    {
+      "workspacePath": "crates/receipt-v1/Cargo.toml",
+      "repository": "protocol",
+      "repositoryPath": "crates/receipt-v1/Cargo.toml",
+      "sha256": "60b07ba6e9dc6d7d38119cd5f1ade0e2425395534f5cdd2448796b82fe3e8efb"
+    },
+    {
+      "workspacePath": "crates/receipt-v1/examples/golden.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/receipt-v1/examples/golden.rs",
+      "sha256": "5060c49729483f063d4c8e9c947c33f74ac666d1f098032cd94305e04bd4a5f6"
+    },
+    {
+      "workspacePath": "crates/receipt-v1/src/lib.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/receipt-v1/src/lib.rs",
+      "sha256": "8e96259514a7094c2a58f3d218fe255a787dde0576db66e7cc4e9ba01e983251"
+    },
+    {
+      "workspacePath": "crates/service-core/Cargo.toml",
+      "repository": "protocol",
+      "repositoryPath": "crates/service-core/Cargo.toml",
+      "sha256": "f8c3fd4a262a34c07f85d22c7f806cda521231980eca4cb795cf73ee4b310698"
+    },
+    {
+      "workspacePath": "crates/service-core/src/lib.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/service-core/src/lib.rs",
+      "sha256": "3aa0906f0c2d4e64adac8a7bec2ea0622ccc82934de8027847940e4c14fc3625"
+    },
+    {
+      "workspacePath": "crates/service-core/tests/funds.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/service-core/tests/funds.rs",
+      "sha256": "499ca5021b1a49898dd64f37250dacf63904056adc5d370ceaf5a7791ea13b6b"
+    },
+    {
+      "workspacePath": "crates/sim-core/Cargo.toml",
+      "repository": "miner",
+      "repositoryPath": "crates/sim-core/Cargo.toml",
+      "sha256": "5a0f5f5cc735ddfe5f91f645c5290a386fce7f0c29c84a44a3a2f8c6d7ab84fa"
+    },
+    {
+      "workspacePath": "crates/sim-core/examples/full_draft.rs",
+      "repository": "miner",
+      "repositoryPath": "crates/sim-core/examples/full_draft.rs",
+      "sha256": "514186bc62a952e448ca9d295ada3e814ba347aabf6d3815765df8da1e7d575a"
+    },
+    {
+      "workspacePath": "crates/sim-core/src/abi_session.rs",
+      "repository": "miner",
+      "repositoryPath": "crates/sim-core/src/abi_session.rs",
+      "sha256": "e3a52226dbb739450744229f918e49266ab312622611d9ff710abd7071138d87"
+    },
+    {
+      "workspacePath": "crates/sim-core/src/bin/verify_response.rs",
+      "repository": "miner",
+      "repositoryPath": "crates/sim-core/src/bin/verify_response.rs",
+      "sha256": "d21dd28845093081f9e9dcea79dc32ae50791bdfc6f37787f6f91e51e3afbf03"
+    },
+    {
+      "workspacePath": "crates/sim-core/src/lib.rs",
+      "repository": "miner",
+      "repositoryPath": "crates/sim-core/src/lib.rs",
+      "sha256": "25a939031b8b9a7393c67c8c2499d02d4bb19e89a7e466b21b70b41875a55c24"
+    },
+    {
+      "workspacePath": "crates/sim-core/src/session.rs",
+      "repository": "miner",
+      "repositoryPath": "crates/sim-core/src/session.rs",
+      "sha256": "e65001eafbbd47dc0fe2f378cf5655274003aa34061f39f580a278de3e20f0a6"
+    },
+    {
+      "workspacePath": "crates/target-protocol/Cargo.toml",
+      "repository": "protocol",
+      "repositoryPath": "crates/target-protocol/Cargo.toml",
+      "sha256": "9317647e9e9850374b0d1d3155a4debe12cd925fcf798508a8b76d877fbb600c"
+    },
+    {
+      "workspacePath": "crates/target-protocol/src/bin/target_trial.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/target-protocol/src/bin/target_trial.rs",
+      "sha256": "dbe5d0ed65eeff19d4ff2190f2cfdef0f9462a66ee2eb7fb1616621d9bf3c4fe"
+    },
+    {
+      "workspacePath": "crates/target-protocol/src/bin/target_vectors.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/target-protocol/src/bin/target_vectors.rs",
+      "sha256": "ce0af8d69af3edc31ac4ffce916db8f0241efdb58aaaa0f7b78f9429ef26cdc0"
+    },
+    {
+      "workspacePath": "crates/target-protocol/src/difficulty.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/target-protocol/src/difficulty.rs",
+      "sha256": "dab56ca4b3985e42771c0ad5f1985860111a4a0ceb8868bb468b1529475b3e38"
+    },
+    {
+      "workspacePath": "crates/target-protocol/src/family.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/target-protocol/src/family.rs",
+      "sha256": "355470d2e528bc13adc4b234cddc3ce795be2c76ec3af62759fa7ad888c664e0"
+    },
+    {
+      "workspacePath": "crates/target-protocol/src/lib.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/target-protocol/src/lib.rs",
+      "sha256": "d2da16ff83db88ca2872c03f192ec9e8a3d368b6b0d87194550f744b78e77ba6"
+    },
+    {
+      "workspacePath": "crates/target-protocol/tests/predicate.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/target-protocol/tests/predicate.rs",
+      "sha256": "d2ca994b882dd6e2921e987be561f1d5fcaa42a3964729097c8e777d9f7bc575"
+    },
+    {
+      "workspacePath": "crates/target-protocol/tests/workload.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/target-protocol/tests/workload.rs",
+      "sha256": "45965a2e961e48507051dc804087554f1be003085770876caf788d98fcfac922"
+    },
+    {
+      "workspacePath": "crates/task-catalog/Cargo.toml",
+      "repository": "protocol",
+      "repositoryPath": "crates/task-catalog/Cargo.toml",
+      "sha256": "b5c04116be11f2e253a334ff344bda221b6b65319534995b465556325fcc8b2d"
+    },
+    {
+      "workspacePath": "crates/task-catalog/src/bin/catalog_draft.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/task-catalog/src/bin/catalog_draft.rs",
+      "sha256": "77f55a0b11adc0e3c1c0d572e317c690cfc1d5e43ebaaa5c24c02f66a9607002"
+    },
+    {
+      "workspacePath": "crates/task-catalog/src/lib.rs",
+      "repository": "protocol",
+      "repositoryPath": "crates/task-catalog/src/lib.rs",
+      "sha256": "8815766f24a491044a7f8de6fe53ab2b19b94842e8d6be6e9e4a941a63acd9c4"
+    },
+    {
+      "workspacePath": "deploy/deploy-static.sh",
+      "repository": "infra",
+      "repositoryPath": "deploy/deploy-static.sh",
+      "sha256": "556304a77a279ae770d2ea8bc1f2e816afbd5df75b6e3849183f62038e554019"
+    },
+    {
+      "workspacePath": "deploy/explorer-v1/chain-config.example.json",
+      "repository": "infra",
+      "repositoryPath": "deploy/explorer-v1/chain-config.example.json",
+      "sha256": "a9d75d944f0f99b9ca7fb5b5940290dc70426344450ea4aefa91bec4d31a6e70"
+    },
+    {
+      "workspacePath": "deploy/explorer-v1/flypow-explorer-query.service",
+      "repository": "infra",
+      "repositoryPath": "deploy/explorer-v1/flypow-explorer-query.service",
+      "sha256": "3aea2cd37bdecd01654a69e205bfa32f3f7d30a47ca5e2e52f71509cc70aa52f"
+    },
+    {
+      "workspacePath": "deploy/explorer-v1/nginx-http-limits.conf",
+      "repository": "infra",
+      "repositoryPath": "deploy/explorer-v1/nginx-http-limits.conf",
+      "sha256": "e316f0b0df3d39234f93862145ec9c0e06f4eba0dad01c5bdb6d5de9b0ab78da"
+    },
+    {
+      "workspacePath": "deploy/flypow-web.service",
+      "repository": "infra",
+      "repositoryPath": "deploy/flypow-web.service",
+      "sha256": "38e54cc5d72ee1af724d768fbb615c871e442835a4d4833e29eb28fb4fe62219"
+    },
+    {
+      "workspacePath": "deploy/product-v2/economic-settlement-config.example.json",
+      "repository": "infra",
+      "repositoryPath": "deploy/product-v2/economic-settlement-config.example.json",
+      "sha256": "2b48e5a64c5639d796fa785d86fc7e782aa0c4bb5cf4cafcf006105ab9aee27e"
+    },
+    {
+      "workspacePath": "deploy/product-v2/nginx-product-api.conf",
+      "repository": "infra",
+      "repositoryPath": "deploy/product-v2/nginx-product-api.conf",
+      "sha256": "f965449f9cef5cb15794613ae31c25b108382f539d840131ec40fe17bed072d9"
+    },
+    {
+      "workspacePath": "deploy/public/.htaccess",
+      "repository": "web",
+      "repositoryPath": "deploy/public/.htaccess",
+      "sha256": "5faad17fbfbf127e7d432280da8ed6a7feedb04167985c56b0097dc38afeada4"
+    },
+    {
+      "workspacePath": "deploy/public/site.css",
+      "repository": "web",
+      "repositoryPath": "deploy/public/site.css",
+      "sha256": "21e9bac30d526713bce51bbc7a2c7f21d652244007d550acb3c1f29389cb1a40"
+    },
+    {
+      "workspacePath": "deploy/public/site.js",
+      "repository": "web",
+      "repositoryPath": "deploy/public/site.js",
+      "sha256": "5590a1313fedc37374355050519b8aff46f1334c53916161d2884a38c533ebf3"
+    },
+    {
+      "workspacePath": "deploy/ssh_config.example",
+      "repository": "infra",
+      "repositoryPath": "deploy/ssh_config.example",
+      "sha256": "adc3c91fdbdfa09ab516abbee5f46c173d256cff658ebd68f2894286f54ffabd"
+    },
+    {
+      "workspacePath": "deploy/target-v2/README.md",
+      "repository": "infra",
+      "repositoryPath": "deploy/target-v2/README.md",
+      "sha256": "881993f4a58a298d515bd2e59a7860cdb1563bc064306fb86c5f39d6948757c7",
+      "importedSha256": "3ae6a7a8c656c8cf7c3c18f4c360a3e36f76d1ef6e6a23e189b647b9253b1371"
+    },
+    {
+      "workspacePath": "deploy/target-v2/flypow-target-authority.service",
+      "repository": "infra",
+      "repositoryPath": "deploy/target-v2/flypow-target-authority.service",
+      "sha256": "f2f2bc5733180491f81bcddef4bf00c2e09ac767dbb3b829e6f2c50ed76db75b"
+    },
+    {
+      "workspacePath": "deploy/target-v2/flypow-target-verifier-serial.service",
+      "repository": "infra",
+      "repositoryPath": "deploy/target-v2/flypow-target-verifier-serial.service",
+      "sha256": "7e7cd8df6e5d3238a6a82d8393a911c94bfc29b33ebd384128f5bb8199a8bed3"
+    },
+    {
+      "workspacePath": "deploy/target-v2/flypow-target-verifier@.service",
+      "repository": "infra",
+      "repositoryPath": "deploy/target-v2/flypow-target-verifier@.service",
+      "sha256": "a5aa25a1cc115a4d9460a6e553b93ca9b54dd177d0b2a0539497d7fea524a430"
+    },
+    {
+      "workspacePath": "deploy/target-v2/nginx-api.conf",
+      "repository": "infra",
+      "repositoryPath": "deploy/target-v2/nginx-api.conf",
+      "sha256": "719ef1b468ac80396270452b6222edfbdd89b5f06887b06aab29519eb5754bc5"
+    },
+    {
+      "workspacePath": "docs/LEGACY_WHITEPAPER_EN.md",
+      "repository": "docs",
+      "repositoryPath": "docs/LEGACY_WHITEPAPER_EN.md",
+      "sha256": "59d41c710b2995e33a9ebdf57845f17bae82c500dd4daf106ef0d28db01ca381"
+    },
+    {
+      "workspacePath": "docs/NATIVE_WEBSITE.md",
+      "repository": "docs",
+      "repositoryPath": "docs/NATIVE_WEBSITE.md",
+      "sha256": "18cb52cf7e24a829f34777452eb1c92b58f30d2e79f9deb8e43bac36e4ccc2d4"
+    },
+    {
+      "workspacePath": "docs/NEURON_ATLAS.md",
+      "repository": "docs",
+      "repositoryPath": "docs/NEURON_ATLAS.md",
+      "sha256": "16b3ee8ed45ae29b89a15f9955183d9c761be8c760cf684979289134144633d9"
+    },
+    {
+      "workspacePath": "docs/PROTOCOL_EN.md",
+      "repository": "docs",
+      "repositoryPath": "docs/PROTOCOL_EN.md",
+      "sha256": "47355bda014ae37d03b484acaeb33eb7d0464202d1d50c375ad6767f5eeb8a3b"
+    },
+    {
+      "workspacePath": "docs/TESTNET_VERIFICATION.md",
+      "repository": "docs",
+      "repositoryPath": "docs/TESTNET_VERIFICATION.md",
+      "sha256": "de183afe7cb57858e5448fe0a39fe106af6cf0a3c4cabfeb27af11907ac0b06b"
+    },
+    {
+      "workspacePath": "docs/WEB_VERIFICATION.md",
+      "repository": "docs",
+      "repositoryPath": "docs/WEB_VERIFICATION.md",
+      "sha256": "803abbd2e0ccd94cdc879fb97c0b41c810fce726858962a14824cdaed8488dd7"
+    },
+    {
+      "workspacePath": "docs/WHITEPAPER_EN.md",
+      "repository": "docs",
+      "repositoryPath": "docs/WHITEPAPER_EN.md",
+      "sha256": "85ef4111539d0af779d7de04a346978ddab93726bc7ddd0c751ff46650625a68"
+    },
+    {
+      "workspacePath": "docs/history/v1/PROTOCOL_EN.md",
+      "repository": "docs",
+      "repositoryPath": "docs/history/v1/PROTOCOL_EN.md",
+      "sha256": "cc50c9e5638487d248bb8229a957cbc96fdfe44b34e69b3613ccf7d1b085f316"
+    },
+    {
+      "workspacePath": "docs/history/v1/WHITEPAPER_EN.md",
+      "repository": "docs",
+      "repositoryPath": "docs/history/v1/WHITEPAPER_EN.md",
+      "sha256": "cc50c9e5638487d248bb8229a957cbc96fdfe44b34e69b3613ccf7d1b085f316"
+    },
+    {
+      "workspacePath": "package-lock.json",
+      "repository": "web",
+      "repositoryPath": "package-lock.json",
+      "sha256": "350d7ed0eca984d5c48d1787824c33e46977cdfe7843503f668dfa324ff3c5f9"
+    },
+    {
+      "workspacePath": "package.json",
+      "repository": "web",
+      "repositoryPath": "package.json",
+      "sha256": "5da695e168170c28d04d40f1c0a8c10a29de69add134c417ac1b7934654b635d"
+    },
+    {
+      "workspacePath": "programs/flypow-campaign/Cargo.toml",
+      "repository": "contracts",
+      "repositoryPath": "programs/flypow-campaign/Cargo.toml",
+      "sha256": "96b0663c840b934bf57cc1a4b686a9e6c0d54ee554b8db23401c52b55d86028c"
+    },
+    {
+      "workspacePath": "programs/flypow-campaign/src/lib.rs",
+      "repository": "contracts",
+      "repositoryPath": "programs/flypow-campaign/src/lib.rs",
+      "sha256": "35993d0510e63a05b71f6fa69d742786f93993b3e2f574126e566d9de0719f44"
+    },
+    {
+      "workspacePath": "programs/flypow-economy-v2/Cargo.toml",
+      "repository": "contracts",
+      "repositoryPath": "programs/flypow-economy-v2/Cargo.toml",
+      "sha256": "798ba2c1b7cb8701a7a2a42769eaf85991cd41ba5c409c7806e925f94a67fb43"
+    },
+    {
+      "workspacePath": "programs/flypow-economy-v2/src/lib.rs",
+      "repository": "contracts",
+      "repositoryPath": "programs/flypow-economy-v2/src/lib.rs",
+      "sha256": "887378ae5d26672928e0e731b5039e0889e5f602a2e89ec037788dcdfe3595fe"
+    },
+    {
+      "workspacePath": "src/bin/economic_differential.rs",
+      "repository": "node",
+      "repositoryPath": "src/bin/economic_differential.rs",
+      "sha256": "df5b68ad1fd463e7ff472ff704030039892f722d8bd88b48fb6512da70ba6f42"
+    },
+    {
+      "workspacePath": "src/bin/flypow-web.rs",
+      "repository": "web",
+      "repositoryPath": "src/bin/flypow-web.rs",
+      "sha256": "30e35717303d8bccb68e77f6f003739d18383e05979f8293700e20768173a53c"
+    },
+    {
+      "workspacePath": "src/bin/flypow_explorer_indexer.rs",
+      "repository": "explorer",
+      "repositoryPath": "src/bin/flypow_explorer_indexer.rs",
+      "sha256": "c7c74bd99011db455d82e8bbd574ca944b95d085f0516608a7f44b2cc994673c"
+    },
+    {
+      "workspacePath": "src/bin/flypow_explorer_query.rs",
+      "repository": "explorer",
+      "repositoryPath": "src/bin/flypow_explorer_query.rs",
+      "sha256": "d0df3a1aca9bbaeff1ad65eeac16a084fbfa1b9d58eb1b11531918def68da7a1"
+    },
+    {
+      "workspacePath": "src/bin/target_authority.rs",
+      "repository": "node",
+      "repositoryPath": "src/bin/target_authority.rs",
+      "sha256": "d0a68021d6c9707803e1f336697c70b83acb39ef4210665cfa2e682dd51a4637"
+    },
+    {
+      "workspacePath": "src/block.rs",
+      "repository": "protocol",
+      "repositoryPath": "src/block.rs",
+      "sha256": "3581c667c0c39e8b646e4fb117299156bde9b0473470b4996d63a61390c0b24b"
+    },
+    {
+      "workspacePath": "src/business_accounting.rs",
+      "repository": "node",
+      "repositoryPath": "src/business_accounting.rs",
+      "sha256": "15eef5b5f07774257a558d63a2127dc0f63c6ad671583587c8a5c61515382183"
+    },
+    {
+      "workspacePath": "src/chain_reconciliation.rs",
+      "repository": "node",
+      "repositoryPath": "src/chain_reconciliation.rs",
+      "sha256": "f662fca59b91e1467dbf7bb6cb6af7111154ed7157f25f4b18ff53a0a3aa4912"
+    },
+    {
+      "workspacePath": "src/compact_index.rs",
+      "repository": "protocol",
+      "repositoryPath": "src/compact_index.rs",
+      "sha256": "e1a3713426a353ddb03b6e8d3c77a191ad6e383335c76433b0986ee9a0b68e66"
+    },
+    {
+      "workspacePath": "src/dataset.rs",
+      "repository": "protocol",
+      "repositoryPath": "src/dataset.rs",
+      "sha256": "2bac904f60c46aa5288e6a9a052bd7843e999a4260ac293614e2fbb3b221a3d5"
+    },
+    {
+      "workspacePath": "src/economic_ledger.rs",
+      "repository": "node",
+      "repositoryPath": "src/economic_ledger.rs",
+      "sha256": "664bd6ec1b337c7719f751661a844aaa0e0cf6eec4db14af1329f3c047334654"
+    },
+    {
+      "workspacePath": "src/economics.rs",
+      "repository": "protocol",
+      "repositoryPath": "src/economics.rs",
+      "sha256": "e049c9f6dcfe1d7128d3b0a6b49bcffb121b16525286dd0f332737992e5c015b"
+    },
+    {
+      "workspacePath": "src/evidence_manifest.rs",
+      "repository": "protocol",
+      "repositoryPath": "src/evidence_manifest.rs",
+      "sha256": "823890bbf6811e0179458367da9da0237541aa6554fdca408aba21f45faf6df2"
+    },
+    {
+      "workspacePath": "src/explorer.rs",
+      "repository": "explorer",
+      "repositoryPath": "src/explorer.rs",
+      "sha256": "0b816e97ba4ac6339deb651d34928e64132aeb9724e17853dd845c7a3738daee"
+    },
+    {
+      "workspacePath": "src/explorer_projection.rs",
+      "repository": "explorer",
+      "repositoryPath": "src/explorer_projection.rs",
+      "sha256": "f207a72311322942ced5028bbd8992f6f7b108d5cb39074be4531f3aaab58583"
+    },
+    {
+      "workspacePath": "src/explorer_types.rs",
+      "repository": "explorer",
+      "repositoryPath": "src/explorer_types.rs",
+      "sha256": "94324d1a55a1dbb0a114b11b01e8f54144d9a98b2a75a1a72c161c3934c4da0b"
+    },
+    {
+      "workspacePath": "src/flyhash.rs",
+      "repository": "protocol",
+      "repositoryPath": "src/flyhash.rs",
+      "sha256": "194aa49217b757c1d8c3bdcd35291485ed6253343ae3296c4a8e435555e52880"
+    },
+    {
+      "workspacePath": "src/hash.rs",
+      "repository": "protocol",
+      "repositoryPath": "src/hash.rs",
+      "sha256": "e52815fc1fa6ba133a40c41e4c4d5a648755e572653a4b2a63019191fe8424a4"
+    },
+    {
+      "workspacePath": "src/lib.rs",
+      "repository": "node",
+      "repositoryPath": "src/lib.rs",
+      "sha256": "d4e972f8d292515efcc00a1d1ad946741eacb965d2f8cdc13ee63fdf6af1a67c"
+    },
+    {
+      "workspacePath": "src/main.rs",
+      "repository": "miner",
+      "repositoryPath": "src/main.rs",
+      "sha256": "8cff146ae25ca29a9f6d2ef975784576e5383763f7c1de7c00e1f6e38d44666f"
+    },
+    {
+      "workspacePath": "src/market/catalog.rs",
+      "repository": "node",
+      "repositoryPath": "src/market/catalog.rs",
+      "sha256": "336bccf928d5e3a625229ae29fcff105fbea9bb8827b99823cb02b2cfda7e35c"
+    },
+    {
+      "workspacePath": "src/market/mod.rs",
+      "repository": "node",
+      "repositoryPath": "src/market/mod.rs",
+      "sha256": "0602f099b575cf4cb2dcc55a90d9519b27442d19c6fcd9901daae823f2a7fa48"
+    },
+    {
+      "workspacePath": "src/market/money.rs",
+      "repository": "node",
+      "repositoryPath": "src/market/money.rs",
+      "sha256": "5b64657dfcc1782eaea873faa051416bab2d5fa3070ec4e6a9a6c1d569dad827"
+    },
+    {
+      "workspacePath": "src/network.rs",
+      "repository": "protocol",
+      "repositoryPath": "src/network.rs",
+      "sha256": "ed5a775f6c20fe38e61f50b14d215c79ad5a09dfd560f572389e213c6ac23d79"
+    },
+    {
+      "workspacePath": "src/pow.rs",
+      "repository": "protocol",
+      "repositoryPath": "src/pow.rs",
+      "sha256": "650fec5a3aa0d371a176874f5d395affb58ac0032191df3e8f4df13582259bcf"
+    },
+    {
+      "workspacePath": "src/private_delivery.rs",
+      "repository": "node",
+      "repositoryPath": "src/private_delivery.rs",
+      "sha256": "d0cf1656a17d88ed9e8712d447cb6b58fec6b830e654e533d2756ae186838cc2"
+    },
+    {
+      "workspacePath": "src/product.rs",
+      "repository": "node",
+      "repositoryPath": "src/product.rs",
+      "sha256": "df9374dd9a9159130fe53d033e261b101121dc31d8673d323ce9e9acf9acb963"
+    },
+    {
+      "workspacePath": "src/product_identity.rs",
+      "repository": "node",
+      "repositoryPath": "src/product_identity.rs",
+      "sha256": "a75d988f8da5d7f7837ff5a3309bbe71c649ffab8495e26057fda54550923ffa"
+    },
+    {
+      "workspacePath": "src/product_objects.rs",
+      "repository": "node",
+      "repositoryPath": "src/product_objects.rs",
+      "sha256": "a2b6f555b64df991af428d489ca24bd4f3b85931469857c287b749d33267f719"
+    },
+    {
+      "workspacePath": "src/site.rs",
+      "repository": "web",
+      "repositoryPath": "src/site.rs",
+      "sha256": "c8b6f49e3b3e66ff7a4400789ceb93c666b690d0eff650f87702f0a7d898d11d",
+      "importedSha256": "e9f49cee7dc34594fc765283266089f153c3c1c0f8d4436e9d72c51b2e88f4fb"
+    },
+    {
+      "workspacePath": "src/target_authority.rs",
+      "repository": "node",
+      "repositoryPath": "src/target_authority.rs",
+      "sha256": "adf0388af68d483bcc33c42a2bd09d1c4f35afbd3e101ed9680466c91551b031"
+    },
+    {
+      "workspacePath": "src/target_lifecycle.rs",
+      "repository": "node",
+      "repositoryPath": "src/target_lifecycle.rs",
+      "sha256": "0fe9654c98d033af4ed244f3c9f7674f27bd28e0b306c91b573fdd91af719224"
+    },
+    {
+      "workspacePath": "src/target_metrics.rs",
+      "repository": "node",
+      "repositoryPath": "src/target_metrics.rs",
+      "sha256": "b50c4afb95ab0bb1eff6120f2c440258744cbd6bb9e7f7df5ba3936781125524"
+    },
+    {
+      "workspacePath": "src/useful.rs",
+      "repository": "protocol",
+      "repositoryPath": "src/useful.rs",
+      "sha256": "63c570f49cd86558d0ed718d0304869179415f94727b0ff5d6cf3b3c9005b86e"
+    },
+    {
+      "workspacePath": "src/web.rs",
+      "repository": "node",
+      "repositoryPath": "src/web.rs",
+      "sha256": "e8ac891aabb493a9c1488303192beb6f05ec603fd5f5fc120584237f685b817e"
+    },
+    {
+      "workspacePath": "src/web_tests.rs",
+      "repository": "node",
+      "repositoryPath": "src/web_tests.rs",
+      "sha256": "0cf450d1caba1ef597982f92e7d651eeb5e494bbc02e35c4a2b33e8d62147133",
+      "importedSha256": "1f4ddf8abd7783f14f051903024ce73b4437464a6921a7b91a48b3dcc5cc49ce"
+    },
+    {
+      "workspacePath": "tests/atlas_context.mjs",
+      "repository": "web",
+      "repositoryPath": "tests/atlas_context.mjs",
+      "sha256": "15a9b41c47330b6dc562b125cba6bb28aac33c2c87b8fae89e60b3160c6cf277"
+    },
+    {
+      "workspacePath": "tests/atlas_data.mjs",
+      "repository": "web",
+      "repositoryPath": "tests/atlas_data.mjs",
+      "sha256": "1a3ea3cb4bd62a0b5cea371064a27bcec4dfe6248b1183beebb1ea7a760a8320"
+    },
+    {
+      "workspacePath": "tests/atlas_images.mjs",
+      "repository": "web",
+      "repositoryPath": "tests/atlas_images.mjs",
+      "sha256": "372042e370989754768eeb7d28c2ea2e661ce7c24aed860c8caea87653d51703"
+    },
+    {
+      "workspacePath": "tests/atlas_interaction.mjs",
+      "repository": "web",
+      "repositoryPath": "tests/atlas_interaction.mjs",
+      "sha256": "66c79fe34ed5e3e7135680cb5bae8b8ec1a98548e17e5b0a2f5bc33488d94043"
+    },
+    {
+      "workspacePath": "tests/atlas_layout.mjs",
+      "repository": "web",
+      "repositoryPath": "tests/atlas_layout.mjs",
+      "sha256": "db9c40936c4a9f6367cb18181f5bf2a55da823d1351c8c03bd89b7a56b09dff1"
+    },
+    {
+      "workspacePath": "tests/benchmark_computation.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/benchmark_computation.mjs",
+      "sha256": "bbc3aa321546a3a90a6672a3e7ed38db2d1308c16adefdb35d65d9023d655f35"
+    },
+    {
+      "workspacePath": "tests/benchmark_optimization.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/benchmark_optimization.mjs",
+      "sha256": "09a3899c068e9795734a69c024e6bb3cf289ce3af63e90bfd4b1ea8d63d3d947"
+    },
+    {
+      "workspacePath": "tests/browser_artifact_probe_v3.js",
+      "repository": "miner",
+      "repositoryPath": "tests/browser_artifact_probe_v3.js",
+      "sha256": "6b7a402bc0a82a4a958e1c26981aee7bc10e306de90f1f16d508ff05849ac2df"
+    },
+    {
+      "workspacePath": "tests/browser_cache.py",
+      "repository": "infra",
+      "repositoryPath": "tests/browser_cache.py",
+      "sha256": "f81ce6531462f02bd21678f37ee85c337bc78612c78373006d03ad16a09cee87"
+    },
+    {
+      "workspacePath": "tests/browser_competition_v3.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/browser_competition_v3.mjs",
+      "sha256": "9a336784a1cc0c3973c71253f26050c7dd9975fb2100191f2b7849398de8f407"
+    },
+    {
+      "workspacePath": "tests/browser_goal_progression_v3.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/browser_goal_progression_v3.mjs",
+      "sha256": "201abd76b84f7c9d713809013f17e375d0f88b4e5319702fd935db2b8aae053f"
+    },
+    {
+      "workspacePath": "tests/campaign_localnet.mjs",
+      "repository": "contracts",
+      "repositoryPath": "tests/campaign_localnet.mjs",
+      "sha256": "1a5e47b508329b9e434101ce0306823b3fd077f22f439c05061e50d913ceafb5"
+    },
+    {
+      "workspacePath": "tests/catalog_task.mjs",
+      "repository": "protocol",
+      "repositoryPath": "tests/catalog_task.mjs",
+      "sha256": "ed8d7730ff01f167472ae80f4ae076196c9b4f90bee3651f200dde1f24c3245f"
+    },
+    {
+      "workspacePath": "tests/check_product_restart.py",
+      "repository": "infra",
+      "repositoryPath": "tests/check_product_restart.py",
+      "sha256": "7bdfbb61b1244d8ab84b9e3cb14d587d64be5e88234aec407fa81ca15d43464e"
+    },
+    {
+      "workspacePath": "tests/compact_console_browser.py",
+      "repository": "miner",
+      "repositoryPath": "tests/compact_console_browser.py",
+      "sha256": "51fe67b7c19753fda08d5063b08db2981fcb750afb2e46b7dffe4508a68d6a9b"
+    },
+    {
+      "workspacePath": "tests/comparable_family_v3.mjs",
+      "repository": "protocol",
+      "repositoryPath": "tests/comparable_family_v3.mjs",
+      "sha256": "ff4935cde62daa5dda12d6f872a03c90d93468b078e5d55f234db0a828b12b9b"
+    },
+    {
+      "workspacePath": "tests/computation.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/computation.mjs",
+      "sha256": "213df720fb798aa1a37bf5d77f73e95c2980af230e5f9d4e4de1df1b2c64c932"
+    },
+    {
+      "workspacePath": "tests/diagnose_duration_profiles.py",
+      "repository": "miner",
+      "repositoryPath": "tests/diagnose_duration_profiles.py",
+      "sha256": "7dc018be03b298a57fabcac2c5e47ccfc093d07fc321f25b28b353b8bf039ba1"
+    },
+    {
+      "workspacePath": "tests/e2e_account_trace.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_account_trace.py",
+      "sha256": "4a7ebcdb1692a22efa9d5c748db8d576cb72e2cf8e49ce05797342a1b7980175"
+    },
+    {
+      "workspacePath": "tests/e2e_campaign.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_campaign.py",
+      "sha256": "e792225dc40ca6a042f6aa0479deffc59baf29d08dc447e01b7fbea45fbeff0e"
+    },
+    {
+      "workspacePath": "tests/e2e_computation.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_computation.py",
+      "sha256": "7c0283ec052717468ff3b7d145c6b85b8c941048e2ab9a01bb6dfd9fff35abc5"
+    },
+    {
+      "workspacePath": "tests/e2e_goal_scene_v2.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_goal_scene_v2.py",
+      "sha256": "ae71365e2c318f4834f258b94555665d7571247f87362541ff12691baedc0a6b"
+    },
+    {
+      "workspacePath": "tests/e2e_goal_v2.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_goal_v2.py",
+      "sha256": "0f5ee82708bbd4f909d5a0e7b129616b4c5b30c0457e9fc7c5d52781311fe093"
+    },
+    {
+      "workspacePath": "tests/e2e_live_current_public_v3.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_live_current_public_v3.py",
+      "sha256": "0378659f3afa198d2877da654b6f2465b3beba96a5d69228a78ca1297d108842"
+    },
+    {
+      "workspacePath": "tests/e2e_live_current_v3.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_live_current_v3.py",
+      "sha256": "d91d23feab17cdfb498b4e7676a7a67c8ed0f58093247469d69d27cd94205f4f"
+    },
+    {
+      "workspacePath": "tests/e2e_miner_capabilities.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_miner_capabilities.py",
+      "sha256": "1c5773e406e452c7fd2b2dfd21bf304ba25dc4d5f7359c290bb282bed31fbdb0"
+    },
+    {
+      "workspacePath": "tests/e2e_miner_import.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_miner_import.py",
+      "sha256": "f60694e994336501cd7e675d974ec4a9b14c1485ef5734c2dea81b8912bd0c88"
+    },
+    {
+      "workspacePath": "tests/e2e_miner_submission.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_miner_submission.py",
+      "sha256": "5f9b591ab5e7040a0746615a38d0833e69d1628209df851835d22e1c5ef6e6ea"
+    },
+    {
+      "workspacePath": "tests/e2e_miner_ux.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_miner_ux.py",
+      "sha256": "116e35e5aff479e61835c6cb2ac89074a77dfbf3b8a02b3d4f51433a0873e5e9"
+    },
+    {
+      "workspacePath": "tests/e2e_mining_3d.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_mining_3d.py",
+      "sha256": "6c448b75d03124b3852fb2379e7047cc2e77303e0b1e70e6ee4405dbd41c1f87"
+    },
+    {
+      "workspacePath": "tests/e2e_mining_history.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_mining_history.py",
+      "sha256": "6cd756a3205bc0bdeb9290f20805826d1385781aaf990a2e499fe57a5d7f1528"
+    },
+    {
+      "workspacePath": "tests/e2e_mining_optimization.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_mining_optimization.py",
+      "sha256": "d6667c36a2016ba72f31cb518b47773c7fdfcaf82d99a698bcb9a9a544cd24fb"
+    },
+    {
+      "workspacePath": "tests/e2e_mining_scene.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_mining_scene.py",
+      "sha256": "e7d9cb1dd5ff7343d3bdd2241e5f9af035fb0c14ac2f1646bb8ae2e201625819"
+    },
+    {
+      "workspacePath": "tests/e2e_mining_workers.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_mining_workers.py",
+      "sha256": "575d2170b15043982f9f27c74edc016c2b0297a8999fa7ce67b5f5807114be71"
+    },
+    {
+      "workspacePath": "tests/e2e_mobile_3d.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_mobile_3d.py",
+      "sha256": "1b3ef8e542169f87a8d7f743e4dd114c7ee5d2619590acec5db0a59bfc41a035"
+    },
+    {
+      "workspacePath": "tests/e2e_network_observer_upload.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_network_observer_upload.py",
+      "sha256": "805904812d400dd3feea2a3f69278633e3de5f60171fcb173d1e40f86e7b77a1"
+    },
+    {
+      "workspacePath": "tests/e2e_network_outcome_v3.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_network_outcome_v3.py",
+      "sha256": "d27ecf0b695504d75e6e0d9381a7dae5516b31d11972c463274a2d5fa23d5c5e"
+    },
+    {
+      "workspacePath": "tests/e2e_official_browser.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_official_browser.py",
+      "sha256": "f012bd22f1abd728464ec0ceba4f0599a34f5ebf12e5cfbf5dcf511dc00fb35e"
+    },
+    {
+      "workspacePath": "tests/e2e_official_download.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_official_download.py",
+      "sha256": "c551405e405f696530423f38b6e77387d9e031fbe5110b2615a465032bff40b1"
+    },
+    {
+      "workspacePath": "tests/e2e_product.py",
+      "repository": "web",
+      "repositoryPath": "tests/e2e_product.py",
+      "sha256": "2a9886442c4532e5436c0df9f0cd3ff41d7681fc28808d6867453154fb948d4a"
+    },
+    {
+      "workspacePath": "tests/e2e_product_followup.py",
+      "repository": "web",
+      "repositoryPath": "tests/e2e_product_followup.py",
+      "sha256": "6412efea91c9777d8faabf0638977a99ce8d21439d4f530f85066cf17013be7a"
+    },
+    {
+      "workspacePath": "tests/e2e_public_research.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_public_research.py",
+      "sha256": "5d78743c2da4fd3a676d7db4f590cf8db6e7bba773fbfb63f4797a9504271b07"
+    },
+    {
+      "workspacePath": "tests/e2e_research.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_research.py",
+      "sha256": "3e38554bafdb76c3715c94b5edbc1c3c711e91e3be1dc030694010604bd456c9"
+    },
+    {
+      "workspacePath": "tests/e2e_site_upgrade.py",
+      "repository": "web",
+      "repositoryPath": "tests/e2e_site_upgrade.py",
+      "sha256": "d9efc74fe3ed39bb304a9a79e6e9ef4ce2d6a091794db2a13999f20e99898e48"
+    },
+    {
+      "workspacePath": "tests/e2e_target_cache_continuity.py",
+      "repository": "miner",
+      "repositoryPath": "tests/e2e_target_cache_continuity.py",
+      "sha256": "6d8815f34efa38dd4849e7c25836d414646f778f3c6e6011f49ceb7da843b7ad"
+    },
+    {
+      "workspacePath": "tests/e2e_v2_atlas.py",
+      "repository": "web",
+      "repositoryPath": "tests/e2e_v2_atlas.py",
+      "sha256": "2cb2319ee1dd50961402e81bef9a1a9ebc0e348b371e83765bf8642f05c737e4"
+    },
+    {
+      "workspacePath": "tests/e2e_v2_equivalence.py",
+      "repository": "research",
+      "repositoryPath": "tests/e2e_v2_equivalence.py",
+      "sha256": "9a32089b8987d7850a32127d9e31b660df4676dcd8bdc2b4c6c7108c4e35337a"
+    },
+    {
+      "workspacePath": "tests/economic_ingest_transport.mjs",
+      "repository": "sdk",
+      "repositoryPath": "tests/economic_ingest_transport.mjs",
+      "sha256": "bce57391ad4146cb5b72daef501d0bd636c97c6c10ae05d7810c703f49e0329b"
+    },
+    {
+      "workspacePath": "tests/economy_v2_localnet.mjs",
+      "repository": "contracts",
+      "repositoryPath": "tests/economy_v2_localnet.mjs",
+      "sha256": "aa9818f80344e553ea941f6f1e455382b74a63f160cafc1ccaee79be4d2e3959"
+    },
+    {
+      "workspacePath": "tests/evidence_manifest.rs",
+      "repository": "protocol",
+      "repositoryPath": "tests/evidence_manifest.rs",
+      "sha256": "acdae33e305ac2d345af42b613b4d1319398a26c32c3b9994f402dbab2b27d09"
+    },
+    {
+      "workspacePath": "tests/explorer.rs",
+      "repository": "explorer",
+      "repositoryPath": "tests/explorer.rs",
+      "sha256": "255f5f937aea17311bda1f7ac64957bb67c7b7718e42309942d4eb6b6d154689"
+    },
+    {
+      "workspacePath": "tests/explorer_browser.py",
+      "repository": "explorer",
+      "repositoryPath": "tests/explorer_browser.py",
+      "sha256": "6a89a30200292a76cd448e43e5ddb1ab40d585dc29801a364864c4ec6e49ad89"
+    },
+    {
+      "workspacePath": "tests/explorer_chain_faults.mjs",
+      "repository": "explorer",
+      "repositoryPath": "tests/explorer_chain_faults.mjs",
+      "sha256": "393aeaa39d6d550a8407742464138bb7fc7be6e24e7d357d80e701df90f2f562"
+    },
+    {
+      "workspacePath": "tests/explorer_pressure.py",
+      "repository": "explorer",
+      "repositoryPath": "tests/explorer_pressure.py",
+      "sha256": "cdd166da6ad6144e2563f4296cc1f162ae186c0ca2dace98f18aa355d9cd4e0c"
+    },
+    {
+      "workspacePath": "tests/finish_browser_acceptance_v3.py",
+      "repository": "miner",
+      "repositoryPath": "tests/finish_browser_acceptance_v3.py",
+      "sha256": "cdf69cc9c9327e148185378b6c782d4522a16c8ad9ce464cd2a468134b0e3949"
+    },
+    {
+      "workspacePath": "tests/fixtures/official-download-worker.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/fixtures/official-download-worker.mjs",
+      "sha256": "395132feb568ec7f3a8a8b98f5f7ba8af0fe94b6cca2212f1cd9eeccffdd9027"
+    },
+    {
+      "workspacePath": "tests/fixtures/queue-blocks.json",
+      "repository": "miner",
+      "repositoryPath": "tests/fixtures/queue-blocks.json",
+      "sha256": "3152b036e1eb2e8a922a70ed7dfc2e34d80cb8edf5513635be3b49446251d7dd"
+    },
+    {
+      "workspacePath": "tests/fixtures/submission-v1.bin",
+      "repository": "protocol",
+      "repositoryPath": "tests/fixtures/submission-v1.bin",
+      "sha256": "2128480844e605d79874bb6615eb5eb9ee42808c8e61dc5cdef6fb4613a92f4f"
+    },
+    {
+      "workspacePath": "tests/goal_output_recovery.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/goal_output_recovery.mjs",
+      "sha256": "20aa93b1d801368953f3a0f608de8798bbf7d5aba0753b5e164a510e7b90a62e"
+    },
+    {
+      "workspacePath": "tests/goal_runner_v2.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/goal_runner_v2.mjs",
+      "sha256": "088c8b914719dae900eacea0b3102846aded1308a1732b43ffea4ab39c5d17a5"
+    },
+    {
+      "workspacePath": "tests/goal_storage_v2.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/goal_storage_v2.mjs",
+      "sha256": "ab979fce74dfbab957d237272f729e6a056eb7090b2d08ecb62c1235dd733ee0"
+    },
+    {
+      "workspacePath": "tests/goal_viewing_v2.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/goal_viewing_v2.mjs",
+      "sha256": "6cbee1d13148c5643c28c0fd47588204642ced3d8465a164d1653710c4dde4dc"
+    },
+    {
+      "workspacePath": "tests/live_observation_v3.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/live_observation_v3.mjs",
+      "sha256": "393f7ce5a2d05b6396f98367d05f583b21dd4b2be75a1be5e362b422f095e7e6"
+    },
+    {
+      "workspacePath": "tests/market_catalog.rs",
+      "repository": "miner",
+      "repositoryPath": "tests/market_catalog.rs",
+      "sha256": "264c59862e422c5f3e042d82a514760450cc7d6ce5b0b78ec978f684070ecc28"
+    },
+    {
+      "workspacePath": "tests/miner_flow.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/miner_flow.mjs",
+      "sha256": "d61a94ae8d5af0050cbdd9b3f7cdf16c9a3f1c83ab1bb2102b95c9f83fa72353"
+    },
+    {
+      "workspacePath": "tests/mining_optimization.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/mining_optimization.mjs",
+      "sha256": "69ebac01086d7894f05f85fd01d6c61bd1ac2f9e622beefaf3f4a115ea97dced"
+    },
+    {
+      "workspacePath": "tests/mining_pool.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/mining_pool.mjs",
+      "sha256": "1d05eaad6ef5d654e57778960a80030c17af48339c5e055fab0e2db4eb405636"
+    },
+    {
+      "workspacePath": "tests/mining_recovery_browser.py",
+      "repository": "miner",
+      "repositoryPath": "tests/mining_recovery_browser.py",
+      "sha256": "977f9eecd561935d187d5cc2cfe8a4d320909f7cf4f24c89069b08a72edbecbe"
+    },
+    {
+      "workspacePath": "tests/mining_workflow.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/mining_workflow.mjs",
+      "sha256": "5507e6d99cda52dcf1d90937e681fd9c1a207ca348f32cb7e20c00173e768b9e"
+    },
+    {
+      "workspacePath": "tests/neural_ribbon_v3.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/neural_ribbon_v3.mjs",
+      "sha256": "9abf6cdac325b88c6c25925130dbe2107d7164d0b24f956126e4c269e1be9318"
+    },
+    {
+      "workspacePath": "tests/official_builder.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/official_builder.mjs",
+      "sha256": "18fcdcd0ce7d2083d3c77655ae613fc1b01647baea2a97c7272e91a06976c351"
+    },
+    {
+      "workspacePath": "tests/official_source.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/official_source.mjs",
+      "sha256": "75513a04ac8ebd60d78ad73ac957f0635fcb7a65d07320a5992a31f424757354"
+    },
+    {
+      "workspacePath": "tests/opfs_fixture.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/opfs_fixture.mjs",
+      "sha256": "4fa96d438c0f108a9e3ae7127a95c7baf59e3f4b04b261ce11b205ce6f79f90d"
+    },
+    {
+      "workspacePath": "tests/preparation_cancellation_v3.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/preparation_cancellation_v3.mjs",
+      "sha256": "a4cf686d7e0d8953b615e4498f3fd4c800cfe988a3a0116a178324598bca556e"
+    },
+    {
+      "workspacePath": "tests/product_api.rs",
+      "repository": "node",
+      "repositoryPath": "tests/product_api.rs",
+      "sha256": "23bcd2e57723a4b24bc44af8e501bc38a181ba61d35e277c04b40d3bd947fe8d"
+    },
+    {
+      "workspacePath": "tests/product_cloud_pipeline.mjs",
+      "repository": "node",
+      "repositoryPath": "tests/product_cloud_pipeline.mjs",
+      "sha256": "329fb25d29fbae974f90e5f3c92cc68befb62eb14160c82e58fd46e82d633659"
+    },
+    {
+      "workspacePath": "tests/product_deployment.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/product_deployment.mjs",
+      "sha256": "f57caaec41874a0894702f2c84b900ba3f3a35fa85275a32bafe76dcc2c4e2c2"
+    },
+    {
+      "workspacePath": "tests/product_history.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/product_history.mjs",
+      "sha256": "34ab0afa61975218ca6865380e1b19020b197248953d54bbbb71a83f75a87af2"
+    },
+    {
+      "workspacePath": "tests/product_meter.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/product_meter.mjs",
+      "sha256": "39a07b069cdf8ab04da8e4a4bbd663e92ff5ec498661dbcd952786c5bec1db65"
+    },
+    {
+      "workspacePath": "tests/product_submission.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/product_submission.mjs",
+      "sha256": "7b983b9f753dbacd6de62c1ea393117793661cefda5295d3a59fc20ea21c16bf"
+    },
+    {
+      "workspacePath": "tests/public_product_api.py",
+      "repository": "node",
+      "repositoryPath": "tests/public_product_api.py",
+      "sha256": "f07ecf37a60867cfa01311cf04d306b9b1b5621d0aff1f661493b1d8c8c533ee"
+    },
+    {
+      "workspacePath": "tests/public_target_competition_v2.mjs",
+      "repository": "node",
+      "repositoryPath": "tests/public_target_competition_v2.mjs",
+      "sha256": "325788745a790c7153502e8c09d17bed6087d907aab71254507f4fc51f235015"
+    },
+    {
+      "workspacePath": "tests/receipt_v1.mjs",
+      "repository": "protocol",
+      "repositoryPath": "tests/receipt_v1.mjs",
+      "sha256": "a35b5c982e10937eebbf1c76fe0771fb8edd46a70a8e8bfa7782d8eab747db9f"
+    },
+    {
+      "workspacePath": "tests/receipt_wasm.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/receipt_wasm.mjs",
+      "sha256": "c9ff95a603a3f41806bb32d5c9280dcf0c43e114dbacc508cfba5a7cf14aee8b"
+    },
+    {
+      "workspacePath": "tests/response_record.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/response_record.mjs",
+      "sha256": "6ceec5ff828239f50b88a92d8137ada161a229f87444976f368fd30e94b28402"
+    },
+    {
+      "workspacePath": "tests/ribbon_path_v3.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/ribbon_path_v3.mjs",
+      "sha256": "b4c708f2243a7ed38cb9c2a0a660dc3932fd223ef56529db42a691af28b1e8c3"
+    },
+    {
+      "workspacePath": "tests/select_controlled_input_v3.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/select_controlled_input_v3.mjs",
+      "sha256": "6d5ae5a7791e283aeafdaa4410e23bf0f50b8a0f438e2e679aeed8c24bdce71d"
+    },
+    {
+      "workspacePath": "tests/service_outbox.mjs",
+      "repository": "sdk",
+      "repositoryPath": "tests/service_outbox.mjs",
+      "sha256": "6186856a6f3cf673a20153ab43ff1132f52bf6d538f991e36ca4481a0f13941b"
+    },
+    {
+      "workspacePath": "tests/session_abi.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/session_abi.mjs",
+      "sha256": "bfa8af2101d369aafba380128760c8d4efe10055f324966d632fcb66ae8bc0b2"
+    },
+    {
+      "workspacePath": "tests/settlement_transport.test.mjs",
+      "repository": "sdk",
+      "repositoryPath": "tests/settlement_transport.test.mjs",
+      "sha256": "43d39434060ffc1c72629a9a87bb7311d24eba482f26d78d04bdadba9ca6abe2"
+    },
+    {
+      "workspacePath": "tests/sim_wasm_full.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/sim_wasm_full.mjs",
+      "sha256": "6f2f88c1540be768a4e79cd97fcac29171a133f4977be152d5e7593339c6c9fe"
+    },
+    {
+      "workspacePath": "tests/target_api_v2.mjs",
+      "repository": "node",
+      "repositoryPath": "tests/target_api_v2.mjs",
+      "sha256": "11287476bc5862ffb23e0c8c64d76b9c3d28fa929e81322c2c3c4b812486f2d1"
+    },
+    {
+      "workspacePath": "tests/target_authority.rs",
+      "repository": "node",
+      "repositoryPath": "tests/target_authority.rs",
+      "sha256": "11f17b695d93e6942eda056fb8fbe19c8f5b5b8483520d871a860d86d34b6480"
+    },
+    {
+      "workspacePath": "tests/target_competition_v2.mjs",
+      "repository": "node",
+      "repositoryPath": "tests/target_competition_v2.mjs",
+      "sha256": "35a5199bac679726563eee4c6fc627bfe85b0f57a6b1f3436737b76f67e445db"
+    },
+    {
+      "workspacePath": "tests/target_protocol_v2.mjs",
+      "repository": "protocol",
+      "repositoryPath": "tests/target_protocol_v2.mjs",
+      "sha256": "a30d27445ca312f069198c548aec71df590da1f4125750210697fefa2d601c97"
+    },
+    {
+      "workspacePath": "tests/test_atlas_import.py",
+      "repository": "web",
+      "repositoryPath": "tests/test_atlas_import.py",
+      "sha256": "c8fa2e679d3fe78e5336131c6842ca14d0f92211f06bb8c60ba5750632bd861e"
+    },
+    {
+      "workspacePath": "tests/test_brand.py",
+      "repository": "web",
+      "repositoryPath": "tests/test_brand.py",
+      "sha256": "3818401cbda1eaf706f3fa8029da26503048b44959804b0027c0238127ae8053"
+    },
+    {
+      "workspacePath": "tests/test_connectome_coverage.py",
+      "repository": "research",
+      "repositoryPath": "tests/test_connectome_coverage.py",
+      "sha256": "298d6dd1788a68615a32286cc8a629b7a4a492692787c6732a5ff5050f73605b"
+    },
+    {
+      "workspacePath": "tests/test_deploy_release.py",
+      "repository": "infra",
+      "repositoryPath": "tests/test_deploy_release.py",
+      "sha256": "6506eca70a7e61f480b3f36ab781ccd2984690700f68c07a86e5d0f60a620678"
+    },
+    {
+      "workspacePath": "tests/test_image_optimization.py",
+      "repository": "web",
+      "repositoryPath": "tests/test_image_optimization.py",
+      "sha256": "d9cea9a4ad562aa033f45ca36daa490a1fc5fbb856de660821a7fb9ce34b03d2"
+    },
+    {
+      "workspacePath": "tests/test_model_evaluation.py",
+      "repository": "research",
+      "repositoryPath": "tests/test_model_evaluation.py",
+      "sha256": "f0d336767cb5683d8bab4c7cb2a4f71867f18c4c2827e7c519ce93dba9878d12"
+    },
+    {
+      "workspacePath": "tests/test_prepare_dataset.py",
+      "repository": "research",
+      "repositoryPath": "tests/test_prepare_dataset.py",
+      "sha256": "18f7e9062100be284288b7d0171e08d6cd5214694d7378bb5feab42ab789061f"
+    },
+    {
+      "workspacePath": "tests/test_static_export.py",
+      "repository": "web",
+      "repositoryPath": "tests/test_static_export.py",
+      "sha256": "5528043855309b24492091c5ce0ca0ebecfd1a32042c07d6023acbec18dc5adb",
+      "importedSha256": "780f7986f1529926a90c6d0d053f5368e213f0725423b38f16fcb0582307cffc"
+    },
+    {
+      "workspacePath": "tests/validator_ui.mjs",
+      "repository": "miner",
+      "repositoryPath": "tests/validator_ui.mjs",
+      "sha256": "37aa1692bb3f053ed02d58c59e74d5c1786c7242c2e6950de794dc5a3074db00"
+    },
+    {
+      "workspacePath": "tests/vectors/evidence-manifest-v1.json",
+      "repository": "protocol",
+      "repositoryPath": "tests/vectors/evidence-manifest-v1.json",
+      "sha256": "a713965f754d2fdc7b8aba234f43fe1c7bccecc93aaf8c818d7021a20a658215"
+    },
+    {
+      "workspacePath": "tests/vectors/product-submission.json",
+      "repository": "protocol",
+      "repositoryPath": "tests/vectors/product-submission.json",
+      "sha256": "d63f11887c6436c8eccf9ac918aa14a288540bb5db64c712a4caec93fadccda9"
+    },
+    {
+      "workspacePath": "tests/vectors/target-v2.json",
+      "repository": "protocol",
+      "repositoryPath": "tests/vectors/target-v2.json",
+      "sha256": "5c0b9e489e39078d83d8200e20c37d64a62f7ae11e08440c4c5decb341e9ec9d"
+    },
+    {
+      "workspacePath": "tests/verify_optimization_reference.py",
+      "repository": "research",
+      "repositoryPath": "tests/verify_optimization_reference.py",
+      "sha256": "531e147a5ef0f79e42156d382f4523b3f31cd592b4b53357f53443a0b4d0eb79"
+    },
+    {
+      "workspacePath": "tests/wallet_crypto.mjs",
+      "repository": "sdk",
+      "repositoryPath": "tests/wallet_crypto.mjs",
+      "sha256": "8a3cbf67a91396fdf211bf3a9f202bf417b7087ddffc71bfa136dfdf9e5391e3"
+    },
+    {
+      "workspacePath": "tools/activate_research_profiles.py",
+      "repository": "research",
+      "repositoryPath": "tools/activate_research_profiles.py",
+      "sha256": "0df9fe82bf7f7001764ae19ab1a394a113feef127707191d0b6c435ae9b1f922"
+    },
+    {
+      "workspacePath": "tools/agave-localnet-sync-io.patch",
+      "repository": "contracts",
+      "repositoryPath": "tools/agave-localnet-sync-io.patch",
+      "sha256": "1bc98215ec10bb379712886478d7b250315fb2a7e503a3c9c87ac8fea1e578ee"
+    },
+    {
+      "workspacePath": "tools/archive_node.mjs",
+      "repository": "node",
+      "repositoryPath": "tools/archive_node.mjs",
+      "sha256": "b2667b717f1396d607b33e489f5215c9d73b3b6d5e401cdee0c4fda6c95c3d85"
+    },
+    {
+      "workspacePath": "tools/build_browser.mjs",
+      "repository": "web",
+      "repositoryPath": "tools/build_browser.mjs",
+      "sha256": "120f8fde44dbb0551274de3c4b5ad78ba26b5aba4a57a922324a3c385605a62d"
+    },
+    {
+      "workspacePath": "tools/build_comparable_family_v3.py",
+      "repository": "research",
+      "repositoryPath": "tools/build_comparable_family_v3.py",
+      "sha256": "32826e522ccb00931c3218ce831de55976c9e6ae4112f20650c47ef1b9daf7e7"
+    },
+    {
+      "workspacePath": "tools/build_explorer_pages.py",
+      "repository": "explorer",
+      "repositoryPath": "tools/build_explorer_pages.py",
+      "sha256": "5d55e4c86f4fb1d786afd75905ccdaf1546a90380bea3976d80f28121c57b8f3"
+    },
+    {
+      "workspacePath": "tools/build_live_current_release.py",
+      "repository": "web",
+      "repositoryPath": "tools/build_live_current_release.py",
+      "sha256": "6e6f126057a4e1d7205cd8e8a5b90358b51f14d8f5484be54bb48101475c8b44"
+    },
+    {
+      "workspacePath": "tools/build_mining_release.py",
+      "repository": "web",
+      "repositoryPath": "tools/build_mining_release.py",
+      "sha256": "119759826cc1964a2a9833dd63225a8857606c97b803c0dbc2adf32efc4f45c3"
+    },
+    {
+      "workspacePath": "tools/build_official_node.mjs",
+      "repository": "node",
+      "repositoryPath": "tools/build_official_node.mjs",
+      "sha256": "7beb7a5319f0d71e6831516c415ca7f0cf3dc165f320f8ef88d7c47582732e0c"
+    },
+    {
+      "workspacePath": "tools/build_portable_validator.sh",
+      "repository": "miner",
+      "repositoryPath": "tools/build_portable_validator.sh",
+      "sha256": "f5d7690b5180b750517bf9ac57cc9eeebac1eedcb8f88f58205690893bb5367f"
+    },
+    {
+      "workspacePath": "tools/build_product_goals.py",
+      "repository": "research",
+      "repositoryPath": "tools/build_product_goals.py",
+      "sha256": "6246429e27c94771ddc5e436396566a3f7228b7434cb0f0bd2b96fd7a2320e7f"
+    },
+    {
+      "workspacePath": "tools/build_product_pages.py",
+      "repository": "web",
+      "repositoryPath": "tools/build_product_pages.py",
+      "sha256": "cbd18cbc186e5075ff7b1c15f8c19daac247596443ea3e1f7abbb6a10a91f1b6"
+    },
+    {
+      "workspacePath": "tools/build_product_release.py",
+      "repository": "web",
+      "repositoryPath": "tools/build_product_release.py",
+      "sha256": "46a17af0b7cd5d4b414647cafc52e7eda53e041fc1016e219a864e24c217b917"
+    },
+    {
+      "workspacePath": "tools/build_public_result.py",
+      "repository": "research",
+      "repositoryPath": "tools/build_public_result.py",
+      "sha256": "955787172e7e280702703ed128a4b1b91fe8c89ef03a117cc9e66fef32a63e45"
+    },
+    {
+      "workspacePath": "tools/build_research_app.sh",
+      "repository": "miner",
+      "repositoryPath": "tools/build_research_app.sh",
+      "sha256": "56b96a48fc5780b63ecbf0b3ca8bd30b57df7cf904fe2de51fdd7ca9b166d588"
+    },
+    {
+      "workspacePath": "tools/calibrate_live_goals_v3.py",
+      "repository": "research",
+      "repositoryPath": "tools/calibrate_live_goals_v3.py",
+      "sha256": "2e83434005a868f030422cc07e4bd2bf1bcd66e99a76194f36ce3e16483c38d8"
+    },
+    {
+      "workspacePath": "tools/calibrate_product_goals.py",
+      "repository": "research",
+      "repositoryPath": "tools/calibrate_product_goals.py",
+      "sha256": "059a890b852e6bdf31e9ddc4007058f353d7feb0df6dcf810d34bd25040ab1bc"
+    },
+    {
+      "workspacePath": "tools/calibrate_target_v2.py",
+      "repository": "research",
+      "repositoryPath": "tools/calibrate_target_v2.py",
+      "sha256": "493ca4d01f041504095cf6399535b1fb4dfc09dabb6d351819dfad2ad3e069ef"
+    },
+    {
+      "workspacePath": "tools/campaign_tools.mjs",
+      "repository": "sdk",
+      "repositoryPath": "tools/campaign_tools.mjs",
+      "sha256": "b67c9d0960c0cea7c0de872eb94ac8f25926f1b4ab3c14885eaaab03109346a3"
+    },
+    {
+      "workspacePath": "tools/candidate_verifier_v2.mjs",
+      "repository": "node",
+      "repositoryPath": "tools/candidate_verifier_v2.mjs",
+      "sha256": "520d7495c56021067b23596346e814b86c393f22563780b968f88dc9807f2088"
+    },
+    {
+      "workspacePath": "tools/check_explorer_rebuild.py",
+      "repository": "explorer",
+      "repositoryPath": "tools/check_explorer_rebuild.py",
+      "sha256": "fae09a60b918c49e201e6481ce19f9b83d3e2959d58e0a1c11ca2977ca5964eb"
+    },
+    {
+      "workspacePath": "tools/check_product_node_rollback.sh",
+      "repository": "infra",
+      "repositoryPath": "tools/check_product_node_rollback.sh",
+      "sha256": "c316ead09b3a2279b0c9a6da52ed719b11d4b25afefb37ce3face8e6b2db4cd6"
+    },
+    {
+      "workspacePath": "tools/check_public_site.py",
+      "repository": "web",
+      "repositoryPath": "tools/check_public_site.py",
+      "sha256": "2044284a1eca54bc72ac160568ad317ab779ca5f7ec640aed8db849a086a81f7"
+    },
+    {
+      "workspacePath": "tools/csp_policy.py",
+      "repository": "web",
+      "repositoryPath": "tools/csp_policy.py",
+      "sha256": "38899d10e100ec2bc4ea89893aa7f53b3355f9da08f391e3dc7152e67641ed17"
+    },
+    {
+      "workspacePath": "tools/deploy_localnet.sh",
+      "repository": "contracts",
+      "repositoryPath": "tools/deploy_localnet.sh",
+      "sha256": "72ac4fab23249f7a12f840835abcaf9d6670a890994b89f4f1af2be4a525dab4"
+    },
+    {
+      "workspacePath": "tools/deploy_mining_release.py",
+      "repository": "infra",
+      "repositoryPath": "tools/deploy_mining_release.py",
+      "sha256": "0328e6c3564f9f6d95ac6d0d90565fcb8c4488ee60784c4b2493366946d1c27f"
+    },
+    {
+      "workspacePath": "tools/economic_ingest_v2.mjs",
+      "repository": "node",
+      "repositoryPath": "tools/economic_ingest_v2.mjs",
+      "sha256": "71e3d058eb3e9f6d491801d5f924ac3ae87ac5671d854349d710ed04382a869d"
+    },
+    {
+      "workspacePath": "tools/economy_v2_client.mjs",
+      "repository": "sdk",
+      "repositoryPath": "tools/economy_v2_client.mjs",
+      "sha256": "ada0ad379bcd423a8bfde3180d7b305cf887b5ecee1ffd0b1a8b4a73b360e997"
+    },
+    {
+      "workspacePath": "tools/english_templates.py",
+      "repository": "web",
+      "repositoryPath": "tools/english_templates.py",
+      "sha256": "fd6539f7d5c4ceea847f7bcf77f02cf26ac9754c1cfbac15f02e63e2a3af7825"
+    },
+    {
+      "workspacePath": "tools/evaluate_model.py",
+      "repository": "research",
+      "repositoryPath": "tools/evaluate_model.py",
+      "sha256": "28780902a512d3cb1d5131a281dc02470ca1f66b40375d93750934be1d0d56af"
+    },
+    {
+      "workspacePath": "tools/explorer_chain_indexer.mjs",
+      "repository": "explorer",
+      "repositoryPath": "tools/explorer_chain_indexer.mjs",
+      "sha256": "85e3570027eae18ee26edfef76bda66484c49c9fed4dafc4f9ae870a91a62d77"
+    },
+    {
+      "workspacePath": "tools/explorer_isolated_followup.mjs",
+      "repository": "explorer",
+      "repositoryPath": "tools/explorer_isolated_followup.mjs",
+      "sha256": "9549690f38d524f68e2d17641474b85b8d3fc0da500f667a315fda3cccc5d5ab"
+    },
+    {
+      "workspacePath": "tools/explorer_node_snapshot.py",
+      "repository": "explorer",
+      "repositoryPath": "tools/explorer_node_snapshot.py",
+      "sha256": "7e7425e8f74592f9f7a9a4530cbf9af36bc5363723428ba0281ba5b4d937ebae"
+    },
+    {
+      "workspacePath": "tools/export_static.py",
+      "repository": "web",
+      "repositoryPath": "tools/export_static.py",
+      "sha256": "09accb52e8091440530954d7a2a77f80e97240ff13d2c0a9f87306c8298c503b",
+      "importedSha256": "b70d3550be1a250260b05ee48ad001d67ce197a720ce211351f9d6b8f844b3b7"
+    },
+    {
+      "workspacePath": "tools/fetch_official_ranges.py",
+      "repository": "research",
+      "repositoryPath": "tools/fetch_official_ranges.py",
+      "sha256": "c9b1ca795b25e6512be3ad9aedbc312b270810b5914589e8c03a71d6cc9fdf58"
+    },
+    {
+      "workspacePath": "tools/generate_research_profiles.py",
+      "repository": "research",
+      "repositoryPath": "tools/generate_research_profiles.py",
+      "sha256": "2b81c51cf8bf3111467a3fbad99852b729937e295c6cc9c2fe9f87fcbf12ac0e"
+    },
+    {
+      "workspacePath": "tools/inspect_connectome_weights.py",
+      "repository": "research",
+      "repositoryPath": "tools/inspect_connectome_weights.py",
+      "sha256": "510456ee0a49207785e97c4f23f39307202d8d2595ab176c9020a190cd1808d2"
+    },
+    {
+      "workspacePath": "tools/migrate_economic_stage_v3.mjs",
+      "repository": "contracts",
+      "repositoryPath": "tools/migrate_economic_stage_v3.mjs",
+      "sha256": "999d2ca93dab4056b6b1395ff73bf7bb0be1295c5fc85f24283681292eefc4b8"
+    },
+    {
+      "workspacePath": "tools/model_evaluation_schema.json",
+      "repository": "research",
+      "repositoryPath": "tools/model_evaluation_schema.json",
+      "sha256": "be4ddab32d5e10da3673033dbd2bfe32d1a85261b87382e6f122d3b4c32e8fa7"
+    },
+    {
+      "workspacePath": "tools/optimize_images.py",
+      "repository": "web",
+      "repositoryPath": "tools/optimize_images.py",
+      "sha256": "860c8a312767dd42334814d7bc6f00584709efeb07aac8713c9e132137905aab"
+    },
+    {
+      "workspacePath": "tools/prepare_atlas.py",
+      "repository": "research",
+      "repositoryPath": "tools/prepare_atlas.py",
+      "sha256": "580097214ad5be1275d7a60c75844360b7a3d44bd327eea7f647f2848a28bb79"
+    },
+    {
+      "workspacePath": "tools/prepare_atlas_context.py",
+      "repository": "research",
+      "repositoryPath": "tools/prepare_atlas_context.py",
+      "sha256": "f7610fa147e4b12bc449a629b2fbec2b3918197b2157ecf02c9a531b8f944b74"
+    },
+    {
+      "workspacePath": "tools/prepare_brain_view.py",
+      "repository": "research",
+      "repositoryPath": "tools/prepare_brain_view.py",
+      "sha256": "9ca0e7d6424dfc508f2bbf4e9bc61ce564bd8b5eae73d9b700c5d11e30d68ec4"
+    },
+    {
+      "workspacePath": "tools/prepare_dataset.py",
+      "repository": "research",
+      "repositoryPath": "tools/prepare_dataset.py",
+      "sha256": "f40badbe55fb5c849b50f973c9e883de6955a91261f4cb995c87ef8c1d7776b8"
+    },
+    {
+      "workspacePath": "tools/prepare_graph.py",
+      "repository": "research",
+      "repositoryPath": "tools/prepare_graph.py",
+      "sha256": "518cbe491b8c1af1dca5ea284ab7465133f4f559a8a2c1be47174590d7c95de3"
+    },
+    {
+      "workspacePath": "tools/prepare_mining_anatomy.py",
+      "repository": "research",
+      "repositoryPath": "tools/prepare_mining_anatomy.py",
+      "sha256": "b9ed7b5bbb7d391e81eb18de78b29c64f6cbe952dc20c773c76bb3e22490115d"
+    },
+    {
+      "workspacePath": "tools/prepare_model_v0.py",
+      "repository": "research",
+      "repositoryPath": "tools/prepare_model_v0.py",
+      "sha256": "328b604765f06f84746335372e6ebfe02dfa85f7d28c578feee3a3e8a195744d"
+    },
+    {
+      "workspacePath": "tools/prepare_official.py",
+      "repository": "research",
+      "repositoryPath": "tools/prepare_official.py",
+      "sha256": "cc08e97a5b16919b8c935e657f7e72534be7bb5936db1906703f3cbd2662c3a5"
+    },
+    {
+      "workspacePath": "tools/prepare_propagation_routes.py",
+      "repository": "research",
+      "repositoryPath": "tools/prepare_propagation_routes.py",
+      "sha256": "8667cc7c31a6dd5861c5510e7685420db8a07aa229a7474089cb91576daf11b3"
+    },
+    {
+      "workspacePath": "tools/prepare_registry.py",
+      "repository": "research",
+      "repositoryPath": "tools/prepare_registry.py",
+      "sha256": "dbe37291510c08a1bfa72de14f5d5ad7b6024b7492ea9b8c5cb9a34789b5868b"
+    },
+    {
+      "workspacePath": "tools/product_ops.mjs",
+      "repository": "node",
+      "repositoryPath": "tools/product_ops.mjs",
+      "sha256": "34102330a2ceb0db879e0177a434442eaa2d3a9bc3af64b60d1286fcbbe0b8d1"
+    },
+    {
+      "workspacePath": "tools/publish_model_evaluation.py",
+      "repository": "research",
+      "repositoryPath": "tools/publish_model_evaluation.py",
+      "sha256": "044a665f6ad9c1edd925e20dc93407468ec34619adb9792e44aae8adfc378ff8"
+    },
+    {
+      "workspacePath": "tools/publish_product_plan.mjs",
+      "repository": "node",
+      "repositoryPath": "tools/publish_product_plan.mjs",
+      "sha256": "a90a88e6f88803359bf8b0d60cfffe7382c5b8192a836c821735ba77742f6275"
+    },
+    {
+      "workspacePath": "tools/rebuild_index.mjs",
+      "repository": "explorer",
+      "repositoryPath": "tools/rebuild_index.mjs",
+      "sha256": "48078d899c180d613dcf3516da1bcc29a926e2cc92455ec5d098820d619cc3c1"
+    },
+    {
+      "workspacePath": "tools/reference_sim.py",
+      "repository": "research",
+      "repositoryPath": "tools/reference_sim.py",
+      "sha256": "8f4ff364e610788aa19071acba012156464f52bf41157ef1e35dfee701795d00"
+    },
+    {
+      "workspacePath": "tools/reference_target_v2.py",
+      "repository": "research",
+      "repositoryPath": "tools/reference_target_v2.py",
+      "sha256": "12c7ba29e6cd5881f4295bc6a1949df75a1e47652b5a709e45e3bf0c9a711a4e"
+    },
+    {
+      "workspacePath": "tools/requirements-images.txt",
+      "repository": "web",
+      "repositoryPath": "tools/requirements-images.txt",
+      "sha256": "504998015fb9758df21e93f088f42c33ce54048deff7bee707d0e3015f30d11a"
+    },
+    {
+      "workspacePath": "tools/requirements-research.txt",
+      "repository": "research",
+      "repositoryPath": "tools/requirements-research.txt",
+      "sha256": "2d917f8c0f8348f085ea5d3dbd2b4e69b872c59717f6fe60fbcf56d118d27fde"
+    },
+    {
+      "workspacePath": "tools/serve_research.py",
+      "repository": "node",
+      "repositoryPath": "tools/serve_research.py",
+      "sha256": "43381c829735ad640a8c43572e77084b6254975c6f15ffdf9d18e9d01acd90d6"
+    },
+    {
+      "workspacePath": "tools/serve_target_preview.py",
+      "repository": "node",
+      "repositoryPath": "tools/serve_target_preview.py",
+      "sha256": "b1c3b660ec794c94f8566a1052b53bb50da3268ce2e4b6c5a2e0e352a5c6b970"
+    },
+    {
+      "workspacePath": "tools/settlement_bridge_v2.mjs",
+      "repository": "node",
+      "repositoryPath": "tools/settlement_bridge_v2.mjs",
+      "sha256": "09f8cdb4a1164b94b31abb8059173bbdeca303bf6330dc672983a18ebc478b01"
+    },
+    {
+      "workspacePath": "tools/setup_campaign.mjs",
+      "repository": "contracts",
+      "repositoryPath": "tools/setup_campaign.mjs",
+      "sha256": "0e1094804a4adc740bb44f3c3b61a159d86b7cccb6346b21ae9c5176c43f8c4a"
+    },
+    {
+      "workspacePath": "tools/setup_target_dev.mjs",
+      "repository": "node",
+      "repositoryPath": "tools/setup_target_dev.mjs",
+      "sha256": "2a470b38a8a036e3352441bba42d83db65b80f3c589e802afa9451b867d80465"
+    },
+    {
+      "workspacePath": "tools/start_localnet.sh",
+      "repository": "contracts",
+      "repositoryPath": "tools/start_localnet.sh",
+      "sha256": "bd97bf0ba2bd1865881254c36babafaa4a1b0e948416ed6a0f47b95b87f75570"
+    },
+    {
+      "workspacePath": "tools/target_dev_identity.mjs",
+      "repository": "sdk",
+      "repositoryPath": "tools/target_dev_identity.mjs",
+      "sha256": "79d0e0c1e2b849644a8e09e0f4250a538ad4dd97149b8d19e584f7b0c7505103"
+    },
+    {
+      "workspacePath": "tools/target_doctor.mjs",
+      "repository": "node",
+      "repositoryPath": "tools/target_doctor.mjs",
+      "sha256": "4f4150940a53adaad871ebd7bc340f3256961e64e4a6f389fb378fb3d0340c88"
+    },
+    {
+      "workspacePath": "tools/target_protocol_v2.py",
+      "repository": "protocol",
+      "repositoryPath": "tools/target_protocol_v2.py",
+      "sha256": "f38ea75cced75497853446b3a5717d01c0da625d4b9bc6e4dc305b77c0deefad"
+    },
+    {
+      "workspacePath": "tools/upgrade_explorer_node.sh",
+      "repository": "explorer",
+      "repositoryPath": "tools/upgrade_explorer_node.sh",
+      "sha256": "eba8e8b54735ef7be83fbbaf628272776023e7570ddc1c09319e24bb28fde3a6"
+    },
+    {
+      "workspacePath": "tools/upgrade_product_node.sh",
+      "repository": "infra",
+      "repositoryPath": "tools/upgrade_product_node.sh",
+      "sha256": "178302d891d4d8b7a56d455a19f734b2a8317ba91ca2f5b87b9613da07e306de"
+    },
+    {
+      "workspacePath": "tools/upgrade_product_site_node.sh",
+      "repository": "infra",
+      "repositoryPath": "tools/upgrade_product_site_node.sh",
+      "sha256": "d80f7c9db30b002a5100d4f9ea02031554b00adfd722b8aaf1ea7bd57d2f9482"
+    },
+    {
+      "workspacePath": "tools/validate_settlement_config.mjs",
+      "repository": "node",
+      "repositoryPath": "tools/validate_settlement_config.mjs",
+      "sha256": "0926de8532e47cf39e3caad1afeef6bce83121114cb2b6d270b8a56c77577bf7"
+    },
+    {
+      "workspacePath": "tools/validate_static_release.py",
+      "repository": "web",
+      "repositoryPath": "tools/validate_static_release.py",
+      "sha256": "e044a9aac700e39986fd756b3e79b776e7e124aff97029591c47d1107a39c11f"
+    },
+    {
+      "workspacePath": "tools/verifier_node.mjs",
+      "repository": "node",
+      "repositoryPath": "tools/verifier_node.mjs",
+      "sha256": "6424d070a25be6d9f58da7fc21a6868b71af433847870b14fb7345690ad0591a"
+    },
+    {
+      "workspacePath": "web/anatomy-assets.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/anatomy-assets.mjs",
+      "sha256": "094268f02a33fbbd158caff833f6928ad5284edc0989bad69cdfd8b85a9b7fd1"
+    },
+    {
+      "workspacePath": "web/anatomy-renderer.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/anatomy-renderer.mjs",
+      "sha256": "7b5c943306c3abe5acc1564635e0c32fbe8f13343feef348b42b5f7b1cb2b525"
+    },
+    {
+      "workspacePath": "web/anatomy-scene.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/anatomy-scene.mjs",
+      "sha256": "0ba149d01ef5359dab22b3564de131b7a796b22f888bc14f9d4e9ed087bf8825"
+    },
+    {
+      "workspacePath": "web/app.css",
+      "repository": "web",
+      "repositoryPath": "web/app.css",
+      "sha256": "3a317064c3be8977f24777793c378e458c137dc1dd45b752ee9583dac78731ad"
+    },
+    {
+      "workspacePath": "web/app.js",
+      "repository": "web",
+      "repositoryPath": "web/app.js",
+      "sha256": "5704a6c1d71236f2a6adaf3c708a24ba94345c243be0f395b1bb78f74c45277b"
+    },
+    {
+      "workspacePath": "web/archive-upload.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/archive-upload.mjs",
+      "sha256": "d48ef5324572ce1bf4e7241dbbc3a60cfb446fe8d48c243e361b56f3b660e4de"
+    },
+    {
+      "workspacePath": "web/archive-zip.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/archive-zip.mjs",
+      "sha256": "e0f86600fe468d2b5d81377f37b369264047a2722485aa3422d095ad31cc63df"
+    },
+    {
+      "workspacePath": "web/artifact-export-worker.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/artifact-export-worker.mjs",
+      "sha256": "6f5ffe0b6b4ef140173c3c93bece06e553025d7f53f955e47e748dfc03b74779"
+    },
+    {
+      "workspacePath": "web/artifact-export.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/artifact-export.mjs",
+      "sha256": "7e7a8f386ec651a93530bbdecbac0ae49c497a6889efc082e643203ca4e1c620"
+    },
+    {
+      "workspacePath": "web/atlas-core.js",
+      "repository": "web",
+      "repositoryPath": "web/atlas-core.js",
+      "sha256": "f89a24612071d719b633ddb616f514ec4bd4af8f1e0e799f42df65f26b3144ce"
+    },
+    {
+      "workspacePath": "web/atlas-viewer.js",
+      "repository": "web",
+      "repositoryPath": "web/atlas-viewer.js",
+      "sha256": "855b32f61dbdbbb78feb8d08818b937c3d736dcf33bba9e852c34dfd63cd2d66"
+    },
+    {
+      "workspacePath": "web/atlas-workbench.css",
+      "repository": "web",
+      "repositoryPath": "web/atlas-workbench.css",
+      "sha256": "e22004a8020af4207624d856f04764309ba190fedebb2ac743db68a7933b50d2"
+    },
+    {
+      "workspacePath": "web/atlas.css",
+      "repository": "web",
+      "repositoryPath": "web/atlas.css",
+      "sha256": "d70135ce5cd6489aca429e1ccd680d42b8ffa957bb2a593070b6874c915352be"
+    },
+    {
+      "workspacePath": "web/atlas.js",
+      "repository": "web",
+      "repositoryPath": "web/atlas.js",
+      "sha256": "516d6a39038ad2b7293c022ba5c17f21a68492806db4e692fc8c7aaf8f73c69b"
+    },
+    {
+      "workspacePath": "web/brain-scene.js",
+      "repository": "web",
+      "repositoryPath": "web/brain-scene.js",
+      "sha256": "b78f6df9f2451076414060169d7d01a58fe0cb27d0241a693e1932e160dce360"
+    },
+    {
+      "workspacePath": "web/brand.css",
+      "repository": "web",
+      "repositoryPath": "web/brand.css",
+      "sha256": "e8b25094a4d72c95b189d9275cb1906c1961bf63f22448a80f11a955f57357a1"
+    },
+    {
+      "workspacePath": "web/brand/flybrain-mark-dark.svg",
+      "repository": "web",
+      "repositoryPath": "web/brand/flybrain-mark-dark.svg",
+      "sha256": "cab99c518cb87de1b934bd7cdba487af66a493456fab1aaa23dcd3cf633a6ec7"
+    },
+    {
+      "workspacePath": "web/brand/flybrain-mark.svg",
+      "repository": "web",
+      "repositoryPath": "web/brand/flybrain-mark.svg",
+      "sha256": "7a896acfbfe9b5d9ae50abec4f5b4812eff7e9b177c00ca1e27ba4e102ce3bff"
+    },
+    {
+      "workspacePath": "web/browser-abort.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/browser-abort.mjs",
+      "sha256": "95e1caaed7e7b8bfa97b243f526857f51e864fd2bbd445f155f7fdd0ec426407"
+    },
+    {
+      "workspacePath": "web/browser-shims.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/browser-shims.mjs",
+      "sha256": "9bcffb1d5cd0be871393c18d717ce952ddef1f4f61811dc56372bd8440556fff"
+    },
+    {
+      "workspacePath": "web/campaign-codec.mjs",
+      "repository": "sdk",
+      "repositoryPath": "web/campaign-codec.mjs",
+      "sha256": "aef960c052afac6d69f7f41ffee6b1cd48ea2627ef47d05af3d1d33222be490b"
+    },
+    {
+      "workspacePath": "web/candidate-store-v2.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/candidate-store-v2.mjs",
+      "sha256": "0f388730a45d84838bc64697ca7bf183caaa27d3d5c0e6c4d8ad1c4a0e428282"
+    },
+    {
+      "workspacePath": "web/candidate-submission-v2.mjs",
+      "repository": "sdk",
+      "repositoryPath": "web/candidate-submission-v2.mjs",
+      "sha256": "4b083e5e6e7682e4ca98535a9334fcbe11f4469fb7db19f8bbfb031928c13329"
+    },
+    {
+      "workspacePath": "web/catalog-task.mjs",
+      "repository": "sdk",
+      "repositoryPath": "web/catalog-task.mjs",
+      "sha256": "a7861f8497ccfa9816e9c4a04defcda85e036d5e3fe5e0021da9c02d9c2a9641"
+    },
+    {
+      "workspacePath": "web/chain-ui.js",
+      "repository": "web",
+      "repositoryPath": "web/chain-ui.js",
+      "sha256": "625b852d5f5010a7b797b62dce29a559bfe5b2ec55a198eaca49aeedca111346"
+    },
+    {
+      "workspacePath": "web/chunk-store.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/chunk-store.mjs",
+      "sha256": "0240325a77ef7fda93f28b9ba2a9c0b74fa835e6232662b6444abd5b741706a6"
+    },
+    {
+      "workspacePath": "web/computation.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/computation.mjs",
+      "sha256": "25272644d695f1b5d430ccc2061045190753605e0565428b709ce14524980956"
+    },
+    {
+      "workspacePath": "web/compute-pool.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/compute-pool.mjs",
+      "sha256": "d5a2b8bc3396364edac114618bd5f5a5d95911c03273ea2004a87a1324e7b44d"
+    },
+    {
+      "workspacePath": "web/contribution-view.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/contribution-view.mjs",
+      "sha256": "b8fd21147218b5ef2efad58c2341613f07225317a3b7ce321cbcebed2c64de86"
+    },
+    {
+      "workspacePath": "web/data/atlas-context.json",
+      "repository": "research",
+      "repositoryPath": "web/data/atlas-context.json",
+      "sha256": "78ae3cd68d394f59eb73ed9bef5c29b39fde4c449aa6cf825ea1f65354b945a9"
+    },
+    {
+      "workspacePath": "web/data/brain.json",
+      "repository": "research",
+      "repositoryPath": "web/data/brain.json",
+      "sha256": "331441b0c00bdbd4404aed68b07178598659ef7fc9fcfa9442b4590907b5377d"
+    },
+    {
+      "workspacePath": "web/data/chain-config.json",
+      "repository": "protocol",
+      "repositoryPath": "web/data/chain-config.json",
+      "sha256": "a1419f59bb6bac94372b36a39afbe554c5d2ed51a3a0c6134a09f2664795fb2b"
+    },
+    {
+      "workspacePath": "web/data/economic-policy-v2.json",
+      "repository": "protocol",
+      "repositoryPath": "web/data/economic-policy-v2.json",
+      "sha256": "9fb2693dc2ffa88d2e9cc777e506152c2ca3f29221a875b1e1db1e98130eac70"
+    },
+    {
+      "workspacePath": "web/data/market-catalog-v1.json",
+      "repository": "node",
+      "repositoryPath": "web/data/market-catalog-v1.json",
+      "sha256": "978691f14461755cdf9df0d776f3906f78d8416672940951ff5bc6588c9c635a"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy.json",
+      "sha256": "894b39b1346b15da54f7a2e8180c0ef0f9b8c5db5e917432c2a39760d4e39613"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10063.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10063.json",
+      "sha256": "d4ee1ed1ba4f4da3b71bc86eb6fe67b755b21ff8b16b36dcf7e65c5847cc46de"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10068.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10068.json",
+      "sha256": "a1eab5ec14568cd1ade38fdbe2c2e9b131a2b8e94723fc80849b2b1b0b102544"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10082.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10082.json",
+      "sha256": "57e95b183e8832132595f822513bca74fec9c68b1d7d8c6b08f248b464ee1052"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10097.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10097.json",
+      "sha256": "1999ef0f6a91c98648109a5e4ac75c72d5bf9090eb873d4b9015f508fc559d08"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10104.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10104.json",
+      "sha256": "2d35e42e9388e05ff501c84e6c35f6a089be00d151af24891404e810f06ec9dd"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10109.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10109.json",
+      "sha256": "f0be7611889361c4f620cfbb94c043e09d1eb462e33c7a298a0f8fb8275a6aa6"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10115.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10115.json",
+      "sha256": "033f6a7753a4c912854455641db304dc3738ebf3bad2532516ffc821f2fd7b2d"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10132.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10132.json",
+      "sha256": "158d63d0822bbc720663192d0284ce8ece579ed825b9fdbb75273bb51abaa57d"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10138.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10138.json",
+      "sha256": "7ca27b7e72a10d796d72d3db49c5443b60bbb4ac18c81ff379076cd6cb406007"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10167.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10167.json",
+      "sha256": "18dd30add0950bf7e79b72478eec21322fc67f6a5cda4bcebe8bf350e974234d"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10185.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10185.json",
+      "sha256": "4b207cad71b63f7be7c20e183727b45036711276a77ad8417cde5b77d412d1a6"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10230.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10230.json",
+      "sha256": "71ee43c9aa9c2b96781277099ea6fa0ef866e0a05ef1bd6af4e7a5238fade8e8"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10245.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10245.json",
+      "sha256": "d8a9a5178153baac6fe7fb620735afe31389b3437bae17e32c6daaff33c88aaf"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10266.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10266.json",
+      "sha256": "93e06b23bd59cfc16de7e8f5b6e8c429177c9e509ddd83c2f1bd19a12b603fd1"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10273.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10273.json",
+      "sha256": "11c3e06d1d8ef54ba8d19aa74bd8c13d8a5ca41922d0537253d57c8900fc1911"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10285.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10285.json",
+      "sha256": "2a388ad844b2b2c6190499471ea4d159094d1ced0217b9516cfa89305fcd2038"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10286.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10286.json",
+      "sha256": "c0f84a2f967f3404cca8e6ebf29dbd05cb2697fc6cefe926ea8edd0c3227337c"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10328.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10328.json",
+      "sha256": "f5c6b4d65f78d98fd7de2b0bf95b5b46b6926a8bd6177c1ff1223471c4a188f8"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10348.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10348.json",
+      "sha256": "f0da89c32fca8468cbddd401511b9cb423006011168d3d18ec2fb46c874643ae"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10406.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10406.json",
+      "sha256": "e9485e3141c136975619112668c3f497ec2d396d372183888ee271e048f39464"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10484.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10484.json",
+      "sha256": "61e39fc8700290d0098815453c253d6224450665fc1e6862f8c321168e5b2fc9"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10487.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10487.json",
+      "sha256": "9cb8364abedd15cd5724f6115b02ff385f66b88e4678b0e510a7a672c971bcdc"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10494.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10494.json",
+      "sha256": "72b976c1ad3c641fe53c56e333af4d72c6073a027370b9733605f3f6eaefc06c"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10498.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10498.json",
+      "sha256": "53a55754bf156f79aedafaa3bae72ff85e05d4de649d05098ff6dc477514566a"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10510.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10510.json",
+      "sha256": "91c7a64f6381905efce3393fa067804bf5c189fdfffd21277f8b8c69d218a511"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10511.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10511.json",
+      "sha256": "57b10df718685dbb64435bb0fc97804e8efa780f5dba52ebf507843cb860b0a8"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10528.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10528.json",
+      "sha256": "fbb1c76015464dd89e64474e020cf09e21e34169d8802c508642d2f98383a555"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10578.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10578.json",
+      "sha256": "5e704cb12632efe94ef5bfa7b219c39668d3e0cb6f3d13b1c974d29e4f5dc533"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10588.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10588.json",
+      "sha256": "33f6933f0e96ac2471d6fc61330e4f164c62f9415b4600e3984bf9e5b36e3a49"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10594.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10594.json",
+      "sha256": "8eeb5cdec8b42c02d89e180fa1b9862956dd3999ce2e85fc00d1803b98ae2641"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10599.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10599.json",
+      "sha256": "17c64036ad37ab17b437b1119a85427aeb0560c2787b161f688f0bd843fbdf6e"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10601.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10601.json",
+      "sha256": "2993e03f8cab8dce545745e77f6197ee87d54e96688074a6e77c828be133dd3a"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10645.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10645.json",
+      "sha256": "f9b40c8881fd73048fd60f430d08900757d4d4adea4581fafdd50c1a676173e7"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10707.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10707.json",
+      "sha256": "135bd48b493534db958f8c8c42067e477e6d166e3186fd86ab9ca58bbbadb924"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10744.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10744.json",
+      "sha256": "c88db5faf4f955ee9e00bcab6f6f2f9b1a318828dd6ebf69792e44195ff9223c"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10765.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10765.json",
+      "sha256": "69294df0a112dde36d343ea930613859d983640bb6d4bfc2a90a7b08b412e1d0"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10783.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10783.json",
+      "sha256": "11e1932a122ebc0d19eb79c5ecca6ab3c3883c978a6f06cfeab32766817e42b3"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10794.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10794.json",
+      "sha256": "c0aa0ea431fe1261e195d2909318a786c0b91687e40613119fbfaf6925be9d44"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10798.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10798.json",
+      "sha256": "90bc23045a3065b38aeae08ec8999998d7d1a0ebf54ecdc09b1e8a3509bc760f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10804.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10804.json",
+      "sha256": "c7bd0b22a0c5f6bf7c6fc9e33992c5c36bc7075d990fb2a9379b31fb76920835"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10816.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10816.json",
+      "sha256": "047e74cbea904d635a723c1148849a28f36c6a009a4e574136e7602cc7648591"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10874.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10874.json",
+      "sha256": "95665bdd8946f383015e4a4bdaee7a7aef4642f57c532595e943aade6ca840fc"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10878.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10878.json",
+      "sha256": "5d153af09b902cd7d363ad8b2d0f38c592a4cfd31996ed7683dd215b761913f0"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10879.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10879.json",
+      "sha256": "ee6bbf94e97e964945f9509b547ef54e50478222ba41ec0213c391cf62f28a74"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10898.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10898.json",
+      "sha256": "0d337f3ff99bde1684fec3663907f0e1e4ae6a4df542fa7d964b078cf62aecad"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10915.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10915.json",
+      "sha256": "566b77bdb96248ed8c58de6a63efb952b950766bb6df411390b3504def8279c4"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10917.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10917.json",
+      "sha256": "fb6e21d3b1beb78fa5855c6ab3bc4502d253c0e5eeb8ceb0b39aab64df4ccc5f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10930.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10930.json",
+      "sha256": "48a5fd18282fe09ae5b13ef5e0bbebc67d2c3f66602a23e9a7b40a7b201a5901"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10937.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10937.json",
+      "sha256": "655caad04dbcd38978007d335573daef2fee2db55563ef871b4d5e3591a5ae95"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10946.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10946.json",
+      "sha256": "ee31d64db68fe6cb66da7e6ff849f06d0fb3714a1ac391620d52424a29c704d3"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10963.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10963.json",
+      "sha256": "60877a389b90c1f43ddc57f7f6da6ba1237d4c6f0ba140389ba281125cf2be25"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10987.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10987.json",
+      "sha256": "14d6af8cdf25bf1bef438861f765b2ca2bb61f162fcf627cb22e66ff9c8c508d"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/10998.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/10998.json",
+      "sha256": "a7d18e4aa5af65d0d9c4b73e064517a91d093cb2fd003bce563c92af77a4d67f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11022.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11022.json",
+      "sha256": "5dc45f517fa434fa3ad9ff676018c5b6d7f85c54ebbbaf5a76c95cdde32d5908"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11061.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11061.json",
+      "sha256": "0ec8ccdeddfe59820bcf54fd21045e933ccd98f70c013c568d0937f2b0a0d00f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11116.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11116.json",
+      "sha256": "60ffde3477605ef71361688ae9d8a866dbd737094873d1bed0be830c55d19bb9"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11125.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11125.json",
+      "sha256": "ea5d3b604d4e4f72a36bc7cc103c8837d90f0d121f06d3436e98ea837b2a9449"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11145.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11145.json",
+      "sha256": "467c738de5079bb43a2b41a7a2484d93fb972ead088547456ae214f0fc529dba"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11177.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11177.json",
+      "sha256": "79cc15aac9f0a793a1acb785681cb3f731eed613085c8be2555d59edba1be607"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11190.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11190.json",
+      "sha256": "3a219f1c8eed5901c52e6a386aaf0f31d4a3df3ead9b25af4515b60e6b0569f0"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11196.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11196.json",
+      "sha256": "97017bdff0a0cfe3e58090554206f56b097d5d201bccbced15fa0ed2716b2d30"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11199.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11199.json",
+      "sha256": "8f766af64e119c9b6d74a0b5f817c2142d81eb65b3fca830de5cd2c6a3ec9fda"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11222.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11222.json",
+      "sha256": "1ff1b822972ea73bfd071af59b664244eb411bd84402fa08718141b642165686"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11236.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11236.json",
+      "sha256": "8f6b92fe3504e626a0b154fe0c36d29a0f2983eee5e291f2590186147674a3e1"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11252.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11252.json",
+      "sha256": "e868ad39cc22a90ed8306535c9b3df0117b8db3e2da759f4a2442486f0082592"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11259.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11259.json",
+      "sha256": "059d443f8fb68ee4e0cba83e5508cb81fcc7396c380661a39faef5a51d740af4"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11278.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11278.json",
+      "sha256": "74cb843759b82eb7c00bbad675623b8f7a4cf8ead48da1b32ca2f8a47501216a"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11311.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11311.json",
+      "sha256": "119ba8272534d3452c5efbd95499a590ba1da44f43527918559d03dc07e751da"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11318.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11318.json",
+      "sha256": "c4d2f980ecd9b4924326efc17bceec5873b17d9afa30ed21473062a8d6f18804"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11331.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11331.json",
+      "sha256": "b93d47268bcfbdd77c019f0cb2dcbc9e6aa653dfa6a1c925bcd5a61ddfa5e5d4"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11349.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11349.json",
+      "sha256": "6d5f2ff991f8d479a955d710d2821b8271b0e043dc7c4794ac068c7a08deddd2"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11363.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11363.json",
+      "sha256": "b2ae38fde01dc2ad383b9748f5f556a35bd879291f360606acef03cb6d11530f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11376.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11376.json",
+      "sha256": "ff154c17802a00164ee5f02ceee16188511cd7a8e465cc4871c6aa1a1751cf51"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11392.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11392.json",
+      "sha256": "be0ec09b93070ad0db318fbb36e21a1c5fb911edf2f9ca6e315b41dad8af93a6"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11406.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11406.json",
+      "sha256": "09c920523143c14eda8e3b85797023d04773d61f3a15b3e7a2cae96c515bee2b"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11414.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11414.json",
+      "sha256": "1e6fcadc6b37f871b2bbee8cdea08eeda053148bc3bd90c57306588a9a81c68a"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11419.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11419.json",
+      "sha256": "25a6574e0e34c8f1b9998c06620dc55db64d0099b8d9bf1bea3e24dd990934b5"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11425.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11425.json",
+      "sha256": "c73b947c4c9f97e72b8d863471f34574e5f2d3bcf565799472c9541cfc3e1e21"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11526.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11526.json",
+      "sha256": "29f570f7b6645c5d088b64ad45fd9023c69e19261e53b25d81ee62dd3201dbba"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11528.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11528.json",
+      "sha256": "e6d082a57c3aebb4e80dd9ac2e4015f248f58cd458c2eb1c24055f1e5999c9f0"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11555.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11555.json",
+      "sha256": "d1df462b99ca6d0b7136ea9b8b561175714ff78ee19709cc891cba72a3b27a48"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11607.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11607.json",
+      "sha256": "f1e630a06ffc500ffc866be1d3e0c4d9ba8d8cd62aad71157ade6c72a0dc486b"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11618.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11618.json",
+      "sha256": "3a7ed819b07617ae12a2bbd85aae2fb404daa7fbe1c477cad73c2b7d2b1755f9"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11628.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11628.json",
+      "sha256": "62dbcc33a94631bf306452a3bcdea2235c880ab0cd1454ff6a75478f30bc308f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11634.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11634.json",
+      "sha256": "f414a0a8099f2ef83c60aa27569f6e843468953bf38dbcca5dbad571f68eea4e"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11664.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11664.json",
+      "sha256": "37b80958e3decd5b8e4c45583a97c720e019ad8e1896c41967cc9180674a6d29"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11674.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11674.json",
+      "sha256": "bb057baa7d05f8970ca6c0be066b1a2547f9cd81d8e3b2a179f23364a9a27b15"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11708.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11708.json",
+      "sha256": "180f53cb3a32dc121f67a45b97e8e6a30333f8626ffc48026eb4e39c2c6510de"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11723.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11723.json",
+      "sha256": "b8678f0977f64f406909811707eef1400b4226daba3d65eca510a53af0dd297a"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11764.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11764.json",
+      "sha256": "760681852551987ba1ae8a361e76133cbc7b2dd558d02f7cf90d4f11a02a4d51"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11808.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11808.json",
+      "sha256": "1c8dff7c1c35cc99c3265af16cc23b1ff5e565e0dcc75bf8ea6bf4ad15a85e3f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11848.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11848.json",
+      "sha256": "7035041fa117c08ce46afbd0fadd37c074ef2153fe7a56776848e6b56b94e411"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11854.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11854.json",
+      "sha256": "ca31df473a789e80a99bccb7d7f4a6f5c8212d8bce4c9527f02c0d7564dbe3b7"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11954.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11954.json",
+      "sha256": "1fe9e0fb0f72d5752a469a09836e9cc43574aa6a05ecb055d0ec9c31998db920"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11963.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11963.json",
+      "sha256": "f2c4c1b97e750eb97e2e381ffb87b8229076e0f53ef0444184e033778a6288c9"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11964.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11964.json",
+      "sha256": "82001bc34e730aaab4d2a115de23766657278184ddfcfa042687a666f79b1e4c"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/11980.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/11980.json",
+      "sha256": "392f5b19a54917412592344251663e3fb46ba6323467ca228144932eb17e9dda"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12020.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12020.json",
+      "sha256": "044f0c16bb5234823220524c5fdc4f7ac95febbe42a4bb47053fd0e4e9cdd756"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12051.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12051.json",
+      "sha256": "eeb01776536ed653ed97a3f2422f0c19f37511d1d82411eca98f9a117af9c860"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12074.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12074.json",
+      "sha256": "3fe2fbce49cb885d1c8703447f7f1ecae47cc2c0a08eaaf3d02bf46a7c6af3f8"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12079.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12079.json",
+      "sha256": "6f76fccb94246ef2238d3dac37afcc7db8e7d4d11972a686a2b8f30b06d98731"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12120.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12120.json",
+      "sha256": "216cd82cf8d82955d5251e62d6a5307d505c9d2df390e111b5748f2952908136"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12218.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12218.json",
+      "sha256": "8a96cc91ca1ddebd534ebd3acfbaa308739fa6520fb34e0c200e92b218aad216"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12220.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12220.json",
+      "sha256": "f50c1c64bc65b316ec46b4fc4e75a5eaad9c24843ea23aa551250d37f4f23644"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12262.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12262.json",
+      "sha256": "44101c2e49e0a3d9e83008b5f456199649ff4496f23218efeb1ccd008423f8b5"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12281.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12281.json",
+      "sha256": "b875341c4353ffeb6d20bd915c34713772ca38bf8f9582ca96a1ab6acf55f9ba"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12282.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12282.json",
+      "sha256": "34073f00b42a2710221232c569a5aebc789a6c192e54ec4a27ba074a525198ab"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12313.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12313.json",
+      "sha256": "89d7fc5c68d1688866071d9789360ef9c1fd373b054545ff4c118f3a2f14efb5"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12321.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12321.json",
+      "sha256": "25039fd427a0423717c68dde2c9ce6c834106ad25d5bbe47bb87b5cc091ebbce"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12323.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12323.json",
+      "sha256": "02842f595a91b0b29cbf4634b5f34c362d8a12dd8c9d378fcf96c8b1b633e4af"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12366.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12366.json",
+      "sha256": "a4347dfd76b51a39b5f4fd4cb487c5c9d3a93333cacd3dd2af5eac4ed89b58d6"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12390.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12390.json",
+      "sha256": "cca10933dc00a34f8a63d7248b225d39b4f62f7ecf7ac5a0fa532a1ef8a6f794"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12419.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12419.json",
+      "sha256": "6c62269cb40bb418bd3e682680cd3de47173dfde7666b9647a33233a75d6f64e"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12427.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12427.json",
+      "sha256": "3f844e250db62fb73177a4525e2ffb716b161913eb469da7ba46c440230f3c4b"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12437.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12437.json",
+      "sha256": "6ff4e32dc74fd99403123b574074fab0290f13da64a88ead12c110d122f4385b"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12448.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12448.json",
+      "sha256": "41e5073d85b07dd8283eb7f04b756c545dec2945007a5210da429d8e14da5887"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12454.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12454.json",
+      "sha256": "4707b98cedef83fc0b89e9974fd9e357698e898de4b500f3a2d8291a2a7a5c62"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12476.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12476.json",
+      "sha256": "2ad9ccb034919bab15baa5288a6f563f0d23acd4cf6dafb10cbcb064e58e1d86"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12499.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12499.json",
+      "sha256": "e587da6eb5d838bcf4de4a5820413b33acac7fe8b1d68aef04650cd74557ea1e"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12551.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12551.json",
+      "sha256": "f2e9a6819b3413eec7d1c2331b97030d3eb966e3701a87b57f12e32bf4d80510"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12599.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12599.json",
+      "sha256": "e3acbd8cbe457069762b8e8de6a46a43e09694c46d0534f3e04b28427abfa0e3"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12676.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12676.json",
+      "sha256": "f7f4cd3568c10b83c45bf2ac7e6586d67c2e6f4f2a4973df1093351bd9060a32"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12688.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12688.json",
+      "sha256": "d08ae77af291ca272d0155b77553ea2898eb59b59a02f122ce4dfba62d5b7214"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12773.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12773.json",
+      "sha256": "d5e26fbbe73b5c517595ff619a038d89dc1e52002adfca9cb365b74bcdd45774"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12792.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12792.json",
+      "sha256": "01ef9e13116d652cc456c3f2a3a21dd762e49c862d1bd09b238f82a1a6567564"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12796.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12796.json",
+      "sha256": "d7b7bb2c6f7c12eb49065050c6a0647260d371ae5c1745c51f89bc2357782865"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12891.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12891.json",
+      "sha256": "e80159fe44e62af70165b0bb56a05a650688ffe39ff9cfcd50f553f49746f19f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12902.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12902.json",
+      "sha256": "f8b9f3d4db06be5f3075980f4c62074da32fdc8d5861314ffc5555e6a97f506e"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12903.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12903.json",
+      "sha256": "a027e5a4a8e5eb5f16de722c7f5cbdc9c5e4fd8785d0aca15ad8f4e45adb5522"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/12952.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/12952.json",
+      "sha256": "88b30c17715a8f77fe0dead0fb67403aa031b75d722d1f5fafff26c89e3ce69f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13025.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13025.json",
+      "sha256": "db8b284de75d3294472f407272e42cad270203ad852215e3236a2eee64816063"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13131.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13131.json",
+      "sha256": "521a61dfa324652b1d333437383197b0065deccc4f13e0bf0b10017c6a955e68"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13171.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13171.json",
+      "sha256": "3a3ed0e2609a89012c86695a757bdd9d746fa0cda83e91f981253f66158d6901"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13245.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13245.json",
+      "sha256": "89b19fe558cd4accf2be29fed9ca881be6ebeb17a857757bd6be8b427e3bc18c"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13249.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13249.json",
+      "sha256": "0a58ca0b90e9b247c670ce2e1b298fa8e6d727a602ad8b0db860b997e9862a73"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13335.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13335.json",
+      "sha256": "786f73064b050f535ee7c761b289694d1c9952a015bb76996e98fba15e7731d5"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13374.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13374.json",
+      "sha256": "cf4f15e8e88d72b567eac89db9165fbcf3bfe73b6509b2652a662290cece362f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13398.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13398.json",
+      "sha256": "2da73fa4ef4c192d9b28e4898e6515aaf5f0116d0016dc9e68269bd134024abf"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13419.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13419.json",
+      "sha256": "1e52f4add017349163740cd13f09165dbfb39d7e756dedd7a89b45905004c16c"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13438.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13438.json",
+      "sha256": "bb3adc256c0164c1284f02d84efee5c3143f86486a23484bb52cdaabfd72b009"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13449.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13449.json",
+      "sha256": "117a2bfb3d28dc982ea2c6fe17e5e26500910e8550811610ba7e81cc66f9c8ea"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13481.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13481.json",
+      "sha256": "b8277f41992376c147be324a80ff2c0dca48066d9000693f7cc5cf04a0cec82a"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13509.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13509.json",
+      "sha256": "f5355747b86ad6be28940f252143888a0dd13524d1b9be515c472f4670232394"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13540.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13540.json",
+      "sha256": "6de12d95e49aad7ca67b329268553d6a3e0bdb8c607f3caa1ff118a6cdf23c67"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13562.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13562.json",
+      "sha256": "80e9270e6860030fe61d256e6e6205356e1e4858bbaa6fecd824ec3e02a89fa6"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13576.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13576.json",
+      "sha256": "a3c27e4804abf896bd1ca82ffb79872dc3b536b0c4936e7d864699b56ef3d12c"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13597.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13597.json",
+      "sha256": "429e4550d6cf69b95eb9d71a9dc0c8f428e07ee15b37308be084fce54609337f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13616.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13616.json",
+      "sha256": "febfa6b83663f27d51c78eec9d13cd5e7225779acd95a4ff48cafea8e5c1a6aa"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13646.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13646.json",
+      "sha256": "0a63b430e2819b98185498efce7a6987a6955c619479c202c961969dd8d95865"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13655.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13655.json",
+      "sha256": "b13d4f6e731cabf848b011c2ac5e0289fd821283ef8e329b926e65b999793f18"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13662.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13662.json",
+      "sha256": "07474b68fa1589433651ad14905603e5dc4677ffe93e3b13d1692fbaff59cb83"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13668.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13668.json",
+      "sha256": "37eb6aeefc6cfb204a526407f6fca7e9567f24676a965948c4c0c7ad88717c38"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13723.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13723.json",
+      "sha256": "dac49e161d63e7a47603bf635faaf44507811d3142cb49ecfd846c7e4cbbb8d3"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13750.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13750.json",
+      "sha256": "eb7f2a3b2db73cde4712aa102e071d7d63bb4430ec94504662eb15d3b3c6df01"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13755.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13755.json",
+      "sha256": "f271d2848c440ac5f0d62ea8ab5381c6ba8f1cb95dc33582e62780564051b669"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13807.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13807.json",
+      "sha256": "065da6eedb083948c04f90e5ec9f3debbb7163dd3e9858edff30b38471f798b5"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/13870.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/13870.json",
+      "sha256": "3afe264d2b32c4d16fbfeccd7fc15af386c6049df4dbbe328c10321ac940ccf3"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14049.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14049.json",
+      "sha256": "45a37115b103e18f58343b05beee681d934479e73054eee91909b1ffee7aa92f"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14150.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14150.json",
+      "sha256": "f0de4f1c57889eb1cda55da2690c5d497321c2a29e1a7e4df0552d30768c6e87"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14219.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14219.json",
+      "sha256": "9f597e8b61c90b8759741a1476ad69340a3c4b8835105666db402d780341e551"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14230.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14230.json",
+      "sha256": "ceb4d201aa355e1e9976c2b4bf1c9a7245cdf5e1c267b9e28c161a07cd0df32d"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14275.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14275.json",
+      "sha256": "b3a5bd838022169c30377bce05867e85cf30f1ccac7438237b71b2e1484940a1"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14350.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14350.json",
+      "sha256": "8945b0f85441a870bfeb795bb86d10b9ead56ae4cb81aba2fd3354c7f9417ed4"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14407.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14407.json",
+      "sha256": "d36b7500ea35ab1a5e52bd2b6c04a8c63c3439129bc7a70c9af7f333bcebe1e1"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14418.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14418.json",
+      "sha256": "d2a74b6a920e998058094215206c02442f2bf0b2c732e2e67e14525bb6708fd7"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14439.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14439.json",
+      "sha256": "4a89c9c2ee63f863d762b8e12805e83482d75d7700a62c386d392fcca160b42a"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14541.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14541.json",
+      "sha256": "6a3b54fc195233e2a283abbe3cd0e7cc55fbb274760864be2b61937a9c43cd3d"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14594.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14594.json",
+      "sha256": "80d0d4463542f4dcc5403dbd5be7b404d5ea1ac512065664b3e877594ea0ec4e"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14608.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14608.json",
+      "sha256": "b50a8d9f7bbdd795e1d3356689978ee66977119ac791c78f2550226a98d454bd"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14621.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14621.json",
+      "sha256": "4e4376621c3b7f52f222f044215b0f9364706e6509fa7b55bc5fe902fee3f994"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14623.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14623.json",
+      "sha256": "9d8b32e2389f994b83d86007bac3fbb1fef6c58a295e23a05a5da371fec83c51"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14730.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14730.json",
+      "sha256": "e29869282f8cf706dece0ab0e1d89c0d43dc57122176f8c6752187e3a37f78f1"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14789.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14789.json",
+      "sha256": "7ab76d9806425329ed0057fb93d772f47d94ad26107d8ba6888bd99afd950463"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14894.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14894.json",
+      "sha256": "7225e3c7f66f990243b2cc1c5fb4c61515a825ab5c982f9ab8a521c9e146e81d"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14937.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14937.json",
+      "sha256": "bf21348abe0ffed3d72fe37f4ee3fb4bc3eedd0874a732ad3812ef01c210477a"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/14974.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/14974.json",
+      "sha256": "c0ffc18d3ac3fab76c9f1e7ba4d6514e25f9cd16d07a6488ad767ed9b9135ca6"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15035.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15035.json",
+      "sha256": "cb0db762bd2c7ce6d6da19793cce546bceb941b50ac918f925a3f8dbcb560501"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15077.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15077.json",
+      "sha256": "ca96b48fb1af9b1b2422bcf59dc6d7f85a6a71d482ddb2050791e99820e54399"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15084.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15084.json",
+      "sha256": "d6fbb01aba1b1ac16fdee4ee9b48be2de745ca4535940460c502d1602e77a9f1"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15118.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15118.json",
+      "sha256": "58653ef4437077ccca5f404257e2acef02cd6319ba691fc60d6185f0ded18387"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15197.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15197.json",
+      "sha256": "5a1221649d68155cdba2f55ccfb36e39d9e6deaa0e400238e5d96c1d52f458ff"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15299.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15299.json",
+      "sha256": "5901c964c1aabddafed10ac0ecaac43444ae0bb862dfe2208c5329c88331b659"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15358.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15358.json",
+      "sha256": "549ac9215c64ea2e261f0f4d0f9321d271c34753b62e7595a63a2b4274898658"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15383.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15383.json",
+      "sha256": "306f54dc4a206cc43d237296649d9543c7ea12ace081ff9e1a5ebad5840814a3"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15403.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15403.json",
+      "sha256": "a8b24217ae4de6e75b19e6b878bdc339970ad347b504dc056d85780f6c1f9f92"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15425.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15425.json",
+      "sha256": "d1d698c25b8c7b90c4fc260ee54a35c362a2f99dba68cb7e89884267b75eee32"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15655.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15655.json",
+      "sha256": "6cd1c983ea21e5e1ae80cbb6c37fdcaaf9c062d8bdbf9b05e7a70e41f3e4a185"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/15947.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/15947.json",
+      "sha256": "334f28083463bddba421cd161919fbdb371fc7ba770251f94f59da8d00c46d91"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/16000.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/16000.json",
+      "sha256": "7ba03b68560454e6f8a3aecd7d6297cf8a870711445e5e73d19acfb4b8468bf5"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/16104.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/16104.json",
+      "sha256": "d885dbf2b2f58950bab892c9d45405214e6d9546b2a777278f53e364ff09e524"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/16789.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/16789.json",
+      "sha256": "462fe5337e99578494950e97a0643560eb5b01510c95ec7722b4d4bbbcc26576"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/16961.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/16961.json",
+      "sha256": "5ab64e0eec8f1f3fdce2cbc0fa3a2c4393cc4d32e85f584c71262faba64e4f5a"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/18708.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/18708.json",
+      "sha256": "6560cfecbad4c32e54a817f2323a41faa0b8c8b3d118f5badfc2a48203cb3001"
+    },
+    {
+      "workspacePath": "web/data/mining-anatomy/87973.json",
+      "repository": "research",
+      "repositoryPath": "web/data/mining-anatomy/87973.json",
+      "sha256": "8fcff19cb887daa402ce59b456a7db6dae8e99d0e8aeed3ca82313f4d26d9138"
+    },
+    {
+      "workspacePath": "web/data/mining-deployment-v1.json",
+      "repository": "web",
+      "repositoryPath": "web/data/mining-deployment-v1.json",
+      "sha256": "652fa46e8b73d619c3b3461e94270a7b614c008265614136893f3e04ce9bd129"
+    },
+    {
+      "workspacePath": "web/data/model-evaluations-v1.json",
+      "repository": "research",
+      "repositoryPath": "web/data/model-evaluations-v1.json",
+      "sha256": "5fcd82be0b1db06567e6674ec75977b0324cb2d535d3b3b089d643d1158e9bd5"
+    },
+    {
+      "workspacePath": "web/data/official-inputs.json",
+      "repository": "research",
+      "repositoryPath": "web/data/official-inputs.json",
+      "sha256": "8299b21c9133a8a1ae80a88edd65ac0c233b3d0492493221ba3cf9dd81a6c783"
+    },
+    {
+      "workspacePath": "web/data/pilot-cells.json",
+      "repository": "research",
+      "repositoryPath": "web/data/pilot-cells.json",
+      "sha256": "55d57b63f2d840a051da8486f3623df1a483b83cf6924293adaae5795f3fe071"
+    },
+    {
+      "workspacePath": "web/data/pilot-cells/16789.json",
+      "repository": "research",
+      "repositoryPath": "web/data/pilot-cells/16789.json",
+      "sha256": "9c58731676e8cc23239abfa0ed0a446db0dcb80c3d715c448612019ef4c11e8a"
+    },
+    {
+      "workspacePath": "web/data/pilot-cells/16789.svg",
+      "repository": "research",
+      "repositoryPath": "web/data/pilot-cells/16789.svg",
+      "sha256": "d6669e961687810e4aa77730a55f4a1948cbc59b8504dc7e18e62672393eb5f9"
+    },
+    {
+      "workspacePath": "web/data/pilot-cells/16961.json",
+      "repository": "research",
+      "repositoryPath": "web/data/pilot-cells/16961.json",
+      "sha256": "cfd9427951dc1afd34e6b284a0c287019e57c16dea394490ca5082703058382e"
+    },
+    {
+      "workspacePath": "web/data/pilot-cells/16961.svg",
+      "repository": "research",
+      "repositoryPath": "web/data/pilot-cells/16961.svg",
+      "sha256": "80be1d45dd4ab8745313cecbd9a9355f046355f1a04528b725729ca1a551ebac"
+    },
+    {
+      "workspacePath": "web/data/pilot-cells/18708.json",
+      "repository": "research",
+      "repositoryPath": "web/data/pilot-cells/18708.json",
+      "sha256": "1f9fca7d7fdcd5a4d1d36370fd9b0fee0973c69741ddada50cd1d4a986c5ea51"
+    },
+    {
+      "workspacePath": "web/data/pilot-cells/18708.svg",
+      "repository": "research",
+      "repositoryPath": "web/data/pilot-cells/18708.svg",
+      "sha256": "c575441050bf195a7114e9d47e6b07eeeb08608ef37838f83d050fe725661c26"
+    },
+    {
+      "workspacePath": "web/data/pilot-cells/87973.json",
+      "repository": "research",
+      "repositoryPath": "web/data/pilot-cells/87973.json",
+      "sha256": "eb1c0ef4a47537c96dafbb10fb6480667083e58a989968fc5996d7d94594eec4"
+    },
+    {
+      "workspacePath": "web/data/pilot-cells/87973.svg",
+      "repository": "research",
+      "repositoryPath": "web/data/pilot-cells/87973.svg",
+      "sha256": "4b322a2888c0865b22c1a83e1c71afdd666881109f5b1f6ca0a1672a107106e3"
+    },
+    {
+      "workspacePath": "web/data/product-manifest-v1.json",
+      "repository": "web",
+      "repositoryPath": "web/data/product-manifest-v1.json",
+      "sha256": "9fce08e6e1042c8c884e47b4b3a72b626e28a4bb8865c0e1972d0ebe434ea71f"
+    },
+    {
+      "workspacePath": "web/data/research-config.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-config.json",
+      "sha256": "187e2901d8b37b95b35b3b4bbf11cd77fc2c9305cf7edbcc605a248e3c9a981c"
+    },
+    {
+      "workspacePath": "web/data/research-profiles.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles.json",
+      "sha256": "004bf0108528eeae645c44acf52fa86e3f29096405c34d8c24a2408da3187457"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration128-v1-dev/catalog.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration128-v1-dev/catalog.json",
+      "sha256": "6cceb21cc63cd877d5c532664249cd9099cda15603818349d856cdb5946c4ae6"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration128-v1-dev/config.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration128-v1-dev/config.json",
+      "sha256": "3d0a97341963d666322a9571265f54673c51e009c64ab91d79536fd2a830c62e"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration128-v1-dev/definition.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration128-v1-dev/definition.json",
+      "sha256": "2a1e5d430cec760d98a27c3035e23e93efe4d1f4833b05a1bedf80814e4e5e4d"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration128-v1-dev/vectors.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration128-v1-dev/vectors.json",
+      "sha256": "cafccfd5e1900b190e514e46ca1c73f2268f3eec82644712176c238bb32c644b"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration256-v1-dev/catalog.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration256-v1-dev/catalog.json",
+      "sha256": "1a4ab24a943ae89fda03aa59399877ac2b5fc869cc29eaae90690d86cddd8d77"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration256-v1-dev/config.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration256-v1-dev/config.json",
+      "sha256": "68e9958f2eed0f09a33c75870b09feb4db947fc0598e763e67e0a34aeec6243f"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration256-v1-dev/definition.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration256-v1-dev/definition.json",
+      "sha256": "e585c52f0f52aa9d5fb04636fe8326bda2c9d54e09c0bd54de071f24e45e721f"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration256-v1-dev/vectors.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration256-v1-dev/vectors.json",
+      "sha256": "912273918779f69e25d52948a857886dffcdb01b61bc366135cb9be688249c13"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration512-v1-dev/catalog.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration512-v1-dev/catalog.json",
+      "sha256": "91c630ac951ca1327779a5f0fe6d4651254ea578fb30619b4c98bd5c1ed50aa1"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration512-v1-dev/config.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration512-v1-dev/config.json",
+      "sha256": "e965f360aaa1aced177933ab47b82623da3b489010eabb4f28b21a8e0b6728bb"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration512-v1-dev/definition.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration512-v1-dev/definition.json",
+      "sha256": "e3ca455c2871a97952f88afe52da61bc187991bb73112c3b69ee3097cfe0d20e"
+    },
+    {
+      "workspacePath": "web/data/research-profiles/duration512-v1-dev/vectors.json",
+      "repository": "research",
+      "repositoryPath": "web/data/research-profiles/duration512-v1-dev/vectors.json",
+      "sha256": "532f2eda3805fd4eaee4568a943d38851fb27f3b92c1eb08880f309664b33f74"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/brief/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/brief/calibration.json",
+      "sha256": "691eb412d5d3d79c03198f17ea79c1ea8100d3ca944c3206b105aa9696090791"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/brief/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/brief/goal.json",
+      "sha256": "c6697d62be2a896236c48ab3ac21048276097b022f830901d3023001ceef2b25"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/broad/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/broad/calibration.json",
+      "sha256": "e117d4fa359fd414339773b5a1dd8d7805e04d6be17ffad49282ff6772b71261"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/broad/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/broad/goal.json",
+      "sha256": "17c34895480360eda1a2c94837744bdeab9e803f5bd0b6f97169edf953bd41a8"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/comparable-family-20261011.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/comparable-family-20261011.json",
+      "sha256": "f306c3edac28e36332ec95606e3cb97b9348dce8d356c967e6a6fa2311d3bb95"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/live-group-1-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/live-group-1-20261011/calibration.json",
+      "sha256": "da6e6bea7093446d1061e67bc500c20a70dcf4a435a381b518995af77c232e39"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/live-group-1-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/live-group-1-20261011/goal.json",
+      "sha256": "1c8899c32662cd4bdf667c8bbb32b1d35099cdffe7b3d0e0640ce824fea85197"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/live-group-2-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/live-group-2-20261011/calibration.json",
+      "sha256": "4ab2fe632a519fbf1ec10dec6d8ffc1fb8a5d093bfb60139dde806ae3333a77f"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/live-group-2-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/live-group-2-20261011/goal.json",
+      "sha256": "076d93fb876afd8e63bafd02bafb912f36f1952e7b6a751c406061ca7eb1e219"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/plan-20261011.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/plan-20261011.json",
+      "sha256": "b8cf6005c45c7c11bf57a9f0b779c834549c2b3dcde5d1dce0579f0e2408474c"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-family-20261011.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-family-20261011.json",
+      "sha256": "d881a2b5cc028841c6497dea353377650419d5fba90a3b3844f81a934e28b60b"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-1-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-1-20261011/calibration.json",
+      "sha256": "faa104d63bc2b3bf3104e4e633f99728bb99ddc7af8c9402e4010d0d986ba4e2"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-1-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-1-20261011/goal.json",
+      "sha256": "87039bddd0c9dd069f28c774fc54a4a10212153e680f0b139fbac78671ea243d"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-10-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-10-20261011/calibration.json",
+      "sha256": "22980b7adcf076faa545e391b103259dcc9491651b49f1fca1a4be2707ec2461"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-10-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-10-20261011/goal.json",
+      "sha256": "495491d487b2a0fac7aabfc7608f7909044e33492f5686228a972cb469bc3a02"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-11-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-11-20261011/calibration.json",
+      "sha256": "a68bce8b3043d491be4b1f9cd1c48ff4d8fb488827554d35fb83ae30885b543e"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-11-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-11-20261011/goal.json",
+      "sha256": "7ec651ff42b76f4e53229ba7d9f10bb06174adbf2ec965a5ec8f8bdaea7c7973"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-12-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-12-20261011/calibration.json",
+      "sha256": "21b4dc8e4720ce9d4df5f59448f99aafddf09694cafb1fd7ca20a6b01eb452fa"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-12-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-12-20261011/goal.json",
+      "sha256": "3e75dae4cf14d6f7f634479034eb401a1c17cdc313f65476aa170242e356b759"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-13-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-13-20261011/calibration.json",
+      "sha256": "e86a573d7c91891d87064481a82696ba2f33fb8abfeaa788aa3d71456a6bd25d"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-13-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-13-20261011/goal.json",
+      "sha256": "6b8e2577dbc2b1a055f736b26f76d6dc41ea47de531689e830aed1eea7d5122a"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-14-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-14-20261011/calibration.json",
+      "sha256": "a21e0be7649793a01c01d0e912d52441fe97c53723f014810df4e2df71c9b552"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-14-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-14-20261011/goal.json",
+      "sha256": "4a52c75a0a2c53c00b7bc5eb9e12892bdb3efe0fe602f46aadd3eeea62cdf3df"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-15-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-15-20261011/calibration.json",
+      "sha256": "1fab4224183d639b425909a9310382096c383441a872b26b239c7a697e84fbf8"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-15-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-15-20261011/goal.json",
+      "sha256": "495b1b023af3fbcbe65e5b6ebb7b51473777caecfec2dde88c150e8ea236f7fe"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-16-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-16-20261011/calibration.json",
+      "sha256": "235fe21efe620faf0b404c95cfc6bee5d7cb6a94d4d8fc70a28496cf89f07103"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-16-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-16-20261011/goal.json",
+      "sha256": "8d1e63c39b65ba1e3e1005fbdecf606bdb93fb9241bae8c53afb56a7903dc325"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-17-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-17-20261011/calibration.json",
+      "sha256": "aa2f2c47db143e7d18a1113f12613e234e7d697c6be59bf9830c532e6220d155"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-17-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-17-20261011/goal.json",
+      "sha256": "f8663d1500e6720fad17deab09b9319ddbaae58e6389f483f2384736c5e52078"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-18-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-18-20261011/calibration.json",
+      "sha256": "4e5bc4e665a2b64888db16532735a51479150d3e0746853ac4c3248ea883187a"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-18-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-18-20261011/goal.json",
+      "sha256": "4a9f1cc241a1ebb8ebc0e7c1f41c4b87af91e99b2fdac8e3e543af344f1d8774"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-19-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-19-20261011/calibration.json",
+      "sha256": "58434e5469aa42492c6ccb4fa4f5642ba624308a215fe603570bff788384cb8c"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-19-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-19-20261011/goal.json",
+      "sha256": "0a13164032f91e2bf765ffd065e57df4b3eb252d698729e92e6efa00d3663569"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-2-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-2-20261011/calibration.json",
+      "sha256": "d012779c5e607e15a07b494722b8b125626fdc4826a063a65b7e4202f21fb600"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-2-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-2-20261011/goal.json",
+      "sha256": "abc54e5b1317825e41d98faf75c7f177cbcd949eeefd13fbd1882aa616aeccf6"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-20-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-20-20261011/calibration.json",
+      "sha256": "ee8e0b5c01b8318c455b7efdebde4caddf3ad0bd70b2af64b8b0a426ac1632b8"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-20-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-20-20261011/goal.json",
+      "sha256": "2a3e7f5ac31fd46494aa7cddf8de6dec9e95eb5af13a4e616f22c63943a690d7"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-21-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-21-20261011/calibration.json",
+      "sha256": "283852527301a9ff00887aacf853efedc2f0264241fcd3e0774441755a7db4e8"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-21-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-21-20261011/goal.json",
+      "sha256": "9d4813e150de42a72f5f74aea3eabf00fd221587efb16f0fb98413f08d7cdb0c"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-22-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-22-20261011/calibration.json",
+      "sha256": "0e6d823c1dc21cec74da3c16553f22ff938086ecd2dc2494b47e9af43598e798"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-22-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-22-20261011/goal.json",
+      "sha256": "101abd54114ef2c497e7bac0f26c2c1c60b010d4260e44944ad085b0bba7de50"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-23-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-23-20261011/calibration.json",
+      "sha256": "8e884de88cd47c6cf12b2c45321f08a1901bb804abb66676a292b74557e35bd7"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-23-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-23-20261011/goal.json",
+      "sha256": "c874cf37423bd472cc85f6f8fc6b4a8221feef1cc221815152aefe30064812b7"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-24-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-24-20261011/calibration.json",
+      "sha256": "94a4155e925864d1538bda8d00bbd7174937a19799b37567840430646c4f32fd"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-24-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-24-20261011/goal.json",
+      "sha256": "a5e4760e2eef5bcbb40363cc7640d83fac90299b41fb7c150f88ad435581303f"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-3-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-3-20261011/calibration.json",
+      "sha256": "ef2064f656d52cd35e415ecd4fe7bdbc963dc1c327203e53a15f0bbb3e32b959"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-3-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-3-20261011/goal.json",
+      "sha256": "ed32aa60b315682c00cdb94e6b06f2ac96f3188247ced7ba3820edbf558ba163"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-4-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-4-20261011/calibration.json",
+      "sha256": "90367694c14947df275f43db83be925009252413d86b57a6862f77bae5466da7"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-4-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-4-20261011/goal.json",
+      "sha256": "64f4c8cece97a318367ad3a7f8baabd84aef162bc90a16c0b5db60dc909342d0"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-5-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-5-20261011/calibration.json",
+      "sha256": "36db6df222e638ca6ca840b61ce1c9b72d5acf5c4b6e38b65683263025071c18"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-5-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-5-20261011/goal.json",
+      "sha256": "407bf7dc698e0453fa9cbd17f2bd9693140775a5e5d6a32d477d1c70eb4d8928"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-6-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-6-20261011/calibration.json",
+      "sha256": "f51e6d5217a84109bdeb0d96e328bbf04825ee2154c570ba2df82bd86a771787"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-6-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-6-20261011/goal.json",
+      "sha256": "abc59a09da2b4df6578f5f9fd53feae719aff79260aedfa377250b0167a46dd3"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-7-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-7-20261011/calibration.json",
+      "sha256": "89c50e8b86dfab92206b19c77edfd5e6915136b18ac300959c5ba147ca79cf7c"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-7-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-7-20261011/goal.json",
+      "sha256": "4d0731b41d1ceacb5200f2136c4159875c0c8aa9e312d0b4b41ce1372b711dae"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-8-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-8-20261011/calibration.json",
+      "sha256": "df1a3021fa3c5877eb3410aa937d220a9f7bb8b3a65cd6fd4d95917bd4c75cea"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-8-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-8-20261011/goal.json",
+      "sha256": "e2ef65bb4a3d23ae91da7ee36b2bbc845a8190d3ef0b178d3894d6324d8aff2e"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-9-20261011/calibration.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-9-20261011/calibration.json",
+      "sha256": "9493c940aac3498ecd86704f946b9c5f9c3fbe44b7649ff6c4cb9910c2443bdb"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-group-9-20261011/goal.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-group-9-20261011/goal.json",
+      "sha256": "1ce05c870993798c4e8451ebc5e882965772696cc72e9773a8580bf7812174a2"
+    },
+    {
+      "workspacePath": "web/data/target-mining-v2/product-supply-20261011.json",
+      "repository": "research",
+      "repositoryPath": "web/data/target-mining-v2/product-supply-20261011.json",
+      "sha256": "149c65ab2ac82701cfa87e5561e4a0ce2727c1811b5a96fe48828d84613de58a"
+    },
+    {
+      "workspacePath": "web/data/target-network-v2.json",
+      "repository": "web",
+      "repositoryPath": "web/data/target-network-v2.json",
+      "sha256": "c047692554d7b3bc56d7c36285ebcb03ecda37199cb4cf49e060b84caa0bded0"
+    },
+    {
+      "workspacePath": "web/data/task-catalog-dev.json",
+      "repository": "research",
+      "repositoryPath": "web/data/task-catalog-dev.json",
+      "sha256": "4eb3dc2e20d12307b9769aaafa52c8a8a39cde5e0e02c4522cfbd9038e2fd8c0"
+    },
+    {
+      "workspacePath": "web/difficulty-family.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/difficulty-family.mjs",
+      "sha256": "f95fbe96682156c81af97d52461bde79b5d1709f7959cd482483fd27142fc9e7"
+    },
+    {
+      "workspacePath": "web/evidence-manifest.mjs",
+      "repository": "sdk",
+      "repositoryPath": "web/evidence-manifest.mjs",
+      "sha256": "440d213df31ef76967bbc507fbc4de9f95b379e812b0d05f3674351d4b708618"
+    },
+    {
+      "workspacePath": "web/explorer-app.mjs",
+      "repository": "explorer",
+      "repositoryPath": "web/explorer-app.mjs",
+      "sha256": "69f92e4939e5597da42388a3b8ae623b9fe08441619cafc24e61c57c65441ae1"
+    },
+    {
+      "workspacePath": "web/explorer-client.mjs",
+      "repository": "explorer",
+      "repositoryPath": "web/explorer-client.mjs",
+      "sha256": "5d37216ef880f278d4d895c5553136d8dd1a3b5850a1647afb43ff871395ae74"
+    },
+    {
+      "workspacePath": "web/explorer-format.mjs",
+      "repository": "explorer",
+      "repositoryPath": "web/explorer-format.mjs",
+      "sha256": "84c7a97ae54fd5c8398e9f5e6141721adfe2240178710e6797574fb1077e68e2"
+    },
+    {
+      "workspacePath": "web/explorer.css",
+      "repository": "explorer",
+      "repositoryPath": "web/explorer.css",
+      "sha256": "b01f2c85f6504e9c0e6ccafd230f37e3894bda4eba4b646d0c5112c119ca3417"
+    },
+    {
+      "workspacePath": "web/explorer.js",
+      "repository": "explorer",
+      "repositoryPath": "web/explorer.js",
+      "sha256": "0808642c948cb58b7b3ea583fd28cc6a156cd42e03d2bc35fb4275b717c1474e"
+    },
+    {
+      "workspacePath": "web/favicon.svg",
+      "repository": "web",
+      "repositoryPath": "web/favicon.svg",
+      "sha256": "61f273c99309151fe116a7f749b967bff19cea2df719172c0530542dc202e31e"
+    },
+    {
+      "workspacePath": "web/fly-scene.js",
+      "repository": "miner",
+      "repositoryPath": "web/fly-scene.js",
+      "sha256": "0e25a1f6052e46d65f92adbf79d137a35054c918e94656bfacb6dc6619d80d09"
+    },
+    {
+      "workspacePath": "web/goal-mining-view.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/goal-mining-view.mjs",
+      "sha256": "7fcf1779c7cd6eeff996f8ab8997227fb611b7a763678f459104f7607f44708c"
+    },
+    {
+      "workspacePath": "web/goal-search-runner.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/goal-search-runner.mjs",
+      "sha256": "3c8183f0f409386aa5d3947ef911f434dc7cfdd3a1a1be952795040308c99dc6"
+    },
+    {
+      "workspacePath": "web/goal-status-text.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/goal-status-text.mjs",
+      "sha256": "7c1ea0f6d0685573e295d2dab206cb0746ed9fa17abdf750aba8aa00572d5b19"
+    },
+    {
+      "workspacePath": "web/goal-ui-state.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/goal-ui-state.mjs",
+      "sha256": "b785595e19926d3d0ef3450a06f7ab5a53bcb19619583decba8545d3b9f15ec8"
+    },
+    {
+      "workspacePath": "web/i18n.js",
+      "repository": "web",
+      "repositoryPath": "web/i18n.js",
+      "sha256": "604194cb0803ca8b784140423de25b6ac245b70f3f541062845e30a7a7783ade"
+    },
+    {
+      "workspacePath": "web/i18n/en.json",
+      "repository": "web",
+      "repositoryPath": "web/i18n/en.json",
+      "sha256": "20d2557a696b7483b5a7eed611d8f904fb80bd60b536a5b991c1988565c64b5e"
+    },
+    {
+      "workspacePath": "web/i18n/zh.json",
+      "repository": "web",
+      "repositoryPath": "web/i18n/zh.json",
+      "sha256": "50a72635ee41b854c426cbc1b0831f4e60f2d330d68151866ad85a2196c87ede"
+    },
+    {
+      "workspacePath": "web/index.html",
+      "repository": "web",
+      "repositoryPath": "web/index.html",
+      "sha256": "f6aad017331a821a2069725226436bd67bf8cff95cb6264c82bf2d279e9fc65d"
+    },
+    {
+      "workspacePath": "web/input-order.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/input-order.mjs",
+      "sha256": "9a820ac89da130d9d9003a79260b0996e4c0f6ece33062f4b2dc847baf86911d"
+    },
+    {
+      "workspacePath": "web/live-observation-view.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/live-observation-view.mjs",
+      "sha256": "b434c9192199e23745396a54c7db7c9744cdcaebfd056f4ee40d3b5fddd273cd"
+    },
+    {
+      "workspacePath": "web/live-observation.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/live-observation.mjs",
+      "sha256": "97833248a5be345dc09073bb1ca881e0bc3796940cd88b8298d4fcbaec4d49e1"
+    },
+    {
+      "workspacePath": "web/metric-format.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/metric-format.mjs",
+      "sha256": "7116824bb6c96ed01924e6ad60d7cdabf1c562163bbc16909e8a1ef9afcd6a59"
+    },
+    {
+      "workspacePath": "web/miner-state.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/miner-state.mjs",
+      "sha256": "1e29bbc5f9e1b40e446332bd92cb4802d74de0f02c74d4db5a2c80ae9392652e"
+    },
+    {
+      "workspacePath": "web/mining-anatomy-index.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/mining-anatomy-index.mjs",
+      "sha256": "d1a990161d4f3ae15f621d8c9f27080885c20d0265cb8add9e4abd025de1b2b8"
+    },
+    {
+      "workspacePath": "web/mining-anatomy.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/mining-anatomy.mjs",
+      "sha256": "fe5d78e699362eb0b554b95250927910c906476f5c69c5cf729225052a183885"
+    },
+    {
+      "workspacePath": "web/mining-deployment.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/mining-deployment.mjs",
+      "sha256": "b10bfab8046329ab4b164598e4e0f53d517663b26524dcec6b0a3c70a10af198"
+    },
+    {
+      "workspacePath": "web/mining-workflow.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/mining-workflow.mjs",
+      "sha256": "6101e109e43dbb7d46ffad2056118e299892ec580acc6eaa040f109c69d2b550"
+    },
+    {
+      "workspacePath": "web/mining.js",
+      "repository": "miner",
+      "repositoryPath": "web/mining.js",
+      "sha256": "a8fe5918c65f7271b9d63e36c66aa20016d4f9a564e1594a7107a1a2e037d6b6"
+    },
+    {
+      "workspacePath": "web/model-storage.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/model-storage.mjs",
+      "sha256": "a650a823844eae93fb952e99e69433c5c04d5921501e4ec2fe66253d94ecc7d7"
+    },
+    {
+      "workspacePath": "web/network-ui.js",
+      "repository": "web",
+      "repositoryPath": "web/network-ui.js",
+      "sha256": "1d9a5530bb98da11cf019623dd923efa761d658750b92b3ad7854a4124dbad63"
+    },
+    {
+      "workspacePath": "web/network.css",
+      "repository": "web",
+      "repositoryPath": "web/network.css",
+      "sha256": "a6a54762ed0a5e166ae94501040ac6b8ba9cf52e315b0cfe230108ec1def2d48"
+    },
+    {
+      "workspacePath": "web/neural-ribbon.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/neural-ribbon.mjs",
+      "sha256": "c0793d1102cb369778448e39033edb6bc2179b69509420bf1d477efcb71777d7"
+    },
+    {
+      "workspacePath": "web/observation-focus.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/observation-focus.mjs",
+      "sha256": "b9ee8c7288b6b2b3c101ea6088ea195dadda01a023ae83bf23ea44653d78b77a"
+    },
+    {
+      "workspacePath": "web/official-builder.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/official-builder.mjs",
+      "sha256": "afb66a8597decb689e7d7dd5eba5d8d888e56b6d59825c47536815af855831ce"
+    },
+    {
+      "workspacePath": "web/official-source.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/official-source.mjs",
+      "sha256": "2fbd2c6b0a0d87b53619e94b051a68d54bcdffe1d207d76d1be8d8fd296b1363"
+    },
+    {
+      "workspacePath": "web/pages/account.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/account.html",
+      "sha256": "2562ee6ed7217852a27b50ca65650e3eef1e48595edc4e0cdba84515d6d93f05"
+    },
+    {
+      "workspacePath": "web/pages/atlas.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/atlas.html",
+      "sha256": "55de758748db4407882cc314444829f37f9342b285f7e13395f837a133156643"
+    },
+    {
+      "workspacePath": "web/pages/block.html",
+      "repository": "explorer",
+      "repositoryPath": "web/pages/block.html",
+      "sha256": "232617048947db2486f151c834a5198cc94ebf0663fa70b05fca714e358b6a81"
+    },
+    {
+      "workspacePath": "web/pages/blog.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/blog.html",
+      "sha256": "56eb64c063135e186dd8d258e648429e25aad20b59def802c6702ac101c364b1"
+    },
+    {
+      "workspacePath": "web/pages/community.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/community.html",
+      "sha256": "1cd7eaa2bc2d6827acf27dc2e6d8155647663472f0f00b661d3dae053472ecaf"
+    },
+    {
+      "workspacePath": "web/pages/economics.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/economics.html",
+      "sha256": "e1fa2cae667db7de0a924656f227931d20182383436f1404bcf225d3fdc8df28"
+    },
+    {
+      "workspacePath": "web/pages/explorer.html",
+      "repository": "explorer",
+      "repositoryPath": "web/pages/explorer.html",
+      "sha256": "7cbdb53535f8d72437f7724664d516f5fd603e72bf4d73cd7ad398da1bf86b76"
+    },
+    {
+      "workspacePath": "web/pages/help.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/help.html",
+      "sha256": "400a707e5ba410c22393bcc968ac83da1c7615b01dc9c9b58e92f5d7ace9478b"
+    },
+    {
+      "workspacePath": "web/pages/home.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/home.html",
+      "sha256": "2753e904ea1f62dbcc157f58a8765ce7aa9c63978f73920f504f9be3f1e01367"
+    },
+    {
+      "workspacePath": "web/pages/how-it-works.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/how-it-works.html",
+      "sha256": "25ccca10a9e10938e3e8c85ac6685c2978b9da8699615642ca636fdcd984c3e9"
+    },
+    {
+      "workspacePath": "web/pages/legacy-mining.html",
+      "repository": "miner",
+      "repositoryPath": "web/pages/legacy-mining.html",
+      "sha256": "de9167f5b7430c6cdbc8c4b19509ec263bbb12456cc380411ca6f14143266b16"
+    },
+    {
+      "workspacePath": "web/pages/methods.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/methods.html",
+      "sha256": "760d79c6909af28a0dad9bb78481b336c54803d8e38495b0d9958759b962416b"
+    },
+    {
+      "workspacePath": "web/pages/mining.html",
+      "repository": "miner",
+      "repositoryPath": "web/pages/mining.html",
+      "sha256": "4ebbc01b9ca72c475ac9fc7587bedc5f3d11d03d403a8a9eae00e38a16eb3730"
+    },
+    {
+      "workspacePath": "web/pages/privacy.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/privacy.html",
+      "sha256": "0052154bd8904a0d0675cae1360663834d039ce83b54c060f5adb73245759e15"
+    },
+    {
+      "workspacePath": "web/pages/result-detail.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/result-detail.html",
+      "sha256": "265365d939460ab624baa11a43ab1304c5a3e9ead2e97e12420c7fdee8f30e9f"
+    },
+    {
+      "workspacePath": "web/pages/results.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/results.html",
+      "sha256": "83a319fb664388106c4c0237a6031e6aa956041839efc838369f9dcdfd525b3b"
+    },
+    {
+      "workspacePath": "web/pages/roadmap.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/roadmap.html",
+      "sha256": "9b83db5c592ac48fafa98873bbfba61d46f40ff0756fb3f0daf089a31e73134f"
+    },
+    {
+      "workspacePath": "web/pages/service-request.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/service-request.html",
+      "sha256": "354eac1785a1847439a44c9072d3e8c6d6471d9847e6e203b79ed88283de73e1"
+    },
+    {
+      "workspacePath": "web/pages/services.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/services.html",
+      "sha256": "588628110b40a85d02ecff71a034ebf82ddd02ab53c09cea0942809629a3f1ee"
+    },
+    {
+      "workspacePath": "web/pages/task-detail.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/task-detail.html",
+      "sha256": "9f419ebc3de705b4bc2d39908baf91cf4005c31a4bf92d845186d0343df15354"
+    },
+    {
+      "workspacePath": "web/pages/tasks.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/tasks.html",
+      "sha256": "5d8baab0fe0879ec9183c430ef8df3bb2c0839cbcc97e0e281eabf2b284dd0e1"
+    },
+    {
+      "workspacePath": "web/pages/terms.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/terms.html",
+      "sha256": "ebdd225e9b5017cac6930eae61538bb65ab33cc916783c2a834b18b6dc680aef"
+    },
+    {
+      "workspacePath": "web/pages/validators.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/validators.html",
+      "sha256": "8d9a7d9d7f35ac046fca81e1c9e676742db73d9a737c156ea3c793c69162d588"
+    },
+    {
+      "workspacePath": "web/pages/wallet.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/wallet.html",
+      "sha256": "e94d0a6df6c7b4fbef937d05522f0e2b5ed5660459ef58d90d95bcbf22338f44"
+    },
+    {
+      "workspacePath": "web/pages/whitepaper.html",
+      "repository": "web",
+      "repositoryPath": "web/pages/whitepaper.html",
+      "sha256": "dd9e496ccbf96c0e26165de2b2878d4df40c1df3c0d0cc7214be89e25bc3e9ad"
+    },
+    {
+      "workspacePath": "web/pending-output.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/pending-output.mjs",
+      "sha256": "8a66cf72213c59ce9637fb88e6670a195c27f0e78f2d8045b27641f58cef56d9"
+    },
+    {
+      "workspacePath": "web/posts/compact-index.html",
+      "repository": "web",
+      "repositoryPath": "web/posts/compact-index.html",
+      "sha256": "7be882aa08eb293c13ae6731ebc28d327a054b8c470e03d02eacab0cce299994"
+    },
+    {
+      "workspacePath": "web/posts/flyhash-and-pow.html",
+      "repository": "web",
+      "repositoryPath": "web/posts/flyhash-and-pow.html",
+      "sha256": "698e167c038e4f730f8b89e8916a8d7c288d4b50d529bace6fc2374aeddb7a8a"
+    },
+    {
+      "workspacePath": "web/posts/full-connectome.html",
+      "repository": "web",
+      "repositoryPath": "web/posts/full-connectome.html",
+      "sha256": "e73fd33b3ea330e1e9ab0b40a924de78b6692d20e71efd33d519b79edab46ea5"
+    },
+    {
+      "workspacePath": "web/preparation-controller.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/preparation-controller.mjs",
+      "sha256": "78c16538d909436f71093179eb9ec59c244ed4bb2604cf3a246d7134e83b9b86"
+    },
+    {
+      "workspacePath": "web/preparation-progress.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/preparation-progress.mjs",
+      "sha256": "c46a202cff12ae2f7f489e8144582bbf8442d715f2ffe7aed1a77b164d36ced3"
+    },
+    {
+      "workspacePath": "web/product-app.mjs",
+      "repository": "web",
+      "repositoryPath": "web/product-app.mjs",
+      "sha256": "e73e737a4adad36383d815110a97d73283132857ad6e2c347b170c049c4e87c5"
+    },
+    {
+      "workspacePath": "web/product.css",
+      "repository": "web",
+      "repositoryPath": "web/product.css",
+      "sha256": "f6c68bfe6ce05c8710f9aad9b9ae0b5fde03919b52c049c3b5b135a9c30e36a3"
+    },
+    {
+      "workspacePath": "web/propagation-routes.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/propagation-routes.mjs",
+      "sha256": "6fa98482ecd274e3c614d4e1731ed47328474135497c8832a5c371ff961b0d80"
+    },
+    {
+      "workspacePath": "web/propagation-trace.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/propagation-trace.mjs",
+      "sha256": "010b65648d5ce5a274431f39c829e8b58773c066533f1b0984af0d7b317e703d"
+    },
+    {
+      "workspacePath": "web/propagation-view.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/propagation-view.mjs",
+      "sha256": "3c787a0aaa771a0b66eb43cafd8e741f5eb8db47f7068a95a8d4801ab39d36ef"
+    },
+    {
+      "workspacePath": "web/receipt-v1.mjs",
+      "repository": "sdk",
+      "repositoryPath": "web/receipt-v1.mjs",
+      "sha256": "ebbe7825e5909b985264167b172729abcdda21cf59bd920cba9bb28fa49ccd18"
+    },
+    {
+      "workspacePath": "web/replay-controller.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/replay-controller.mjs",
+      "sha256": "3e4fc732bee29d3271e4f4d9211ffe5186cec75cf24df9f3f73a46c5ecef53a4"
+    },
+    {
+      "workspacePath": "web/research-app.css",
+      "repository": "miner",
+      "repositoryPath": "web/research-app.css",
+      "sha256": "6a4828d3d0cd9f0aac36fa54092a15dded8db83c8b1b455815cb33ea7e63408c"
+    },
+    {
+      "workspacePath": "web/research-app.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/research-app.mjs",
+      "sha256": "77f4a1372f6fe501e7f56d9fac79431102ad5145dba19c3b0a28d1d585a03954"
+    },
+    {
+      "workspacePath": "web/research-profiles.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/research-profiles.mjs",
+      "sha256": "2023492a151b5241bd432b1ba13ac25ab7f2364e61849afd6cd01e1bff86d2cf"
+    },
+    {
+      "workspacePath": "web/research-tools.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/research-tools.mjs",
+      "sha256": "d4b9fd1c97475af77261da851736b419030102b0fde112f850b8e698b91a511e"
+    },
+    {
+      "workspacePath": "web/research-worker.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/research-worker.mjs",
+      "sha256": "c28ef2134315f2cc2fc87be30f516f52e89bd3158b2ccf1faea6f01e26498fc5"
+    },
+    {
+      "workspacePath": "web/response-record.mjs",
+      "repository": "sdk",
+      "repositoryPath": "web/response-record.mjs",
+      "sha256": "59bb44cd1aa966b18e0ba0ba0fb26ae6cedbdbfdb559dcac4ee2b11b1a20e58a"
+    },
+    {
+      "workspacePath": "web/response-store.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/response-store.mjs",
+      "sha256": "89bdc19888d0a71bb1327229e7f1ce3dbaf769725f2b36546c1097fffa49808e"
+    },
+    {
+      "workspacePath": "web/response-view.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/response-view.mjs",
+      "sha256": "012eae880229d20903ffb1a6d43d1f78feedf23eac7d53a2bedc83b911e33acf"
+    },
+    {
+      "workspacePath": "web/ribbon-path.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/ribbon-path.mjs",
+      "sha256": "390f301b4e035f4412f71f14dbc0b0452674a2b3bb15e5d31804a47eafea10c3"
+    },
+    {
+      "workspacePath": "web/service-outbox.mjs",
+      "repository": "sdk",
+      "repositoryPath": "web/service-outbox.mjs",
+      "sha256": "8111d45a0e9f26674b7565bfcd7fba525ac02a77e9938496903c598588cc5de6"
+    },
+    {
+      "workspacePath": "web/session-plan.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/session-plan.mjs",
+      "sha256": "b36873c278cb9edce35b47f3e14b3af4fcc060bfd6b06d00c4ba7b4fa2f55287"
+    },
+    {
+      "workspacePath": "web/shell.html",
+      "repository": "web",
+      "repositoryPath": "web/shell.html",
+      "sha256": "24b9718c2c871b78236d3be5f69ba8d7fe4b741eb503df09ddc662694643c19b"
+    },
+    {
+      "workspacePath": "web/site.css",
+      "repository": "web",
+      "repositoryPath": "web/site.css",
+      "sha256": "584470fb3cd3b82bac2ff272bf1d34002497d51ee97fd4f9fecbed92e3ae3d66"
+    },
+    {
+      "workspacePath": "web/site.js",
+      "repository": "web",
+      "repositoryPath": "web/site.js",
+      "sha256": "c9afd132af097e4bc19b3c383ebddcd7abbcda2a8153a76cf5b7c0d55c1fc611"
+    },
+    {
+      "workspacePath": "web/solana-client.mjs",
+      "repository": "sdk",
+      "repositoryPath": "web/solana-client.mjs",
+      "sha256": "2ec54b384bd823d1d019e3f934a8912b9a1f1fa2805b728735e5d3744f2a8181"
+    },
+    {
+      "workspacePath": "web/submission-controller.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/submission-controller.mjs",
+      "sha256": "63b6e24798faa021af20f7b5ba7bc541333b157562aafa5f437024ed1f9c1333"
+    },
+    {
+      "workspacePath": "web/submission-store.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/submission-store.mjs",
+      "sha256": "2619d48ce701cc6131663b8a4322c9a67ca9d94016cb6e6b86871772c1d20a4e"
+    },
+    {
+      "workspacePath": "web/target-protocol-v2.mjs",
+      "repository": "sdk",
+      "repositoryPath": "web/target-protocol-v2.mjs",
+      "sha256": "ba92050a929284fb7a8143ce1588ab99533c38e9d8a056ef3a5ab8e7ca8f68e3"
+    },
+    {
+      "workspacePath": "web/target-response-record.mjs",
+      "repository": "sdk",
+      "repositoryPath": "web/target-response-record.mjs",
+      "sha256": "7a6c7f9f8aea25639b2308b93755ebe30a71791b62a1095d9a7a1819810fe196"
+    },
+    {
+      "workspacePath": "web/target-round-client.mjs",
+      "repository": "sdk",
+      "repositoryPath": "web/target-round-client.mjs",
+      "sha256": "87b79df955440a38e5d6c97e1a9c3b681d9f7ffe19a4e780154192cbb255edc6"
+    },
+    {
+      "workspacePath": "web/task-eligibility.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/task-eligibility.mjs",
+      "sha256": "a612483eb0ccc785bad92500c610259650ddba61603b3f41da140bf6e9c9722b"
+    },
+    {
+      "workspacePath": "web/task-runner.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/task-runner.mjs",
+      "sha256": "90170a5f4569b49209f30fd074886278edc5d2e3cf13aab6276da4e6b6d04ecf"
+    },
+    {
+      "workspacePath": "web/vendor/three-webgl1/LICENSE",
+      "repository": "miner",
+      "repositoryPath": "web/vendor/three-webgl1/LICENSE",
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "workspacePath": "web/vendor/three-webgl1/README.md",
+      "repository": "miner",
+      "repositoryPath": "web/vendor/three-webgl1/README.md",
+      "sha256": "4a7ae87f2b39ac19699a89df21cfecc8adf3492b533ee6c96f16959dc3e2820c"
+    },
+    {
+      "workspacePath": "web/vendor/three-webgl1/three.module.min.js",
+      "repository": "miner",
+      "repositoryPath": "web/vendor/three-webgl1/three.module.min.js",
+      "sha256": "ecd9f6b9bc1a12efdf14d13e4c610c012903c141a77d967d3f500bc727f0896c"
+    },
+    {
+      "workspacePath": "web/vendor/three/LICENSE",
+      "repository": "miner",
+      "repositoryPath": "web/vendor/three/LICENSE",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "workspacePath": "web/vendor/three/three.core.min.js",
+      "repository": "miner",
+      "repositoryPath": "web/vendor/three/three.core.min.js",
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de"
+    },
+    {
+      "workspacePath": "web/vendor/three/three.module.min.js",
+      "repository": "miner",
+      "repositoryPath": "web/vendor/three/three.module.min.js",
+      "sha256": "e2b5ee6bccd38fd6d8a2428546b83c5f2426d84b152ef82be8055556e3b40eb6"
+    },
+    {
+      "workspacePath": "web/wallet-core.js",
+      "repository": "sdk",
+      "repositoryPath": "web/wallet-core.js",
+      "sha256": "a41b6c90584e3558f624a30640f2ebfd67b76951f412b256ebaa49e7861beb47"
+    },
+    {
+      "workspacePath": "web/work-meter.mjs",
+      "repository": "miner",
+      "repositoryPath": "web/work-meter.mjs",
+      "sha256": "9faea851aa0763fee69a938389bb1cfcad9299959b36e017177633b0ae255b44"
+    }
+  ],
+  "retainedOutsideNewRepositories": [
+    ".gitignore",
+    "AGENTS.md",
+    "README.md",
+    "deploy/keys/flybrain-work.known_hosts",
+    "deploy/keys/flybrain-work.pub",
+    "docs/BRAIN_SIM_POW_ARCHITECTURE_ZH.md",
+    "docs/BRAND_VI_ZH.md",
+    "docs/CAMPAIGN_ARCHITECTURE_ZH.md",
+    "docs/CAMPAIGN_LOCALNET_ZH.md",
+    "docs/CLOUD_NODE_TEST_ZH.md",
+    "docs/COMPRESSION_REVIEW_ZH.md",
+    "docs/COMPUTATION_TELEMETRY_ZH.md",
+    "docs/CPANEL_DEPLOYMENT_ZH.md",
+    "docs/DEPLOY_QUICKSTART_ZH.md",
+    "docs/EXPERIMENT_V1_ZH.md",
+    "docs/EXPLORER_EXECUTION_ZH.md",
+    "docs/EXPLORER_V1_ACCEPTANCE_ZH.md",
+    "docs/EXPLORER_V1_ZH.md",
+    "docs/GOAL_MINING_V2_ACCEPTANCE_ZH.md",
+    "docs/GOAL_MINING_V2_PROTOCOL_ZH.md",
+    "docs/GOAL_MINING_V2_WEBSITE_ZH.md",
+    "docs/GOAL_MINING_V2_WORK_LOG.md",
+    "docs/GOAL_MINING_V2_ZH.md",
+    "docs/IMAGE_OPTIMIZATION_ZH.md",
+    "docs/LAUNCH_GATES_ZH.md",
+    "docs/LAUNCH_PROGRAM_ZH.md",
+    "docs/LEGACY_PROTOCOL_ZH.md",
+    "docs/LEGACY_README_ZH.md",
+    "docs/LIVE_CURRENT_V3_ACCEPTANCE_ZH.md",
+    "docs/LIVE_CURRENT_V3_ZH.md",
+    "docs/MINER_UX_ZH.md",
+    "docs/MINING_3D_ACCEPTANCE_ZH.md",
+    "docs/MINING_3D_ZH.md",
+    "docs/MINING_OPTIMIZATION_ACCEPTANCE_ZH.md",
+    "docs/MINING_OPTIMIZATION_ZH.md",
+    "docs/MINING_PRODUCT_ACCEPTANCE_ZH.md",
+    "docs/MINING_PRODUCT_ZH.md",
+    "docs/MOBILE_3D_COMPATIBILITY_ZH.md",
+    "docs/OFFICIAL_BROWSER_DOWNLOAD_ZH.md",
+    "docs/PRODUCT_SITE_V2_ACCEPTANCE_ZH.md",
+    "docs/PRODUCT_SITE_V2_ZH.md",
+    "docs/PRODUCT_UPGRADE_EXECUTION_ZH.md",
+    "docs/PROTOCOL_V01_ARCHIVE_ZH.md",
+    "docs/PROTOCOL_ZH.md",
+    "docs/RESEARCH_CAMPAIGN_STATUS_ZH.md",
+    "docs/SOLANA_TARGET_ARCHITECTURE_ZH.md",
+    "docs/SUBMISSION_V1_ZH.md",
+    "docs/TARGET_SERVICE_DEPLOYMENT_ZH.md",
+    "docs/assets/cloud-node-20261011/acceptance-summary.json",
+    "docs/assets/explorer-20261012/acceptance-summary.json",
+    "docs/assets/explorer-20261012/actual-console-final-zh-390.png",
+    "docs/assets/explorer-20261012/browser-compact-console-public.json",
+    "docs/assets/explorer-20261012/browser-explorer-public.json",
+    "docs/assets/explorer-20261012/browser-mining-stages-public.json",
+    "docs/assets/explorer-20261012/browser-recovery-public.json",
+    "docs/assets/explorer-20261012/economic-sbf-summary.json",
+    "docs/assets/explorer-20261012/explorer-evidence-zh-390.png",
+    "docs/assets/explorer-20261012/isolated-chain-link-acceptance.json",
+    "docs/assets/explorer-20261012/mining-ready.png",
+    "docs/assets/explorer-20261012/mining-stage-en-1440.png",
+    "docs/assets/explorer-20261012/mining-stage-en-390.png",
+    "docs/assets/explorer-20261012/mining-stage-zh-1440.png",
+    "docs/assets/explorer-20261012/mining-stage-zh-390.png",
+    "docs/assets/explorer-20261012/official-rpc-references.json",
+    "docs/assets/explorer-20261012/pending-refresh-zh-390.png",
+    "docs/assets/explorer-20261012/pressure.json",
+    "docs/assets/explorer-20261012/query-isolation.json",
+    "docs/assets/explorer-20261012/rebuild-acceptance.json",
+    "docs/assets/explorer-20261012/restart-preservation.json",
+    "docs/assets/explorer-20261012/sbf-book-differential.json",
+    "docs/assets/explorer-20261012/sbf-book-trace.json",
+    "docs/assets/explorer-20261012/static-validation-final.json",
+    "docs/assets/explorer-20261012/volume-query.json",
+    "docs/assets/goal-mining-v2-website/acceptance-summary.json",
+    "docs/assets/goal-mining-v2-website/desktop.png",
+    "docs/assets/goal-mining-v2-website/mobile-390.png",
+    "docs/assets/goal-mining-v2/acceptance-summary.json",
+    "docs/assets/goal-mining-v2/atlas-10348.png",
+    "docs/assets/goal-mining-v2/recorded-propagation.gif",
+    "docs/assets/goal-mining-v2/recorded-swc-desktop.png",
+    "docs/assets/goal-mining-v2/recorded-swc-mobile.png",
+    "docs/assets/goal-mining-v2/target-desktop.png",
+    "docs/assets/goal-mining-v2/target-mobile-390.png",
+    "docs/assets/live-current-v3/acceptance-summary.json",
+    "docs/assets/live-current-v3/browser-and-competition.json",
+    "docs/assets/live-current-v3/calibration-summary.json",
+    "docs/assets/live-current-v3/canvas-current.png",
+    "docs/assets/live-current-v3/current-display-measurement.json",
+    "docs/assets/live-current-v3/current-public-worker.gif",
+    "docs/assets/live-current-v3/desktop-current-goal.png",
+    "docs/assets/live-current-v3/doctor-finite-stage.json",
+    "docs/assets/live-current-v3/doctor-open-round.json",
+    "docs/assets/live-current-v3/doctor-public.json",
+    "docs/assets/live-current-v3/mobile-current-touch.png",
+    "docs/assets/live-current-v3/module-tests.json",
+    "docs/assets/live-current-v3/public-current-webgl1.png",
+    "docs/assets/live-current-v3/target-unconfigured.png",
+    "docs/assets/mining-3d/acceptance-summary.json",
+    "docs/assets/mining-3d/initial.png",
+    "docs/assets/mining-3d/inspector.png",
+    "docs/assets/mining-3d/mobile.png",
+    "docs/assets/mining-3d/propagation.png",
+    "docs/assets/mining-3d/threads.png",
+    "docs/assets/mining-optimization/propagation-en-1440.png",
+    "docs/assets/mining-optimization/propagation-zh-390.png",
+    "docs/assets/mining-optimization/workbench-zh-1440.png",
+    "docs/assets/mining-product-20261011/acceptance-summary.json",
+    "docs/assets/mining-product-20261011/brain-zh-1440.png",
+    "docs/assets/mining-product-20261011/brain-zh-390.png",
+    "docs/assets/mining-product-20261011/console-en-1440.png",
+    "docs/assets/mining-product-20261011/console-zh-1440.png",
+    "docs/assets/mining-product-20261011/console-zh-390.png",
+    "docs/assets/mining-product-20261011/controlled-cloud-pipeline.json",
+    "docs/assets/mining-product-20261011/layout-determinism.json",
+    "docs/assets/mining-product-20261011/network-stats-example.json",
+    "docs/assets/mining-product-20261011/normal-website-pipeline.json",
+    "docs/assets/mining-product-20261011/persisted-records.json",
+    "docs/assets/mining-product-20261011/portrait-layout.json",
+    "docs/assets/mining-product-20261011/restart-persistence.json",
+    "docs/assets/mobile-3d/acceptance-summary.json",
+    "docs/assets/mobile-3d/public-webgl1-390.png",
+    "docs/assets/mobile-3d/public-webgl2-390.png",
+    "docs/assets/product-site-20261011/acceptance-summary.json",
+    "docs/assets/product-site-20261011/account-trace.json",
+    "docs/assets/product-site-20261011/brain-zh-1440.png",
+    "docs/assets/product-site-20261011/brain-zh-390.png",
+    "docs/assets/product-site-20261011/deployment-summary.json",
+    "docs/assets/product-site-20261011/economics-1280.png",
+    "docs/assets/product-site-20261011/economics-390.png",
+    "docs/assets/product-site-20261011/economy-localnet.json",
+    "docs/assets/product-site-20261011/home-1280.png",
+    "docs/assets/product-site-20261011/home-390.png",
+    "docs/assets/product-site-20261011/http-routes.json",
+    "docs/assets/product-site-20261011/normal-website-pipeline.json",
+    "docs/assets/product-site-20261011/portrait-layout.json",
+    "docs/assets/product-site-20261011/product-browser.json",
+    "docs/assets/product-site-20261011/product-followup-r4.json",
+    "docs/assets/product-site-20261011/product-followup.json",
+    "docs/assets/product-site-20261011/public-result.json",
+    "docs/assets/product-site-20261011/reference-access.json",
+    "docs/assets/product-site-20261011/restart-persistence.json",
+    "docs/assets/product-site-20261011/restart-r4-persistence.json",
+    "docs/assets/product-site-20261011/results-1280.png",
+    "docs/assets/product-site-20261011/results-390.png",
+    "docs/assets/product-site-20261011/services-1280.png",
+    "docs/assets/product-site-20261011/services-390.png",
+    "docs/assets/product-site-20261011/settlement-config-validation.json",
+    "docs/assets/product-site-20261011/target-regressions.json",
+    "docs/assets/server-feasibility/summary.json",
+    "docs/history/v1/PROTOCOL_ZH.md",
+    "docs/reports/mining-optimization-benchmark.json",
+    "docs/reports/mining-optimization-browser-official-r2.json",
+    "docs/reports/mining-optimization-browser-prepared-r3.json",
+    "docs/reports/mining-optimization-browser-prepared.json",
+    "docs/reports/mining-optimization-browser-public-r3.json",
+    "docs/reports/mining-optimization-checks.json",
+    "docs/reports/mining-optimization-deployment-r3.json",
+    "docs/reports/mining-optimization-deployment.json",
+    "docs/reports/mining-optimization-diagnostics.json",
+    "docs/reports/mining-optimization-public-http-r3.json",
+    "docs/reports/mining-optimization-public-http.json",
+    "docs/reports/mining-optimization-reference.json",
+    "docs/reports/mining-optimization-release-r3.json",
+    "docs/reports/mining-optimization-release.json"
+  ],
+  "productionDeploymentChanged": false,
+  "intentionalImportChanges": [
+    "deploy/target-v2/README.md",
+    "src/site.rs",
+    "src/web_tests.rs",
+    "tests/test_static_export.py",
+    "tools/export_static.py"
+  ]
+}

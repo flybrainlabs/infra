@@ -1,0 +1,64 @@
+{
+  "schema": "flybrain-release-manifest-v1",
+  "owner": "flybrainwork",
+  "release": "2026-10-12-initial-pending-publication",
+  "infrastructureRevision": "the commit containing this manifest",
+  "repositories": {
+    "web": {
+      "url": "https://github.com/flybrainwork/web.git",
+      "commit": "ec67bf09ab6c78eb30bcc187a29a362128bc1f31",
+      "publicationStatus": "verified_before_suspension"
+    },
+    "node": {
+      "url": "https://github.com/flybrainwork/node.git",
+      "commit": "a688ccc29c5d3bf0011688bea1e4648a3ee47c48",
+      "publicationStatus": "verified_before_suspension"
+    },
+    "miner": {
+      "url": "https://github.com/flybrainwork/miner.git",
+      "commit": "523462d70b8a08999b2c81ce2b22282a8add9f7c",
+      "publicationStatus": "verified_before_suspension"
+    },
+    "explorer": {
+      "url": "https://github.com/flybrainwork/explorer.git",
+      "commit": "ed8b4adf1892b7a5d328825f338da7e36555fa69",
+      "publicationStatus": "verified_before_suspension"
+    },
+    "protocol": {
+      "url": "https://github.com/flybrainwork/protocol.git",
+      "commit": "8c11b5cd89c763373eee49f20bb22343929d88d3",
+      "publicationStatus": "not_confirmed"
+    },
+    "contracts": {
+      "url": "https://github.com/flybrainwork/contracts.git",
+      "commit": "577fa7fd42bfa7cff2690b3fa15d660e72cc9fbd",
+      "publicationStatus": "pending"
+    },
+    "sdk": {
+      "url": "https://github.com/flybrainwork/sdk.git",
+      "commit": "a468016046c19b8069ca7703bf5fc42987e8b39d",
+      "publicationStatus": "pending"
+    },
+    "research": {
+      "url": "https://github.com/flybrainwork/research.git",
+      "commit": "61ab76f9084c8bc571b58f24a102aee885acfff0",
+      "publicationStatus": "pending"
+    },
+    "docs": {
+      "url": "https://github.com/flybrainwork/docs.git",
+      "commit": "6f8adb9d56e332c7a9df8dd88647cc3ebaf690a8",
+      "publicationStatus": "pending"
+    }
+  },
+  "publication": {
+    "complete": false,
+    "blockingCondition": "GitHub suspended the flybrainwork account; Git transport and API HTTP 403 agree",
+    "verifiedRepositoryCount": 4,
+    "remainingRepositoryCount": 6
+  },
+  "stateRetention": {
+    "modelDownloadRequired": false,
+    "databaseResetRequired": false,
+    "browserProfileResetRequired": false
+  }
+}

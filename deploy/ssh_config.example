@@ -1,0 +1,14 @@
+# Public template. Copy to an external, private SSH configuration directory.
+# This file contains no password or private key.
+Host flybrain-work
+    HostName server241.web-hosting.com
+    Port 21098
+    User flybwhiv
+    IdentityFile ~/.ssh/flybrain-work/id_ed25519
+    UserKnownHostsFile ~/.ssh/flybrain-work/known_hosts
+    IdentitiesOnly yes
+    BatchMode yes
+    StrictHostKeyChecking yes
+    ConnectTimeout 15
+    ServerAliveInterval 20
+    ServerAliveCountMax 6

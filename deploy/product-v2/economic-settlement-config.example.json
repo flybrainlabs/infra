@@ -1,0 +1,19 @@
+{
+  "schema": "flybrain-economic-settlement-v2",
+  "enabled": false,
+  "networkId": null,
+  "authorityId": null,
+  "asset": null,
+  "chain": "solana",
+  "decimals": 8,
+  "programId": null,
+  "genesisHash": null,
+  "mint": null,
+  "policyHash": null,
+  "vaults": [null, null, null],
+  "capAtoms": "31183324300000000",
+  "admittedObservers": [],
+  "finality": "finalized",
+  "upgradeReview": {"reviewed": false, "auditRef": null},
+  "inspectionReviewedAt": null
+}

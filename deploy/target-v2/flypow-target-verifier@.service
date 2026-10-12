@@ -1,0 +1,23 @@
+[Unit]
+Description=FlyPoW full MaleCNS replay verifier %i
+After=network-online.target flypow-target-authority.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=flypow
+Group=flypow
+WorkingDirectory=/opt/flypow
+ExecStart=/usr/bin/node /opt/flypow/tools/candidate_verifier_v2.mjs /etc/flypow/verifier-%i-runtime.json /etc/flypow/private/verifier-%i.key
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/flypow/replays/%i
+MemoryMax=1G
+
+[Install]
+WantedBy=multi-user.target

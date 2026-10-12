@@ -1,0 +1,23 @@
+[Unit]
+Description=FlyPoW development target authority (no payment/rewards)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=flypow
+Group=flypow
+WorkingDirectory=/opt/flypow
+ExecStart=/opt/flypow/bin/target_authority /etc/flypow/authority-config.json /var/lib/flypow/authority 127.0.0.1:8790
+Restart=on-failure
+RestartSec=3
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/flypow/authority
+MemoryMax=768M
+
+[Install]
+WantedBy=multi-user.target

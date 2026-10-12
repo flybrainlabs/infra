@@ -1,0 +1,28 @@
+{
+  "schema": "flybrain-component-v1",
+  "repository": "infra",
+  "owner": "flybrainwork",
+  "workspaceFiles": {
+    "deploy/deploy-static.sh": "deploy/deploy-static.sh",
+    "deploy/explorer-v1/chain-config.example.json": "deploy/explorer-v1/chain-config.example.json",
+    "deploy/explorer-v1/flypow-explorer-query.service": "deploy/explorer-v1/flypow-explorer-query.service",
+    "deploy/explorer-v1/nginx-http-limits.conf": "deploy/explorer-v1/nginx-http-limits.conf",
+    "deploy/flypow-web.service": "deploy/flypow-web.service",
+    "deploy/product-v2/economic-settlement-config.example.json": "deploy/product-v2/economic-settlement-config.example.json",
+    "deploy/product-v2/nginx-product-api.conf": "deploy/product-v2/nginx-product-api.conf",
+    "deploy/ssh_config.example": "deploy/ssh_config.example",
+    "deploy/target-v2/README.md": "deploy/target-v2/README.md",
+    "deploy/target-v2/flypow-target-authority.service": "deploy/target-v2/flypow-target-authority.service",
+    "deploy/target-v2/flypow-target-verifier-serial.service": "deploy/target-v2/flypow-target-verifier-serial.service",
+    "deploy/target-v2/flypow-target-verifier@.service": "deploy/target-v2/flypow-target-verifier@.service",
+    "deploy/target-v2/nginx-api.conf": "deploy/target-v2/nginx-api.conf",
+    "tests/browser_cache.py": "tests/browser_cache.py",
+    "tests/check_product_restart.py": "tests/check_product_restart.py",
+    "tests/test_deploy_release.py": "tests/test_deploy_release.py",
+    "tools/check_product_node_rollback.sh": "tools/check_product_node_rollback.sh",
+    "tools/deploy_mining_release.py": "tools/deploy_mining_release.py",
+    "tools/upgrade_product_node.sh": "tools/upgrade_product_node.sh",
+    "tools/upgrade_product_site_node.sh": "tools/upgrade_product_site_node.sh",
+    "AGENTS.md": "AGENTS.md"
+  }
+}

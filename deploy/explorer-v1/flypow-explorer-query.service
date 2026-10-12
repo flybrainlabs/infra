@@ -1,0 +1,26 @@
+[Unit]
+Description=Flybrain public Explorer read-only query process
+After=flypow-target-authority.service
+Requires=flypow-target-authority.service
+
+[Service]
+Type=simple
+User=flypow
+Group=flypow
+ExecStart=/opt/flypow/bin/flypow_explorer_query /var/lib/flypow/authority/public-query/explorer-v1.sqlite 127.0.0.1:8791
+Restart=on-failure
+RestartSec=3
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadOnlyPaths=/var/lib/flypow/authority/public-query/explorer-v1.sqlite
+ReadWritePaths=/var/lib/flypow/authority/public-query
+InaccessiblePaths=/var/lib/flypow/authority/private /var/lib/flypow/authority/target-v2.sqlite -/var/lib/flypow/authority/target-v2.sqlite-wal -/var/lib/flypow/authority/target-v2.sqlite-shm -/var/lib/flypow/verification
+MemoryMax=192M
+TasksMax=64
+CPUQuota=50%
+
+[Install]
+WantedBy=multi-user.target

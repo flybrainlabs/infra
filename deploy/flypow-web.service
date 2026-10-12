@@ -1,0 +1,13 @@
+[Unit]
+Description=FlyPoW local connectome verification web service
+
+[Service]
+Type=simple
+WorkingDirectory=/home/mars/develop/project/flypow
+ExecStart=/home/mars/develop/project/flypow/target/release/flypow-web --data-dir /home/mars/develop/project/flypow/data --port 8787
+Restart=on-failure
+RestartSec=5
+Environment=RUST_BACKTRACE=1
+
+[Install]
+WantedBy=default.target
