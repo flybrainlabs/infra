@@ -1,19 +1,19 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "public-ui-20261013-v1",
+  "release": "task-supply-20261013-v2",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "356aa2750b477ec6d1386f18bd7ddee9984e1cba",
+      "commit": "5088b89baf337f8f0e236443514d8bec43b5ea52",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "ee13b527156623164dbf4b2b481c35b2a4086c9e",
+      "commit": "53bd37100bc67068f7856585bd207e5b156d1258",
       "publicationStatus": "verified"
     },
     "miner": {
@@ -33,12 +33,12 @@
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
-      "commit": "c3e485c24294fdca48d45a1c073f3d3d9d34a587",
+      "commit": "6dc997cc1c7bcecef467c49e9b4829bf282daf72",
       "publicationStatus": "verified"
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "7c921787f0bc1e87b80bd6f38e6bb11397c5c953",
+      "commit": "98eaf70221033191dcd98238c4b5374d4f6a5c29",
       "publicationStatus": "verified"
     },
     "research": {
@@ -104,7 +104,10 @@
     "publicUiName": "flybrainwork",
     "localPublicUiChecks": 32,
     "publicPublicUiChecks": 32,
-    "publicWalletSessionChecks": 37
+    "publicWalletSessionChecks": 37,
+    "taskSupplyRevision": "task-supply-20261013-v2",
+    "openedRoundSequence": 32,
+    "taskSupplyRead": "public Chromium and signed current round passed"
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -120,14 +123,14 @@
   },
   "documentationCenter": {
     "path": "https://flybrain.work/docs/",
-    "revision": "docs-20261013-v6",
+    "revision": "docs-20261013-v7",
     "language": "en",
     "categories": 8,
     "articles": 26,
-    "words": 15321,
+    "words": 15650,
     "diagramDesigns": 8,
     "diagramInstances": 11,
-    "searchSections": 175,
+    "searchSections": 176,
     "publicHttpObjects": 64,
     "localReadingLayouts": 50,
     "publicReadingLayouts": 50,
@@ -143,7 +146,7 @@
     "acceptance": "docs/DOCUMENTATION_CENTER_ACCEPTANCE.json",
     "physicalAndroid": false,
     "extensionWalletConfirmation": false,
-    "internalLinks": 2119,
+    "internalLinks": 2121,
     "walletEntryStateChecks": 9,
     "localWalletEntryCases": 6,
     "publicWalletEntryCases": 6,
@@ -242,5 +245,24 @@
     "physicalDevice": false,
     "actualExtensionConfirmation": false,
     "newRewardedTasks": 0
+  },
+  "taskSupply": {
+    "revision": "task-supply-20261013-v2",
+    "cluster": "devnet",
+    "stage": "PKG52R51QHcTS2ENH4jJJUpDawnvEVsUVK1DCNXFHuG",
+    "budgetAtoms": "200000000",
+    "newGoals": 2,
+    "rewardAtomsPerGoal": "100000000",
+    "scientificPlanRevision": 3,
+    "openedRoundSequence": 32,
+    "remainingUnopenedGoalsAtVerification": 1,
+    "operatorBudgetTransactions": 3,
+    "operatorNewRewardPayments": 0,
+    "walletPlanChecks": 18,
+    "walletSessionChecks": 37,
+    "publicTaskRead": "passed",
+    "actualExtensionConfirmation": false,
+    "physicalDevice": false,
+    "acceptance": "docs/TASK_SUPPLY_ACCEPTANCE.json"
   }
 }

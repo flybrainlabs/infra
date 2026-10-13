@@ -1,0 +1,446 @@
+{
+  "schema": "flybrainlabs-task-supply-acceptance-v1",
+  "revision": "task-supply-20261013-v2",
+  "site": "https://flybrain.work/mining/",
+  "testOnly": true,
+  "cluster": "devnet",
+  "scope": "two new prospectively funded complete-model tasks; retain the original paid stage and asset",
+  "proof": {
+    "preparation": {
+      "schema": "flybrainlabs-task-supply-preparation-v1",
+      "stateBefore": "RESEARCH_STAGE_COMPLETE",
+      "previousPlanHash": "efe25394bb5544d5fadace48a561d07d46d0422d4e47c885beea748cb40be393",
+      "previousRevision": 2,
+      "historyCount": 31,
+      "goals": [
+        {
+          "goalId": "ae6d454b48ffde3793e5cc3951a99c7f197f3e5f0262741287e54550bee939da",
+          "scientificTaskId": "9a8be98af5662997c5206d6604136806b87367bf25d455231eb08e26e24a6076",
+          "rewardAtoms": "100000000"
+        },
+        {
+          "goalId": "2be3c6fcc9ae852afaa9b981332592eda960de29e69b71a90c625602ae6bbe86",
+          "scientificTaskId": "e91c163a9ec34abbf01131e5ca827f4ed7d573c10560854a1c4fc8b79f6047d5",
+          "rewardAtoms": "100000000"
+        }
+      ],
+      "calibrationLevels": [
+        [
+          {
+            "backgrounds": 2,
+            "samples": 20,
+            "successes": 8,
+            "heldOutSamples": 8,
+            "heldOutSuccesses": 2
+          },
+          {
+            "backgrounds": 4,
+            "samples": 20,
+            "successes": 6,
+            "heldOutSamples": 8,
+            "heldOutSuccesses": 2
+          }
+        ],
+        [
+          {
+            "backgrounds": 2,
+            "samples": 20,
+            "successes": 8,
+            "heldOutSamples": 8,
+            "heldOutSuccesses": 2
+          },
+          {
+            "backgrounds": 4,
+            "samples": 20,
+            "successes": 6,
+            "heldOutSamples": 8,
+            "heldOutSuccesses": 2
+          }
+        ]
+      ],
+      "stage": "PKG52R51QHcTS2ENH4jJJUpDawnvEVsUVK1DCNXFHuG",
+      "budgetAtoms": "200000000",
+      "network": "devnet",
+      "existingMint": "HCdV49RkqtC7pPwzHCYg5KtkmU8opifjojLbAyZXKgQW",
+      "program": "5yxjnH1PSk8iQKfK3ejG4jfSkewkTKfcpJygojdb6sam",
+      "newIssuance": false,
+      "calibrationKernelReuseDisclosed": true,
+      "calibrationIsNotMining": true,
+      "authoritySignaturesVerified": true,
+      "publicationPending": true
+    },
+    "chainBefore": {
+      "project": "2EG7CLQ2pXw2XeqtwDPt7e1UDcBfeZQ2rs2ai5EnvUdE",
+      "genesisVerified": true,
+      "mint": "HCdV49RkqtC7pPwzHCYg5KtkmU8opifjojLbAyZXKgQW",
+      "program": "5yxjnH1PSk8iQKfK3ejG4jfSkewkTKfcpJygojdb6sam",
+      "globalIssued": true,
+      "oldStagePaidAtoms": "200000000",
+      "oldStageBudgetAtoms": "200000000",
+      "oldStagePendingAtoms": "0",
+      "projectLamports": "8087315320",
+      "proposedBudgetAtoms": "200000000",
+      "newStageExists": false,
+      "network": "devnet",
+      "newTransactionsSent": 0
+    },
+    "costsBefore": {
+      "stageBytes": 256,
+      "unitBytes": 1536,
+      "maxFeeLamports": 100000,
+      "stageRentLamports": 1950720,
+      "unitRentLamports": 8453120,
+      "maximumNewAccountAndFeeLamports": "18956960",
+      "expectedBusinessTransactions": 3,
+      "maxTransportAttempts": 9
+    },
+    "configurationIntegration": {
+      "passed": true,
+      "oldStage": "6CcCZodRjRq3WArpAEkpudVgiK4EhpsSaNiDL5zq8x6x",
+      "newStage": "PKG52R51QHcTS2ENH4jJJUpDawnvEVsUVK1DCNXFHuG",
+      "publicConfigurationMatchesGateway": true,
+      "walletPermissionsRetained": true,
+      "program": "5yxjnH1PSk8iQKfK3ejG4jfSkewkTKfcpJygojdb6sam",
+      "mint": "HCdV49RkqtC7pPwzHCYg5KtkmU8opifjojLbAyZXKgQW",
+      "budgetAtoms": "200000000",
+      "units": 2,
+      "financialTransactions": 0
+    },
+    "liveSupply": {
+      "passed": true,
+      "state": "RUNNING_DEV_NO_PAYMENT",
+      "roundId": "2101d64beace9250ca2b291b2801a364f21e21e30a8ab8d42d1e0d39993c051b",
+      "roundSequence": 32,
+      "goalId": "ae6d454b48ffde3793e5cc3951a99c7f197f3e5f0262741287e54550bee939da",
+      "requiredBackgrounds": 2,
+      "signatureVerified": true,
+      "fullRoundValidated": true,
+      "remainingUnopenedGoals": 1,
+      "pendingGoals": 2,
+      "planRevision": 3,
+      "planHash": "dc27f3c62bbf0c9b8ca98ef496693c5b8dd40eed5edbc1411224f7804970fdd2",
+      "claimDeadline": 1791904727,
+      "serverTime": 1791883217,
+      "stage": "PKG52R51QHcTS2ENH4jJJUpDawnvEVsUVK1DCNXFHuG",
+      "unit": "7M7T7nuiS4ApAX3hA5QeaokGRaCmiqhBPVFXWeBqn9gN",
+      "rewardAtoms": "100000000",
+      "budgetAtoms": "200000000",
+      "readyVerifierCount": 2,
+      "newCandidatesSubmitted": 0,
+      "newPayments": 0
+    },
+    "publicBrowser": {
+      "authorityOnline": true,
+      "goalUi": {
+        "action": "connect-wallet",
+        "button": "connect-wallet",
+        "disabled": false,
+        "pendingOutputs": 0,
+        "state": "wallet-required"
+      },
+      "modelDownloads": 0,
+      "networkState": "RUNNING_DEV_NO_PAYMENT",
+      "preparationBusy": false,
+      "roundLabel": "Round 32 \u00b7 evidence",
+      "running": false,
+      "signatureCalls": 0,
+      "targetState": "Current goal open",
+      "targetTitle": "Devnet wallet acceptance population 3: 12 prospectively selected downstream cells outside every historical G/S/O population, with two fixed windows and O32 selectivity.",
+      "transactionCalls": 0,
+      "passed": true,
+      "actualPublicTaskFetch": true,
+      "walletProvider": "scripted Wallet Standard in isolated Chromium",
+      "physicalDevice": false,
+      "modelExecuted": false
+    },
+    "databaseRetention": {
+      "passed": true,
+      "databaseIntegrity": "ok",
+      "backupIntegrity": "ok",
+      "before": {
+        "candidate_claims": 40,
+        "round_winners": 29,
+        "mining_v3_candidates": 2,
+        "mining_v3_participation": 2,
+        "mining_v3_transactions": 18,
+        "mining_v3_funded_goals": 2
+      },
+      "after": {
+        "candidate_claims": 40,
+        "round_winners": 29,
+        "mining_v3_candidates": 2,
+        "mining_v3_participation": 2,
+        "mining_v3_transactions": 18,
+        "mining_v3_funded_goals": 4
+      },
+      "historicalBusinessCountsRetained": true
+    },
+    "budgetAdoptionTests": {
+      "passed": true,
+      "checks": 18,
+      "walletPermissionsRetained": true,
+      "financialTransactions": 0
+    },
+    "localWalletSession": {
+      "site": "http://127.0.0.1:9137",
+      "actualChromium": true,
+      "wallet": "fixture Wallet Standard",
+      "extensionConfirmation": false,
+      "physicalDevice": false,
+      "modelLoaded": false,
+      "checks": [
+        "manual selection remembered without keys",
+        "refresh restores provider connection and unexpired login",
+        "navigation retains wallet selection",
+        "locked wallet is not claimed connected",
+        "manual reconnect recovers valid same-tab login",
+        "temporary node failure retains login and wallet",
+        "server-expired login retains connection and needs sign-in",
+        "silent connection rejects a different account",
+        "missing extension leaves restoration pending",
+        "late provider registration restores saved selection",
+        "disconnect defeats a late restoration response",
+        "explicit disconnect stays disconnected after reload",
+        "account change invalidates old selection",
+        "manual connection works with storage blocked",
+        "expired saved login does not require selecting wallet again",
+        "disconnect in another tab invalidates this connection",
+        "another tab account selection is preserved and isolated",
+        "another tab disconnect defeats pending restoration",
+        "320/en/fetching: one stage and honest availability",
+        "320/en/building: one stage and honest availability",
+        "320/en/ready: one stage and honest availability",
+        "320/zh/fetching: one stage and honest availability",
+        "320/zh/building: one stage and honest availability",
+        "320/zh/ready: one stage and honest availability",
+        "390/en/fetching: one stage and honest availability",
+        "390/en/building: one stage and honest availability",
+        "390/en/ready: one stage and honest availability",
+        "390/zh/fetching: one stage and honest availability",
+        "390/zh/building: one stage and honest availability",
+        "390/zh/ready: one stage and honest availability",
+        "1440/en/fetching: one stage and honest availability",
+        "1440/en/building: one stage and honest availability",
+        "1440/en/ready: one stage and honest availability",
+        "1440/zh/fetching: one stage and honest availability",
+        "1440/zh/building: one stage and honest availability",
+        "1440/zh/ready: one stage and honest availability",
+        "no signatures, funding writes, model downloads or automatic computation"
+      ],
+      "passed": true,
+      "transactions": 0,
+      "signatures": 0,
+      "preparedModelPresentation": "fixture only"
+    }
+  },
+  "newOperatorBudgetTransactions": 3,
+  "newRewardPaymentsByOperator": 0,
+  "newIssuance": false,
+  "poolCustodyTransfers": 0,
+  "newMinerGrantsByOperator": 0,
+  "actualExtensionConfirmation": false,
+  "physicalDevice": false,
+  "authorityRestarted": false,
+  "verifiersRestarted": false,
+  "completeModelAndAtlasRetained": true,
+  "publicHttp": {
+    "passed": true,
+    "matchedUncompressedPublicObjects": 23,
+    "phaseOneDeploymentObjects": 7,
+    "phaseTwoDeploymentObjects": 22,
+    "objects": [
+      {
+        "path": "assets/data/docs-manifest-v1.json",
+        "sha256": "68d92f929e1c9926a62c10e7b891d02d874375e49e9dae94dd88e8cb4ef7493c",
+        "matched": true
+      },
+      {
+        "path": "assets/data/docs-search-v1.json",
+        "sha256": "a911705dd082bd16ef8510d1819b4db631dd7e66576a61d99f7cfa6a8ff25dcf",
+        "matched": true
+      },
+      {
+        "path": "assets/data/mining-deployment-v1.json",
+        "sha256": "f58ff7e23e9334e90161e37a3fc117be1fa8a2ae4f8322218941a7203fcbed79",
+        "matched": true
+      },
+      {
+        "path": "assets/data/wallet-mining-v3.json",
+        "sha256": "66ffc492494c3ef68503d9011102545da0cf2a0e1b9a0878e7da528959b58450",
+        "matched": true
+      },
+      {
+        "path": "assets/vendor/generated/wallet-session-v3.mjs",
+        "sha256": "1ff4738eb9187f9a7db5b0a1cc3a465404f739e5bc1e3c9c7f3bb88b93223759",
+        "matched": true
+      },
+      {
+        "path": "docs/availability/index.html",
+        "sha256": "9fb7ffbde11bcb298fc816ff962c5a9e628f82bbd33b1b2fdb3717c64ff4b4d8",
+        "matched": true
+      },
+      {
+        "path": "docs/devnet/index.html",
+        "sha256": "160f51950edc0e7b2c4f4de1a6b8d82465c51433590755e2cbb472f8fecf3b9a",
+        "matched": true
+      },
+      {
+        "path": "docs/grants/index.html",
+        "sha256": "6770d4b246e84bb74f977770f02fd14717c50f844f938b986337f95fca0ef235",
+        "matched": true
+      },
+      {
+        "path": "docs/index.html",
+        "sha256": "0aad568bc2673696012fb80ad2b331210872d7116bd86a29e169023bad59bbe5",
+        "matched": true
+      },
+      {
+        "path": "docs/mining/index.html",
+        "sha256": "8bc6eca867b92638addf7903966e0eed5fe85bd15316725708cf9d176863600e",
+        "matched": true
+      },
+      {
+        "path": "docs/overview/index.html",
+        "sha256": "de6521deaccd83668d511ebc625bbc4e41b960ef6cb66ade7c16f447dfe83505",
+        "matched": true
+      },
+      {
+        "path": "docs/quickstart/index.html",
+        "sha256": "1f08c0b95e49b859ce67ce44d4aee129c7b8b84ec43b8468c1542935215f2305",
+        "matched": true
+      },
+      {
+        "path": "docs/tasks/index.html",
+        "sha256": "8dd107f6cfa623914417e1ce8c20aec98ed5d059532caa5452d781a22582f93c",
+        "matched": true
+      },
+      {
+        "path": "docs/troubleshooting/index.html",
+        "sha256": "ab7dca49349abc1a69f82bcf3187cf69701399a6b8ebd47a118009c36a360387",
+        "matched": true
+      },
+      {
+        "path": "downloads/docs/availability.md",
+        "sha256": "ede0c0fea37f875ccff468a68d0fd037b0aca91bd842947dd1a5cd8ac1adeb42",
+        "matched": true
+      },
+      {
+        "path": "downloads/docs/devnet.md",
+        "sha256": "922ddec316bd711f25d2cbf4532305574260b4cdb9811320365ec0fd5227a4f4",
+        "matched": true
+      },
+      {
+        "path": "downloads/docs/grants.md",
+        "sha256": "0f964102a03346c101eb0bde56ed2f3e4eae51658df9e05f0c968411e5cabbe6",
+        "matched": true
+      },
+      {
+        "path": "downloads/docs/mining.md",
+        "sha256": "3c098ff80eba6b9dcc93afb862acae7df384a954f8f5dd3c63d03e24b04aada7",
+        "matched": true
+      },
+      {
+        "path": "downloads/docs/overview.md",
+        "sha256": "99889fd83601641798764270e73f98aa0453cd3950e1f0bdd341c6d829240340",
+        "matched": true
+      },
+      {
+        "path": "downloads/docs/quickstart.md",
+        "sha256": "d7fc547b95aff69d1f049b719d97e9bf02b5b22ea6fe6052f4fcd4f82f3e166d",
+        "matched": true
+      },
+      {
+        "path": "downloads/docs/tasks.md",
+        "sha256": "a4be84b659146ee263033fe0d2e083214468778d965b5686116c75d66e723eaa",
+        "matched": true
+      },
+      {
+        "path": "downloads/docs/troubleshooting.md",
+        "sha256": "37f1000ef4d679091a27b90f8fb93d2849a66de98b8c89a454ebb755b0744ef7",
+        "matched": true
+      },
+      {
+        "path": "release.json",
+        "sha256": "1b5ccd21617e812f71a22a7366db6cef9569c517990468b1352fd61ac44fce71",
+        "matched": true
+      }
+    ]
+  },
+  "websiteDeploymentPhases": [
+    {
+      "schema": "flypow-mining-deploy-v1",
+      "release": "/workspace/flybrainlabs-mining-session-release-20261013",
+      "backup": "/home/flybwhiv/flypow-deploy/mining-optimization-20261013T091724Z-29502/before.tar.gz",
+      "backup_sha256": "88b0ea721890f40611f1f67b88302633cea180f45128acd0ceda9ba867c70178",
+      "backup_gzip_verified": true,
+      "new_paths_for_rollback": [],
+      "existing_paths_backed_up": [
+        "assets/data/mining-deployment-v1.json",
+        "assets/data/mining-deployment-v1.json.gz",
+        "assets/data/wallet-mining-v3.json",
+        "assets/data/wallet-mining-v3.json.gz",
+        "assets/vendor/generated/wallet-session-v3.mjs",
+        "assets/vendor/generated/wallet-session-v3.mjs.gz",
+        "release.json"
+      ],
+      "remote_before_matches_retained": true,
+      "remote_after_matches_release": true,
+      "changed_files": 7,
+      "method": "scoped checksum rsync delay-updates; existing files archived; no atlas replacement or deletion"
+    },
+    {
+      "schema": "flypow-mining-deploy-v1",
+      "release": "/workspace/flybrainlabs-mining-session-release-20261013",
+      "backup": "/home/flybwhiv/flypow-deploy/mining-optimization-20261013T092940Z-29962/before.tar.gz",
+      "backup_sha256": "9ff33d21856d5681e4171341103e79e92ee9d4d85e1de0893348acf2664ffa24",
+      "backup_gzip_verified": true,
+      "new_paths_for_rollback": [],
+      "existing_paths_backed_up": [
+        "assets/data/docs-manifest-v1.json",
+        "assets/data/docs-manifest-v1.json.gz",
+        "assets/data/docs-search-v1.json",
+        "assets/data/docs-search-v1.json.gz",
+        "docs/availability/index.html",
+        "docs/devnet/index.html",
+        "docs/grants/index.html",
+        "docs/index.html",
+        "docs/mining/index.html",
+        "docs/overview/index.html",
+        "docs/quickstart/index.html",
+        "docs/tasks/index.html",
+        "docs/troubleshooting/index.html",
+        "downloads/docs/availability.md",
+        "downloads/docs/devnet.md",
+        "downloads/docs/grants.md",
+        "downloads/docs/mining.md",
+        "downloads/docs/overview.md",
+        "downloads/docs/quickstart.md",
+        "downloads/docs/tasks.md",
+        "downloads/docs/troubleshooting.md",
+        "release.json"
+      ],
+      "remote_before_matches_retained": true,
+      "remote_after_matches_release": true,
+      "changed_files": 22,
+      "method": "scoped checksum rsync delay-updates; existing files archived; no atlas replacement or deletion"
+    }
+  ],
+  "publishedSourceDependencies": {
+    "contracts": {
+      "head": "6dc997cc1c7bcecef467c49e9b4829bf282daf72",
+      "verified": true
+    },
+    "node": {
+      "head": "53bd37100bc67068f7856585bd207e5b156d1258",
+      "verified": true
+    },
+    "sdk": {
+      "head": "98eaf70221033191dcd98238c4b5374d4f6a5c29",
+      "verified": true
+    },
+    "web": {
+      "head": "5088b89baf337f8f0e236443514d8bec43b5ea52",
+      "verified": true
+    }
+  }
+}
