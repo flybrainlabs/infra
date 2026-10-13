@@ -1,12 +1,12 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "task-supply-20261013-v2",
+  "release": "mining-start-20261013-v1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "5088b89baf337f8f0e236443514d8bec43b5ea52",
+      "commit": "8da36b4f822cfd9516b40c3004987145abc508cc",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
@@ -18,7 +18,7 @@
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "553896d4aaf65aba77b18ca12f366b37fa876213",
+      "commit": "be8f132d5a2636b4209bc5829e79494a7ae4faaa",
       "publicationStatus": "verified"
     },
     "explorer": {
@@ -38,7 +38,7 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "98eaf70221033191dcd98238c4b5374d4f6a5c29",
+      "commit": "9cac18c30fb3e7fe7e005157f4fad6117fbd72f6",
       "publicationStatus": "verified"
     },
     "research": {
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "a416fc74293946822936ad1ce7cfbef1cb3d0056",
+      "commit": "dadd3a54aee86026335ed6117b3cbd7de099c4c9",
       "publicationStatus": "verified"
     }
   },
@@ -70,7 +70,7 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "social-community-20261013-v1",
+    "websiteRevision": "mining-start-20261013-v1",
     "changedWebsiteObjects": 78,
     "localBrowserLayouts": 42,
     "publicBrowserLayouts": 42,
@@ -89,7 +89,7 @@
     "mintAuthorityRevoked": true,
     "repeatIssuanceAdditionalTransactions": 0,
     "sourceWalletPromptSha256": "dbaf5df05f10d06aeb7edaa25bbc200e8c1a3ffb4bd77ebf20f48aa7168a7f31",
-    "walletMiningPromptImplementation": "complete finite Devnet acceptance; two-unit budget exhausted; actual extension confirmation pending",
+    "walletMiningPromptImplementation": "initial finite Devnet acceptance completed; renewed prospective stage available; actual extension confirmation pending",
     "currentTokenSymbol": "FBW",
     "currentTokenName": "flybrainwork",
     "localWalletEntryCases": 6,
@@ -107,7 +107,12 @@
     "publicWalletSessionChecks": 37,
     "taskSupplyRevision": "task-supply-20261013-v2",
     "openedRoundSequence": 32,
-    "taskSupplyRead": "public Chromium and signed current round passed"
+    "taskSupplyRead": "public Chromium and signed current round passed",
+    "miningAdmissionRevision": "mining-start-20261013-v1",
+    "localAdmissionChecks": 17,
+    "publicAdmissionChecks": 17,
+    "preparedWorkerFullModelExecution": false,
+    "originalUserMiningFailure": "technical diagnostic and actual extension/full mining confirmation remain pending"
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -123,14 +128,14 @@
   },
   "documentationCenter": {
     "path": "https://flybrain.work/docs/",
-    "revision": "docs-20261013-v7",
+    "revision": "docs-20261013-v8",
     "language": "en",
     "categories": 8,
     "articles": 26,
-    "words": 15650,
+    "words": 15977,
     "diagramDesigns": 8,
     "diagramInstances": 11,
-    "searchSections": 176,
+    "searchSections": 177,
     "publicHttpObjects": 64,
     "localReadingLayouts": 50,
     "publicReadingLayouts": 50,
@@ -162,7 +167,8 @@
     "scopedDeploymentHashVerification": "passed",
     "latestCorrectionsAcceptance": "docs/MINING_SESSION_ACCEPTANCE.json",
     "latestCommunityAcceptance": "docs/SOCIAL_COMMUNITY_ACCEPTANCE.json",
-    "latestUiAcceptance": "docs/PUBLIC_UI_ACCEPTANCE.json"
+    "latestUiAcceptance": "docs/PUBLIC_UI_ACCEPTANCE.json",
+    "latestAdmissionAcceptance": "docs/MINING_ADMISSION_ACCEPTANCE.json"
   },
   "miningSession": {
     "project": "flybrainlabs",
@@ -264,5 +270,26 @@
     "actualExtensionConfirmation": false,
     "physicalDevice": false,
     "acceptance": "docs/TASK_SUPPLY_ACCEPTANCE.json"
+  },
+  "miningAdmission": {
+    "revision": "mining-start-20261013-v1",
+    "site": "https://flybrain.work/mining/",
+    "localFundingChecks": 17,
+    "publicFundingChecks": 17,
+    "localWalletSessionChecks": 37,
+    "publicWalletSessionChecks": 37,
+    "fundingPredicateChecks": 23,
+    "walletActionPolicyChecks": 28,
+    "staticExportTests": 8,
+    "operatorChainTransactions": 0,
+    "newTasksCreated": 0,
+    "newRewardPayments": 0,
+    "modelDownloads": 0,
+    "modelExecuted": false,
+    "extensionConfirmation": false,
+    "originalUserFullMiningConfirmed": false,
+    "physicalAndroid": false,
+    "physicalGPU": false,
+    "acceptance": "docs/MINING_ADMISSION_ACCEPTANCE.json"
   }
 }
