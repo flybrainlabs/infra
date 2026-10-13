@@ -32,7 +32,8 @@
     "deploy/target-v2/flybrainlabs-community.service": "deploy/target-v2/flybrainlabs-community.service",
     "deploy/target-v2/nginx-community.conf": "deploy/target-v2/nginx-community.conf",
     "tools/upgrade_community.sh": "tools/upgrade_community.sh",
-    "infra/docs/SOCIAL_COMMUNITY_ACCEPTANCE.json": "docs/SOCIAL_COMMUNITY_ACCEPTANCE.json"
+    "infra/docs/SOCIAL_COMMUNITY_ACCEPTANCE.json": "docs/SOCIAL_COMMUNITY_ACCEPTANCE.json",
+    "infra/docs/PUBLIC_UI_ACCEPTANCE.json": "docs/PUBLIC_UI_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }

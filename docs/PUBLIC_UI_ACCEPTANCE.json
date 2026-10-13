@@ -1,0 +1,101 @@
+{
+  "schema": "flybrainlabs-public-ui-acceptance-v1",
+  "revision": "public-ui-20261013-v1",
+  "published": true,
+  "site": "https://flybrain.work/",
+  "publicUiName": "flybrainwork",
+  "projectAndGitHubOwner": "flybrainlabs",
+  "tokenSymbol": "FBW",
+  "renderedPages": 56,
+  "localDocumentCases": 24,
+  "localShortScreenCases": 8,
+  "publicDocumentCases": 24,
+  "publicShortScreenCases": 8,
+  "languagePlacement": "first menu row; outside independently scrolling links",
+  "compactBreakpointCssPixels": 1200,
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "viewportCases": [
+    [
+      320,
+      480
+    ],
+    [
+      390,
+      568
+    ],
+    [
+      667,
+      320
+    ],
+    [
+      1024,
+      600
+    ]
+  ],
+  "pointerHitTesting": true,
+  "lastResourceAccessible": true,
+  "desktopLanguageRetained": true,
+  "headerAndDocumentNormalFlow": true,
+  "brandUnitTests": 4,
+  "staticExportTests": 8,
+  "candidateReconciliationChecks": 9,
+  "nativeLibraryCompilation": "passed",
+  "documentation": {
+    "passed": true,
+    "pages": 27,
+    "articles": 26,
+    "categories": 8,
+    "words": 15321,
+    "diagrams": 11,
+    "internalLinks": 2119,
+    "searchSections": 175,
+    "publicMarkdownDownloads": 26
+  },
+  "changedDeploymentObjects": 80,
+  "verifiedRemoteBackup": true,
+  "remoteObjectHashesMatch": true,
+  "publicObjectsMatched": 79,
+  "changedUncompressedPublicObjects": 70,
+  "retainedCoreAndConfigurationObjects": 9,
+  "completeAtlasRetained": true,
+  "frozenEconomicPolicyRetained": true,
+  "walletSessionImplementationRetained": true,
+  "nodeDiagnosis": {
+    "checkedAt": "2026-10-13T07:56:01.192Z",
+    "signaturesVerified": true,
+    "pinnedAuthorityMatches": true,
+    "state": "RESEARCH_STAGE_COMPLETE",
+    "openRound": false,
+    "pendingGoals": 0,
+    "remainingUnopenedGoals": 0,
+    "solvedGoals": 29,
+    "supplyStatus": "exhausted",
+    "claimHttpStatus": 404,
+    "claimError": "NOT_FOUND",
+    "claimMessage": "NOT_FOUND: claim",
+    "serviceChecks": {
+      "authority": "active",
+      "verifier": "active",
+      "walletMining": "active",
+      "community": "active"
+    },
+    "financialTransactions": 0
+  },
+  "missingUnreceiptedClosedRoundClaim": "retire automatic polling, retain candidate outputs; no payment inference",
+  "financialTransactions": 0,
+  "modelDownloads": 0,
+  "databaseChanges": 0,
+  "serviceRestarts": 0,
+  "newRewardedTasks": 0,
+  "newBudgets": 0,
+  "mainnetEnabled": false,
+  "actualExtensionConfirmation": false,
+  "physicalDevice": false,
+  "independentOperatorAcceptance": false,
+  "publicWalletSessionRegressionChecks": 37,
+  "walletProviderAcceptance": "scripted Wallet Standard provider in isolated Chromium; not actual extension confirmation",
+  "preparedModelAcceptance": "presentation fixture only; no model execution in this regression"
+}
