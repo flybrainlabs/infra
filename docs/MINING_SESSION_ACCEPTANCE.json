@@ -1,0 +1,51 @@
+{
+  "project": "flybrainlabs",
+  "site": "https://flybrain.work/mining/",
+  "revision": "mining-session-20261013-v1",
+  "previousRevision": "documentation-20261013-v3",
+  "walletPreference": "public provider name and account, scoped to Devnet genesis and program",
+  "walletRestore": "provider-confirmed silent connect; unexpired matching same-tab login retained",
+  "explicitDisconnect": "preference and login cleared; stale restore response ignored",
+  "accountIsolation": "provider changes and cross-tab selection invalidate prior asynchronous work",
+  "taskAvailability": "RESEARCH_STAGE_COMPLETE; no open round; old finite budget remains exhausted",
+  "stageVisibility": "one active heading and panel",
+  "idleThroughput": "Not running; unit hidden; no fabricated measurement",
+  "localBrowserChecks": 37,
+  "publicBrowserChecks": 37,
+  "widthLanguageStageCasesPerRun": 18,
+  "walletProvider": "fixture Wallet Standard",
+  "preparedModelPresentation": "fixture only; no model loaded by this regression",
+  "extensionConfirmation": false,
+  "physicalAndroid": false,
+  "physicalGPU": false,
+  "staticExportTests": 8,
+  "walletStateChecks": 17,
+  "existingWalletBrowserRegressionChecks": 7,
+  "changedDeploymentObjects": 77,
+  "matchedUncompressedHttpObjects": 67,
+  "executionConfigurationAssetsRetained": 11,
+  "completeAtlasRetained": true,
+  "modelDownloads": 0,
+  "financialTransactions": 0,
+  "databaseChanges": 0,
+  "browserProfilesReset": false,
+  "sourceSecretScan": "passed",
+  "repositories": {
+    "sdk": {
+      "head": "3bdb4b03af44f0e4a3e991fb2a9a1a84918edac0",
+      "remoteVerified": true
+    },
+    "miner": {
+      "head": "d0ba4c9c8e5d717dc7df36a595718923fa142358",
+      "remoteVerified": true
+    },
+    "web": {
+      "head": "bfd8828b3ee182bad3b2b4049298433bd42f1121",
+      "remoteVerified": true
+    },
+    "docs": {
+      "head": "7a3c986452960ef164d0bcf010bb100fae5b14e9",
+      "remoteVerified": true
+    }
+  }
+}

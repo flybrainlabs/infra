@@ -27,7 +27,8 @@
     "tools/resume_program_buffer.mjs": "tools/resume_program_buffer.mjs",
     "deploy/target-v2/flybrainlabs-wallet-mining-v3.service": "deploy/target-v2/flybrainlabs-wallet-mining-v3.service",
     "deploy/target-v2/nginx-wallet-mining-v3.conf": "deploy/target-v2/nginx-wallet-mining-v3.conf",
-    "tools/upgrade_wallet_mining_v3.sh": "tools/upgrade_wallet_mining_v3.sh"
+    "tools/upgrade_wallet_mining_v3.sh": "tools/upgrade_wallet_mining_v3.sh",
+    "docs/MINING_SESSION_ACCEPTANCE.json": "docs/MINING_SESSION_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }

@@ -1,12 +1,12 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "2026-10-13-documentation-center-wallet-entry",
+  "release": "2026-10-13-mining-session",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "1393053eaafc7cd326b2959fa13bf6c942864258",
+      "commit": "bfd8828b3ee182bad3b2b4049298433bd42f1121",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
@@ -18,7 +18,7 @@
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "17f841a8eba358519e32cf4664cc08a886846c70",
+      "commit": "d0ba4c9c8e5d717dc7df36a595718923fa142358",
       "publicationStatus": "verified"
     },
     "explorer": {
@@ -38,7 +38,7 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "195d63ba3800e5574be9f75887fa98b6b40cdeb5",
+      "commit": "3bdb4b03af44f0e4a3e991fb2a9a1a84918edac0",
       "publicationStatus": "verified"
     },
     "research": {
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "7d5b1ce6df66c6146b70c052358a015109a6163c",
+      "commit": "7a3c986452960ef164d0bcf010bb100fae5b14e9",
       "publicationStatus": "verified"
     }
   },
@@ -70,8 +70,8 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "documentation-20261013-v3",
-    "changedWebsiteObjects": 54,
+    "websiteRevision": "mining-session-20261013-v1",
+    "changedWebsiteObjects": 77,
     "localBrowserLayouts": 42,
     "publicBrowserLayouts": 42,
     "officialModelDownloadRequests": 0,
@@ -94,7 +94,9 @@
     "currentTokenName": "flybrainwork",
     "localWalletEntryCases": 6,
     "publicWalletEntryCases": 6,
-    "walletFirstEntry": true
+    "walletFirstEntry": true,
+    "localSessionChecks": 37,
+    "publicSessionChecks": 37
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -110,14 +112,14 @@
   },
   "documentationCenter": {
     "path": "https://flybrain.work/docs/",
-    "revision": "docs-20261013-v3",
+    "revision": "docs-20261013-v4",
     "language": "en",
     "categories": 7,
     "articles": 25,
-    "words": 12887,
+    "words": 13353,
     "diagramDesigns": 7,
     "diagramInstances": 10,
-    "searchSections": 160,
+    "searchSections": 162,
     "publicHttpObjects": 64,
     "localReadingLayouts": 50,
     "publicReadingLayouts": 50,
@@ -146,6 +148,40 @@
       "assets/wallet-ui-v3.mjs"
     ],
     "walletEntryPublicHttpObjects": 43,
-    "scopedDeploymentHashVerification": "passed"
+    "scopedDeploymentHashVerification": "passed",
+    "latestCorrectionsAcceptance": "docs/MINING_SESSION_ACCEPTANCE.json"
+  },
+  "miningSession": {
+    "project": "flybrainlabs",
+    "site": "https://flybrain.work/mining/",
+    "revision": "mining-session-20261013-v1",
+    "walletPreference": "public provider name and account, scoped to Devnet genesis and program",
+    "walletRestore": "provider-confirmed silent connect; unexpired matching same-tab login retained",
+    "explicitDisconnect": "preference and login cleared; stale restore response ignored",
+    "accountIsolation": "provider changes and cross-tab selection invalidate prior asynchronous work",
+    "taskAvailability": "RESEARCH_STAGE_COMPLETE; no open round; old finite budget remains exhausted",
+    "stageVisibility": "one active heading and panel",
+    "idleThroughput": "Not running; unit hidden; no fabricated measurement",
+    "localBrowserChecks": 37,
+    "publicBrowserChecks": 37,
+    "widthLanguageStageCasesPerRun": 18,
+    "walletProvider": "fixture Wallet Standard",
+    "preparedModelPresentation": "fixture only; no model loaded by this regression",
+    "extensionConfirmation": false,
+    "physicalAndroid": false,
+    "physicalGPU": false,
+    "staticExportTests": 8,
+    "walletStateChecks": 17,
+    "existingWalletBrowserRegressionChecks": 7,
+    "changedDeploymentObjects": 77,
+    "matchedUncompressedHttpObjects": 67,
+    "executionConfigurationAssetsRetained": 11,
+    "completeAtlasRetained": true,
+    "modelDownloads": 0,
+    "financialTransactions": 0,
+    "databaseChanges": 0,
+    "browserProfilesReset": false,
+    "sourceSecretScan": "passed",
+    "acceptance": "docs/MINING_SESSION_ACCEPTANCE.json"
   }
 }
