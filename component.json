@@ -28,7 +28,11 @@
     "deploy/target-v2/flybrainlabs-wallet-mining-v3.service": "deploy/target-v2/flybrainlabs-wallet-mining-v3.service",
     "deploy/target-v2/nginx-wallet-mining-v3.conf": "deploy/target-v2/nginx-wallet-mining-v3.conf",
     "tools/upgrade_wallet_mining_v3.sh": "tools/upgrade_wallet_mining_v3.sh",
-    "docs/MINING_SESSION_ACCEPTANCE.json": "docs/MINING_SESSION_ACCEPTANCE.json"
+    "docs/MINING_SESSION_ACCEPTANCE.json": "docs/MINING_SESSION_ACCEPTANCE.json",
+    "deploy/target-v2/flybrainlabs-community.service": "deploy/target-v2/flybrainlabs-community.service",
+    "deploy/target-v2/nginx-community.conf": "deploy/target-v2/nginx-community.conf",
+    "tools/upgrade_community.sh": "tools/upgrade_community.sh",
+    "infra/docs/SOCIAL_COMMUNITY_ACCEPTANCE.json": "docs/SOCIAL_COMMUNITY_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }

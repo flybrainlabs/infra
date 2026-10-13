@@ -1,19 +1,19 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "2026-10-13-mining-session",
+  "release": "2026-10-13-social-community",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "bfd8828b3ee182bad3b2b4049298433bd42f1121",
+      "commit": "259a0e3d79385e725382a7c7da96246b4d4ea90c",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "e8f198876c8ef25b67c82eaeae2c5ed412246eaa",
+      "commit": "ee13b527156623164dbf4b2b481c35b2a4086c9e",
       "publicationStatus": "verified"
     },
     "miner": {
@@ -38,7 +38,7 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "3bdb4b03af44f0e4a3e991fb2a9a1a84918edac0",
+      "commit": "f6b8c188c13d306fdbfc2a387fe3a92b2b9b3782",
       "publicationStatus": "verified"
     },
     "research": {
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "7a3c986452960ef164d0bcf010bb100fae5b14e9",
+      "commit": "c3949263670f661696faa113f43211287768e4b5",
       "publicationStatus": "verified"
     }
   },
@@ -70,8 +70,8 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "mining-session-20261013-v1",
-    "changedWebsiteObjects": 77,
+    "websiteRevision": "social-community-20261013-v1",
+    "changedWebsiteObjects": 78,
     "localBrowserLayouts": 42,
     "publicBrowserLayouts": 42,
     "officialModelDownloadRequests": 0,
@@ -96,7 +96,10 @@
     "publicWalletEntryCases": 6,
     "walletFirstEntry": true,
     "localSessionChecks": 37,
-    "publicSessionChecks": 37
+    "publicSessionChecks": 37,
+    "publicCommunityBrowserChecks": 18,
+    "localCommunityBrowserChecks": 31,
+    "communityBackendChecks": 45
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -112,14 +115,14 @@
   },
   "documentationCenter": {
     "path": "https://flybrain.work/docs/",
-    "revision": "docs-20261013-v4",
+    "revision": "docs-20261013-v5",
     "language": "en",
-    "categories": 7,
-    "articles": 25,
-    "words": 13353,
-    "diagramDesigns": 7,
-    "diagramInstances": 10,
-    "searchSections": 162,
+    "categories": 8,
+    "articles": 26,
+    "words": 15177,
+    "diagramDesigns": 8,
+    "diagramInstances": 11,
+    "searchSections": 174,
     "publicHttpObjects": 64,
     "localReadingLayouts": 50,
     "publicReadingLayouts": 50,
@@ -135,7 +138,7 @@
     "acceptance": "docs/DOCUMENTATION_CENTER_ACCEPTANCE.json",
     "physicalAndroid": false,
     "extensionWalletConfirmation": false,
-    "internalLinks": 1964,
+    "internalLinks": 2117,
     "walletEntryStateChecks": 9,
     "localWalletEntryCases": 6,
     "publicWalletEntryCases": 6,
@@ -149,7 +152,8 @@
     ],
     "walletEntryPublicHttpObjects": 43,
     "scopedDeploymentHashVerification": "passed",
-    "latestCorrectionsAcceptance": "docs/MINING_SESSION_ACCEPTANCE.json"
+    "latestCorrectionsAcceptance": "docs/MINING_SESSION_ACCEPTANCE.json",
+    "latestCommunityAcceptance": "docs/SOCIAL_COMMUNITY_ACCEPTANCE.json"
   },
   "miningSession": {
     "project": "flybrainlabs",
@@ -183,5 +187,36 @@
     "browserProfilesReset": false,
     "sourceSecretScan": "passed",
     "acceptance": "docs/MINING_SESSION_ACCEPTANCE.json"
+  },
+  "socialCommunity": {
+    "revision": "social-community-20261013-v1",
+    "path": "https://flybrain.work/social/",
+    "adminPath": "https://flybrain.work/social/admin/",
+    "sharedIdentity": "Wallet Mining V3 SIWS and SQLite/WAL",
+    "loopbackPort": 8791,
+    "initialTask": "connect_x_identity_v1",
+    "initialPoints": 100,
+    "challengeSeconds": 1800,
+    "migrationVersion": 1,
+    "migrationSha256": "829fb58a2281be20607175790734269f18343c895adef3f57010000ccf4a7c6a",
+    "backendChecks": 45,
+    "localBrowserChecks": 31,
+    "publicBrowserChecks": 18,
+    "matchedWebsiteObjects": 78,
+    "matchedPublicHttpObjects": 70,
+    "matchedInstalledServerObjects": 158,
+    "communityPoolAtoms": "3118332300000000",
+    "airdropBudgetAtoms": "2500000000000000",
+    "otherEcosystemAtoms": "618332300000000",
+    "decimals": 8,
+    "pointsAreTokens": false,
+    "tokenExecutionEnabled": false,
+    "oauthConfigured": false,
+    "actualExtensionConfirmation": false,
+    "humanLiveXIdentityAcceptance": false,
+    "physicalDevice": false,
+    "productionFixtureUsers": 0,
+    "tokenTransfers": 0,
+    "acceptance": "docs/SOCIAL_COMMUNITY_ACCEPTANCE.json"
   }
 }

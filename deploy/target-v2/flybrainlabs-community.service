@@ -1,0 +1,27 @@
+[Unit]
+Description=flybrainlabs community contributions and allocation preparation
+After=network-online.target flybrainlabs-wallet-mining-v3.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=flypow
+Group=flypow
+WorkingDirectory=/opt/flypow
+ExecStart=/opt/flypow/runtime/node/bin/node --max-old-space-size=256 /opt/flypow/tools/social_server.mjs /etc/flypow/wallet-mining-v3-runtime.json
+Restart=on-failure
+RestartSec=15
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/flypow/authority
+InaccessiblePaths=/etc/flypow/private /var/lib/flypow/authority/private
+MemoryHigh=320M
+MemoryMax=384M
+MemorySwapMax=128M
+LimitNOFILE=1024
+
+[Install]
+WantedBy=multi-user.target

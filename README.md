@@ -95,3 +95,8 @@ verification. Public receipts are in the contracts repository under
 archives remain outside source repositories. The two-unit acceptance budget is
 complete. Future paid work requires a new prospectively frozen finite plan.
 Actual extension-wallet and physical-device confirmation remain separate gates.
+
+
+## Community deployment
+
+`deploy/target-v2/flybrainlabs-community.service` runs the separate Social process on 8791; `nginx-community.conf` proxies its paths with existing request limits. `tools/upgrade_community.sh` creates a coherent database backup, applies an additive migration, preserves runtime hashes and business counts, and leaves existing financial/scientific services running. Install only public Social files plus pinned parse5/entities dependencies. Read `docs/social-community-system.md` before rollback; do not erase legitimate post-backup writes.

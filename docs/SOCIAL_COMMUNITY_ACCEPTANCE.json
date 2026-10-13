@@ -1,0 +1,90 @@
+{
+  "project": "flybrainlabs",
+  "revision": "social-community-20261013-v1",
+  "site": "https://flybrain.work/social/",
+  "adminPath": "https://flybrain.work/social/admin/",
+  "handbook": "https://flybrain.work/docs/social/",
+  "sourceAttachment": "writing-block.md",
+  "sourceAttachmentSha256": "e61a95b45a32789b3863ae937987fa628488ce1eb361bf83848ad06174a6a0f8",
+  "migration": {
+    "version": 1,
+    "file": "config/social-community-v1.sql",
+    "sha256": "829fb58a2281be20607175790734269f18343c895adef3f57010000ccf4a7c6a",
+    "additive": true,
+    "integrity": "ok",
+    "historicalBusinessCountsPreserved": true,
+    "privateRuntimeUnchanged": true
+  },
+  "architecture": {
+    "walletAuthentication": "existing Wallet Mining V3 SIWS sessions and CSRF",
+    "database": "existing SQLite/WAL",
+    "communityServicePort": 8791,
+    "authorityPort8790Preserved": true,
+    "financialGatewayPort": 8789,
+    "relayerStartedByCommunity": false
+  },
+  "budget": {
+    "communityPoolAtoms": "3118332300000000",
+    "airdropBudgetAtoms": "2500000000000000",
+    "otherEcosystemAtoms": "618332300000000",
+    "decimals": 8,
+    "approvedReservedAtoms": "0",
+    "tokenExecutionEnabled": false,
+    "pointsAreTokens": false
+  },
+  "tests": {
+    "backendChecks": 45,
+    "localBrowserChecks": 31,
+    "publicBrowserChecks": 18,
+    "nativeLibraryTests": 24,
+    "staticExportTests": 8,
+    "typecheck": "opt-in new API/provider/client modules passed",
+    "lint": "new community modules syntax checks passed",
+    "browserBuild": "passed",
+    "providerFixtures": "isolated official public evidence fixtures, no external posts",
+    "liveOEmbedProbe": {
+      "host": "publish.x.com",
+      "status": 200,
+      "redirected": false,
+      "type": "rich",
+      "version": "1.0",
+      "provider": "X",
+      "authorFieldsPresent": true,
+      "htmlBytes": 198,
+      "historicalPublicPostProbe": true,
+      "identityVerified": false
+    }
+  },
+  "publication": {
+    "scopedWebsiteObjects": 78,
+    "matchedPublicHttpObjects": 70,
+    "websiteBackupVerified": true,
+    "databaseBackupVerified": true,
+    "documentationArticles": 26,
+    "documentationCategories": 8,
+    "documentationWords": 15177,
+    "diagramDesigns": 8
+  },
+  "retainedState": {
+    "officialModelDownloads": 0,
+    "modelOrBrowserCachesCleared": false,
+    "tokenTransfers": 0,
+    "mintTransactions": 0,
+    "productionFixtureUsers": 0,
+    "newRewardedMiningTasks": false,
+    "authorityState": "RESEARCH_STAGE_COMPLETE"
+  },
+  "knownLimits": {
+    "actualExtensionConfirmation": false,
+    "humanLiveXIdentityAcceptance": false,
+    "oauthConfigured": false,
+    "physicalAndroid": false,
+    "physicalGPU": false,
+    "onChainCommunityDistributionEnabled": false,
+    "snapshotsAbove100000Wallets": "require operator capacity review"
+  },
+  "startupCorrections": [
+    "Installed missing public frozen policy after verifying current HTTP hash",
+    "Selected free loopback 8791 because the retained authority owns 8790; old listener was preserved"
+  ]
+}
