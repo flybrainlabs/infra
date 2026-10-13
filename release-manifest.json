@@ -1,54 +1,54 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "2026-10-12-wallet-mining-v3-devnet",
+  "release": "2026-10-13-documentation-center-mobile-fbw",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "3accd91eb1620c74403501c9b5e02c7e57135e87",
+      "commit": "394d3c9a448c1435511ae516cd3f78ea9aac60ad",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "6a26c478933e8925ec81bb19caf468f76419e927",
+      "commit": "e8f198876c8ef25b67c82eaeae2c5ed412246eaa",
       "publicationStatus": "verified"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "e7e09390376e41b4339c10426180c0dfbcd22904",
+      "commit": "05c2348fbf8f19b7268b24fbc34b21558aff231b",
       "publicationStatus": "verified"
     },
     "explorer": {
       "url": "https://github.com/flybrainlabs/explorer.git",
-      "commit": "6189071f1fd39ea7afb9c516b512518b7f6bbfcf",
+      "commit": "2d95e66541f7030d297f0ac20732be2f7d46fbbc",
       "publicationStatus": "verified"
     },
     "protocol": {
       "url": "https://github.com/flybrainlabs/protocol.git",
-      "commit": "5ccb2c2048db27f9ba9ed50f10ebf324a878030b",
+      "commit": "c84df0b9fe52269762be73b27ceafb54d6b1906c",
       "publicationStatus": "verified"
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
-      "commit": "014b852482c80c19bd10be8780c6b9aeafc97c95",
+      "commit": "c3e485c24294fdca48d45a1c073f3d3d9d34a587",
       "publicationStatus": "verified"
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "f24cbe17ad7d4f732be8e9bbcb0f5049c5b72191",
+      "commit": "195d63ba3800e5574be9f75887fa98b6b40cdeb5",
       "publicationStatus": "verified"
     },
     "research": {
       "url": "https://github.com/flybrainlabs/research.git",
-      "commit": "0ae34a80234cfb319c7095c6ca6466c195ff8a3d",
+      "commit": "c100fe15b57a1eb4e2bfca747654a5a459cc86e9",
       "publicationStatus": "verified"
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "120e2e708ec8cae454d28c798d017973f039bb8b",
+      "commit": "566d69da3012c9ea11f5162d9fc0f562d728a7ab",
       "publicationStatus": "verified"
     }
   },
@@ -70,7 +70,7 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "flybrainlabs-brand-20261012-v1",
+    "websiteRevision": "documentation-20261013-v2",
     "changedWebsiteObjects": 41,
     "localBrowserLayouts": 42,
     "publicBrowserLayouts": 42,
@@ -89,7 +89,9 @@
     "mintAuthorityRevoked": true,
     "repeatIssuanceAdditionalTransactions": 0,
     "sourceWalletPromptSha256": "dbaf5df05f10d06aeb7edaa25bbc200e8c1a3ffb4bd77ebf20f48aa7168a7f31",
-    "walletMiningPromptImplementation": "newly received; full implementation still required"
+    "walletMiningPromptImplementation": "complete finite Devnet acceptance; two-unit budget exhausted; actual extension confirmation pending",
+    "currentTokenSymbol": "FBW",
+    "currentTokenName": "flybrainwork"
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -102,5 +104,31 @@
     "extensionConfirmation": false,
     "physicalDevice": false,
     "acceptance": "docs/WALLET_MINING_V3_ACCEPTANCE.json"
+  },
+  "documentationCenter": {
+    "path": "https://flybrain.work/docs/",
+    "revision": "docs-20261013-v2",
+    "language": "en",
+    "categories": 7,
+    "articles": 25,
+    "words": 12712,
+    "diagramDesigns": 7,
+    "diagramInstances": 10,
+    "searchSections": 158,
+    "publicHttpObjects": 64,
+    "localReadingLayouts": 50,
+    "publicReadingLayouts": 50,
+    "localCompactCases": 24,
+    "publicCompactCases": 24,
+    "staticExportTests": 8,
+    "nativeCompilation": "passed",
+    "tokenSymbol": "FBW",
+    "mobileLanguageLocation": "navigation menu",
+    "retainedCoreAssets": 13,
+    "modelDownloads": 0,
+    "financialTransactions": 0,
+    "acceptance": "docs/DOCUMENTATION_CENTER_ACCEPTANCE.json",
+    "physicalAndroid": false,
+    "extensionWalletConfirmation": false
   }
 }

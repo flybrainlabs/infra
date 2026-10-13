@@ -1,0 +1,99 @@
+{
+  "schema": "flybrainlabs-documentation-acceptance-v1",
+  "date": "2026-10-13",
+  "site": "https://flybrain.work/docs/",
+  "revision": "documentation-20261013-v2",
+  "language": "en",
+  "categories": 7,
+  "articles": 25,
+  "renderedWords": 12712,
+  "diagramDesigns": 7,
+  "diagramInstances": 10,
+  "searchSections": 158,
+  "internalLinks": 1960,
+  "markdownDownloads": 25,
+  "localReadingLayouts": 50,
+  "publicReadingLayouts": 50,
+  "localSearchAndReadingChecks": 9,
+  "publicSearchAndReadingChecks": 7,
+  "publicCompactCases": 24,
+  "publicHttpObjects": 64,
+  "nativeCompilation": "passed",
+  "staticExportTests": 8,
+  "staticExportTestsPassed": true,
+  "atlasTypes": 11751,
+  "retainedCoreAssets": 13,
+  "financialTransactions": 0,
+  "modelDownloads": 0,
+  "privateDataPublished": false,
+  "physicalAndroid": false,
+  "extensionWalletConfirmation": false,
+  "mainnetChanged": false,
+  "coreHashes": [
+    {
+      "path": "assets/wasm/flypow_sim_core.wasm",
+      "sha256": "2b7e2e66aa1c8a4ab4599b3832b42b728ed2567b4670b35baa0f7eceffd365d2",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/atlas.json",
+      "sha256": "36fce23b7356960ac6d1d6fa488606e3c4372491b02b55b2bd20de63fde0b568",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/atlas-context.json",
+      "sha256": "78ae3cd68d394f59eb73ed9bef5c29b39fde4c449aa6cf825ea1f65354b945a9",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/wallet-mining-v3.json",
+      "sha256": "b3298511043fa0268bec7706b3b33409d17295c5c8c8d980edc81039bd9aa0c0",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/mining-deployment-v1.json",
+      "sha256": "3aabe22ca6fdc7a1685307e3dd539dddb16fe4b1a54c9dd8789cf7f29a308267",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/target-network-v2.json",
+      "sha256": "c047692554d7b3bc56d7c36285ebcb03ecda37199cb4cf49e060b84caa0bded0",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/chain-config.json",
+      "sha256": "a1419f59bb6bac94372b36a39afbe554c5d2ed51a3a0c6134a09f2664795fb2b",
+      "unchanged": true
+    },
+    {
+      "path": "assets/research-app.mjs",
+      "sha256": "abb5abe9f1d0f5fb667336e3e7fb1a2f88642f6ccc8b76e27a35c47dde303d82",
+      "unchanged": true
+    },
+    {
+      "path": "assets/research-worker.mjs",
+      "sha256": "c28ef2134315f2cc2fc87be30f516f52e89bd3158b2ccf1faea6f01e26498fc5",
+      "unchanged": true
+    },
+    {
+      "path": "assets/wallet-ui-v3.mjs",
+      "sha256": "de75ce1bb13a948a4de1e56703d2ed7959b1165512ef4e61d9fc04a3f71e9e3d",
+      "unchanged": true
+    },
+    {
+      "path": "assets/goal-search-runner.mjs",
+      "sha256": "d87106cd9e522362e45f939524b21c2e888b7933ec2170b3cd5735932ddb6ce9",
+      "unchanged": true
+    },
+    {
+      "path": "assets/candidate-submission-v2.mjs",
+      "sha256": "f9fae07b783813f6645a75ce8c546b1b135fb654e3f2e182c629af6152a69961",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/economic-policy-v2.json",
+      "sha256": "9fb2693dc2ffa88d2e9cc777e506152c2ca3f29221a875b1e1db1e98130eac70",
+      "unchanged": true
+    }
+  ]
+}
