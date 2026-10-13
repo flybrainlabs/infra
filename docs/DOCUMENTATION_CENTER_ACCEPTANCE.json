@@ -2,15 +2,15 @@
   "schema": "flybrainlabs-documentation-acceptance-v1",
   "date": "2026-10-13",
   "site": "https://flybrain.work/docs/",
-  "revision": "documentation-20261013-v2",
+  "revision": "documentation-20261013-v3",
   "language": "en",
   "categories": 7,
   "articles": 25,
-  "renderedWords": 12712,
+  "renderedWords": 12887,
   "diagramDesigns": 7,
   "diagramInstances": 10,
-  "searchSections": 158,
-  "internalLinks": 1960,
+  "searchSections": 160,
+  "internalLinks": 1964,
   "markdownDownloads": 25,
   "localReadingLayouts": 50,
   "publicReadingLayouts": 50,
@@ -22,7 +22,7 @@
   "staticExportTests": 8,
   "staticExportTestsPassed": true,
   "atlasTypes": 11751,
-  "retainedCoreAssets": 13,
+  "retainedCoreAssets": 11,
   "financialTransactions": 0,
   "modelDownloads": 0,
   "privateDataPublished": false,
@@ -66,18 +66,8 @@
       "unchanged": true
     },
     {
-      "path": "assets/research-app.mjs",
-      "sha256": "abb5abe9f1d0f5fb667336e3e7fb1a2f88642f6ccc8b76e27a35c47dde303d82",
-      "unchanged": true
-    },
-    {
       "path": "assets/research-worker.mjs",
       "sha256": "c28ef2134315f2cc2fc87be30f516f52e89bd3158b2ccf1faea6f01e26498fc5",
-      "unchanged": true
-    },
-    {
-      "path": "assets/wallet-ui-v3.mjs",
-      "sha256": "de75ce1bb13a948a4de1e56703d2ed7959b1165512ef4e61d9fc04a3f71e9e3d",
       "unchanged": true
     },
     {
@@ -95,5 +85,29 @@
       "sha256": "9fb2693dc2ffa88d2e9cc777e506152c2ca3f29221a875b1e1db1e98130eac70",
       "unchanged": true
     }
-  ]
+  ],
+  "walletEntryStateChecks": 9,
+  "localWalletEntryCases": 6,
+  "publicWalletEntryCases": 6,
+  "scopedChangedWebsiteObjects": 54,
+  "walletFirstEntry": true,
+  "inactiveRateUnitHidden": true,
+  "readingAndCompactAcceptanceRevision": "documentation-20261013-v2",
+  "walletEntryAcceptanceRevision": "documentation-20261013-v3",
+  "updatedUiAssets": [
+    {
+      "path": "assets/research-app.mjs",
+      "change": "wallet-first UI entry; computation and financial identities unchanged",
+      "newSha256": "36609add95b2767757d89a1d52cf94e845b2b548eb7e49264d9672a7c9688597"
+    },
+    {
+      "path": "assets/wallet-ui-v3.mjs",
+      "change": "wallet-first UI entry; computation and financial identities unchanged",
+      "newSha256": "6889a70ce44a24fd93acbe4676a86d00baf3ac5fdca047657628f422a1484cc2"
+    }
+  ],
+  "authorityState": "RESEARCH_STAGE_COMPLETE",
+  "openRound": false,
+  "walletEntryPublicHttpObjects": 43,
+  "scopedDeploymentHashVerification": "passed"
 }

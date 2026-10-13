@@ -1,12 +1,12 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "2026-10-13-documentation-center-mobile-fbw",
+  "release": "2026-10-13-documentation-center-wallet-entry",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "394d3c9a448c1435511ae516cd3f78ea9aac60ad",
+      "commit": "1393053eaafc7cd326b2959fa13bf6c942864258",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
@@ -18,7 +18,7 @@
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "05c2348fbf8f19b7268b24fbc34b21558aff231b",
+      "commit": "17f841a8eba358519e32cf4664cc08a886846c70",
       "publicationStatus": "verified"
     },
     "explorer": {
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "566d69da3012c9ea11f5162d9fc0f562d728a7ab",
+      "commit": "7d5b1ce6df66c6146b70c052358a015109a6163c",
       "publicationStatus": "verified"
     }
   },
@@ -70,8 +70,8 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "documentation-20261013-v2",
-    "changedWebsiteObjects": 41,
+    "websiteRevision": "documentation-20261013-v3",
+    "changedWebsiteObjects": 54,
     "localBrowserLayouts": 42,
     "publicBrowserLayouts": 42,
     "officialModelDownloadRequests": 0,
@@ -91,7 +91,10 @@
     "sourceWalletPromptSha256": "dbaf5df05f10d06aeb7edaa25bbc200e8c1a3ffb4bd77ebf20f48aa7168a7f31",
     "walletMiningPromptImplementation": "complete finite Devnet acceptance; two-unit budget exhausted; actual extension confirmation pending",
     "currentTokenSymbol": "FBW",
-    "currentTokenName": "flybrainwork"
+    "currentTokenName": "flybrainwork",
+    "localWalletEntryCases": 6,
+    "publicWalletEntryCases": 6,
+    "walletFirstEntry": true
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -107,14 +110,14 @@
   },
   "documentationCenter": {
     "path": "https://flybrain.work/docs/",
-    "revision": "docs-20261013-v2",
+    "revision": "docs-20261013-v3",
     "language": "en",
     "categories": 7,
     "articles": 25,
-    "words": 12712,
+    "words": 12887,
     "diagramDesigns": 7,
     "diagramInstances": 10,
-    "searchSections": 158,
+    "searchSections": 160,
     "publicHttpObjects": 64,
     "localReadingLayouts": 50,
     "publicReadingLayouts": 50,
@@ -124,11 +127,25 @@
     "nativeCompilation": "passed",
     "tokenSymbol": "FBW",
     "mobileLanguageLocation": "navigation menu",
-    "retainedCoreAssets": 13,
+    "retainedCoreAssets": 11,
     "modelDownloads": 0,
     "financialTransactions": 0,
     "acceptance": "docs/DOCUMENTATION_CENTER_ACCEPTANCE.json",
     "physicalAndroid": false,
-    "extensionWalletConfirmation": false
+    "extensionWalletConfirmation": false,
+    "internalLinks": 1964,
+    "walletEntryStateChecks": 9,
+    "localWalletEntryCases": 6,
+    "publicWalletEntryCases": 6,
+    "walletFirstEntry": true,
+    "inactiveRateUnitHidden": true,
+    "readingAndCompactAcceptanceRevision": "documentation-20261013-v2",
+    "walletEntryAcceptanceRevision": "documentation-20261013-v3",
+    "updatedUiAssets": [
+      "assets/research-app.mjs",
+      "assets/wallet-ui-v3.mjs"
+    ],
+    "walletEntryPublicHttpObjects": 43,
+    "scopedDeploymentHashVerification": "passed"
   }
 }
