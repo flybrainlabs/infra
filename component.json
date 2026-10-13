@@ -35,7 +35,10 @@
     "infra/docs/SOCIAL_COMMUNITY_ACCEPTANCE.json": "docs/SOCIAL_COMMUNITY_ACCEPTANCE.json",
     "infra/docs/PUBLIC_UI_ACCEPTANCE.json": "docs/PUBLIC_UI_ACCEPTANCE.json",
     "infra/docs/TASK_SUPPLY_ACCEPTANCE.json": "docs/TASK_SUPPLY_ACCEPTANCE.json",
-    "docs/MINING_ADMISSION_ACCEPTANCE.json": "docs/MINING_ADMISSION_ACCEPTANCE.json"
+    "docs/MINING_ADMISSION_ACCEPTANCE.json": "docs/MINING_ADMISSION_ACCEPTANCE.json",
+    "tools/configure_wallet_rpc_v3.py": "tools/configure_wallet_rpc_v3.py",
+    "tests/test_configure_wallet_rpc.py": "tests/test_configure_wallet_rpc.py",
+    "docs/WALLET_RPC_ACCEPTANCE.json": "docs/WALLET_RPC_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }

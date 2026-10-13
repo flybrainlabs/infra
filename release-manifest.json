@@ -1,24 +1,24 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "mining-start-20261013-v1",
+  "release": "wallet-rpc-prepared-20261013-v1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "8da36b4f822cfd9516b40c3004987145abc508cc",
+      "commit": "463b7f4c87e4d226a182008c15eccc65253155f2",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "53bd37100bc67068f7856585bd207e5b156d1258",
+      "commit": "c261c053da00c53e79154539852f6fe86bd89c19",
       "publicationStatus": "verified"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "be8f132d5a2636b4209bc5829e79494a7ae4faaa",
+      "commit": "c09d63f34ae2d122f0e4a717cc5e0ca5a8f4122c",
       "publicationStatus": "verified"
     },
     "explorer": {
@@ -38,7 +38,7 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "9cac18c30fb3e7fe7e005157f4fad6117fbd72f6",
+      "commit": "2c1a88649ec71849e7f695eb503dc4d93f224530",
       "publicationStatus": "verified"
     },
     "research": {
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "dadd3a54aee86026335ed6117b3cbd7de099c4c9",
+      "commit": "123c7c9984b210f7ffcd973eec077cfa9ceb977c",
       "publicationStatus": "verified"
     }
   },
@@ -112,7 +112,7 @@
     "localAdmissionChecks": 17,
     "publicAdmissionChecks": 17,
     "preparedWorkerFullModelExecution": false,
-    "originalUserMiningFailure": "technical diagnostic and actual extension/full mining confirmation remain pending"
+    "originalUserMiningFailure": "browser RPC HTTP 429 confirmed; requested provider activation and actual extension/full mining confirmation remain pending"
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -291,5 +291,21 @@
     "physicalAndroid": false,
     "physicalGPU": false,
     "acceptance": "docs/MINING_ADMISSION_ACCEPTANCE.json"
+  },
+  "walletRpc": {
+    "status": "prepared-provider-activation-pending",
+    "websiteDeployed": false,
+    "providerConfigured": false,
+    "providerVerified": false,
+    "liveWebsiteRevision": "mining-start-20261013-v1",
+    "transportChecks": 24,
+    "gatewayChecks": 41,
+    "chromiumFixtureChecks": 10,
+    "configurationTests": 4,
+    "cspTests": 2,
+    "frozenBudgetPreserved": true,
+    "chainTransactions": 0,
+    "rewardPayments": 0,
+    "acceptance": "docs/WALLET_RPC_ACCEPTANCE.json"
   }
 }

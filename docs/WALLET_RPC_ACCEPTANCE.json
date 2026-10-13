@@ -1,0 +1,38 @@
+{
+  "schema": "flybrainlabs-wallet-rpc-acceptance-v1",
+  "status": "prepared-provider-activation-pending",
+  "liveWebsiteRevision": "mining-start-20261013-v1",
+  "liveBrowserTransport": "existing public Solana Devnet RPC",
+  "providerCredentialAvailable": false,
+  "providerConfigured": false,
+  "providerVerified": false,
+  "websiteDeployed": false,
+  "tests": {
+    "sdkTransportChecks": 24,
+    "gatewayChecks": 41,
+    "configurationTests": 4,
+    "cspTests": 2,
+    "chromiumChecks": 10,
+    "challengeChecks": 15,
+    "staticExportTests": 8,
+    "fundingPredicates": 23,
+    "approvedPlanCases": 18,
+    "candidateNetworkRecovery": "passed; coordinator fixture"
+  },
+  "browserEvidence": "actual Chromium and bundled SDK with isolated Wallet Standard and RPC fixtures; not a real extension or provider",
+  "retention": {
+    "candidateAndInput": "same selected candidate resumes after admission 429",
+    "modelCacheReset": false,
+    "databaseReset": false,
+    "newBudget": false,
+    "newIssuance": false,
+    "chainTransactions": 0,
+    "rewardPayments": 0
+  },
+  "acceptanceBoundaries": {
+    "realExtension": false,
+    "participantFullModelMining": false,
+    "physicalDevice": false,
+    "independentOperators": false
+  }
+}
