@@ -1,4 +1,4 @@
-import importlib.util,json,tempfile,unittest
+import importlib.util,json,tempfile,unittest,sys
 from unittest.mock import patch
 from pathlib import Path
 spec=importlib.util.spec_from_file_location('workspace',Path(__file__).resolve().parents[1]/'tools/workspace.py');w=importlib.util.module_from_spec(spec);spec.loader.exec_module(w)
@@ -30,4 +30,11 @@ class WorkspaceSafety(unittest.TestCase):
    self.assertEqual(run.call_args_list[0].args[0],['git','clone','--no-checkout','git@github-flybrainlabs:flybrainlabs/web.git',str(destination/'web')])
    self.assertEqual(run.call_args_list[1].args[0],['git','fetch','origin','a'*40])
   with self.assertRaises(ValueError):w.checkout(destination,manifest,'ssh','github.com;echo secret')
+ def test_localized_handbook_does_not_relax_technical_documentation(self):
+  sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'tools'))
+  from check_sources import check
+  translated=self.repos/'docs/docs/handbook/zh/model.md';translated.parent.mkdir(parents=True);translated.write_text('# 科学模型\n')
+  self.assertTrue(check(self.repos)['englishDocumentation'])
+  technical=self.repos/'docs/docs/OPERATIONS.md';technical.write_text('# 中文维护文件\n')
+  with self.assertRaisesRegex(ValueError,'non-English maintained documentation'):check(self.repos)
 if __name__=='__main__':unittest.main()

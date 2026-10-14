@@ -1,12 +1,12 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "wallet-rpc-prepared-20261013-v1",
+  "release": "docs-bilingual-20261014-v1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "463b7f4c87e4d226a182008c15eccc65253155f2",
+      "commit": "254226162b88f649795918f9a276943276578ba2",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "123c7c9984b210f7ffcd973eec077cfa9ceb977c",
+      "commit": "af55a76f44fc5ac65025359cbdc19be9d1e67631",
       "publicationStatus": "verified"
     }
   },
@@ -70,10 +70,10 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "mining-start-20261013-v1",
-    "changedWebsiteObjects": 78,
-    "localBrowserLayouts": 42,
-    "publicBrowserLayouts": 42,
+    "websiteRevision": "docs-bilingual-20261014-v1",
+    "changedWebsiteObjects": 71,
+    "localBrowserLayouts": 158,
+    "publicBrowserLayouts": 158,
     "officialModelDownloadRequests": 0,
     "physicalAndroid": false,
     "physicalGPU": false,
@@ -112,7 +112,11 @@
     "localAdmissionChecks": 17,
     "publicAdmissionChecks": 17,
     "preparedWorkerFullModelExecution": false,
-    "originalUserMiningFailure": "browser RPC HTTP 429 confirmed; requested provider activation and actual extension/full mining confirmation remain pending"
+    "originalUserMiningFailure": "browser RPC HTTP 429 confirmed; requested provider activation and actual extension/full mining confirmation remain pending",
+    "localCompactCases": 32,
+    "publicCompactCases": 32,
+    "pinnedWorkspaceFiles": 925,
+    "documentationBilingual": true
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -128,36 +132,35 @@
   },
   "documentationCenter": {
     "path": "https://flybrain.work/docs/",
-    "revision": "docs-20261013-v8",
-    "language": "en",
+    "revision": "docs-bilingual-20261014-v1",
     "categories": 8,
     "articles": 26,
-    "words": 15977,
+    "words": 16006,
     "diagramDesigns": 8,
     "diagramInstances": 11,
     "searchSections": 177,
-    "publicHttpObjects": 64,
-    "localReadingLayouts": 50,
-    "publicReadingLayouts": 50,
-    "localCompactCases": 24,
-    "publicCompactCases": 24,
+    "publicHttpObjects": 65,
+    "localReadingLayouts": 158,
+    "publicReadingLayouts": 158,
+    "localCompactCases": 32,
+    "publicCompactCases": 32,
     "staticExportTests": 8,
     "nativeCompilation": "passed",
     "tokenSymbol": "FBW",
     "mobileLanguageLocation": "navigation menu",
-    "retainedCoreAssets": 11,
+    "retainedCoreAssets": 14,
     "modelDownloads": 0,
     "financialTransactions": 0,
     "acceptance": "docs/DOCUMENTATION_CENTER_ACCEPTANCE.json",
     "physicalAndroid": false,
     "extensionWalletConfirmation": false,
-    "internalLinks": 2121,
+    "internalLinks": 3463,
     "walletEntryStateChecks": 9,
     "localWalletEntryCases": 6,
     "publicWalletEntryCases": 6,
     "walletFirstEntry": true,
     "inactiveRateUnitHidden": true,
-    "readingAndCompactAcceptanceRevision": "documentation-20261013-v2",
+    "readingAndCompactAcceptanceRevision": "docs-bilingual-20261014-v1",
     "walletEntryAcceptanceRevision": "documentation-20261013-v3",
     "updatedUiAssets": [
       "assets/research-app.mjs",
@@ -168,7 +171,19 @@
     "latestCorrectionsAcceptance": "docs/MINING_SESSION_ACCEPTANCE.json",
     "latestCommunityAcceptance": "docs/SOCIAL_COMMUNITY_ACCEPTANCE.json",
     "latestUiAcceptance": "docs/PUBLIC_UI_ACCEPTANCE.json",
-    "latestAdmissionAcceptance": "docs/MINING_ADMISSION_ACCEPTANCE.json"
+    "latestAdmissionAcceptance": "docs/MINING_ADMISSION_ACCEPTANCE.json",
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "defaultLanguage": "en",
+    "chineseReadingUnits": 25519,
+    "diagramInstancesPerLanguage": 11,
+    "searchSectionsPerLanguage": 177,
+    "markdownDownloads": 52,
+    "latestBilingualAcceptance": "docs/DOCUMENTATION_BILINGUAL_ACCEPTANCE.json",
+    "canonicalLanguageAnchors": true,
+    "refreshLanguagePreference": true
   },
   "miningSession": {
     "project": "flybrainlabs",
@@ -297,7 +312,7 @@
     "websiteDeployed": false,
     "providerConfigured": false,
     "providerVerified": false,
-    "liveWebsiteRevision": "mining-start-20261013-v1",
+    "liveWebsiteRevision": "docs-bilingual-20261014-v1",
     "transportChecks": 24,
     "gatewayChecks": 41,
     "chromiumFixtureChecks": 10,
@@ -306,6 +321,7 @@
     "frozenBudgetPreserved": true,
     "chainTransactions": 0,
     "rewardPayments": 0,
-    "acceptance": "docs/WALLET_RPC_ACCEPTANCE.json"
+    "acceptance": "docs/WALLET_RPC_ACCEPTANCE.json",
+    "liveMiningModuleRevision": "mining-start-20261013-v1"
   }
 }

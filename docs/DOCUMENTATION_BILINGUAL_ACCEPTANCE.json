@@ -1,0 +1,157 @@
+{
+  "schema": "flybrainlabs-documentation-bilingual-acceptance-v1",
+  "date": "2026-10-14",
+  "revision": "docs-bilingual-20261014-v1",
+  "site": "https://flybrain.work/docs/",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "articles": 26,
+  "categories": 8,
+  "englishWords": 16006,
+  "chineseReadingUnits": 25519,
+  "landingCardRepair": {
+    "expectedCards": 26,
+    "previousBrowserLinkBlocks": 52,
+    "currentCards": 26,
+    "balancedHeadings": true
+  },
+  "localReadingLayouts": 158,
+  "publicReadingLayouts": 158,
+  "localReadingChecks": 7,
+  "publicReadingChecks": 5,
+  "localCompactCases": 32,
+  "publicCompactCases": 32,
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1280,
+    1440
+  ],
+  "shortScreenViewports": [
+    [
+      320,
+      480
+    ],
+    [
+      390,
+      568
+    ],
+    [
+      667,
+      320
+    ],
+    [
+      1024,
+      600
+    ]
+  ],
+  "zoom": 1.25,
+  "canonicalAnchors": true,
+  "languageRestoredOnRefresh": true,
+  "localizedSearch": true,
+  "localizedPrintAndCopy": true,
+  "searchSectionsPerLanguage": 177,
+  "internalLinks": 3463,
+  "markdownDownloads": 52,
+  "diagramDesigns": 8,
+  "diagramInstancesPerLanguage": 11,
+  "nativeLibraryCompilation": "passed",
+  "staticExportTests": 8,
+  "workspaceSafetyTests": 5,
+  "sourcePatternScan": "passed",
+  "scopedDeploymentObjects": 71,
+  "serverHashVerification": "passed",
+  "backupVerified": true,
+  "publicChangedHttpObjects": 65,
+  "publicRetainedHttpObjects": 13,
+  "retainedCoreObjects": 14,
+  "preservedAssets": [
+    {
+      "path": "assets/wasm/flypow_sim_core.wasm",
+      "sha256": "2b7e2e66aa1c8a4ab4599b3832b42b728ed2567b4670b35baa0f7eceffd365d2",
+      "unchanged": true
+    },
+    {
+      "path": "assets/research-app.mjs",
+      "sha256": "625f9bd53c64885d35ee4580f4bcfc7f169cf3d1b808cc7704bf35d2071554d7",
+      "unchanged": true
+    },
+    {
+      "path": "assets/research-worker.mjs",
+      "sha256": "c28ef2134315f2cc2fc87be30f516f52e89bd3158b2ccf1faea6f01e26498fc5",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/generated/wallet-session-v3.mjs",
+      "sha256": "0b4d13235ae5f05d7bdca3101f21b4222416af3aa66faa4aa7140f621e1e3f5e",
+      "unchanged": true
+    },
+    {
+      "path": "assets/goal-search-runner.mjs",
+      "sha256": "dd756063d0be25d19542ff1c6743009d7c4b306633ee17b5b3b00cc025027a3e",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/wallet-mining-v3.json",
+      "sha256": "66ffc492494c3ef68503d9011102545da0cf2a0e1b9a0878e7da528959b58450",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/target-network-v2.json",
+      "sha256": "c047692554d7b3bc56d7c36285ebcb03ecda37199cb4cf49e060b84caa0bded0",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/chain-config.json",
+      "sha256": "a1419f59bb6bac94372b36a39afbe554c5d2ed51a3a0c6134a09f2664795fb2b",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/mining-deployment-v1.json",
+      "sha256": "66924cc8fd952b526e6f947eda7e82c64202fbbcc777002f09e8173c9f9c297d",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/atlas.json",
+      "sha256": "36fce23b7356960ac6d1d6fa488606e3c4372491b02b55b2bd20de63fde0b568",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/atlas-context.json",
+      "sha256": "78ae3cd68d394f59eb73ed9bef5c29b39fde4c449aa6cf825ea1f65354b945a9",
+      "unchanged": true
+    },
+    {
+      "path": "assets/data/economic-policy-v2.json",
+      "sha256": "9fb2693dc2ffa88d2e9cc777e506152c2ca3f29221a875b1e1db1e98130eac70",
+      "unchanged": true
+    },
+    {
+      "path": "mining/index.html",
+      "sha256": "d7ec5f2f4e1753002fe26b3bbddcc1590a7e76054d7bf3a87b5f2ec06e336686",
+      "unchanged": true
+    },
+    {
+      "path": ".htaccess",
+      "sha256": "c2d8c7311f760100646a926684e3d0f676cd04d82066bd3e99f787c32e85fc24",
+      "unchanged": true
+    }
+  ],
+  "preparedRpcTransportActivated": false,
+  "heliusProviderConfigured": false,
+  "originalUserMiningConfirmed": false,
+  "modelDownloads": 0,
+  "chainTransactions": 0,
+  "rewardPayments": 0,
+  "newBudgets": 0,
+  "backendRestarts": 0,
+  "browserProfilesReset": false,
+  "physicalAndroid": false,
+  "physicalGPU": false,
+  "actualExtensionConfirmation": false,
+  "verificationBoundary": "Real Chromium rendering and public byte checks; physical devices, provider activation and original wallet mining remain separate."
+}
