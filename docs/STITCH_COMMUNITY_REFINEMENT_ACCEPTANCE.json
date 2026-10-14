@@ -1,0 +1,103 @@
+{
+  "schema": "flybrainlabs-stitch-community-refinement-v1",
+  "release": "social-stitch-refinement-20261014-v1",
+  "baselineRelease": "github-star-flow-20261014-v1",
+  "site": "https://flybrain.work/social/",
+  "status": "deployed and publicly verified",
+  "design": {
+    "provider": "Google Stitch",
+    "screen": "35bc362868e741a386d51f833aabb5a3",
+    "generationCount": 1,
+    "htmlInspected": true,
+    "screenshotInspected": true,
+    "monochrome": true,
+    "thirdPartyRuntimeDependencies": 0,
+    "artifactHtmlSha256": "ceedd97b733890b1ad412656f199fe23531c650c5e8e440b1f567d3b090ebef9"
+  },
+  "layout": {
+    "desktop": "My Community directly above Community Leaderboard in the right column",
+    "mobileOrder": [
+      "allocation",
+      "profile",
+      "leaderboard",
+      "tasks",
+      "invitations",
+      "activity"
+    ],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "decorativeSvg": "hidden from assistive technology; no focus or pointer events",
+    "controlMinimumHeight": 44,
+    "reducedMotion": "no animations or transitions"
+  },
+  "github": {
+    "reauthorizationControl": false,
+    "expiredBindingReauthorizationInstruction": false,
+    "staleUnboundScreenStartsReauthorization": false,
+    "initialBindingEnabled": true,
+    "repositories": [
+      "miner",
+      "infra",
+      "node"
+    ],
+    "openBeforeVerifyRetained": true,
+    "keyboardFocusRetained": true,
+    "starVerificationEnabled": true,
+    "engagementRewardsEnabled": false,
+    "backendCredentialRefreshRetained": true
+  },
+  "checks": {
+    "githubBrowser": 52,
+    "legacySocialBrowser": 40,
+    "localUi": 44,
+    "publicSocial": 44,
+    "publicGitHub": 15,
+    "publicHttpObjects": 12,
+    "publicApi": "passed",
+    "completeAtlasTypes": 11751,
+    "communityTypecheck": "passed",
+    "syntax": "passed",
+    "translationKeys": "unique and complete",
+    "sourceHistoryStagedSecretScan": "passed"
+  },
+  "effects": {
+    "websiteObjects": 12,
+    "backendChanges": 0,
+    "serviceRestarts": 0,
+    "databaseMigrations": 0,
+    "credentialChanges": 0,
+    "productionFixtureUsersCreated": 0,
+    "authenticatedProductionMutationsByAgent": 0,
+    "pointRuleChanges": 0,
+    "chainTransactions": 0,
+    "modelDownloads": 0,
+    "retainedBaselineUnmodified": true,
+    "verifiedWebsiteBackup": true
+  },
+  "actualExtensionConfirmation": false,
+  "actualUserOAuth": false,
+  "physicalDeviceAcceptance": false,
+  "publication": {
+    "owner": "flybrainlabs",
+    "componentsVerified": [
+      {
+        "repository": "web",
+        "branch": "main",
+        "commit": "26ec22d8a50d619d78bd9e78ede8f89294c23294",
+        "updated": true,
+        "remoteVerified": true
+      },
+      {
+        "repository": "docs",
+        "branch": "main",
+        "commit": "bd97398c4ce52d5e6828fe0c138ff2f44f4c0343",
+        "updated": true,
+        "remoteVerified": true
+      }
+    ],
+    "normalFastForwards": true,
+    "sourceWorkspaceFiles": 967
+  }
+}

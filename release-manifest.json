@@ -1,12 +1,12 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "github-star-flow-20261014-v1",
+  "release": "social-stitch-refinement-20261014-v1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "347323c16e2f42ceec3f34d533dbde6d417a50e9",
+      "commit": "26ec22d8a50d619d78bd9e78ede8f89294c23294",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "ced69bed3a42dbd5ffd3119d0ae680fdca571b7b",
+      "commit": "bd97398c4ce52d5e6828fe0c138ff2f44f4c0343",
       "publicationStatus": "verified"
     }
   },
@@ -70,7 +70,7 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "community-github-20261014-v1",
+    "websiteRevision": "social-stitch-refinement-20261014-v1",
     "changedWebsiteObjects": 12,
     "localBrowserLayouts": 10,
     "publicBrowserLayouts": 10,
@@ -97,7 +97,7 @@
     "walletFirstEntry": true,
     "localSessionChecks": 37,
     "publicSessionChecks": 37,
-    "publicCommunityBrowserChecks": 20,
+    "publicCommunityBrowserChecks": 59,
     "localCommunityBrowserChecks": 31,
     "communityBackendChecks": 74,
     "publicUiRevision": "public-ui-20261013-v1",
@@ -115,7 +115,7 @@
     "originalUserMiningFailure": "browser RPC HTTP 429 confirmed; requested provider activation and actual extension/full mining confirmation remain pending",
     "localCompactCases": 32,
     "publicCompactCases": 32,
-    "pinnedWorkspaceFiles": 958,
+    "pinnedWorkspaceFiles": 967,
     "documentationBilingual": true,
     "stitchLocalUiChecks": 46,
     "stitchPublicUiChecks": 41,
@@ -356,7 +356,7 @@
     "liveMiningModuleRevision": "mining-start-20261013-v1"
   },
   "socialUi": {
-    "revision": "stitch-social-wallet-20261014-v1",
+    "revision": "social-stitch-refinement-20261014-v1",
     "designProvider": "Google Stitch",
     "actualDesigns": 3,
     "publicUiChecks": 41,
@@ -379,7 +379,60 @@
     "chainTransactions": 0,
     "newBudgets": 0,
     "modelDownloads": 0,
-    "acceptance": "docs/STITCH_SOCIAL_WALLET_ACCEPTANCE.json"
+    "acceptance": "docs/STITCH_SOCIAL_WALLET_ACCEPTANCE.json",
+    "initialRevision": "stitch-social-wallet-20261014-v1",
+    "totalDesignReferences": 4,
+    "refinement": {
+      "release": "social-stitch-refinement-20261014-v1",
+      "designProvider": "Google Stitch",
+      "actualDesigns": 1,
+      "screen": "35bc362868e741a386d51f833aabb5a3",
+      "personalCardPlacement": "My Community directly above Community Leaderboard in the right column",
+      "mobileOrder": [
+        "allocation",
+        "profile",
+        "leaderboard",
+        "tasks",
+        "invitations",
+        "activity"
+      ],
+      "reauthorizationControl": false,
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "checks": {
+        "githubBrowser": 52,
+        "legacySocialBrowser": 40,
+        "localUi": 44,
+        "publicSocial": 44,
+        "publicGitHub": 15,
+        "publicHttpObjects": 12,
+        "publicApi": "passed",
+        "completeAtlasTypes": 11751,
+        "communityTypecheck": "passed",
+        "syntax": "passed",
+        "translationKeys": "unique and complete",
+        "sourceHistoryStagedSecretScan": "passed"
+      },
+      "effects": {
+        "websiteObjects": 12,
+        "backendChanges": 0,
+        "serviceRestarts": 0,
+        "databaseMigrations": 0,
+        "credentialChanges": 0,
+        "productionFixtureUsersCreated": 0,
+        "authenticatedProductionMutationsByAgent": 0,
+        "pointRuleChanges": 0,
+        "chainTransactions": 0,
+        "modelDownloads": 0,
+        "retainedBaselineUnmodified": true,
+        "verifiedWebsiteBackup": true
+      },
+      "actualExtensionConfirmation": false,
+      "physicalDeviceAcceptance": false,
+      "acceptance": "docs/STITCH_COMMUNITY_REFINEMENT_ACCEPTANCE.json"
+    }
   },
   "communityContributionsV2": {
     "release": "community-daily-invites-20261014-v1",

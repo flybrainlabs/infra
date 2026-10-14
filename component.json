@@ -52,7 +52,8 @@
     "tools/upgrade_github_task_selection.sh": "tools/upgrade_github_task_selection.sh",
     "docs/GITHUB_TASK_SELECTION_ACCEPTANCE.json": "docs/GITHUB_TASK_SELECTION_ACCEPTANCE.json",
     "tools/upgrade_github_star_flow.sh": "tools/upgrade_github_star_flow.sh",
-    "docs/GITHUB_STAR_FLOW_ACCEPTANCE.json": "docs/GITHUB_STAR_FLOW_ACCEPTANCE.json"
+    "docs/GITHUB_STAR_FLOW_ACCEPTANCE.json": "docs/GITHUB_STAR_FLOW_ACCEPTANCE.json",
+    "docs/STITCH_COMMUNITY_REFINEMENT_ACCEPTANCE.json": "docs/STITCH_COMMUNITY_REFINEMENT_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }
