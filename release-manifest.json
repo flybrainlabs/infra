@@ -1,19 +1,19 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "stitch-social-wallet-20261014-v1",
+  "release": "community-daily-invites-20261014-v1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "5f9b3427613725c916380dc3adff2850e1e1bf24",
+      "commit": "5000df98d80af59edd9f3cb6b73d2f8c0a566e50",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "c261c053da00c53e79154539852f6fe86bd89c19",
+      "commit": "431dd01b3d469a92cdf824252eede879b458d232",
       "publicationStatus": "verified"
     },
     "miner": {
@@ -38,7 +38,7 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "2c1a88649ec71849e7f695eb503dc4d93f224530",
+      "commit": "16c97e4b887dac11bc80facc0c1f664cccf432b8",
       "publicationStatus": "verified"
     },
     "research": {
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "cec4b38cd446927b5beaa50bf71b68bf147adf22",
+      "commit": "c2ef4e2501b4e48a474e3acb8cb07d929bef749a",
       "publicationStatus": "verified"
     }
   },
@@ -70,8 +70,8 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "stitch-social-wallet-20261014-v1",
-    "changedWebsiteObjects": 69,
+    "websiteRevision": "community-daily-invites-20261014-v1",
+    "changedWebsiteObjects": 21,
     "localBrowserLayouts": 18,
     "publicBrowserLayouts": 18,
     "officialModelDownloadRequests": 0,
@@ -97,9 +97,9 @@
     "walletFirstEntry": true,
     "localSessionChecks": 37,
     "publicSessionChecks": 37,
-    "publicCommunityBrowserChecks": 18,
+    "publicCommunityBrowserChecks": 20,
     "localCommunityBrowserChecks": 31,
-    "communityBackendChecks": 45,
+    "communityBackendChecks": 74,
     "publicUiRevision": "public-ui-20261013-v1",
     "publicUiName": "flybrainwork",
     "localPublicUiChecks": 32,
@@ -115,7 +115,7 @@
     "originalUserMiningFailure": "browser RPC HTTP 429 confirmed; requested provider activation and actual extension/full mining confirmation remain pending",
     "localCompactCases": 32,
     "publicCompactCases": 32,
-    "pinnedWorkspaceFiles": 929,
+    "pinnedWorkspaceFiles": 935,
     "documentationBilingual": true,
     "stitchLocalUiChecks": 46,
     "stitchPublicUiChecks": 41,
@@ -124,7 +124,9 @@
     "stitchPublicWalletLayouts": 24,
     "stitchActualDesigns": 3,
     "stitchViewportsPerLanguage": 5,
-    "stitchModalViewportsPerLanguage": 4
+    "stitchModalViewportsPerLanguage": 4,
+    "communityDailyInviteRevision": "community-daily-invites-20261014-v1",
+    "localDailyInviteChecks": 29
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -227,22 +229,22 @@
     "acceptance": "docs/MINING_SESSION_ACCEPTANCE.json"
   },
   "socialCommunity": {
-    "revision": "social-community-20261013-v1",
+    "revision": "community-daily-invites-20261014-v1",
     "path": "https://flybrain.work/social/",
     "adminPath": "https://flybrain.work/social/admin/",
     "sharedIdentity": "Wallet Mining V3 SIWS and SQLite/WAL",
     "loopbackPort": 8791,
     "initialTask": "connect_x_identity_v1",
-    "initialPoints": 100,
+    "initialPoints": 10,
     "challengeSeconds": 1800,
-    "migrationVersion": 1,
-    "migrationSha256": "829fb58a2281be20607175790734269f18343c895adef3f57010000ccf4a7c6a",
-    "backendChecks": 45,
-    "localBrowserChecks": 31,
-    "publicBrowserChecks": 18,
-    "matchedWebsiteObjects": 78,
-    "matchedPublicHttpObjects": 70,
-    "matchedInstalledServerObjects": 158,
+    "migrationVersion": 2,
+    "migrationSha256": "ec586cdc2b1eda6ef40e23b307dc1096998ca37afaf71b102626d8c0303144f8",
+    "backendChecks": 74,
+    "localBrowserChecks": 40,
+    "publicBrowserChecks": 20,
+    "matchedWebsiteObjects": 21,
+    "matchedPublicHttpObjects": 23,
+    "matchedInstalledServerObjects": 4,
     "communityPoolAtoms": "3118332300000000",
     "airdropBudgetAtoms": "2500000000000000",
     "otherEcosystemAtoms": "618332300000000",
@@ -255,7 +257,8 @@
     "physicalDevice": false,
     "productionFixtureUsers": 0,
     "tokenTransfers": 0,
-    "acceptance": "docs/SOCIAL_COMMUNITY_ACCEPTANCE.json"
+    "acceptance": "docs/SOCIAL_COMMUNITY_ACCEPTANCE.json",
+    "latestAcceptance": "docs/COMMUNITY_DAILY_INVITES_ACCEPTANCE.json"
   },
   "publicUi": {
     "revision": "public-ui-20261013-v1",
@@ -320,7 +323,7 @@
     "websiteDeployed": false,
     "providerConfigured": false,
     "providerVerified": false,
-    "liveWebsiteRevision": "stitch-social-wallet-20261014-v1",
+    "liveWebsiteRevision": "community-daily-invites-20261014-v1",
     "transportChecks": 24,
     "gatewayChecks": 41,
     "chromiumFixtureChecks": 10,
@@ -357,5 +360,32 @@
     "newBudgets": 0,
     "modelDownloads": 0,
     "acceptance": "docs/STITCH_SOCIAL_WALLET_ACCEPTANCE.json"
+  },
+  "communityContributionsV2": {
+    "release": "community-daily-invites-20261014-v1",
+    "rules": {
+      "identityPoints": 10,
+      "checkInPoints": 1,
+      "checkInDailyLimit": 1,
+      "dailyXPoints": 1,
+      "dailyXLimit": 3,
+      "timeZone": "UTC",
+      "inviterPoints": 10,
+      "invitationCountLimit": null,
+      "referralTrigger": "first community registration through invitation and unique X verification",
+      "publicXUsername": false,
+      "walletMaskCharacters": 8,
+      "copyPublicWalletAction": false,
+      "desktopLeaderboard": "right",
+      "requestedDisclaimerRemoved": true
+    },
+    "existingEarnedPointsPreserved": true,
+    "privateRuntimeUnchanged": true,
+    "communityRestarts": 1,
+    "otherServicesRestarted": 0,
+    "actualExtensionConfirmation": false,
+    "humanLiveXChallengeAcceptance": false,
+    "physicalDevice": false,
+    "acceptance": "docs/COMMUNITY_DAILY_INVITES_ACCEPTANCE.json"
   }
 }
