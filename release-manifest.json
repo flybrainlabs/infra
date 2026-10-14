@@ -1,12 +1,12 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "community-daily-invites-20261014-v1",
+  "release": "mining-depth-20261014-v2",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "5000df98d80af59edd9f3cb6b73d2f8c0a566e50",
+      "commit": "621ca1c3dbe962d687d9766a03f97248098aa266",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
@@ -18,7 +18,7 @@
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "c09d63f34ae2d122f0e4a717cc5e0ca5a8f4122c",
+      "commit": "6706d6a397dd83e521f49bbe45187eb2a8210ee2",
       "publicationStatus": "verified"
     },
     "explorer": {
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "c2ef4e2501b4e48a474e3acb8cb07d929bef749a",
+      "commit": "dc684f5382b16e9cf8d0290361d91b55f04038e3",
       "publicationStatus": "verified"
     }
   },
@@ -70,10 +70,10 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "community-daily-invites-20261014-v1",
-    "changedWebsiteObjects": 21,
-    "localBrowserLayouts": 18,
-    "publicBrowserLayouts": 18,
+    "websiteRevision": "mining-depth-20261014-v2",
+    "changedWebsiteObjects": 12,
+    "localBrowserLayouts": 10,
+    "publicBrowserLayouts": 10,
     "officialModelDownloadRequests": 0,
     "physicalAndroid": false,
     "physicalGPU": false,
@@ -115,7 +115,7 @@
     "originalUserMiningFailure": "browser RPC HTTP 429 confirmed; requested provider activation and actual extension/full mining confirmation remain pending",
     "localCompactCases": 32,
     "publicCompactCases": 32,
-    "pinnedWorkspaceFiles": 935,
+    "pinnedWorkspaceFiles": 942,
     "documentationBilingual": true,
     "stitchLocalUiChecks": 46,
     "stitchPublicUiChecks": 41,
@@ -126,7 +126,14 @@
     "stitchViewportsPerLanguage": 5,
     "stitchModalViewportsPerLanguage": 4,
     "communityDailyInviteRevision": "community-daily-invites-20261014-v1",
-    "localDailyInviteChecks": 29
+    "localDailyInviteChecks": 29,
+    "miningPresentationRevision": "mining-depth-20261014-v2",
+    "localMiningPresentationChecks": 30,
+    "publicMiningPresentationChecks": 23,
+    "miningPresentationHttpObjects": 21,
+    "miningForegroundChecksPerRun": 4,
+    "authorityStateAtReadOnlyVerification": "RESEARCH_STAGE_COMPLETE",
+    "authorityRoundCountAtReadOnlyVerification": 36
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -323,7 +330,7 @@
     "websiteDeployed": false,
     "providerConfigured": false,
     "providerVerified": false,
-    "liveWebsiteRevision": "community-daily-invites-20261014-v1",
+    "liveWebsiteRevision": "mining-depth-20261014-v2",
     "transportChecks": 24,
     "gatewayChecks": 41,
     "chromiumFixtureChecks": 10,
@@ -387,5 +394,81 @@
     "humanLiveXChallengeAcceptance": false,
     "physicalDevice": false,
     "acceptance": "docs/COMMUNITY_DAILY_INVITES_ACCEPTANCE.json"
+  },
+  "miningPresentation": {
+    "release": "mining-depth-20261014-v2",
+    "site": "https://flybrain.work/mining/",
+    "passed": true,
+    "initialPresentationRelease": "mining-motion-20261014-v1",
+    "initialDeploymentObjects": 14,
+    "foregroundCorrectionObjects": 12,
+    "publicHttpObjects": 21,
+    "localBrowserChecks": 30,
+    "publicBrowserChecks": 23,
+    "presentationChecks": 11,
+    "framebufferChecksPerBrowserRun": 4,
+    "viewportSizes": [
+      [
+        320,
+        660
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        1440,
+        1000
+      ],
+      [
+        1440,
+        740
+      ]
+    ],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "busyPreparation": "loading indicator and disabled primary; explicit pause retained",
+    "progress": "animated actual native value; unknown progress remains indeterminate",
+    "desktopColumns": "equal",
+    "logs": "sanitized existing observations; white scrolling text behind anatomy",
+    "candidateEmphasis": "qualified candidates await verification; confirmed wins use separate bold status",
+    "foregroundProtection": "opaque dark backing shares displayed anatomy surfaces and follows original visibility and camera transforms",
+    "newGeometryDownloads": 0,
+    "productGpuReadbacks": 0,
+    "actualChromium": true,
+    "softwareWebGL": true,
+    "localPreparationFixture": true,
+    "localLogFixture": true,
+    "publicPreparationFixture": false,
+    "publicLogFixture": false,
+    "backupsVerified": true,
+    "completeAtlasTypes": 11751,
+    "completeExportFiles": 92697,
+    "retainedImmutableResources": "hardlinks; changed objects replaced atomically; original baseline hashes verified",
+    "communityV2Retained": true,
+    "financialAndScientificExecutionRetained": true,
+    "modelDownloads": 0,
+    "modelExecuted": false,
+    "chainTransactions": 0,
+    "newBudgets": 0,
+    "agentBackendRestarts": 0,
+    "agentDatabaseChanges": 0,
+    "productionFixtureUsersCreated": 0,
+    "browserCacheReset": false,
+    "rpcProviderActivated": false,
+    "actualExtensionConfirmation": false,
+    "physicalAndroid": false,
+    "physicalGPU": false,
+    "publicUiBrand": "flybrainwork",
+    "projectOwner": "flybrainlabs",
+    "acceptance": "docs/MINING_PRESENTATION_MOTION_ACCEPTANCE.json",
+    "pinnedWorkspaceFiles": 942,
+    "retainedCspSshVerified": true
   }
 }

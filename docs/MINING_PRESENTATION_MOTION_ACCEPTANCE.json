@@ -1,0 +1,93 @@
+{
+  "schema": "flybrainlabs-mining-presentation-acceptance",
+  "release": "mining-depth-20261014-v2",
+  "site": "https://flybrain.work/mining/",
+  "passed": true,
+  "initialPresentationRelease": "mining-motion-20261014-v1",
+  "initialDeploymentObjects": 14,
+  "foregroundCorrectionObjects": 12,
+  "publicHttpObjects": 21,
+  "localBrowserChecks": 30,
+  "publicBrowserChecks": 23,
+  "presentationChecks": 11,
+  "framebufferChecksPerBrowserRun": 4,
+  "viewportSizes": [
+    [
+      320,
+      660
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1440,
+      1000
+    ],
+    [
+      1440,
+      740
+    ]
+  ],
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "busyPreparation": "loading indicator and disabled primary; explicit pause retained",
+  "progress": "animated actual native value; unknown progress remains indeterminate",
+  "desktopColumns": "equal",
+  "logs": "sanitized existing observations; white scrolling text behind anatomy",
+  "candidateEmphasis": "qualified candidates await verification; confirmed wins use separate bold status",
+  "foregroundProtection": "opaque dark backing shares displayed anatomy surfaces and follows original visibility and camera transforms",
+  "newGeometryDownloads": 0,
+  "productGpuReadbacks": 0,
+  "actualChromium": true,
+  "softwareWebGL": true,
+  "localPreparationFixture": true,
+  "localLogFixture": true,
+  "publicPreparationFixture": false,
+  "publicLogFixture": false,
+  "backupsVerified": true,
+  "retainedCoreAssetHashes": {
+    ".htaccess": "c2d8c7311f760100646a926684e3d0f676cd04d82066bd3e99f787c32e85fc24",
+    "assets/data/atlas.json": "36fce23b7356960ac6d1d6fa488606e3c4372491b02b55b2bd20de63fde0b568",
+    "assets/vendor/generated/wallet-session-v3.mjs": "0b4d13235ae5f05d7bdca3101f21b4222416af3aa66faa4aa7140f621e1e3f5e",
+    "assets/data/wallet-mining-v3.json": "66ffc492494c3ef68503d9011102545da0cf2a0e1b9a0878e7da528959b58450",
+    "assets/data/mining-deployment-v1.json": "66924cc8fd952b526e6f947eda7e82c64202fbbcc777002f09e8173c9f9c297d",
+    "assets/goal-search-runner.mjs": "dd756063d0be25d19542ff1c6743009d7c4b306633ee17b5b3b00cc025027a3e",
+    "assets/preparation-controller.mjs": "78c16538d909436f71093179eb9ec59c244ed4bb2604cf3a246d7134e83b9b86",
+    "assets/research-worker.mjs": "c28ef2134315f2cc2fc87be30f516f52e89bd3158b2ccf1faea6f01e26498fc5",
+    "assets/wasm/flypow_sim_core.wasm": "2b7e2e66aa1c8a4ab4599b3832b42b728ed2567b4670b35baa0f7eceffd365d2",
+    "assets/computation.mjs": "27318dbc5ab393b0df7c94a36ce1391a0e31eb4e951d4653cc9793f08ab4e211",
+    "assets/mining-anatomy.mjs": "fe5d78e699362eb0b554b95250927910c906476f5c69c5cf729225052a183885",
+    "assets/anatomy-scene.mjs": "0ba149d01ef5359dab22b3564de131b7a796b22f888bc14f9d4e9ed087bf8825",
+    "assets/social-app.mjs": "ef7d5ed9b8a063e1a9b9c687b30f35e79fa961428a14d0104d508cc42f28cd7d",
+    "assets/community-client.mjs": "60205ccad35c9dc762158f6942b0395541d02af7ae866b8e3159b28496122456",
+    "social/index.html": "47b4e0899c6fa42904135a16ec67845c886e35b314f5e85d54d74f5ff72a4f31"
+  },
+  "completeAtlasTypes": 11751,
+  "completeExportFiles": 92697,
+  "retainedImmutableResources": "hardlinks; changed objects replaced atomically; original baseline hashes verified",
+  "communityV2Retained": true,
+  "financialAndScientificExecutionRetained": true,
+  "modelDownloads": 0,
+  "modelExecuted": false,
+  "chainTransactions": 0,
+  "newBudgets": 0,
+  "agentBackendRestarts": 0,
+  "agentDatabaseChanges": 0,
+  "productionFixtureUsersCreated": 0,
+  "browserCacheReset": false,
+  "rpcProviderActivated": false,
+  "actualExtensionConfirmation": false,
+  "physicalAndroid": false,
+  "physicalGPU": false,
+  "publicUiBrand": "flybrainwork",
+  "projectOwner": "flybrainlabs",
+  "pinnedWorkspaceFiles": 942,
+  "retainedCspSshVerified": true
+}
