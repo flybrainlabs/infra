@@ -1,19 +1,19 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "mining-depth-20261014-v2",
+  "release": "community-github-20261014-v1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "621ca1c3dbe962d687d9766a03f97248098aa266",
+      "commit": "639fee12f0f8ad6ad39321a9448f4591ba7d5892",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "431dd01b3d469a92cdf824252eede879b458d232",
+      "commit": "ba7343f8ff74c6d59d02bb1f3bd59c681bd92477",
       "publicationStatus": "verified"
     },
     "miner": {
@@ -38,7 +38,7 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "16c97e4b887dac11bc80facc0c1f664cccf432b8",
+      "commit": "024782775256a7dd53b5b45a045340aa7d0dd1cb",
       "publicationStatus": "verified"
     },
     "research": {
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "dc684f5382b16e9cf8d0290361d91b55f04038e3",
+      "commit": "dcefea21cfd352d1a6b26220935f7a3c685188b0",
       "publicationStatus": "verified"
     }
   },
@@ -70,7 +70,7 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "mining-depth-20261014-v2",
+    "websiteRevision": "community-github-20261014-v1",
     "changedWebsiteObjects": 12,
     "localBrowserLayouts": 10,
     "publicBrowserLayouts": 10,
@@ -115,7 +115,7 @@
     "originalUserMiningFailure": "browser RPC HTTP 429 confirmed; requested provider activation and actual extension/full mining confirmation remain pending",
     "localCompactCases": 32,
     "publicCompactCases": 32,
-    "pinnedWorkspaceFiles": 942,
+    "pinnedWorkspaceFiles": 958,
     "documentationBilingual": true,
     "stitchLocalUiChecks": 46,
     "stitchPublicUiChecks": 41,
@@ -133,7 +133,17 @@
     "miningPresentationHttpObjects": 21,
     "miningForegroundChecksPerRun": 4,
     "authorityStateAtReadOnlyVerification": "RESEARCH_STAGE_COMPLETE",
-    "authorityRoundCountAtReadOnlyVerification": 36
+    "authorityRoundCountAtReadOnlyVerification": 36,
+    "githubTasks": 12,
+    "githubBackendChecks": 57,
+    "githubProviderChecks": 23,
+    "githubBrowserChecks": 31,
+    "githubOAuthConfigured": true,
+    "githubActualUserOAuth": false,
+    "githubEngagementRewardsEnabled": false,
+    "communitySchemaVersion": 3,
+    "communityPublicChecks": 20,
+    "callbackPublicRouteChecks": 5
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -152,7 +162,7 @@
     "revision": "docs-bilingual-20261014-v1",
     "categories": 8,
     "articles": 26,
-    "words": 16006,
+    "words": 16472,
     "diagramDesigns": 8,
     "diagramInstances": 11,
     "searchSections": 177,
@@ -171,7 +181,7 @@
     "acceptance": "docs/DOCUMENTATION_CENTER_ACCEPTANCE.json",
     "physicalAndroid": false,
     "extensionWalletConfirmation": false,
-    "internalLinks": 3463,
+    "internalLinks": 3479,
     "walletEntryStateChecks": 9,
     "localWalletEntryCases": 6,
     "publicWalletEntryCases": 6,
@@ -194,9 +204,9 @@
       "zh"
     ],
     "defaultLanguage": "en",
-    "chineseReadingUnits": 25519,
+    "chineseReadingUnits": 26291,
     "diagramInstancesPerLanguage": 11,
-    "searchSectionsPerLanguage": 177,
+    "searchSectionsPerLanguage": 181,
     "markdownDownloads": 52,
     "latestBilingualAcceptance": "docs/DOCUMENTATION_BILINGUAL_ACCEPTANCE.json",
     "canonicalLanguageAnchors": true,
@@ -236,7 +246,7 @@
     "acceptance": "docs/MINING_SESSION_ACCEPTANCE.json"
   },
   "socialCommunity": {
-    "revision": "community-daily-invites-20261014-v1",
+    "revision": "community-github-20261014-v1",
     "path": "https://flybrain.work/social/",
     "adminPath": "https://flybrain.work/social/admin/",
     "sharedIdentity": "Wallet Mining V3 SIWS and SQLite/WAL",
@@ -244,8 +254,8 @@
     "initialTask": "connect_x_identity_v1",
     "initialPoints": 10,
     "challengeSeconds": 1800,
-    "migrationVersion": 2,
-    "migrationSha256": "ec586cdc2b1eda6ef40e23b307dc1096998ca37afaf71b102626d8c0303144f8",
+    "migrationVersion": 3,
+    "migrationSha256": "aa6620c7c7a0387e81b08529228eec0bebc6d50928409828264b9dac7096c59e",
     "backendChecks": 74,
     "localBrowserChecks": 40,
     "publicBrowserChecks": 20,
@@ -265,7 +275,10 @@
     "productionFixtureUsers": 0,
     "tokenTransfers": 0,
     "acceptance": "docs/SOCIAL_COMMUNITY_ACCEPTANCE.json",
-    "latestAcceptance": "docs/COMMUNITY_DAILY_INVITES_ACCEPTANCE.json"
+    "latestAcceptance": "docs/COMMUNITY_GITHUB_ACCEPTANCE.json",
+    "githubOAuthConfigured": true,
+    "xOAuthConfigured": false,
+    "legacyOAuthStatusProvider": "x"
   },
   "publicUi": {
     "revision": "public-ui-20261013-v1",
@@ -470,5 +483,69 @@
     "acceptance": "docs/MINING_PRESENTATION_MOTION_ACCEPTANCE.json",
     "pinnedWorkspaceFiles": 942,
     "retainedCspSshVerified": true
+  },
+  "githubCommunity": {
+    "release": "community-github-20261014-v1",
+    "site": "https://flybrain.work/social/",
+    "callbackUrl": "https://flybrain.work/api/auth/github/callback",
+    "ownerConfirmedCallback": true,
+    "migrationVersion": 3,
+    "migrationSha256": "aa6620c7c7a0387e81b08529228eec0bebc6d50928409828264b9dac7096c59e",
+    "oldMigrationsUnchanged": true,
+    "historicalRowsPreserved": true,
+    "privateWalletRuntimeUnchanged": true,
+    "communityRestarts": 2,
+    "otherServicesRestarted": 0,
+    "migrationRepeated": false,
+    "initialWebsiteObjects": 28,
+    "callbackHeaderCorrectionObjects": 2,
+    "retainedScientificWalletObjects": 12,
+    "publicStarRepositories": 10,
+    "webPrivate": true,
+    "auxiliaryExamples": "https://github.com/flybrainlabs/examples",
+    "bindingConfigured": true,
+    "actualUserOAuth": false,
+    "actualExtensionConfirmation": false,
+    "managedHostingQueryLogRedaction": "unverified; node callback access/error logs suppressed; public callback no-referrer verified",
+    "productionFixtureUsersCreated": 0,
+    "tokenTransfers": 0,
+    "scientificTasksCreated": 0,
+    "rules": {
+      "githubIdentityPoints": 50,
+      "githubFollowPoints": 10,
+      "githubStarPoints": 1,
+      "githubStarTasks": 10,
+      "totalConfiguredPoints": 70,
+      "repeatable": false,
+      "engagementRewardsEnabled": false,
+      "referralTriggerUnchanged": "X identity verification"
+    },
+    "checks": {
+      "githubBackend": 57,
+      "githubProvider": 23,
+      "legacyBackend": 74,
+      "githubBrowser": 31,
+      "legacySocialBrowser": 40,
+      "legacyWalletBrowser": 10,
+      "publicSocialBrowser": 20,
+      "publicOAuthRoutes": 5,
+      "staticExport": 8,
+      "workspaceSafety": 5,
+      "privateConfigFixture": 6,
+      "typecheck": "passed",
+      "syntax": "passed",
+      "nativeCompilation": "passed",
+      "documentation": "passed",
+      "sourceSecretScan": "passed"
+    },
+    "acceptance": "docs/COMMUNITY_GITHUB_ACCEPTANCE.json"
+  },
+  "auxiliaryRepositories": {
+    "examples": {
+      "url": "https://github.com/flybrainlabs/examples.git",
+      "commit": "ca9b3183e87b35f45a3d7653034fe03969873eec",
+      "visibility": "public",
+      "role": "original public integration examples; excluded from ten-component assembly"
+    }
   }
 }

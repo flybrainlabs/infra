@@ -1,0 +1,8 @@
+{
+  "clientId": "GITHUB_OAUTH_CLIENT_ID",
+  "clientSecret": "GITHUB_OAUTH_CLIENT_SECRET",
+  "encryptionKey": "GITHUB_TOKEN_ENCRYPTION_KEY_64_HEX_CHARACTERS",
+  "callbackUrl": "https://flybrain.work/api/auth/github/callback",
+  "bindingEnabled": true,
+  "engagementRewardsEnabled": false
+}

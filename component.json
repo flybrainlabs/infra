@@ -43,7 +43,11 @@
     "docs/STITCH_SOCIAL_WALLET_ACCEPTANCE.json": "docs/STITCH_SOCIAL_WALLET_ACCEPTANCE.json",
     "tools/upgrade_community_v2.sh": "tools/upgrade_community_v2.sh",
     "deploy/COMMUNITY_DAILY_INVITES_ACCEPTANCE.json": "docs/COMMUNITY_DAILY_INVITES_ACCEPTANCE.json",
-    "deploy/MINING_PRESENTATION_MOTION_ACCEPTANCE.json": "docs/MINING_PRESENTATION_MOTION_ACCEPTANCE.json"
+    "deploy/MINING_PRESENTATION_MOTION_ACCEPTANCE.json": "docs/MINING_PRESENTATION_MOTION_ACCEPTANCE.json",
+    "deploy/target-v2/github-community.example.json": "deploy/target-v2/github-community.example.json",
+    "tools/upgrade_community_v3.sh": "tools/upgrade_community_v3.sh",
+    "tools/configure_github_community.py": "tools/configure_github_community.py",
+    "docs/COMMUNITY_GITHUB_ACCEPTANCE.json": "docs/COMMUNITY_GITHUB_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }
