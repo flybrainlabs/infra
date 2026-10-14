@@ -1,24 +1,24 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "social-stitch-refinement-20261014-v1",
+  "release": "continuous-task-supply-20261014-v1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "26ec22d8a50d619d78bd9e78ede8f89294c23294",
+      "commit": "39ca21e7d3bb5148c580bf2f3b7580803ebd5514",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "90fd3f1f18ccc338a29988b15c67adf2aca4bc13",
+      "commit": "3da19d5d87d035ec2f22ee9e38fca5e7f202e0ad",
       "publicationStatus": "verified"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "6706d6a397dd83e521f49bbe45187eb2a8210ee2",
+      "commit": "fa2130326351945b2ca85ed47600b51c1122daac",
       "publicationStatus": "verified"
     },
     "explorer": {
@@ -38,7 +38,7 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "024782775256a7dd53b5b45a045340aa7d0dd1cb",
+      "commit": "e437babe29caa344c0442eca0721987c9fb4d95a",
       "publicationStatus": "verified"
     },
     "research": {
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "bd97398c4ce52d5e6828fe0c138ff2f44f4c0343",
+      "commit": "6bb39187f744873ba5ff0202cd9a46d2a18ceb29",
       "publicationStatus": "verified"
     }
   },
@@ -724,5 +724,26 @@
       "visibility": "public",
       "role": "original public integration examples; excluded from ten-component assembly"
     }
+  },
+  "continuousTaskSupply": {
+    "release": "continuous-task-supply-20261014-v1",
+    "status": "deployed-awaiting-approved-calibrated-catalog-and-finite-funding",
+    "acceptance": "docs/CONTINUOUS_TASK_SUPPLY_ACCEPTANCE.json",
+    "policy": {
+      "currentAndAnnouncedGoals": 5,
+      "unopenedLowWater": 2,
+      "eligibleVerifierQueueLimit": 2,
+      "readyVerifierIdentitiesRequired": 2,
+      "archiveReserveBytes": 268435456,
+      "diskReserveBytes": 2147483648,
+      "fallbackSeconds": 60,
+      "blockByBlockSolanaListener": false
+    },
+    "dispatcherStatus": "waiting-approved-tasks",
+    "newTasksPublished": 0,
+    "newFundingTransactions": 0,
+    "browserStandbyDeployed": true,
+    "oldFinancialIdentityRetained": true,
+    "nextApprovedCatalogAndBudgetPending": true
   }
 }

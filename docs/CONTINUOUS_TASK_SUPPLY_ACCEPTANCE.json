@@ -1,0 +1,87 @@
+{
+  "schema": "flybrain-continuous-task-supply-acceptance-v1",
+  "release": "continuous-task-supply-20261014-v1",
+  "status": "deployed-awaiting-approved-calibrated-catalog-and-finite-funding",
+  "sourceCommits": {
+    "node": "3da19d5d87d035ec2f22ee9e38fca5e7f202e0ad",
+    "miner": "fa2130326351945b2ca85ed47600b51c1122daac",
+    "sdk": "e437babe29caa344c0442eca0721987c9fb4d95a",
+    "web": "39ca21e7d3bb5148c580bf2f3b7580803ebd5514",
+    "docs": "6bb39187f744873ba5ff0202cd9a46d2a18ceb29"
+  },
+  "checks": {
+    "continuous_task_supply": "passed",
+    "continuous_participation": "passed",
+    "goal_runner_v2": "passed",
+    "wallet_entry_gate": "passed",
+    "goal_output_recovery": "passed",
+    "wallet_plan_v3": "passed",
+    "wallet_login_v3": "passed",
+    "mining_transport_v3": "passed",
+    "isolatedChromiumStandby": 10,
+    "localWalletEntry": 6,
+    "publicWalletEntry": 6,
+    "publicHttpHashes": 16,
+    "completeAtlasTypes": 11751,
+    "syntax": "passed",
+    "sourceHistorySecretScan": "passed",
+    "installedNodeImportGraph": "passed"
+  },
+  "effects": {
+    "nodeDeploymentAttempts": 2,
+    "firstAttemptRolledBack": true,
+    "rollbackRuntimeOwnerCorrected": true,
+    "missingRpcDependencyInstalled": true,
+    "successfulUpgradeGatewayRestarts": 1,
+    "priorAttemptIncludedGatewayRecoveryRestarts": true,
+    "authorityRestarts": 0,
+    "verifierRestarts": 0,
+    "communityRestarts": 0,
+    "nodeSourcesDelivered": 4,
+    "previouslyInstalledDispatcherFilesRetained": 2,
+    "websiteObjects": 16,
+    "scientificTasksPublished": 0,
+    "fundingTransactions": 0,
+    "rewardPaymentsCreated": 0,
+    "newTokenIssuance": false,
+    "walletGrantsRenewed": 0,
+    "modelDownloads": 0,
+    "privateFinancialFieldsUnchanged": true,
+    "historicalRowsRetained": true
+  },
+  "operationalPolicy": {
+    "currentAndAnnouncedGoals": 5,
+    "unopenedLowWater": 2,
+    "eligibleVerifierQueueLimit": 2,
+    "readyVerifierIdentitiesRequired": 2,
+    "archiveReserveBytes": 268435456,
+    "diskReserveBytes": 2147483648,
+    "fallbackSeconds": 60,
+    "blockByBlockSolanaListener": false
+  },
+  "observedState": {
+    "originalAuthority": "RESEARCH_STAGE_COMPLETE",
+    "historicalRounds": 36,
+    "solvedGoals": 31,
+    "pendingGoals": 0,
+    "approvedCatalogTasks": 0,
+    "issuedDispatcherBatches": 0,
+    "dispatcher": "waiting-approved-tasks",
+    "existingWalletStageBudgetAtoms": "200000000",
+    "existingWalletUnitCount": 2,
+    "oldStageUnits": "already settled; no renewed budget"
+  },
+  "backups": {
+    "successfulNodeUpgrade": "/var/backups/flypow/continuous-supply-20261014T142128Z-1811640",
+    "priorAttempt": "/var/backups/flypow/continuous-supply-20261014T140908Z-1808056",
+    "website": "/home/flybwhiv/flypow-deploy/mining-optimization-20261014T142337Z-88252/before.tar.gz"
+  },
+  "acceptanceLimits": {
+    "continuousFullModelCampaign": false,
+    "physicalDevice": false,
+    "realWalletExtension": false,
+    "independentOperators": false,
+    "newApprovedScientificCatalog": false,
+    "nextFiniteFundingAmount": "awaiting owner input"
+  }
+}

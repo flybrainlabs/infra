@@ -1,0 +1,21 @@
+{
+  "schema": "flybrain-continuous-task-supply-config-v1",
+  "enabled": true,
+  "authorityBase": "http://127.0.0.1:8790",
+  "networkId": "SET_EXISTING_NETWORK_ID",
+  "campaignId": "SET_EXISTING_CAMPAIGN_ID",
+  "authorityId": "SET_EXISTING_AUTHORITY_PUBLIC_KEY",
+  "authorityConfigPath": "/etc/flypow/authority-config.json",
+  "adminKeyPath": "/var/lib/flypow/authority/private/EXISTING_PLAN_ADMIN.key",
+  "catalogPath": "/etc/flypow/continuous-task-catalog.json",
+  "stateDatabase": "/var/lib/flypow/authority/continuous-task-supply.sqlite",
+  "policy": {
+    "queueTarget": 5,
+    "lowWater": 2,
+    "maxVerificationQueue": 2,
+    "minReadyVerifiers": 2,
+    "minArchiveReserveBytes": 268435456,
+    "minDiskReserveBytes": 2147483648,
+    "recheckSeconds": 60
+  }
+}
