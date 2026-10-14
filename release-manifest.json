@@ -1,19 +1,19 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "github-task-selection-20261014-v1",
+  "release": "github-star-flow-20261014-v1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "2f5397a87e82e9ee5e87116d9016a47d66b88313",
+      "commit": "347323c16e2f42ceec3f34d533dbde6d417a50e9",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "e1e7942e2cbd125b4f191b532f8456eb48827ebf",
+      "commit": "90fd3f1f18ccc338a29988b15c67adf2aca4bc13",
       "publicationStatus": "verified"
     },
     "miner": {
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "65e82513a9f12187be42196717b5b6a0474686aa",
+      "commit": "ced69bed3a42dbd5ffd3119d0ae680fdca571b7b",
       "publicationStatus": "verified"
     }
   },
@@ -485,7 +485,7 @@
     "retainedCspSshVerified": true
   },
   "githubCommunity": {
-    "release": "github-task-selection-20261014-v1",
+    "release": "github-star-flow-20261014-v1",
     "site": "https://flybrain.work/social/",
     "callbackUrl": "https://flybrain.work/api/auth/github/callback",
     "ownerConfirmedCallback": true,
@@ -494,7 +494,7 @@
     "oldMigrationsUnchanged": true,
     "historicalRowsPreserved": true,
     "privateWalletRuntimeUnchanged": true,
-    "communityRestarts": 2,
+    "communityRestarts": 4,
     "otherServicesRestarted": 0,
     "migrationRepeated": false,
     "initialWebsiteObjects": 28,
@@ -517,7 +517,8 @@
       "totalConfiguredPoints": 53,
       "repeatable": false,
       "engagementRewardsEnabled": false,
-      "referralTriggerUnchanged": "X identity verification"
+      "referralTriggerUnchanged": "X identity verification",
+      "starVerificationEnabled": true
     },
     "checks": {
       "githubBackend": 57,
@@ -617,7 +618,51 @@
     },
     "productionBindingObserved": 1,
     "productionBindingPointsObserved": 50,
-    "userReportedBindingWorks": true
+    "userReportedBindingWorks": true,
+    "starFlow": {
+      "release": "github-star-flow-20261014-v1",
+      "repositories": [
+        "miner",
+        "infra",
+        "node"
+      ],
+      "starVerificationEnabled": true,
+      "engagementRewardsEnabled": false,
+      "openButtonRequiredBeforeVerify": true,
+      "verifiedAuditRetained": true,
+      "pointsLedgerUnchangedByReadOnlyChecks": true,
+      "checks": {
+        "githubBackend": 67,
+        "githubBrowser": 50,
+        "legacyBackend": 74,
+        "publicBrowser": 15,
+        "publicHttpObjects": 12,
+        "publicApi": "passed",
+        "communityTypecheck": "passed",
+        "syntax": "passed",
+        "translationKeys": "unique",
+        "completeStaticExport": "passed",
+        "atlasTypes": 11751,
+        "sourceHistorySecretScan": "passed"
+      },
+      "effects": {
+        "initialNodeSourceFiles": 3,
+        "auditClassificationCorrectionFiles": 1,
+        "websiteObjects": 12,
+        "communityRestarts": 2,
+        "otherServiceRestarts": 0,
+        "migrationRepeated": false,
+        "credentialChanges": 0,
+        "historicalRowsPreserved": true,
+        "productionFixtureUsersCreated": 0,
+        "authenticatedProductionMutationsByAgent": 0,
+        "tokenTransfers": 0
+      },
+      "pinnedWorkspaceFiles": 964,
+      "acceptance": "docs/GITHUB_STAR_FLOW_ACCEPTANCE.json",
+      "actualExtensionConfirmation": false,
+      "physicalDeviceAcceptance": false
+    }
   },
   "auxiliaryRepositories": {
     "examples": {

@@ -1,0 +1,86 @@
+{
+  "schema": "flybrainlabs-github-star-flow-v1",
+  "release": "github-star-flow-20261014-v1",
+  "baselineRelease": "github-task-selection-20261014-v1",
+  "site": "https://flybrain.work/social/",
+  "status": "deployed and publicly verified",
+  "flow": {
+    "repositories": [
+      "miner",
+      "infra",
+      "node"
+    ],
+    "openControl": "native button; separate GitHub tab; noopener/noreferrer",
+    "openRequiredBeforeVerify": true,
+    "walletAndGitHubBindingRequired": true,
+    "perRepositoryOpening": true,
+    "noClientSideRelationshipProof": true,
+    "verifiedAuditPersisted": true,
+    "verificationIndependentOfPoints": true,
+    "engagementRewardsEnabled": false
+  },
+  "checks": {
+    "githubBackend": 67,
+    "githubBrowser": 50,
+    "legacyBackend": 74,
+    "communityTypecheck": "passed",
+    "syntax": "passed",
+    "completeAtlasTypes": 11751,
+    "sourceHistorySecretScan": "passed",
+    "publicBrowser": 15,
+    "publicHttpObjects": 12,
+    "publicApi": "passed",
+    "translationKeys": "unique"
+  },
+  "effects": {
+    "nodeSourceFiles": 3,
+    "communityRestarts": 2,
+    "otherServiceRestarts": 0,
+    "migrationRepeated": false,
+    "credentialChanges": 0,
+    "historicalRowsPreserved": true,
+    "pointsAwardedByAgent": 0,
+    "productionFixtureUsersCreated": 0,
+    "tokenTransfers": 0,
+    "websiteObjects": 12,
+    "initialNodeSourceFiles": 3,
+    "auditClassificationSourceFiles": 1
+  },
+  "actualExtensionConfirmation": false,
+  "physicalDeviceAcceptance": false,
+  "retention": {
+    "historicalRowsPreserved": true,
+    "privateConfigurationUnchanged": true,
+    "walletAndScientificServicesUnchanged": true,
+    "initialSourcesBackedUp": true,
+    "proofSuccessExcludedFromRecentFailures": true
+  },
+  "publication": {
+    "owner": "flybrainlabs",
+    "componentsVerified": [
+      {
+        "repository": "web",
+        "branch": "main",
+        "commit": "347323c16e2f42ceec3f34d533dbde6d417a50e9",
+        "updated": true,
+        "remoteVerified": true
+      },
+      {
+        "repository": "node",
+        "branch": "main",
+        "commit": "90fd3f1f18ccc338a29988b15c67adf2aca4bc13",
+        "updated": true,
+        "remoteVerified": true
+      },
+      {
+        "repository": "docs",
+        "branch": "main",
+        "commit": "ced69bed3a42dbd5ffd3119d0ae680fdca571b7b",
+        "updated": true,
+        "remoteVerified": true
+      }
+    ],
+    "sourceWorkspaceFiles": 964,
+    "normalFastForwards": true
+  }
+}
