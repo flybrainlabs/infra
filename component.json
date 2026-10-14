@@ -39,7 +39,8 @@
     "tools/configure_wallet_rpc_v3.py": "tools/configure_wallet_rpc_v3.py",
     "tests/test_configure_wallet_rpc.py": "tests/test_configure_wallet_rpc.py",
     "docs/WALLET_RPC_ACCEPTANCE.json": "docs/WALLET_RPC_ACCEPTANCE.json",
-    "docs/DOCUMENTATION_BILINGUAL_ACCEPTANCE.json": "docs/DOCUMENTATION_BILINGUAL_ACCEPTANCE.json"
+    "docs/DOCUMENTATION_BILINGUAL_ACCEPTANCE.json": "docs/DOCUMENTATION_BILINGUAL_ACCEPTANCE.json",
+    "docs/STITCH_SOCIAL_WALLET_ACCEPTANCE.json": "docs/STITCH_SOCIAL_WALLET_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }

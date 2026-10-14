@@ -1,12 +1,12 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "docs-bilingual-20261014-v1",
+  "release": "stitch-social-wallet-20261014-v1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "254226162b88f649795918f9a276943276578ba2",
+      "commit": "5f9b3427613725c916380dc3adff2850e1e1bf24",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "af55a76f44fc5ac65025359cbdc19be9d1e67631",
+      "commit": "cec4b38cd446927b5beaa50bf71b68bf147adf22",
       "publicationStatus": "verified"
     }
   },
@@ -70,10 +70,10 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "docs-bilingual-20261014-v1",
-    "changedWebsiteObjects": 71,
-    "localBrowserLayouts": 158,
-    "publicBrowserLayouts": 158,
+    "websiteRevision": "stitch-social-wallet-20261014-v1",
+    "changedWebsiteObjects": 69,
+    "localBrowserLayouts": 18,
+    "publicBrowserLayouts": 18,
     "officialModelDownloadRequests": 0,
     "physicalAndroid": false,
     "physicalGPU": false,
@@ -115,8 +115,16 @@
     "originalUserMiningFailure": "browser RPC HTTP 429 confirmed; requested provider activation and actual extension/full mining confirmation remain pending",
     "localCompactCases": 32,
     "publicCompactCases": 32,
-    "pinnedWorkspaceFiles": 925,
-    "documentationBilingual": true
+    "pinnedWorkspaceFiles": 929,
+    "documentationBilingual": true,
+    "stitchLocalUiChecks": 46,
+    "stitchPublicUiChecks": 41,
+    "stitchCommunityChecks": 32,
+    "stitchPublicCommunityChecks": 18,
+    "stitchPublicWalletLayouts": 24,
+    "stitchActualDesigns": 3,
+    "stitchViewportsPerLanguage": 5,
+    "stitchModalViewportsPerLanguage": 4
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -312,7 +320,7 @@
     "websiteDeployed": false,
     "providerConfigured": false,
     "providerVerified": false,
-    "liveWebsiteRevision": "docs-bilingual-20261014-v1",
+    "liveWebsiteRevision": "stitch-social-wallet-20261014-v1",
     "transportChecks": 24,
     "gatewayChecks": 41,
     "chromiumFixtureChecks": 10,
@@ -323,5 +331,31 @@
     "rewardPayments": 0,
     "acceptance": "docs/WALLET_RPC_ACCEPTANCE.json",
     "liveMiningModuleRevision": "mining-start-20261013-v1"
+  },
+  "socialUi": {
+    "revision": "stitch-social-wallet-20261014-v1",
+    "designProvider": "Google Stitch",
+    "actualDesigns": 3,
+    "publicUiChecks": 41,
+    "localUiChecks": 46,
+    "isolatedCommunityChecks": 32,
+    "publicCommunityChecks": 18,
+    "publicWalletLayouts": 24,
+    "serverObjects": 69,
+    "publicChangedObjects": 63,
+    "publicRetainedObjects": 8,
+    "monochrome": true,
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "realProviderDiscovery": true,
+    "explicitSignIn": true,
+    "actualExtensionConfirmation": false,
+    "physicalDevice": false,
+    "chainTransactions": 0,
+    "newBudgets": 0,
+    "modelDownloads": 0,
+    "acceptance": "docs/STITCH_SOCIAL_WALLET_ACCEPTANCE.json"
   }
 }
