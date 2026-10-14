@@ -1,0 +1,63 @@
+{
+  "schema": "flybrainlabs-github-task-selection-v1",
+  "release": "github-task-selection-20261014-v1",
+  "baselineRelease": "github-verification-state-20261014-v1",
+  "site": "https://flybrain.work/social/",
+  "rules": {
+    "repositories": [
+      "miner",
+      "infra",
+      "node"
+    ],
+    "activeStarTasks": 3,
+    "bindingRetained": true,
+    "bindingPoints": 50,
+    "starPoints": 1,
+    "configuredMaximum": 53,
+    "engagementRewardsEnabled": false,
+    "retiredFollowTask": true,
+    "retiredOtherStarTasks": 7
+  },
+  "retention": {
+    "originalManifestUnchanged": true,
+    "stableTaskKeysPreserved": true,
+    "legacyDefinitionsAndCompletionsRetained": true,
+    "historicalRowsPreserved": true,
+    "privateConfigurationUnchanged": true,
+    "snapshotAndLedgerRowsPreserved": true,
+    "progressCountsOnlySelectedStars": true,
+    "staleRetiredTaskRequestsRejected": true
+  },
+  "checks": {
+    "githubBackend": 61,
+    "githubBrowser": 42,
+    "publicBrowser": 14,
+    "publicHttpObjects": 10,
+    "publicApi": "passed",
+    "communityTypecheck": "passed",
+    "completeStaticExport": "passed",
+    "atlasTypes": 11751,
+    "reviewedOAuthBridge": "passed",
+    "syntax": "passed",
+    "existingSocialBackend": 45,
+    "existingDailyInvitesBackend": 29
+  },
+  "effects": {
+    "nodeSourceFiles": 3,
+    "websiteObjects": 10,
+    "communityRestarts": 1,
+    "otherServicesRestarted": 0,
+    "migrationRepeated": false,
+    "credentialChanges": 0,
+    "productionFixtureUsersCreated": 0,
+    "tokenTransfers": 0,
+    "scientificTasksCreated": 0,
+    "miningBehaviorChanged": false
+  },
+  "platformReview": {
+    "status": "not-approved for incentive-based Star rewards",
+    "source": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies#4-spam-and-inauthentic-activity-on-github"
+  },
+  "actualExtensionConfirmation": false,
+  "physicalDeviceAcceptance": false
+}

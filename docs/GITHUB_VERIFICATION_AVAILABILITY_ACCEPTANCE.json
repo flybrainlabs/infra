@@ -1,0 +1,75 @@
+{
+  "schema": "flybrainlabs-github-verification-availability-v1",
+  "release": "github-verification-state-20261014-v1",
+  "baselineRelease": "community-github-20261014-v1",
+  "site": "https://flybrain.work/social/",
+  "diagnosis": {
+    "bindingEnabled": true,
+    "engagementRewardsEnabled": false,
+    "unavailableCode": "github_engagement_paused",
+    "oauthConfigurationReplacementRequired": false
+  },
+  "bindingEvidence": {
+    "userReportedBindingWorks": true,
+    "observedProductionBindings": 1,
+    "observedProductionGitHubPoints": 50,
+    "aggregateOnly": true,
+    "actualUserOAuthTestPerformed": false,
+    "walletExtensionAccepted": false
+  },
+  "platformReview": {
+    "outcome": "not-approved for the configured point-incentivized Follow/Star tasks",
+    "source": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies#4-spam-and-inauthentic-activity-on-github",
+    "checkedOn": "2026-10-14",
+    "gateRequiredBy": "Owner-supplied GitHub task specification, section 12",
+    "engagementRewardsEnabled": false
+  },
+  "presentation": {
+    "unavailableButtonLabel": true,
+    "visibleInlineReason": true,
+    "accessibleDescription": true,
+    "summaryBeforeTasks": true,
+    "unavailablePointsNotAdvertisedAsClaimable": true,
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "viewportWidths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "enabledVerificationPreserved": true,
+    "completedHistoryPreserved": true,
+    "cacheRevisionUpdated": true
+  },
+  "checks": {
+    "githubBrowser": 42,
+    "githubBackend": 57,
+    "publicBrowser": 13,
+    "publicHttpObjects": 12,
+    "syntax": "passed",
+    "translationKeys": "unique and complete",
+    "completeStaticExport": "passed",
+    "atlasTypes": 11751,
+    "reviewedOAuthBridge": "passed",
+    "retainedWebsiteAssets": 12
+  },
+  "effects": {
+    "websiteChangedObjects": 12,
+    "productionBackendChanged": false,
+    "databaseMigrations": 0,
+    "serviceRestarts": 0,
+    "credentialChanges": 0,
+    "productionFixtureUsersCreated": 0,
+    "agentAuthenticatedProductionRequests": 0,
+    "tokenTransfers": 0,
+    "scientificTasksCreated": 0,
+    "rewardRulesChanged": false
+  },
+  "pending": [
+    "A separate product decision is required for non-rewarded relationship verification or reviewed contribution tasks.",
+    "Managed hosting callback query-log redaction and physical wallet-extension acceptance remain unverified."
+  ]
+}

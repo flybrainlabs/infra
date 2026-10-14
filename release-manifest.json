@@ -1,19 +1,19 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "community-github-20261014-v1",
+  "release": "github-task-selection-20261014-v1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "639fee12f0f8ad6ad39321a9448f4591ba7d5892",
+      "commit": "2f5397a87e82e9ee5e87116d9016a47d66b88313",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "ba7343f8ff74c6d59d02bb1f3bd59c681bd92477",
+      "commit": "e1e7942e2cbd125b4f191b532f8456eb48827ebf",
       "publicationStatus": "verified"
     },
     "miner": {
@@ -48,7 +48,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "dcefea21cfd352d1a6b26220935f7a3c685188b0",
+      "commit": "65e82513a9f12187be42196717b5b6a0474686aa",
       "publicationStatus": "verified"
     }
   },
@@ -485,7 +485,7 @@
     "retainedCspSshVerified": true
   },
   "githubCommunity": {
-    "release": "community-github-20261014-v1",
+    "release": "github-task-selection-20261014-v1",
     "site": "https://flybrain.work/social/",
     "callbackUrl": "https://flybrain.work/api/auth/github/callback",
     "ownerConfirmedCallback": true,
@@ -500,7 +500,7 @@
     "initialWebsiteObjects": 28,
     "callbackHeaderCorrectionObjects": 2,
     "retainedScientificWalletObjects": 12,
-    "publicStarRepositories": 10,
+    "publicStarRepositories": 3,
     "webPrivate": true,
     "auxiliaryExamples": "https://github.com/flybrainlabs/examples",
     "bindingConfigured": true,
@@ -512,10 +512,9 @@
     "scientificTasksCreated": 0,
     "rules": {
       "githubIdentityPoints": 50,
-      "githubFollowPoints": 10,
       "githubStarPoints": 1,
-      "githubStarTasks": 10,
-      "totalConfiguredPoints": 70,
+      "githubStarTasks": 3,
+      "totalConfiguredPoints": 53,
       "repeatable": false,
       "engagementRewardsEnabled": false,
       "referralTriggerUnchanged": "X identity verification"
@@ -538,7 +537,87 @@
       "documentation": "passed",
       "sourceSecretScan": "passed"
     },
-    "acceptance": "docs/COMMUNITY_GITHUB_ACCEPTANCE.json"
+    "acceptance": "docs/COMMUNITY_GITHUB_ACCEPTANCE.json",
+    "verificationAvailability": {
+      "release": "github-verification-state-20261014-v1",
+      "bindingEnabled": true,
+      "engagementRewardsEnabled": false,
+      "platformReview": "not-approved for the configured point-incentivized Follow/Star tasks",
+      "checks": {
+        "githubBrowser": 42,
+        "githubBackend": 57,
+        "publicBrowser": 13,
+        "publicHttpObjects": 12,
+        "syntax": "passed",
+        "translationKeys": "unique and complete",
+        "completeStaticExport": "passed",
+        "atlasTypes": 11751,
+        "reviewedOAuthBridge": "passed",
+        "retainedWebsiteAssets": 12
+      },
+      "effects": {
+        "websiteChangedObjects": 12,
+        "productionBackendChanged": false,
+        "databaseMigrations": 0,
+        "serviceRestarts": 0,
+        "credentialChanges": 0,
+        "productionFixtureUsersCreated": 0,
+        "agentAuthenticatedProductionRequests": 0,
+        "tokenTransfers": 0,
+        "scientificTasksCreated": 0,
+        "rewardRulesChanged": false
+      },
+      "acceptance": "docs/GITHUB_VERIFICATION_AVAILABILITY_ACCEPTANCE.json"
+    },
+    "initialRelease": "community-github-20261014-v1",
+    "initialRules": {
+      "githubIdentityPoints": 50,
+      "githubFollowPoints": 10,
+      "githubStarPoints": 1,
+      "githubStarTasks": 10,
+      "totalConfiguredPoints": 70,
+      "repeatable": false,
+      "engagementRewardsEnabled": false,
+      "referralTriggerUnchanged": "X identity verification"
+    },
+    "taskSelection": {
+      "release": "github-task-selection-20261014-v1",
+      "repositories": [
+        "miner",
+        "infra",
+        "node"
+      ],
+      "checks": {
+        "githubBackend": 61,
+        "githubBrowser": 42,
+        "publicBrowser": 14,
+        "publicHttpObjects": 10,
+        "publicApi": "passed",
+        "communityTypecheck": "passed",
+        "completeStaticExport": "passed",
+        "atlasTypes": 11751,
+        "reviewedOAuthBridge": "passed",
+        "syntax": "passed",
+        "existingSocialBackend": 45,
+        "existingDailyInvitesBackend": 29
+      },
+      "effects": {
+        "nodeSourceFiles": 3,
+        "websiteObjects": 10,
+        "communityRestarts": 1,
+        "otherServicesRestarted": 0,
+        "migrationRepeated": false,
+        "credentialChanges": 0,
+        "productionFixtureUsersCreated": 0,
+        "tokenTransfers": 0,
+        "scientificTasksCreated": 0,
+        "miningBehaviorChanged": false
+      },
+      "acceptance": "docs/GITHUB_TASK_SELECTION_ACCEPTANCE.json"
+    },
+    "productionBindingObserved": 1,
+    "productionBindingPointsObserved": 50,
+    "userReportedBindingWorks": true
   },
   "auxiliaryRepositories": {
     "examples": {

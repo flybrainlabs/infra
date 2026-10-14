@@ -47,7 +47,10 @@
     "deploy/target-v2/github-community.example.json": "deploy/target-v2/github-community.example.json",
     "tools/upgrade_community_v3.sh": "tools/upgrade_community_v3.sh",
     "tools/configure_github_community.py": "tools/configure_github_community.py",
-    "docs/COMMUNITY_GITHUB_ACCEPTANCE.json": "docs/COMMUNITY_GITHUB_ACCEPTANCE.json"
+    "docs/COMMUNITY_GITHUB_ACCEPTANCE.json": "docs/COMMUNITY_GITHUB_ACCEPTANCE.json",
+    "docs/GITHUB_VERIFICATION_AVAILABILITY_ACCEPTANCE.json": "docs/GITHUB_VERIFICATION_AVAILABILITY_ACCEPTANCE.json",
+    "tools/upgrade_github_task_selection.sh": "tools/upgrade_github_task_selection.sh",
+    "docs/GITHUB_TASK_SELECTION_ACCEPTANCE.json": "docs/GITHUB_TASK_SELECTION_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }
