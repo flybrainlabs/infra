@@ -1,0 +1,162 @@
+{
+  "schema": "flybrainlabs-personal-rpc-build-fix-acceptance-v4",
+  "recordedAtUtc": "2026-10-15T10:23:27.327578+00:00",
+  "websiteRevision": "contract-factory-v4-20261015-r7",
+  "status": "deployed-and-public-browser-verified",
+  "site": "https://flybrain.work/mining/",
+  "previousRelease": "contract-factory-v4-20261015-r6",
+  "rootCauses": [
+    "The V4 primary click handler routed a closed-window sync action into task polling while the visible button still offered local model construction.",
+    "Mining wallet login and periodic balance synchronization still used the legacy node balance route and its independent shared upstream."
+  ],
+  "changes": [
+    "Local preparation has its own action before task availability checks, after required RPC and wallet identity setup.",
+    "The V4 mining balance reader uses finalized SOL and FBW account reads through the required personal provider.",
+    "A successful login survives subsequent non-authentication balance synchronization failures.",
+    "Historical deposits, grants and records remain accessible through the original account page."
+  ],
+  "originalWebsiteRegression": {
+    "schema": "flybrainlabs-personal-rpc-build-regression-v4",
+    "stagedRelease": false,
+    "fixtureProvider": true,
+    "fixtureWalletLogin": true,
+    "realHeliusKeyUsed": false,
+    "transactionSignatures": 0,
+    "chainWrites": 0,
+    "checks": [
+      "Before the fix, the build button only polls a closed task and login calls the failing shared balance route"
+    ],
+    "passed": true,
+    "regressionReproduced": true,
+    "legacyBalance503": 2
+  },
+  "stagedBuildRegression": {
+    "schema": "flybrainlabs-personal-rpc-build-regression-v4",
+    "stagedRelease": true,
+    "fixtureProvider": true,
+    "fixtureWalletLogin": true,
+    "realHeliusKeyUsed": false,
+    "transactionSignatures": 0,
+    "chainWrites": 0,
+    "checks": [
+      "Verified key and signed-in wallet reach local preparation with a closed claim window and the legacy balances route returning 503",
+      "A temporary personal-provider outage does not revoke login or turn local construction into task polling",
+      "One click completes real cached-model validation and Worker loading without RPC availability, model downloads, mining or transactions",
+      "English and Chinese preserve desktop/mobile layout, the existing model and all saved candidates"
+    ],
+    "passed": true,
+    "regressionReproduced": false,
+    "savedCandidatesRetained": 6,
+    "modelReady": true,
+    "modelDownloads": 0,
+    "legacyBalanceRequests": 0,
+    "sharedRpcRequests": 0,
+    "providerOutageBuildPassed": true
+  },
+  "sdk": {
+    "passed": true,
+    "groups": 9,
+    "checks": [
+      "key-only input and endpoint selection from the pinned deployment",
+      "missing key blocks reads, broadcasts and mining authorization without a shared RPC",
+      "wrong network and contract identity fail closed",
+      "coalesced checks and explicit storage persistence",
+      "failed reload remains blocked without deleting preferences",
+      "existing URL preferences migrate to keys after revalidation",
+      "personal RPC strips project credentials; uploads retain authorization",
+      "reset cancels queued requests and retains model keys",
+      "mining balances use the required personal provider without the legacy balance gateway"
+    ],
+    "fixtureProvider": true,
+    "realHeliusKeyUsed": false,
+    "sharedRpcRequests": 0,
+    "chainWrites": 0
+  },
+  "walletRegression": {
+    "passed": true,
+    "checks": 12,
+    "actualChromium": true,
+    "fixtureWallet": true,
+    "fixtureRpc": true,
+    "signInSurvivesBalance503": true,
+    "miningBalancesUsePersonalProvider": true,
+    "physicalDevice": false,
+    "extensionConfirmation": false
+  },
+  "staticValidation": {
+    "static_only": false,
+    "oauth_bridge_verified": true,
+    "types": 11751,
+    "files": 92719,
+    "bytes": 6522262802
+  },
+  "providerResponses": "Explicit fixtures; the private key supplied in chat was not stored, logged or used by these tests.",
+  "modelPreparation": "Actual retained complete-model validation and Worker loading; no simulated model",
+  "sharedRpcFallback": false,
+  "keyInput": "Helius API key only; deployment selects Devnet automatically",
+  "missingKeyGateRetained": true,
+  "newModelDownloads": 0,
+  "savedCandidatesRetained": 6,
+  "newChainTransactions": 0,
+  "newRewardBudget": 0,
+  "rewardFbwPerWinner": 200,
+  "nodeServicesChanged": false,
+  "mainnet": false,
+  "mainMerged": false,
+  "publicBuildRegression": {
+    "schema": "flybrainlabs-personal-rpc-build-regression-v4",
+    "stagedRelease": false,
+    "fixtureProvider": true,
+    "fixtureWalletLogin": true,
+    "realHeliusKeyUsed": false,
+    "transactionSignatures": 0,
+    "chainWrites": 0,
+    "checks": [
+      "Verified key and signed-in wallet reach local preparation with a closed claim window and the legacy balances route returning 503",
+      "A temporary personal-provider outage does not revoke login or turn local construction into task polling",
+      "One click completes real cached-model validation and Worker loading without RPC availability, model downloads, mining or transactions",
+      "English and Chinese preserve desktop/mobile layout, the existing model and all saved candidates"
+    ],
+    "passed": true,
+    "regressionReproduced": false,
+    "savedCandidatesRetained": 6,
+    "modelReady": true,
+    "modelDownloads": 0,
+    "legacyBalanceRequests": 0,
+    "sharedRpcRequests": 0,
+    "providerOutageBuildPassed": true
+  },
+  "requiredRpcStagedRegression": {
+    "schema": "flybrainlabs-personal-rpc-browser-acceptance-v4",
+    "site": "https://flybrain.work/mining/",
+    "stagedRelease": true,
+    "providerReplies": "explicit fixtures under the real browser CSP/CORS policy",
+    "realHeliusKeyUsed": false,
+    "chainWrites": 0,
+    "checks": [
+      "RPC is a required entry step before model preparation and mining; missing keys make no personal or shared RPC requests",
+      "Only a key is accepted; Devnet follows the deployment automatically and wrong-chain replies fail closed without duplicate probes",
+      "Key validation unlocks the wallet step through the browser CSP/CORS route with no network selector or shared RPC",
+      "Tab and opt-in key preferences survive reload only after fresh deployed-network and contract checks",
+      "An unavailable saved provider blocks mining, retains its preference and never falls back to a shared RPC",
+      "Existing full-URL preferences migrate to key-only storage after fresh validation without changing the network",
+      "English and Chinese RPC settings fit desktop and 390px widths without overlays or horizontal overflow",
+      "Removing the key blocks mining and stops polling while retaining the model and saved results; no shared RPC, signature or broadcast"
+    ],
+    "passed": true,
+    "checksPassed": 8,
+    "fixtureRpcRequests": 90,
+    "projectCredentialsSentToHelius": false,
+    "modelDownloads": 0,
+    "savedCandidatesRetained": 6,
+    "removeKeyBlocksMining": true,
+    "sharedRpcRequests": 0,
+    "automaticNetworkSelection": true,
+    "keyOnly": true,
+    "modelCacheRetained": true
+  },
+  "deployedObjects": 86,
+  "verifiedRemoteBeforeAndAfterHashes": true,
+  "backupGzipVerified": true,
+  "originalNodeBundleRetained": true
+}

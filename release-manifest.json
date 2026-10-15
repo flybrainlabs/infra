@@ -6,7 +6,7 @@
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "016cdbc79a07c8aaa1f21a64b7da729dc9c63149",
+      "commit": "ee663486cfdb257ff8196e56d5461599e7c9aaa3",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
@@ -20,7 +20,7 @@
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "cb16ad2d8e7e31d03cbb2fa8c1743258e1101840",
+      "commit": "5f584a71784c4f17d72382085b95812dbebddaf2",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
@@ -43,7 +43,7 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "8ad28388c13bac3f3bfd9d59049589271793487e",
+      "commit": "32d820fea4521c42d9b13d326d6c4d49dd5d3a23",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
@@ -54,7 +54,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "222c2ace2f17aa566f8835d642acd7402166538e",
+      "commit": "4146044b2a707b63aed1c54496974a9ed22d8a7a",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     }
@@ -69,9 +69,9 @@
     "apiIdentityVerified": false,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-15T09:54:28.333693+00:00",
+    "componentVerificationRecordedAtUtc": "2026-10-15T10:23:27.327578+00:00",
     "verificationReport": "docs/TASK_FACTORY_V4_PUBLICATION.json",
-    "scope": "Exact source pins and the active official Devnet V4 deployment; required personal key browser acceptance uses explicit provider fixtures",
+    "scope": "Exact source pins and the official Devnet V4 website; local model construction and personal balance reads verified with provider fixtures",
     "historicalBootstrap": {
       "complete": true,
       "verifiedRepositoryCount": 10,
@@ -91,8 +91,8 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "contract-factory-v4-20261015-r6",
-    "changedWebsiteObjects": 84,
+    "websiteRevision": "contract-factory-v4-20261015-r7",
+    "changedWebsiteObjects": 86,
     "localBrowserLayouts": 10,
     "publicBrowserLayouts": 4,
     "officialModelDownloadRequests": 0,
@@ -136,7 +136,7 @@
     "originalUserMiningFailure": "Public RPC capacity errors observed; V4 full Worker/replay/payment/succession passed. Private node RPC and extension confirmation remain pending.",
     "localCompactCases": 32,
     "publicCompactCases": 32,
-    "pinnedWorkspaceFiles": 1053,
+    "pinnedWorkspaceFiles": 1055,
     "documentationBilingual": true,
     "stitchLocalUiChecks": 46,
     "stitchPublicUiChecks": 41,
@@ -168,13 +168,18 @@
     "preparedWorkerFullModelEvidenceRevision": "contract-factory-v4-20261015-r4",
     "openedRoundSequenceScope": "Historical V3 authority sequence",
     "personalRpcSettingsDeployed": true,
-    "personalRpcSdkFixtureGroups": 8,
-    "personalRpcPublicBrowserChecks": 8,
+    "personalRpcSdkFixtureGroups": 9,
+    "personalRpcPublicBrowserChecks": 4,
     "personalRpcRealKeyAcceptance": false,
     "personalRpcRequired": true,
     "personalRpcKeyOnly": true,
     "personalRpcAutomaticNetwork": true,
-    "personalRpcSharedFallback": false
+    "personalRpcSharedFallback": false,
+    "personalRpcPublicBrowserCheckScope": "Local model construction with a closed task and simulated provider outage; personal mining balance reads skip legacy 503 route",
+    "personalRpcRequiredStagedBrowserChecks": 8,
+    "walletSessionRegressionChecks": 12,
+    "localBuildIndependentOfTaskWindow": true,
+    "miningLegacyBalanceRequests": 0
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -833,7 +838,7 @@
     "legacyNodeTaskGenerationDisabled": true,
     "legacyVerifierDisabled": true,
     "idleRestartAndNoDuplicatePaymentVerified": true,
-    "websiteRevision": "contract-factory-v4-20261015-r6",
+    "websiteRevision": "contract-factory-v4-20261015-r7",
     "sourceBundleSha256": "c1556c22ed55828e5820b11fdfe645e263897448aef0c07d6b4b6c944f32f6a5",
     "personalRpcAcceptance": "docs/PERSONAL_MINING_RPC_V4_ACCEPTANCE.json",
     "personalRpcProvider": "Helius",
@@ -843,6 +848,9 @@
     "personalRpcRequired": true,
     "personalRpcInput": "API key only",
     "personalRpcNetworkSelection": "automatic from deployment",
-    "personalRpcSharedFallback": false
+    "personalRpcSharedFallback": false,
+    "personalRpcBuildFixAcceptance": "docs/PERSONAL_RPC_BUILD_FIX_V4_ACCEPTANCE.json",
+    "miningBalancesUsePersonalRpc": true,
+    "localBuildIndependentOfTaskWindow": true
   }
 }
