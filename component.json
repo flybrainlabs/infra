@@ -63,7 +63,13 @@
     "tools/deploy_task_factory_v4.mjs": "tools/deploy_task_factory_v4.mjs",
     "tools/stage_factory_verifier_v4.py": "tools/stage_factory_verifier_v4.py",
     "docs/TASK_FACTORY_V4_DEPLOYMENT.json": "docs/TASK_FACTORY_V4_DEPLOYMENT.json",
-    "deploy/task-factory-v4/program-upgrade-plan.json": "deploy/task-factory-v4/program-upgrade-plan.json"
+    "deploy/task-factory-v4/program-upgrade-plan.json": "deploy/task-factory-v4/program-upgrade-plan.json",
+    "tools/activate_factory_v4_node.py": "tools/activate_factory_v4_node.py",
+    "deploy/target-v2/flybrainlabs-task-factory-v4.service": "deploy/target-v2/flybrainlabs-task-factory-v4.service",
+    "deploy/target-v2/nginx-task-factory-v4.conf": "deploy/target-v2/nginx-task-factory-v4.conf",
+    "tools/configure_factory_rpc_v4.py": "tools/configure_factory_rpc_v4.py",
+    "docs/TASK_FACTORY_V4_ACTIVATION.json": "docs/TASK_FACTORY_V4_ACTIVATION.json",
+    "docs/PERSONAL_MINING_RPC_V4_ACCEPTANCE.json": "docs/PERSONAL_MINING_RPC_V4_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }

@@ -1,0 +1,508 @@
+{
+  "schema": "flybrainlabs-task-factory-v4-activation-acceptance",
+  "recordedAtUtc": "2026-10-15T08:49:34.647901+00:00",
+  "status": "active-two-complete-paid-flows-verified-private-rpc-pending",
+  "cluster": "devnet",
+  "programId": "5yxjnH1PSk8iQKfK3ejG4jfSkewkTKfcpJygojdb6sam",
+  "genesisHash": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+  "factory": "4uYEL2rErQdAUHGBggZn5dssRs95H2jHeUgXZcvhzzgL",
+  "catalogRoot": "586813288ec9e8cd332a3f828b776e322a854f87b39f48373a2812ebbfcfa62d",
+  "taskCount": 8,
+  "rewardFbwPerWinner": 200,
+  "budgetFbw": 1600,
+  "websiteRevision": "contract-factory-v4-20261015-r5",
+  "actualPaidTasks": 2,
+  "actualPaidFbw": 400,
+  "scriptedWalletStandard": true,
+  "walletExtensionConfirmation": false,
+  "physicalDevice": false,
+  "independentOperators": 1,
+  "newScientificDiscoveryClaimed": false,
+  "calibrationArtifactsReused": false,
+  "controlledKnownInputs": true,
+  "newOfficialModelDownloads": 0,
+  "checks": [
+    "Published V4 loads actual finalized chain state and retains the complete-model cache without automatic computation",
+    "Scripted Wallet Standard signs the real server login challenge; no V3 grant is created",
+    "Actual Chromium Worker restores the retained full model; scientific computation waits for an explicit start",
+    "Task 1: fresh complete Worker trials, real wallet commit/upload/reveal, two full node replay votes, 200 FBW payment and contract successor activation",
+    "Task 2: fresh complete Worker trials, real wallet commit/upload/reveal, two full node replay votes, 200 FBW payment and contract successor activation",
+    "Published V4 interface fits desktop and 390px widths in English and Chinese"
+  ],
+  "paidTasks": [
+    {
+      "taskIndex": 0,
+      "candidateId": "67243affd4c97d41c55ed441c4f8b394eb07b6ff7b96de780bb786b6bc2084e3",
+      "submission": "HZjFy7S8CPfHPGZGHiiV8mjHo4tVfhfrHKkGG4Z5LfgJ",
+      "roundId": "b7e94c85d49e24a9b1026e83b35419021531b8555666d677cd7f6a43a5a89ef4",
+      "validVoteCount": 2,
+      "trials": [
+        {
+          "bytes": 29925176,
+          "metrics": {
+            "baselineSpikes": 0,
+            "passed": true,
+            "stimulusCost": 125,
+            "windows": [
+              {
+                "offTargetAbs": 22,
+                "passed": true,
+                "positiveCells": 12,
+                "targetNet": 52
+              },
+              {
+                "offTargetAbs": 101,
+                "passed": true,
+                "positiveCells": 12,
+                "targetNet": 127
+              }
+            ]
+          },
+          "resultRoot": "3f3a8852922b71c0f3039a306a611895b596dbfa9e98ef163607a8bf25cb80b5"
+        },
+        {
+          "bytes": 29721784,
+          "metrics": {
+            "baselineSpikes": 0,
+            "passed": true,
+            "stimulusCost": 125,
+            "windows": [
+              {
+                "offTargetAbs": 24,
+                "passed": true,
+                "positiveCells": 12,
+                "targetNet": 52
+              },
+              {
+                "offTargetAbs": 102,
+                "passed": true,
+                "positiveCells": 12,
+                "targetNet": 126
+              }
+            ]
+          },
+          "resultRoot": "0d591c66c845bee0bd8c3f6ca5c15e998bade5997a2092b6c7a6c387adf348da"
+        }
+      ],
+      "rewardPaid": true,
+      "nextActiveIndex": 1
+    },
+    {
+      "taskIndex": 1,
+      "candidateId": "2f540f5c2733b2ff9529d4b813b5ff2e58fff3698d32f552f74442347980a4ea",
+      "submission": "4XdgTKqny57xeSwa2Mm6x953Fh1jvtWphwFbRtfqY7FY",
+      "roundId": "7a4d283c565a22c921e23cd34bce23c0ad2005ba15080919c20d05ecc3f9af5b",
+      "validVoteCount": 2,
+      "trials": [
+        {
+          "bytes": 20780936,
+          "metrics": {
+            "baselineSpikes": 0,
+            "passed": true,
+            "stimulusCost": 125,
+            "windows": [
+              {
+                "offTargetAbs": 24,
+                "passed": true,
+                "positiveCells": 12,
+                "targetNet": 48
+              },
+              {
+                "offTargetAbs": 101,
+                "passed": true,
+                "positiveCells": 12,
+                "targetNet": 130
+              }
+            ]
+          },
+          "resultRoot": "3f495b3dd502f25fa8b1c68578e275b52b1fd2693973ec3747b7a3e9d66e4797"
+        },
+        {
+          "bytes": 20806640,
+          "metrics": {
+            "baselineSpikes": 0,
+            "passed": true,
+            "stimulusCost": 125,
+            "windows": [
+              {
+                "offTargetAbs": 22,
+                "passed": true,
+                "positiveCells": 12,
+                "targetNet": 48
+              },
+              {
+                "offTargetAbs": 99,
+                "passed": true,
+                "positiveCells": 12,
+                "targetNet": 130
+              }
+            ]
+          },
+          "resultRoot": "be21ffdd01ae1c24070209ef4e9ae8f163de808381d9e38aa14b1babd0d7bd63"
+        }
+      ],
+      "rewardPaid": true,
+      "nextActiveIndex": 2
+    }
+  ],
+  "completeNativeReplays": [
+    {
+      "verifier": "7KRg8JRzjhXpov24M23Qy65LNmg9VzAhE9xjJp8vRpCX",
+      "submission": "4XdgTKqny57xeSwa2Mm6x953Fh1jvtWphwFbRtfqY7FY",
+      "task": "4nrLyibdXT7zapPaJJ3Kv3mGZpzyxva8SkGJJ7DHfFru",
+      "attempt": 0,
+      "fullReplay": true,
+      "completeTrials": 2,
+      "valid": true,
+      "measurements": [
+        {
+          "replayStatus": "VALID",
+          "fullReplay": true,
+          "replayVerified": true,
+          "steps": 256,
+          "bytes": 20780936,
+          "resultRoot": "3f495b3dd502f25fa8b1c68578e275b52b1fd2693973ec3747b7a3e9d66e4797",
+          "sciencePassed": true
+        },
+        {
+          "replayStatus": "VALID",
+          "fullReplay": true,
+          "replayVerified": true,
+          "steps": 256,
+          "bytes": 20806640,
+          "resultRoot": "be21ffdd01ae1c24070209ef4e9ae8f163de808381d9e38aa14b1babd0d7bd63",
+          "sciencePassed": true
+        }
+      ]
+    },
+    {
+      "verifier": "7KRg8JRzjhXpov24M23Qy65LNmg9VzAhE9xjJp8vRpCX",
+      "submission": "HZjFy7S8CPfHPGZGHiiV8mjHo4tVfhfrHKkGG4Z5LfgJ",
+      "task": "9AzUYfRKkkZxBntZJRoSKYAGyBS5BDDA5aKeeoYCbRRk",
+      "attempt": 0,
+      "fullReplay": true,
+      "completeTrials": 2,
+      "valid": true,
+      "measurements": [
+        {
+          "replayStatus": "VALID",
+          "fullReplay": true,
+          "replayVerified": true,
+          "steps": 256,
+          "bytes": 29925176,
+          "resultRoot": "3f3a8852922b71c0f3039a306a611895b596dbfa9e98ef163607a8bf25cb80b5",
+          "sciencePassed": true
+        },
+        {
+          "replayStatus": "VALID",
+          "fullReplay": true,
+          "replayVerified": true,
+          "steps": 256,
+          "bytes": 29721784,
+          "resultRoot": "0d591c66c845bee0bd8c3f6ca5c15e998bade5997a2092b6c7a6c387adf348da",
+          "sciencePassed": true
+        }
+      ]
+    },
+    {
+      "verifier": "FEyUjqjjtEnWdDw5JAkawBAPT25n2uxsRCeAcWWnhqnM",
+      "submission": "4XdgTKqny57xeSwa2Mm6x953Fh1jvtWphwFbRtfqY7FY",
+      "task": "4nrLyibdXT7zapPaJJ3Kv3mGZpzyxva8SkGJJ7DHfFru",
+      "attempt": 0,
+      "fullReplay": true,
+      "completeTrials": 2,
+      "valid": true,
+      "measurements": [
+        {
+          "replayStatus": "VALID",
+          "fullReplay": true,
+          "replayVerified": true,
+          "steps": 256,
+          "bytes": 20780936,
+          "resultRoot": "3f495b3dd502f25fa8b1c68578e275b52b1fd2693973ec3747b7a3e9d66e4797",
+          "sciencePassed": true
+        },
+        {
+          "replayStatus": "VALID",
+          "fullReplay": true,
+          "replayVerified": true,
+          "steps": 256,
+          "bytes": 20806640,
+          "resultRoot": "be21ffdd01ae1c24070209ef4e9ae8f163de808381d9e38aa14b1babd0d7bd63",
+          "sciencePassed": true
+        }
+      ]
+    },
+    {
+      "verifier": "FEyUjqjjtEnWdDw5JAkawBAPT25n2uxsRCeAcWWnhqnM",
+      "submission": "HZjFy7S8CPfHPGZGHiiV8mjHo4tVfhfrHKkGG4Z5LfgJ",
+      "task": "9AzUYfRKkkZxBntZJRoSKYAGyBS5BDDA5aKeeoYCbRRk",
+      "attempt": 0,
+      "fullReplay": true,
+      "completeTrials": 2,
+      "valid": true,
+      "measurements": [
+        {
+          "replayStatus": "VALID",
+          "fullReplay": true,
+          "replayVerified": true,
+          "steps": 256,
+          "bytes": 29925176,
+          "resultRoot": "3f3a8852922b71c0f3039a306a611895b596dbfa9e98ef163607a8bf25cb80b5",
+          "sciencePassed": true
+        },
+        {
+          "replayStatus": "VALID",
+          "fullReplay": true,
+          "replayVerified": true,
+          "steps": 256,
+          "bytes": 29721784,
+          "resultRoot": "0d591c66c845bee0bd8c3f6ca5c15e998bade5997a2092b6c7a6c387adf348da",
+          "sciencePassed": true
+        }
+      ]
+    }
+  ],
+  "finalizedVerifierAndPaymentReceipts": [
+    {
+      "verifier": "7KRg8JRzjhXpov24M23Qy65LNmg9VzAhE9xjJp8vRpCX",
+      "operation": "vote-HZjFy7S8CPfHPGZGHiiV8mjHo4tVfhfrHKkGG4Z5LfgJ",
+      "signature": "3eErtpix7ciirmBNfw2jXoYm4X33q72A2JSvkao3kageT2kk15mReaGV7NT28XrNtojkikwDNwBpX6cxbvK9uwiE",
+      "slot": "511287437",
+      "feeLamports": "10000",
+      "computeUnits": 128474,
+      "commitment": "finalized"
+    },
+    {
+      "verifier": "7KRg8JRzjhXpov24M23Qy65LNmg9VzAhE9xjJp8vRpCX",
+      "operation": "pay-task-0",
+      "signature": "tYCgogpsAAjBKBHSdWKBbadj9vGGFTNmLQxoVmztiXgWpcHdNvwHy3Bsj5MWZSZJPPRsqGByjAPSvq7aFFaztmk",
+      "slot": "511287647",
+      "feeLamports": "5000",
+      "computeUnits": 42334,
+      "commitment": "finalized"
+    },
+    {
+      "verifier": "7KRg8JRzjhXpov24M23Qy65LNmg9VzAhE9xjJp8vRpCX",
+      "operation": "pay-task-1",
+      "signature": "3Jxswa6DB5uRZqnc6doHt2ctAxnC11TtFbfTi7iYkvyPsuzT67iFtURUVYVKxWRDXzSSN5KqVXScrCuDMwMUN9c8",
+      "slot": "511292434",
+      "feeLamports": "5000",
+      "computeUnits": 42334,
+      "commitment": "finalized"
+    },
+    {
+      "verifier": "FEyUjqjjtEnWdDw5JAkawBAPT25n2uxsRCeAcWWnhqnM",
+      "operation": "vote-HZjFy7S8CPfHPGZGHiiV8mjHo4tVfhfrHKkGG4Z5LfgJ",
+      "signature": "2YMLUdu31H2DcuRFrukZP3pHNFJTN4GtWAjWWiuXR1dwXVYCRzGCV89RJPjJK72iicf8XG7CaZjW9rg7eege4iZP",
+      "slot": "511287613",
+      "feeLamports": "10000",
+      "computeUnits": 141455,
+      "commitment": "finalized"
+    },
+    {
+      "verifier": "FEyUjqjjtEnWdDw5JAkawBAPT25n2uxsRCeAcWWnhqnM",
+      "operation": "vote-4XdgTKqny57xeSwa2Mm6x953Fh1jvtWphwFbRtfqY7FY",
+      "signature": "4hsHxfu6iK57NWUSR8iu34ekuxRWr3uGMzo8HU7sQdJEfEaAqKzRv8yUvEmk5ceTBjG6RFtC2avhFkkV38jGmpRd",
+      "slot": "511292406",
+      "feeLamports": "10000",
+      "computeUnits": 147456,
+      "commitment": "finalized"
+    },
+    {
+      "verifier": "7KRg8JRzjhXpov24M23Qy65LNmg9VzAhE9xjJp8vRpCX",
+      "operation": "vote-4XdgTKqny57xeSwa2Mm6x953Fh1jvtWphwFbRtfqY7FY",
+      "signature": "3oeHKdaouQHB6KLbDtbYfEtN2yjhH7cgaJHszrie6PME6MVAUL22cAgztonQJr11vNyB8Vfk4M978UFJKzsxjw9Y",
+      "slot": "511291996",
+      "feeLamports": "10000",
+      "computeUnits": 128474,
+      "commitment": "finalized",
+      "privateJournalMutated": false
+    }
+  ],
+  "originalNode": {
+    "serialReplay": true,
+    "nodeTaskGenerationDisabled": true,
+    "oldVerifierActive": false,
+    "legacyCandidateCounts": {
+      "paid-finalized": 4
+    },
+    "memoryPeakBytes": 403390464,
+    "memoryMaxBytes": 536870912,
+    "cpuQuotaPercent": 100,
+    "unexpectedRestarts": 0,
+    "databaseMigration": false,
+    "historicalUserStateRetained": true,
+    "manualIdleRestartsTested": 1,
+    "resourceMeasurementBeforeIdleRestart": true,
+    "sourceMatchVerified": true
+  },
+  "rpc": {
+    "providerHost": "api.devnet.solana.com",
+    "privateProviderConfigured": false,
+    "heliusConfigured": false,
+    "intermittent429Observed": true,
+    "publicAlternativeProbePassed": false,
+    "providerSwitchApplied": false,
+    "browserTransportErrorsObserved": {
+      "v4Rpc503": 101,
+      "v4Rpc429": 16,
+      "legacyBalances503": 22,
+      "uploadAuthorization503": 2
+    }
+  },
+  "remaining": [
+    "Private RPC configuration",
+    "Actual wallet extension and physical-device confirmation",
+    "Independent verifier operators"
+  ],
+  "mainMerged": false,
+  "productionPayments": false,
+  "formalIssuance": false,
+  "mainnet": false,
+  "privateCredentialsPublished": false,
+  "historicalInitialDeploymentReceipt": "infra/docs/TASK_FACTORY_V4_DEPLOYMENT.json",
+  "liveAcceptanceEvidence": "docs/TASK_FACTORY_V4_LIVE_ACCEPTANCE.json",
+  "sourceBundleSha256": "c1556c22ed55828e5820b11fdfe645e263897448aef0c07d6b4b6c944f32f6a5",
+  "websiteAllScopedObjectHashesVerified": true,
+  "programHash": "606eac05dda6210fc6cfa68f677060f3545b44aa8118983a1334c44e261a33e8",
+  "catalogActivationSlot": "511275308",
+  "catalogActivationSignature": "2XBPR1K3t6ipwfyV7tWYaxKrnksMiaxt2HZgrNLn3C3RuL1VuRiayceREtUipk5NSSWSSbnZTyLAzSMN8LwHcsxE",
+  "passed": true,
+  "liveBrowserChecksPassed": 6,
+  "finalizedChainState": {
+    "schema": "flybrainlabs-factory-v4-finalized-live-state",
+    "recordedAtUtc": "2026-10-15T08:47:38.321Z",
+    "passed": true,
+    "commitment": "finalized",
+    "devnetGenesisVerified": true,
+    "factory": "4uYEL2rErQdAUHGBggZn5dssRs95H2jHeUgXZcvhzzgL",
+    "catalogRoot": "586813288ec9e8cd332a3f828b776e322a854f87b39f48373a2812ebbfcfa62d",
+    "activeIndex": 2,
+    "nextIndex": 3,
+    "remainingAtoms": "100000000000",
+    "reservedAtoms": "20000000000",
+    "acceptedUnpaidAtoms": "0",
+    "paidAtoms": "40000000000",
+    "refundedAtoms": "0",
+    "budgetAtoms": "160000000000",
+    "accountingConserved": true,
+    "tasks": [
+      {
+        "index": 0,
+        "state": 2,
+        "attempt": 0,
+        "paid": true,
+        "winner": "HZjFy7S8CPfHPGZGHiiV8mjHo4tVfhfrHKkGG4Z5LfgJ",
+        "beneficiary": "7SUbJ626XGoYEKFMZUy7WnzfkX9McdJUaJqDtRQBqmEv",
+        "rewardAtoms": "20000000000",
+        "queueLength": 1,
+        "claimDeadline": "1792051509",
+        "revealDeadline": "1792053309"
+      },
+      {
+        "index": 1,
+        "state": 2,
+        "attempt": 0,
+        "paid": true,
+        "winner": "4XdgTKqny57xeSwa2Mm6x953Fh1jvtWphwFbRtfqY7FY",
+        "beneficiary": "7SUbJ626XGoYEKFMZUy7WnzfkX9McdJUaJqDtRQBqmEv",
+        "rewardAtoms": "20000000000",
+        "queueLength": 1,
+        "claimDeadline": "1792054444",
+        "revealDeadline": "1792056244"
+      },
+      {
+        "index": 2,
+        "state": 1,
+        "attempt": 0,
+        "paid": false,
+        "winner": "11111111111111111111111111111111",
+        "beneficiary": "11111111111111111111111111111111",
+        "rewardAtoms": "20000000000",
+        "queueLength": 0,
+        "claimDeadline": "1792055587",
+        "revealDeadline": "1792057387"
+      }
+    ],
+    "submissions": [
+      {
+        "taskIndex": 0,
+        "address": "HZjFy7S8CPfHPGZGHiiV8mjHo4tVfhfrHKkGG4Z5LfgJ",
+        "state": 3,
+        "validVotesBitmap": 3,
+        "validVoteCount": 2,
+        "invalidVotesBitmap": 0,
+        "resultRoot": "7900eed6fbbc882cb228a15a4a4a160e9a5a4e50136a2e8c445fac9830e6cb9d",
+        "manifestHash": "1165c6e6713bd16918849ac9619eb93911bbd190c71615bdafe41f4d19ce68a9",
+        "archiveHash": "9f871d4f97040f786a75653bafd69e71dbda32777e8fc52d76b0df5dabedd5e4"
+      },
+      {
+        "taskIndex": 1,
+        "address": "4XdgTKqny57xeSwa2Mm6x953Fh1jvtWphwFbRtfqY7FY",
+        "state": 3,
+        "validVotesBitmap": 3,
+        "validVoteCount": 2,
+        "invalidVotesBitmap": 0,
+        "resultRoot": "5a48244dbc0da7836250bcdab39f12e90ef33c6efec3d68f75becea6c45fbe36",
+        "manifestHash": "f2f34c6dff346e6b799aa107606f2ca011e1ef9c1d56f83611a18ce6f9178d7f",
+        "archiveHash": "d9f20cefaf3549247ced33e3afbe183677b1458f56fd58e93ba3f130f5048436"
+      }
+    ],
+    "minerAta": "DainbzNUPyX2EcSjxgz53tZQ1kgdaVk6V9NPVrL3myew",
+    "balanceBeforeAtoms": "199999990",
+    "balanceAfterAtoms": "40199999990",
+    "deltaAtoms": "40000000000",
+    "deltaFbw": 400,
+    "chainWrites": 0,
+    "privateCredentialsExported": false
+  },
+  "nodeRestartRecovery": {
+    "schema": "flybrainlabs-factory-v4-idle-restart-acceptance",
+    "recordedAtUtc": "2026-10-15T08:46:54Z",
+    "passed": true,
+    "onlyV4ServiceRestarted": true,
+    "privateRuntimeUnchanged": true,
+    "historicalAndWalletServicePidsRetained": true,
+    "logicalUploadReservationsRetained": true,
+    "reservedContentBytes": 101237671,
+    "authorizedSubmissionsRetained": 2,
+    "nativeDecisionsRetained": 4,
+    "privateJournalBytesUnchanged": true,
+    "immutableContentCountRetained": 16,
+    "health": {
+      "schema": "flybrainlabs-factory-health-v4",
+      "transportReady": true,
+      "taskAuthority": "contract",
+      "catalogCreation": false,
+      "verifier": {
+        "status": "waiting-for-revealed-submission",
+        "at": "2026-10-15T08:46:53.168Z",
+        "serialReplay": true,
+        "trustedKeys": 2,
+        "independentOperators": 1
+      }
+    },
+    "chainWrites": 0,
+    "privateCredentialsExported": false,
+    "finalizedChainStateUnchanged": true,
+    "duplicatePaymentObserved": false,
+    "minerDeltaFbw": 400,
+    "activeIndex": 2
+  },
+  "browserFinalState": {
+    "computationRunning": false,
+    "completeModelCached": true,
+    "preparation": "ready",
+    "newOfficialModelDownloads": 0
+  },
+  "fullModelPaymentAcceptanceWebsiteRevision": "contract-factory-v4-20261015-r4",
+  "personalRpcSettings": {
+    "deployed": true,
+    "acceptance": "infra/docs/PERSONAL_MINING_RPC_V4_ACCEPTANCE.json",
+    "provider": "Helius",
+    "browserStorageOnly": true,
+    "actualPrivateProviderAcceptance": false,
+    "nodeRpcChanged": false
+  }
+}

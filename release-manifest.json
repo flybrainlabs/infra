@@ -6,7 +6,7 @@
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "f1a44a4ca548aa2234359f3beaca9096ea24e960",
+      "commit": "2384cd204fcb41109314b2d1e63a5a72c48f1c1a",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
@@ -14,13 +14,13 @@
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "8c50306a29d0b2699069c6e386b362e3344ff22d",
+      "commit": "2f168f6e63e120d9a7fb1b008e729494c8d32cdd",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "1871b3b135cd11d9de36ca59adb953d20909c586",
+      "commit": "a8d06e9b4a978455ff5038d5e3e5a9e4fc7a208d",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
@@ -37,13 +37,13 @@
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
-      "commit": "76e95112d3464e80b5c3795d6e791e4ee5ddcd64",
+      "commit": "03a69513b1056b80357d500077644db0de70a26e",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "3de5c97a5dd68524368bde61c8127df27baffb44",
+      "commit": "d8e9b39bb3995aa5d02b26e2b49ea3159fcb198e",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
@@ -54,7 +54,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "17c9c0edd17335037843fe226f442d0bf46d9bf2",
+      "commit": "a6573b3a34cacfab6573955a339030daeb750b49",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     }
@@ -69,9 +69,9 @@
     "apiIdentityVerified": false,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-15T05:52:47.547698+00:00",
+    "componentVerificationRecordedAtUtc": "2026-10-15T09:17:25.316708+00:00",
     "verificationReport": "docs/TASK_FACTORY_V4_PUBLICATION.json",
-    "scope": "Verified source release; public V4 activation remains pending",
+    "scope": "Exact source pins and active official Devnet V4 deployment; personal RPC browser acceptance uses explicit provider fixtures",
     "historicalBootstrap": {
       "complete": true,
       "verifiedRepositoryCount": 10,
@@ -91,10 +91,10 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "social-stitch-refinement-20261014-v1",
-    "changedWebsiteObjects": 12,
+    "websiteRevision": "contract-factory-v4-20261015-r5",
+    "changedWebsiteObjects": 85,
     "localBrowserLayouts": 10,
-    "publicBrowserLayouts": 10,
+    "publicBrowserLayouts": 4,
     "officialModelDownloadRequests": 0,
     "physicalAndroid": false,
     "physicalGPU": false,
@@ -126,17 +126,17 @@
     "localPublicUiChecks": 32,
     "publicPublicUiChecks": 32,
     "publicWalletSessionChecks": 37,
-    "taskSupplyRevision": "task-supply-20261013-v2",
+    "taskSupplyRevision": "contract-factory-v4-20261015",
     "openedRoundSequence": 32,
-    "taskSupplyRead": "public Chromium and signed current round passed",
+    "taskSupplyRead": "Finalized V4 contract catalog and two paid complete-model workflows verified; legacy node authority retained for history",
     "miningAdmissionRevision": "mining-start-20261013-v1",
     "localAdmissionChecks": 17,
     "publicAdmissionChecks": 17,
-    "preparedWorkerFullModelExecution": false,
-    "originalUserMiningFailure": "browser RPC HTTP 429 confirmed; requested provider activation and actual extension/full mining confirmation remain pending",
+    "preparedWorkerFullModelExecution": true,
+    "originalUserMiningFailure": "Public RPC capacity errors observed; V4 full Worker/replay/payment/succession passed. Private node RPC and extension confirmation remain pending.",
     "localCompactCases": 32,
     "publicCompactCases": 32,
-    "pinnedWorkspaceFiles": 967,
+    "pinnedWorkspaceFiles": 1053,
     "documentationBilingual": true,
     "stitchLocalUiChecks": 46,
     "stitchPublicUiChecks": 41,
@@ -164,7 +164,13 @@
     "githubEngagementRewardsEnabled": false,
     "communitySchemaVersion": 3,
     "communityPublicChecks": 20,
-    "callbackPublicRouteChecks": 5
+    "callbackPublicRouteChecks": 5,
+    "preparedWorkerFullModelEvidenceRevision": "contract-factory-v4-20261015-r4",
+    "openedRoundSequenceScope": "Historical V3 authority sequence",
+    "personalRpcSettingsDeployed": true,
+    "personalRpcSdkFixtureGroups": 6,
+    "personalRpcPublicBrowserChecks": 6,
+    "personalRpcRealKeyAcceptance": false
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -769,7 +775,7 @@
   },
   "taskFactoryV4": {
     "revision": "contract-task-factory-v4-20261015",
-    "status": "devnet-program-deployed-verifier-staged-activation-awaiting-owner-budget",
+    "status": "official-devnet-active-two-paid-full-model-flows-and-idle-restart-verified",
     "branch": "feat/contract-task-factory-v4-20261015",
     "implementationAcceptance": "docs/TASK_FACTORY_V4_IMPLEMENTATION_ACCEPTANCE.json",
     "publicationAcceptance": "docs/TASK_FACTORY_V4_PUBLICATION.json",
@@ -783,15 +789,15 @@
       "maxPacketBytes": 718,
       "maxComputeUnits": 138409
     },
-    "publicV4Enabled": false,
-    "publicV4TasksCreated": 0,
-    "newPublicFbwBudgetAtoms": "0",
+    "publicV4Enabled": true,
+    "publicV4TasksCreated": 8,
+    "newPublicFbwBudgetAtoms": "160000000000",
     "productionPayments": false,
     "mainnet": false,
-    "existingV3ServiceChanged": false,
-    "approvedUnusedCalibratedCatalogRequired": true,
+    "existingV3ServiceChanged": true,
+    "approvedUnusedCalibratedCatalogRequired": false,
     "actualWalletAndIndependentOperatorAcceptance": false,
-    "deploymentAcceptance": "docs/TASK_FACTORY_V4_DEPLOYMENT.json",
+    "deploymentAcceptance": "docs/TASK_FACTORY_V4_ACTIVATION.json",
     "devnetProgram": {
       "programId": "5yxjnH1PSk8iQKfK3ejG4jfSkewkTKfcpJygojdb6sam",
       "programData": "GmTNV9aBMjWeEEsZxBhRAFhahFu2ivUssy1MdHVXam64",
@@ -804,7 +810,31 @@
       "bufferRentReturned": true
     },
     "verifierStaged": true,
-    "verifierActivated": false,
-    "catalogProposalApproved": false
+    "verifierActivated": true,
+    "catalogProposalApproved": true,
+    "initialInactiveDeploymentAcceptance": "docs/TASK_FACTORY_V4_DEPLOYMENT.json",
+    "liveAcceptance": "docs/TASK_FACTORY_V4_LIVE_ACCEPTANCE.json",
+    "factory": "4uYEL2rErQdAUHGBggZn5dssRs95H2jHeUgXZcvhzzgL",
+    "catalogRoot": "586813288ec9e8cd332a3f828b776e322a854f87b39f48373a2812ebbfcfa62d",
+    "rewardAtomsPerWinner": "20000000000",
+    "rewardFbwPerWinner": 200,
+    "finiteCatalogBudgetFbw": 1600,
+    "actualPaidTasks": 2,
+    "actualPaidFbw": 400,
+    "actualNativeCompleteReplays": 4,
+    "actualNativeCompleteTrials": 8,
+    "scriptedWalletStandardAccepted": true,
+    "walletExtensionConfirmation": false,
+    "independentOperators": 1,
+    "legacyNodeTaskGenerationDisabled": true,
+    "legacyVerifierDisabled": true,
+    "idleRestartAndNoDuplicatePaymentVerified": true,
+    "websiteRevision": "contract-factory-v4-20261015-r5",
+    "sourceBundleSha256": "c1556c22ed55828e5820b11fdfe645e263897448aef0c07d6b4b6c944f32f6a5",
+    "personalRpcAcceptance": "docs/PERSONAL_MINING_RPC_V4_ACCEPTANCE.json",
+    "personalRpcProvider": "Helius",
+    "personalRpcBrowserOnly": true,
+    "personalRpcRealKeyAcceptance": false,
+    "privateNodeRpcConfigured": false
   }
 }

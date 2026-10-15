@@ -103,9 +103,12 @@ Actual extension-wallet and physical-device confirmation remain separate gates.
 
 ## Task Factory V4 Devnet deployment
 
-`docs/TASK_FACTORY_V4_DEPLOYMENT.json` records the program upgrade, preserved
-V3 accounts, inactive verifier installation and read-only chain preview. The
-existing product UI remains V3; no new factory or reward budget is enabled.
+`docs/TASK_FACTORY_V4_DEPLOYMENT.json` is the historical program-upgrade and
+inactive-verifier record. `docs/TASK_FACTORY_V4_ACTIVATION.json` records the
+subsequent official website and original-node switch to the approved eight-task
+catalog: 200 FBW per winner, a finite 1,600 FBW Devnet budget and complete native
+verification. Current live-test limitations are recorded separately from the
+initial simulated acceptance. No mainnet or production payments are enabled.
 
 Run `tools/deploy_task_factory_v4.mjs` from the assembled workspace with the
 reviewed public plan, exact ELF, existing authority key path, an operator-only
@@ -121,3 +124,18 @@ original node. It checks an exact source manifest, imports the verifier and
 checks existing complete-model hashes. Installation is beside V3, changes no
 private runtime or database and restarts no service. It does not activate a
 verifier, select a catalog or authorize a reward budget.
+
+`tools/activate_factory_v4_node.py UPLOAD --apply` installs the reviewed bounded
+service, creates coherent backups and disables old node task generation.
+`--refresh-service` only refreshes an identical runtime after the current replay
+queue has drained. Existing models, user databases, signed journals and content
+are retained. Inspect current verifier balances and chain work before maintenance.
+
+`tools/configure_factory_rpc_v4.py --provider-config PRIVATE_JSON` checks an
+HTTPS upstream against the exact Devnet genesis, frozen factory/budget and
+deployed executable hash. The JSON contains `rpcUpstream` and must be private.
+The read-only probe sends no transaction. An explicit `--apply` backs up private
+runtime files, restarts the shared wallet and V4 services and checks readiness
+using the official Origin. Failure restores the original transports. Provider
+URLs and credentials are never written to public reports; a failed public
+provider probe does not change the current upstream.
