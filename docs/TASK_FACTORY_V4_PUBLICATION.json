@@ -1,0 +1,85 @@
+{
+  "schema": "flybrainlabs-task-factory-v4-source-publication-v1",
+  "recordedAtUtc": "2026-10-15T05:52:47.547698+00:00",
+  "status": "component-revisions-remotely-verified",
+  "owner": "flybrainlabs",
+  "branch": "feat/contract-task-factory-v4-20261015",
+  "authentication": {
+    "transport": "ssh",
+    "identity": "flybrainlabs",
+    "sshLoginVerified": true,
+    "cliApiConfigured": false,
+    "apiAccountOperations": 0
+  },
+  "repositories": {
+    "protocol": {
+      "commit": "f5af1a4e86bcd7c3dde4ce9664db2ba859dfc2c9",
+      "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
+      "remoteVerified": true
+    },
+    "contracts": {
+      "commit": "ec10583fe021c4f65299e97547feef063f281e87",
+      "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
+      "remoteVerified": true
+    },
+    "sdk": {
+      "commit": "3de5c97a5dd68524368bde61c8127df27baffb44",
+      "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
+      "remoteVerified": true
+    },
+    "node": {
+      "commit": "8c50306a29d0b2699069c6e386b362e3344ff22d",
+      "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
+      "remoteVerified": true
+    },
+    "miner": {
+      "commit": "1871b3b135cd11d9de36ca59adb953d20909c586",
+      "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
+      "remoteVerified": true
+    },
+    "web": {
+      "commit": "f1a44a4ca548aa2234359f3beaca9096ea24e960",
+      "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
+      "remoteVerified": true
+    },
+    "docs": {
+      "commit": "00de348318689c1bc2d284d71f856b3ed57d4d91",
+      "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
+      "remoteVerified": true
+    },
+    "explorer": {
+      "commit": "2d95e66541f7030d297f0ac20732be2f7d46fbbc",
+      "ref": "refs/heads/main",
+      "remoteVerified": true,
+      "changed": false
+    },
+    "research": {
+      "commit": "c100fe15b57a1eb4e2bfca747654a5a459cc86e9",
+      "ref": "refs/heads/main",
+      "remoteVerified": true,
+      "changed": false
+    }
+  },
+  "infrastructureRevision": "The commit containing this receipt and release-manifest.json",
+  "infrastructureVerification": "Check the containing infrastructure commit against the same authorized remote branch",
+  "checks": {
+    "sourceOwnershipAndCredentialScan": true,
+    "outgoingHistoryCredentialScan": true,
+    "unchangedImplementationHashes": true,
+    "remoteRevisionReadback": true
+  },
+  "activation": {
+    "mainMerged": false,
+    "publicV4Enabled": false,
+    "publicV4ChainTransactions": 0,
+    "newPublicFbwBudgetAtoms": "0",
+    "productionPayments": false,
+    "mainnet": false,
+    "existingV3ServiceChanged": false
+  },
+  "limitations": [
+    "Local scientific chain fixtures do not establish new full-model discoveries or biological accuracy.",
+    "Actual wallet, full-model, independently operated verifiers and intended-cluster acceptance remain pending.",
+    "Source publication does not activate a public task factory or approve a new task catalog or reward budget."
+  ]
+}

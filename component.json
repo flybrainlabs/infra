@@ -58,7 +58,8 @@
     "tools/upgrade_immediate_supply.py": "tools/upgrade_immediate_supply.py",
     "tools/upgrade_product_node.sh": "tools/upgrade_product_node.sh",
     "tools/upgrade_product_site_node.sh": "tools/upgrade_product_site_node.sh",
-    "tools/upgrade_wallet_mining_v3.sh": "tools/upgrade_wallet_mining_v3.sh"
+    "tools/upgrade_wallet_mining_v3.sh": "tools/upgrade_wallet_mining_v3.sh",
+    "docs/TASK_FACTORY_V4_PUBLICATION.json": "docs/TASK_FACTORY_V4_PUBLICATION.json"
   },
   "project": "flybrainlabs"
 }

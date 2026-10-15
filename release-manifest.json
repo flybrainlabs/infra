@@ -1,25 +1,28 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "continuous-task-supply-20261014-v1",
+  "release": "contract-task-factory-v4-20261015",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "39ca21e7d3bb5148c580bf2f3b7580803ebd5514",
+      "commit": "f1a44a4ca548aa2234359f3beaca9096ea24e960",
       "publicationStatus": "verified",
       "visibility": "private",
-      "requiresAuthentication": true
+      "requiresAuthentication": true,
+      "branch": "feat/contract-task-factory-v4-20261015"
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "3da19d5d87d035ec2f22ee9e38fca5e7f202e0ad",
-      "publicationStatus": "verified"
+      "commit": "8c50306a29d0b2699069c6e386b362e3344ff22d",
+      "publicationStatus": "verified",
+      "branch": "feat/contract-task-factory-v4-20261015"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "fa2130326351945b2ca85ed47600b51c1122daac",
-      "publicationStatus": "verified"
+      "commit": "1871b3b135cd11d9de36ca59adb953d20909c586",
+      "publicationStatus": "verified",
+      "branch": "feat/contract-task-factory-v4-20261015"
     },
     "explorer": {
       "url": "https://github.com/flybrainlabs/explorer.git",
@@ -28,18 +31,21 @@
     },
     "protocol": {
       "url": "https://github.com/flybrainlabs/protocol.git",
-      "commit": "c84df0b9fe52269762be73b27ceafb54d6b1906c",
-      "publicationStatus": "verified"
+      "commit": "f5af1a4e86bcd7c3dde4ce9664db2ba859dfc2c9",
+      "publicationStatus": "verified",
+      "branch": "feat/contract-task-factory-v4-20261015"
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
-      "commit": "6dc997cc1c7bcecef467c49e9b4829bf282daf72",
-      "publicationStatus": "verified"
+      "commit": "ec10583fe021c4f65299e97547feef063f281e87",
+      "publicationStatus": "verified",
+      "branch": "feat/contract-task-factory-v4-20261015"
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "e437babe29caa344c0442eca0721987c9fb4d95a",
-      "publicationStatus": "verified"
+      "commit": "3de5c97a5dd68524368bde61c8127df27baffb44",
+      "publicationStatus": "verified",
+      "branch": "feat/contract-task-factory-v4-20261015"
     },
     "research": {
       "url": "https://github.com/flybrainlabs/research.git",
@@ -48,20 +54,35 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "6bb39187f744873ba5ff0202cd9a46d2a18ceb29",
-      "publicationStatus": "verified"
+      "commit": "00de348318689c1bc2d284d71f856b3ed57d4d91",
+      "publicationStatus": "verified",
+      "branch": "feat/contract-task-factory-v4-20261015"
     }
   },
   "publication": {
     "complete": true,
     "verifiedRepositoryCount": 10,
     "remainingRepositoryCount": 0,
-    "apiIdentityVerified": true,
+    "transport": "ssh",
+    "sshIdentity": "flybrainlabs",
     "sshIdentityVerified": true,
-    "repositoriesCreated": 10,
-    "freshRemoteBootstrap": "passed",
-    "matchedWorkspaceFiles": 716,
-    "verificationReport": "migration-acceptance.json"
+    "apiIdentityVerified": false,
+    "apiAccountOperations": 0,
+    "mainMerged": false,
+    "componentVerificationRecordedAtUtc": "2026-10-15T05:52:47.547698+00:00",
+    "verificationReport": "docs/TASK_FACTORY_V4_PUBLICATION.json",
+    "scope": "Verified source release; public V4 activation remains pending",
+    "historicalBootstrap": {
+      "complete": true,
+      "verifiedRepositoryCount": 10,
+      "remainingRepositoryCount": 0,
+      "apiIdentityVerified": true,
+      "sshIdentityVerified": true,
+      "repositoriesCreated": 10,
+      "freshRemoteBootstrap": "passed",
+      "matchedWorkspaceFiles": 716,
+      "verificationReport": "migration-acceptance.json"
+    }
   },
   "stateRetention": {
     "modelDownloadRequired": false,
@@ -745,5 +766,30 @@
     "browserStandbyDeployed": true,
     "oldFinancialIdentityRetained": true,
     "nextApprovedCatalogAndBudgetPending": true
+  },
+  "taskFactoryV4": {
+    "revision": "contract-task-factory-v4-20261015",
+    "status": "source-published-locally-verified-public-activation-pending",
+    "branch": "feat/contract-task-factory-v4-20261015",
+    "implementationAcceptance": "docs/TASK_FACTORY_V4_IMPLEMENTATION_ACCEPTANCE.json",
+    "publicationAcceptance": "docs/TASK_FACTORY_V4_PUBLICATION.json",
+    "catalog": "Approved predefined tasks; immutable ordered on-chain descriptors",
+    "nodeRole": "Complete native replay and bound verdicts; no task generation",
+    "quorum": "Two of three frozen trusted verifier keys; operator independence unestablished",
+    "localSbf": {
+      "architecture": "v3",
+      "checks": 20,
+      "successfulTransactions": 38,
+      "maxPacketBytes": 718,
+      "maxComputeUnits": 138409
+    },
+    "publicV4Enabled": false,
+    "publicV4TasksCreated": 0,
+    "newPublicFbwBudgetAtoms": "0",
+    "productionPayments": false,
+    "mainnet": false,
+    "existingV3ServiceChanged": false,
+    "approvedUnusedCalibratedCatalogRequired": true,
+    "actualWalletAndIndependentOperatorAcceptance": false
   }
 }
