@@ -37,7 +37,7 @@
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
-      "commit": "ec10583fe021c4f65299e97547feef063f281e87",
+      "commit": "76e95112d3464e80b5c3795d6e791e4ee5ddcd64",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
@@ -54,7 +54,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "00de348318689c1bc2d284d71f856b3ed57d4d91",
+      "commit": "17c9c0edd17335037843fe226f442d0bf46d9bf2",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     }
@@ -769,7 +769,7 @@
   },
   "taskFactoryV4": {
     "revision": "contract-task-factory-v4-20261015",
-    "status": "source-published-locally-verified-public-activation-pending",
+    "status": "devnet-program-deployed-verifier-staged-activation-awaiting-owner-budget",
     "branch": "feat/contract-task-factory-v4-20261015",
     "implementationAcceptance": "docs/TASK_FACTORY_V4_IMPLEMENTATION_ACCEPTANCE.json",
     "publicationAcceptance": "docs/TASK_FACTORY_V4_PUBLICATION.json",
@@ -790,6 +790,21 @@
     "mainnet": false,
     "existingV3ServiceChanged": false,
     "approvedUnusedCalibratedCatalogRequired": true,
-    "actualWalletAndIndependentOperatorAcceptance": false
+    "actualWalletAndIndependentOperatorAcceptance": false,
+    "deploymentAcceptance": "docs/TASK_FACTORY_V4_DEPLOYMENT.json",
+    "devnetProgram": {
+      "programId": "5yxjnH1PSk8iQKfK3ejG4jfSkewkTKfcpJygojdb6sam",
+      "programData": "GmTNV9aBMjWeEEsZxBhRAFhahFu2ivUssy1MdHVXam64",
+      "programSha256": "606eac05dda6210fc6cfa68f677060f3545b44aa8118983a1334c44e261a33e8",
+      "programBytes": 404944,
+      "deployedSlot": "511257144",
+      "commitment": "finalized",
+      "sbpfArchitecture": "v3",
+      "existingAccountDataUnchanged": true,
+      "bufferRentReturned": true
+    },
+    "verifierStaged": true,
+    "verifierActivated": false,
+    "catalogProposalApproved": false
   }
 }

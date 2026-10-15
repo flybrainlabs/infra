@@ -59,7 +59,11 @@
     "tools/upgrade_product_node.sh": "tools/upgrade_product_node.sh",
     "tools/upgrade_product_site_node.sh": "tools/upgrade_product_site_node.sh",
     "tools/upgrade_wallet_mining_v3.sh": "tools/upgrade_wallet_mining_v3.sh",
-    "docs/TASK_FACTORY_V4_PUBLICATION.json": "docs/TASK_FACTORY_V4_PUBLICATION.json"
+    "docs/TASK_FACTORY_V4_PUBLICATION.json": "docs/TASK_FACTORY_V4_PUBLICATION.json",
+    "tools/deploy_task_factory_v4.mjs": "tools/deploy_task_factory_v4.mjs",
+    "tools/stage_factory_verifier_v4.py": "tools/stage_factory_verifier_v4.py",
+    "docs/TASK_FACTORY_V4_DEPLOYMENT.json": "docs/TASK_FACTORY_V4_DEPLOYMENT.json",
+    "deploy/task-factory-v4/program-upgrade-plan.json": "deploy/task-factory-v4/program-upgrade-plan.json"
   },
   "project": "flybrainlabs"
 }

@@ -100,3 +100,24 @@ Actual extension-wallet and physical-device confirmation remain separate gates.
 ## Community deployment
 
 `deploy/target-v2/flybrainlabs-community.service` runs the separate Social process on 8791; `nginx-community.conf` proxies its paths with existing request limits. `tools/upgrade_community.sh` creates a coherent database backup, applies an additive migration, preserves runtime hashes and business counts, and leaves existing financial/scientific services running. Install only public Social files plus pinned parse5/entities dependencies. Read `docs/social-community-system.md` before rollback; do not erase legitimate post-backup writes.
+
+## Task Factory V4 Devnet deployment
+
+`docs/TASK_FACTORY_V4_DEPLOYMENT.json` records the program upgrade, preserved
+V3 accounts, inactive verifier installation and read-only chain preview. The
+existing product UI remains V3; no new factory or reward budget is enabled.
+
+Run `tools/deploy_task_factory_v4.mjs` from the assembled workspace with the
+reviewed public plan, exact ELF, existing authority key path, an operator-only
+transport directory and a public report path. Its default is read-only preflight;
+`--apply` performs only the bounded existing-program upgrade. It checks Devnet
+genesis, SBPF v3 activation, authority, ELF hashes and rent/fee ceilings, retains
+the previous executable, journals signed transport before sending, simulates the
+upgrade and verifies finalized bytes. It cannot initialize or fund a factory.
+Private keys and signed journals never belong in the repository or public build.
+
+`tools/stage_factory_verifier_v4.py UPLOAD [--apply]` runs on the authorized
+original node. It checks an exact source manifest, imports the verifier and
+checks existing complete-model hashes. Installation is beside V3, changes no
+private runtime or database and restarts no service. It does not activate a
+verifier, select a catalog or authorize a reward budget.
