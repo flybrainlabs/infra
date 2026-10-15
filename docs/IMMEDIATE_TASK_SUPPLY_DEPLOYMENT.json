@@ -1,0 +1,65 @@
+{
+  "schema": "flybrain-immediate-task-supply-deployment-v1",
+  "status": "scoped-server-update-deployed-repository-publication-pending",
+  "verifiedAtUtc": "2026-10-15T04:22:01Z",
+  "sourceCommit": "006b875ef10940e62333382a1ce3ba3da81822fe",
+  "sourceSha256": "ec9c33e5602e4774369eca4eb3f85d016fdff5a2b604efdcd3daf02128b6930c",
+  "server": "original flypow-node",
+  "installation": {
+    "changedSources": [
+      "tools/continuous_task_supply.mjs"
+    ],
+    "walletGatewayRestarts": 1,
+    "otherServiceRestarts": 0,
+    "coherentDatabaseBackupsVerified": true,
+    "privateRollbackSourceRetained": true,
+    "historicalRowsPreserved": true,
+    "privateConfigurationUnchanged": true,
+    "noDatabaseMigration": true
+  },
+  "checks": {
+    "installedImportGraph": "passed",
+    "installedSourceHash": "passed",
+    "tenSecondEventGateRemoved": true,
+    "walletConfigurationHttpStatus": 200,
+    "allFourServicesActive": true,
+    "unexpectedSystemdRestarts": 0,
+    "priorLocalSchedulerChecks": 27,
+    "priorLocalWakeupChecks": 9,
+    "priorActualLoopbackSseRegression": "passed",
+    "sourceAndPublicationHistoryScan": "passed"
+  },
+  "observedSupply": {
+    "dispatcherStatus": "waiting-approved-tasks",
+    "eventCursor": 244,
+    "approvedCatalogs": 0,
+    "approvedItems": 0,
+    "publishedBatches": 0,
+    "status": "exhausted",
+    "pendingGoals": 0,
+    "remainingUnopenedGoals": 0,
+    "solvedGoals": 31,
+    "planRevision": 3,
+    "planHash": "dc27f3c62bbf0c9b8ca98ef496693c5b8dd40eed5edbc1411224f7804970fdd2"
+  },
+  "activation": {
+    "scientificTasksAdded": 0,
+    "newFundingTransactions": 0,
+    "walletGrantsRenewed": 0,
+    "newRewardStage": false,
+    "mainnet": false,
+    "contractSuccessorSchedulerImplemented": false
+  },
+  "repositoryPublication": {
+    "complete": false,
+    "reason": "Matching authenticated flybrainlabs GitHub API identity is unavailable. The dedicated SSH identity is verified. No retired connector is used.",
+    "verifiedReleasePinsChanged": false,
+    "fullPinnedReleaseAvailable": false
+  },
+  "authorization": "The owner explicitly requested deployment of the completed task pacing adjustment. GitHub publication retains its separate identity gate.",
+  "limitations": [
+    "The approved scientific catalog is empty; this update does not restore a supply of new calibrated tasks.",
+    "No live paid task was executed for acceptance; sustained throughput is not established.",
+    "Acceptance used original-node SSH and loopback HTTP; external public route verification was not repeated for this update."
+  ]
+}

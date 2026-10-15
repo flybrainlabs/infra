@@ -31,6 +31,7 @@
     "docs/GITHUB_STAR_FLOW_ACCEPTANCE.json": "docs/GITHUB_STAR_FLOW_ACCEPTANCE.json",
     "docs/GITHUB_TASK_SELECTION_ACCEPTANCE.json": "docs/GITHUB_TASK_SELECTION_ACCEPTANCE.json",
     "docs/GITHUB_VERIFICATION_AVAILABILITY_ACCEPTANCE.json": "docs/GITHUB_VERIFICATION_AVAILABILITY_ACCEPTANCE.json",
+    "docs/IMMEDIATE_TASK_SUPPLY_DEPLOYMENT.json": "docs/IMMEDIATE_TASK_SUPPLY_DEPLOYMENT.json",
     "docs/MINING_ADMISSION_ACCEPTANCE.json": "docs/MINING_ADMISSION_ACCEPTANCE.json",
     "docs/MINING_SESSION_ACCEPTANCE.json": "docs/MINING_SESSION_ACCEPTANCE.json",
     "docs/STITCH_COMMUNITY_REFINEMENT_ACCEPTANCE.json": "docs/STITCH_COMMUNITY_REFINEMENT_ACCEPTANCE.json",
@@ -54,6 +55,7 @@
     "tools/upgrade_continuous_supply.sh": "tools/upgrade_continuous_supply.sh",
     "tools/upgrade_github_star_flow.sh": "tools/upgrade_github_star_flow.sh",
     "tools/upgrade_github_task_selection.sh": "tools/upgrade_github_task_selection.sh",
+    "tools/upgrade_immediate_supply.py": "tools/upgrade_immediate_supply.py",
     "tools/upgrade_product_node.sh": "tools/upgrade_product_node.sh",
     "tools/upgrade_product_site_node.sh": "tools/upgrade_product_site_node.sh",
     "tools/upgrade_wallet_mining_v3.sh": "tools/upgrade_wallet_mining_v3.sh"
