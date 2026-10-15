@@ -1,6 +1,6 @@
 {
   "schema": "flybrainlabs-task-factory-v4-source-publication-v2",
-  "recordedAtUtc": "2026-10-15T10:23:27.327578+00:00",
+  "recordedAtUtc": "2026-10-15T14:03:22.044916+00:00",
   "status": "all-nine-component-revisions-remotely-verified",
   "owner": "flybrainlabs",
   "branch": "feat/contract-task-factory-v4-20261015",
@@ -9,11 +9,12 @@
     "identity": "flybrainlabs",
     "sshLoginVerified": true,
     "cliApiConfigured": false,
-    "apiAccountOperations": 0
+    "apiAccountOperations": 0,
+    "apiIdentityVerified": false
   },
   "repositories": {
     "web": {
-      "commit": "ee663486cfdb257ff8196e56d5461599e7c9aaa3",
+      "commit": "0c4c5e3a27c9bf5234328c101e638705e5bad103",
       "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
       "remoteVerified": true,
       "outgoingHistoryCredentialScan": true
@@ -25,7 +26,7 @@
       "outgoingHistoryCredentialScan": true
     },
     "miner": {
-      "commit": "5f584a71784c4f17d72382085b95812dbebddaf2",
+      "commit": "bfbddd6e53ab1cb05599006cdbb2e9c5abf97065",
       "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
       "remoteVerified": true,
       "outgoingHistoryCredentialScan": true
@@ -49,7 +50,7 @@
       "outgoingHistoryCredentialScan": true
     },
     "sdk": {
-      "commit": "32d820fea4521c42d9b13d326d6c4d49dd5d3a23",
+      "commit": "ca4da6d9d92e15c03278fdfb9d9e19697737825f",
       "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
       "remoteVerified": true,
       "outgoingHistoryCredentialScan": true
@@ -61,7 +62,7 @@
       "outgoingHistoryCredentialScan": true
     },
     "docs": {
-      "commit": "4146044b2a707b63aed1c54496974a9ed22d8a7a",
+      "commit": "55773be7472d1fb1d71eecf1df2ed620eac6aace",
       "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
       "remoteVerified": true,
       "outgoingHistoryCredentialScan": true
@@ -77,7 +78,10 @@
     "installedSourceBundleMatchedActivationSources": true,
     "personalMiningBalanceRouteVerified": true,
     "cachedModelBuildDuringProviderOutage": true,
-    "requiredRpcRegressionVerified": true
+    "requiredRpcRegressionVerified": true,
+    "taskRecoveryPublicBrowserVerified": true,
+    "attemptScopedRecoveryTransportVerified": true,
+    "scopedOverlayDeploymentVerified": true
   },
   "activation": {
     "publicV4Enabled": true,
@@ -99,16 +103,18 @@
     "localBuildIndependentOfTaskWindow": true
   },
   "limitations": [
-    "Helius UI tests use explicit public-account provider fixtures; an actual valid private endpoint has not been supplied.",
+    "Provider acceptance uses explicit fixtures; real private Helius and wallet-extension acceptance remain unverified.",
     "Two trusted verifier keys run under one operator; independent verifier operation is not established.",
-    "The scientific model has no new biological accuracy claim."
+    "The scientific model has no new biological accuracy claim.",
+    "Task recovery is available through explicit user-wallet confirmation; this release sent no recovery transaction."
   ],
-  "websiteRevision": "contract-factory-v4-20261015-r7",
+  "websiteRevision": "contract-factory-v4-20261015-r8",
   "retainedNodeBundle": {
     "sourceBundleSha256": "c1556c22ed55828e5820b11fdfe645e263897448aef0c07d6b4b6c944f32f6a5",
     "sourceComparisonScope": "Recorded activation sources; the additive browser client update does not replace the installed verifier bundle",
     "runtimeChangedByThisRelease": false,
     "acceptance": "docs/TASK_FACTORY_V4_LIVE_ACCEPTANCE.json"
   },
-  "buildFixAcceptance": "docs/PERSONAL_RPC_BUILD_FIX_V4_ACCEPTANCE.json"
+  "buildFixAcceptance": "docs/PERSONAL_RPC_BUILD_FIX_V4_ACCEPTANCE.json",
+  "taskRecoveryAcceptance": "docs/CONTRACT_TASK_RECOVERY_V4_ACCEPTANCE.json"
 }

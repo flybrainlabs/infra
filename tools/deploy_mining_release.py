@@ -8,12 +8,24 @@ import os
 from pathlib import Path
 import shlex
 import subprocess
+import re
 
 def deploy(a):
     build=json.loads(a.build_report.read_text());release=Path(build['release']);changes=build['changed_files'];paths=sorted(changes)
-    if not build['atlas_unchanged'] or not build['independent_copy']:raise ValueError('Need verified independent full release')
     validation=json.loads(a.validation.read_text())
-    if not (validation.get('static_only') or validation.get('oauth_bridge_verified')) or validation.get('types')!=11751:raise ValueError('Need successful complete-atlas validation and an explicitly reviewed optional OAuth bridge')
+    if build.get('schema')=='flybrainlabs-mining-asset-overlay-v1':
+        # A small UI correction inherits the retained, validated data release.
+        # Only independently copied modules and entry metadata may be replaced.
+        if not paths or len(paths)>32 or any(not (re.fullmatch(r'assets/(?:[a-z0-9-]+|vendor/generated/factory-wallet-v4)\.mjs(?:\.gz)?',p) or p in ('mining/index.html','release.json')) for p in paths):raise ValueError('Overlay exceeds the mining asset scope')
+        baseline=Path(build['baseline']);metadata=baseline/'release.json'
+        if not baseline.is_dir() or hashlib.sha256(metadata.read_bytes()).hexdigest()!=build['baselineMetadataSha256']:raise ValueError('Retained baseline changed')
+        if validation.get('schema')!='flybrainlabs-mining-asset-overlay-validation-v1' or validation.get('passed') is not True or validation.get('buildSha256')!=hashlib.sha256(a.build_report.read_bytes()).hexdigest():raise ValueError('Need validation of this exact asset overlay')
+        if not build.get('atlas_unchanged') or not build.get('independent_copy'):raise ValueError('Overlay must retain scientific data and independent changed files')
+        for name,c in changes.items():
+            if (release/name).is_symlink() or (release/name).stat().st_nlink!=1 or not c['old_sha256'] or hashlib.sha256((baseline/name).read_bytes()).hexdigest()!=c['old_sha256']:raise ValueError('Overlay baseline or independent file check failed')
+    else:
+        if not build['atlas_unchanged'] or not build['independent_copy']:raise ValueError('Need verified independent full release')
+        if not (validation.get('static_only') or validation.get('oauth_bridge_verified')) or validation.get('types')!=11751:raise ValueError('Need successful complete-atlas validation and an explicitly reviewed optional OAuth bridge')
     for name,c in changes.items():
         if Path(name).is_absolute() or '..' in Path(name).parts:raise ValueError('Unsafe release path')
         if hashlib.sha256((release/name).read_bytes()).hexdigest()!=c['new_sha256']:raise ValueError('Release changed after verification')

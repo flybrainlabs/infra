@@ -70,7 +70,9 @@
     "tools/configure_factory_rpc_v4.py": "tools/configure_factory_rpc_v4.py",
     "docs/TASK_FACTORY_V4_ACTIVATION.json": "docs/TASK_FACTORY_V4_ACTIVATION.json",
     "docs/PERSONAL_MINING_RPC_V4_ACCEPTANCE.json": "docs/PERSONAL_MINING_RPC_V4_ACCEPTANCE.json",
-    "docs/PERSONAL_RPC_BUILD_FIX_V4_ACCEPTANCE.json": "docs/PERSONAL_RPC_BUILD_FIX_V4_ACCEPTANCE.json"
+    "docs/PERSONAL_RPC_BUILD_FIX_V4_ACCEPTANCE.json": "docs/PERSONAL_RPC_BUILD_FIX_V4_ACCEPTANCE.json",
+    "tests/test_deploy_asset_overlay.py": "tests/test_deploy_asset_overlay.py",
+    "deploy/CONTRACT_TASK_RECOVERY_V4_ACCEPTANCE.json": "docs/CONTRACT_TASK_RECOVERY_V4_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }

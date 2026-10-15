@@ -1,0 +1,71 @@
+{
+  "schema": "flybrainlabs-contract-task-recovery-acceptance-v4",
+  "recordedAtUtc": "2026-10-15T14:02:03.963989+00:00",
+  "websiteRevision": "contract-factory-v4-20261015-r8",
+  "site": "https://flybrain.work/mining/",
+  "status": "deployed-wallet-confirmed-recovery-available",
+  "cause": {
+    "activeTaskIndex": 2,
+    "attempt": 0,
+    "queueLength": 0,
+    "claimDeadlineUtc": "2026-10-15T09:13:07+00:00",
+    "verificationDeadlineUtc": "2026-10-15T10:43:07+00:00",
+    "remainingScheduledTasks": 5,
+    "finalizedReadSlot": 511369363,
+    "nodeVerifierStatus": "waiting-for-revealed-submission",
+    "nodeServiceActive": true,
+    "missingBehavior": "No browser recovery control existed; an empty expired task was labeled as settling admitted candidates."
+  },
+  "recovery": {
+    "readsFinalizedChainClock": true,
+    "explicitWalletConfirmation": true,
+    "verifiedPersonalRpcRequired": true,
+    "priorEligibleQuorumFinalizedFirst": true,
+    "earlierLiveCommitmentsRetained": true,
+    "frozenAttemptsAndDescriptorsRetained": true,
+    "receiptScopeIncludesAttempt": true,
+    "ambiguousExpiredTransactionReplacement": false,
+    "idleCatalogTimers": false,
+    "automaticSignaturePrompts": false
+  },
+  "verification": {
+    "taskLifecycleFixtureChecks": 6,
+    "walletTransportFixtureChecks": 4,
+    "existingV4FixtureChecks": 7,
+    "personalRpcFixtureChecks": 9,
+    "deploymentScopeTests": 6,
+    "stagedBrowserChecks": 6,
+    "publicBrowserChecks": 6,
+    "publicHttpHashChecks": 5,
+    "deploymentHashesVerified": true,
+    "backupGzipVerified": true,
+    "realCachedModelValidationAndWorkerLoad": true,
+    "modelDownloads": 0,
+    "savedCandidatesRetained": 6,
+    "recoveryInstructionPreviewed": "Expire (operation 8)",
+    "signatureRejectedByFixture": true,
+    "realHeliusKeyUsed": false,
+    "walletExtensionConfirmation": false,
+    "newChainTransactions": 0
+  },
+  "retainedState": {
+    "catalogRoot": "586813288ec9e8cd332a3f828b776e322a854f87b39f48373a2812ebbfcfa62d",
+    "taskCount": 8,
+    "rewardFbwPerWinner": 200,
+    "budgetFbw": 1600,
+    "newRewardBudget": 0,
+    "nodeChanged": false,
+    "contractChanged": false,
+    "modelAndResultsDeleted": false,
+    "mainMerged": false,
+    "mainnet": false
+  },
+  "deployment": {
+    "kind": "scoped mining asset overlay",
+    "changedFiles": 8,
+    "validatedBaselineRevision": "contract-factory-v4-20261015-r7",
+    "remoteHashesMatched": true,
+    "backupVerified": true
+  },
+  "remaining": "The connected user must confirm recovery in their wallet; no task transition or wallet-extension acceptance is claimed by this receipt."
+}
