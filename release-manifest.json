@@ -6,7 +6,7 @@
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "2384cd204fcb41109314b2d1e63a5a72c48f1c1a",
+      "commit": "016cdbc79a07c8aaa1f21a64b7da729dc9c63149",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
@@ -20,7 +20,7 @@
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "a8d06e9b4a978455ff5038d5e3e5a9e4fc7a208d",
+      "commit": "cb16ad2d8e7e31d03cbb2fa8c1743258e1101840",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
@@ -43,7 +43,7 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "d8e9b39bb3995aa5d02b26e2b49ea3159fcb198e",
+      "commit": "8ad28388c13bac3f3bfd9d59049589271793487e",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
@@ -54,7 +54,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "a6573b3a34cacfab6573955a339030daeb750b49",
+      "commit": "222c2ace2f17aa566f8835d642acd7402166538e",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     }
@@ -69,9 +69,9 @@
     "apiIdentityVerified": false,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-15T09:17:25.316708+00:00",
+    "componentVerificationRecordedAtUtc": "2026-10-15T09:54:28.333693+00:00",
     "verificationReport": "docs/TASK_FACTORY_V4_PUBLICATION.json",
-    "scope": "Exact source pins and active official Devnet V4 deployment; personal RPC browser acceptance uses explicit provider fixtures",
+    "scope": "Exact source pins and the active official Devnet V4 deployment; required personal key browser acceptance uses explicit provider fixtures",
     "historicalBootstrap": {
       "complete": true,
       "verifiedRepositoryCount": 10,
@@ -91,8 +91,8 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "contract-factory-v4-20261015-r5",
-    "changedWebsiteObjects": 85,
+    "websiteRevision": "contract-factory-v4-20261015-r6",
+    "changedWebsiteObjects": 84,
     "localBrowserLayouts": 10,
     "publicBrowserLayouts": 4,
     "officialModelDownloadRequests": 0,
@@ -168,9 +168,13 @@
     "preparedWorkerFullModelEvidenceRevision": "contract-factory-v4-20261015-r4",
     "openedRoundSequenceScope": "Historical V3 authority sequence",
     "personalRpcSettingsDeployed": true,
-    "personalRpcSdkFixtureGroups": 6,
-    "personalRpcPublicBrowserChecks": 6,
-    "personalRpcRealKeyAcceptance": false
+    "personalRpcSdkFixtureGroups": 8,
+    "personalRpcPublicBrowserChecks": 8,
+    "personalRpcRealKeyAcceptance": false,
+    "personalRpcRequired": true,
+    "personalRpcKeyOnly": true,
+    "personalRpcAutomaticNetwork": true,
+    "personalRpcSharedFallback": false
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -829,12 +833,16 @@
     "legacyNodeTaskGenerationDisabled": true,
     "legacyVerifierDisabled": true,
     "idleRestartAndNoDuplicatePaymentVerified": true,
-    "websiteRevision": "contract-factory-v4-20261015-r5",
+    "websiteRevision": "contract-factory-v4-20261015-r6",
     "sourceBundleSha256": "c1556c22ed55828e5820b11fdfe645e263897448aef0c07d6b4b6c944f32f6a5",
     "personalRpcAcceptance": "docs/PERSONAL_MINING_RPC_V4_ACCEPTANCE.json",
     "personalRpcProvider": "Helius",
     "personalRpcBrowserOnly": true,
     "personalRpcRealKeyAcceptance": false,
-    "privateNodeRpcConfigured": false
+    "privateNodeRpcConfigured": false,
+    "personalRpcRequired": true,
+    "personalRpcInput": "API key only",
+    "personalRpcNetworkSelection": "automatic from deployment",
+    "personalRpcSharedFallback": false
   }
 }

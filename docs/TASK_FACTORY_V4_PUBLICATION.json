@@ -1,6 +1,6 @@
 {
   "schema": "flybrainlabs-task-factory-v4-source-publication-v2",
-  "recordedAtUtc": "2026-10-15T09:17:25.316708+00:00",
+  "recordedAtUtc": "2026-10-15T09:54:28.333693+00:00",
   "status": "all-nine-component-revisions-remotely-verified",
   "owner": "flybrainlabs",
   "branch": "feat/contract-task-factory-v4-20261015",
@@ -13,7 +13,7 @@
   },
   "repositories": {
     "web": {
-      "commit": "2384cd204fcb41109314b2d1e63a5a72c48f1c1a",
+      "commit": "016cdbc79a07c8aaa1f21a64b7da729dc9c63149",
       "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
       "remoteVerified": true
     },
@@ -23,7 +23,7 @@
       "remoteVerified": true
     },
     "miner": {
-      "commit": "a8d06e9b4a978455ff5038d5e3e5a9e4fc7a208d",
+      "commit": "cb16ad2d8e7e31d03cbb2fa8c1743258e1101840",
       "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
       "remoteVerified": true
     },
@@ -43,7 +43,7 @@
       "remoteVerified": true
     },
     "sdk": {
-      "commit": "d8e9b39bb3995aa5d02b26e2b49ea3159fcb198e",
+      "commit": "8ad28388c13bac3f3bfd9d59049589271793487e",
       "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
       "remoteVerified": true
     },
@@ -53,7 +53,7 @@
       "remoteVerified": true
     },
     "docs": {
-      "commit": "a6573b3a34cacfab6573955a339030daeb750b49",
+      "commit": "222c2ace2f17aa566f8835d642acd7402166538e",
       "ref": "refs/heads/feat/contract-task-factory-v4-20261015",
       "remoteVerified": true
     }
@@ -64,8 +64,8 @@
   "checks": {
     "sourceOwnershipAndCredentialScan": true,
     "outgoingHistoryCredentialScan": true,
-    "installedSourceBundleMatchesOwningSource": true,
-    "remoteRevisionReadback": true
+    "remoteRevisionReadback": true,
+    "installedSourceBundleMatchedActivationSources": true
   },
   "activation": {
     "publicV4Enabled": true,
@@ -78,11 +78,22 @@
     "mainMerged": false,
     "productionPayments": false,
     "mainnet": false,
-    "formalIssuance": false
+    "formalIssuance": false,
+    "personalRpcRequired": true,
+    "personalRpcKeyOnly": true,
+    "personalRpcAutomaticNetwork": true,
+    "personalRpcSharedFallback": false
   },
   "limitations": [
     "Helius UI tests use explicit public-account provider fixtures; an actual valid private endpoint has not been supplied.",
     "Two trusted verifier keys run under one operator; independent verifier operation is not established.",
     "The scientific model has no new biological accuracy claim."
-  ]
+  ],
+  "websiteRevision": "contract-factory-v4-20261015-r6",
+  "retainedNodeBundle": {
+    "sourceBundleSha256": "c1556c22ed55828e5820b11fdfe645e263897448aef0c07d6b4b6c944f32f6a5",
+    "sourceComparisonScope": "Recorded activation sources; the additive browser client update does not replace the installed verifier bundle",
+    "runtimeChangedByThisRelease": false,
+    "acceptance": "docs/TASK_FACTORY_V4_LIVE_ACCEPTANCE.json"
+  }
 }
