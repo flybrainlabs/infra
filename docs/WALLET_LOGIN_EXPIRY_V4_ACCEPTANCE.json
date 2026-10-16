@@ -1,0 +1,66 @@
+{
+  "schema": "flybrainlabs-wallet-login-expiry-acceptance-v4",
+  "recordedAtUtc": "2026-10-16T08:15:04.839294+00:00",
+  "websiteRevision": "contract-factory-v4-20261016-r9",
+  "site": "https://flybrain.work/mining/",
+  "status": "deployed-public-browser-fixture-acceptance-passed",
+  "cause": {
+    "expiredLoginRecordTreatedAsSignedInByPage": true,
+    "walletTransportRejectedExpiredRecord": true,
+    "repeatedRecoveryActionDidNotOfferSignIn": true,
+    "reproducedWithExplicitFixtures": true
+  },
+  "correction": {
+    "samePredicateForUiAndTransport": true,
+    "matchingWalletRequired": true,
+    "finiteFutureExpiryRequired": true,
+    "explicitSignInRestoresTaskAction": true,
+    "automaticSignatures": false,
+    "loadedModelRetained": true,
+    "savedCandidatesRetained": true
+  },
+  "verification": {
+    "stagedBrowserChecks": 7,
+    "publicBrowserChecks": 7,
+    "walletTransportFixtureGroups": 5,
+    "recoveryLifecycleFixtureGroups": 6,
+    "walletEntryChecks": 28,
+    "publicHttpHashChecks": 5,
+    "baselineRegressionReproduced": true,
+    "expiredLoginRenewalStaged": true,
+    "realCachedModelValidationAndWorkerLoad": true,
+    "savedCandidatesRetained": 0,
+    "modelDownloads": 0,
+    "sharedBrowserRpcRequests": 0,
+    "realHeliusKeyUsed": false,
+    "actualWalletExtension": false,
+    "newChainTransactions": 0,
+    "unsignedRecoverySimulation": {
+      "commitment": "finalized",
+      "slot": 511646685,
+      "taskIndex": 2,
+      "attempt": 0,
+      "operation": "Expire",
+      "error": null,
+      "computeUnits": 25828,
+      "broadcast": false
+    },
+    "expiredLoginRenewalPublic": true
+  },
+  "retainedState": {
+    "newRewardBudget": 0,
+    "frozenCatalogChanged": false,
+    "contractChanged": false,
+    "nodeChanged": false,
+    "modelAndResultsDeleted": false,
+    "mainMerged": false,
+    "mainnet": false
+  },
+  "deployment": {
+    "kind": "scoped overlay over retained r8 assets",
+    "changedFiles": 8,
+    "remoteHashesMatched": true,
+    "backupVerified": true
+  },
+  "remaining": "Actual personal Helius transport and wallet-extension sign-in/recovery confirmation require external user acceptance. The unsigned simulation did not advance a task."
+}
