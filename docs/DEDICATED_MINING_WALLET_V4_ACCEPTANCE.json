@@ -1,8 +1,8 @@
 {
   "schema": "flybrainlabs-dedicated-mining-wallet-v4-acceptance",
-  "recordedAtUtc": "2026-10-19T09:01:02.765008+00:00",
+  "recordedAtUtc": "2026-10-19T09:11:40.692167+00:00",
   "websiteRevision": "contract-factory-v4-20261019-r10",
-  "status": "implemented-staged-verified-publication-pending",
+  "status": "deployed-devnet-public-browser-fixture-acceptance-passed",
   "site": "https://flybrain.work/mining/",
   "wallet": {
     "ownership": "user-owned dedicated BIP39 wallet",
@@ -48,7 +48,8 @@
     "observedPhraseOrPasswordNetworkLeaks": 0,
     "realHeliusKeyUsed": false,
     "actualExternalWalletExtensionRequired": false,
-    "publicBrowserChecks": 0
+    "publicBrowserChecks": 8,
+    "publicHttpResourceChecks": 14
   },
   "workerCorrection": {
     "cause": "V4 Worker constructed a reader without the required personal RPC connection",
@@ -69,5 +70,12 @@
     "Real personal-Helius funding and user-operated continued mining remain external acceptance work.",
     "Current submission PDAs have no reclaim operation.",
     "Existing Solana dependency audit advisories remain; no independent security or mainnet acceptance is claimed."
-  ]
+  ],
+  "deployment": {
+    "changedObjects": 26,
+    "backupGzipVerified": true,
+    "remoteObjectHashesMatched": true,
+    "effectiveR9BaselineRetained": true,
+    "originalAuthorizedWebsiteHost": true
+  }
 }
