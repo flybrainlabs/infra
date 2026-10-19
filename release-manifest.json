@@ -6,7 +6,7 @@
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "3b323a98afbd2e9f7dc63570b71d27506cb32513",
+      "commit": "7619e6eecbbe09de166a671afc9470b804707d74",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
@@ -14,20 +14,21 @@
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "2f168f6e63e120d9a7fb1b008e729494c8d32cdd",
+      "commit": "392d8f2d808a1044c6fb266e9659ee0532e1810f",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "797f695e748f65440bf25f6883a0b64b47414b96",
+      "commit": "ac6f7772da90ff1bb9cf614a405b1e7e64af6569",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
     "explorer": {
       "url": "https://github.com/flybrainlabs/explorer.git",
       "commit": "2d95e66541f7030d297f0ac20732be2f7d46fbbc",
-      "publicationStatus": "verified"
+      "publicationStatus": "verified",
+      "branch": "main"
     },
     "protocol": {
       "url": "https://github.com/flybrainlabs/protocol.git",
@@ -43,7 +44,7 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "4e7bd606d8daeb54abf52806173da9aaaf379730",
+      "commit": "52c6cef8079a80b98375dad055d8c81fefb8fbad",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
@@ -55,7 +56,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "84668f8879604c0dc5bdae141919efae6256f92c",
+      "commit": "0c86387a4f37689e3abfada035a3214f36d63518",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     }
@@ -70,9 +71,9 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-19T10:57:47.718383+00:00",
+    "componentVerificationRecordedAtUtc": "2026-10-19T19:54:08.289355+00:00",
     "verificationReport": "docs/TASK_FACTORY_V4_PUBLICATION.json",
-    "scope": "Owner-authorized automatic mining payments without a spending budget, confirmed SOL/FBW header balances, active-session frozen-task continuation and calibrated unregistered reserve; no mainnet or new reward funding",
+    "scope": "Durable calibrated task-pool source, original-node inactive staging and truthful mining standby UI; no new reward funding or main merge",
     "historicalBootstrap": {
       "complete": true,
       "verifiedRepositoryCount": 10,
@@ -85,7 +86,7 @@
       "verificationReport": "migration-acceptance.json"
     },
     "deploymentVerificationRecordedAtUtc": "2026-10-19T09:11:40.692167+00:00",
-    "latestVerificationReport": "docs/MINING_AUTOMATIC_PAYMENTS_BALANCES_V4_ACCEPTANCE.json"
+    "latestVerificationReport": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json"
   },
   "stateRetention": {
     "modelDownloadRequired": false,
@@ -922,5 +923,18 @@
     "largeMinerLoadTest": false,
     "nodeConfigurationAccess": "denied; no escalation attempted",
     "mainnet": false
+  },
+  "continuousFactoryPoolV4": {
+    "websiteRevision": "contract-factory-v4-20261019-r12",
+    "websiteDeployment": "staged",
+    "acceptance": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json",
+    "sourceImplemented": true,
+    "originalNodePackageStaged": true,
+    "sourceBundleSha256": "e0347290e9ef33f1bb6598174791a70bb80621d86dfd82bcf0603ec3772819a8",
+    "nodePoolActivated": false,
+    "publicTrustPublished": false,
+    "newRewardBudgetAtoms": "0",
+    "publicChainTransactions": 0,
+    "largeNativeMinerCapacityAccepted": false
   }
 }

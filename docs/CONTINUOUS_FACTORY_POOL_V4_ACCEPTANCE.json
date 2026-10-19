@@ -1,0 +1,68 @@
+{
+  "schema": "flybrainlabs-continuous-factory-pool-v4-acceptance",
+  "recordedAtUtc": "2026-10-19T19:50:53.115044+00:00",
+  "status": "source-and-local-acceptance-complete; website-staged; original-node-pool-not-activated",
+  "websiteRevision": "contract-factory-v4-20261019-r12",
+  "websiteDeployed": false,
+  "source": {
+    "postgresqlPersistentJobs": true,
+    "serverTimeLeasesAndFencing": true,
+    "authenticatedInputAssignments": true,
+    "immutableSignedPackets": true,
+    "automaticApprovedCalibration": true,
+    "finiteProjectRewardAuthorization": true,
+    "signedFinalizedCatalogDiscovery": true,
+    "atomicBrowserAndWorkerSwitch": true,
+    "previousStoresAndClaimsRetained": true,
+    "asynchronousReplayAndPayment": true,
+    "openWindowReserveAccounting": true,
+    "sseDiscoveryHints": true,
+    "walletSpendingBudget": false,
+    "programUpgrade": false
+  },
+  "verification": {
+    "postgresqlConcurrentClaimers": 100,
+    "postgresqlJobs": 1000,
+    "queueGroups": 8,
+    "signedManifestAndSwitchGroups": 4,
+    "sbfTransactions": 22,
+    "sbfCatalogs": 2,
+    "replayDecisions": 4,
+    "nativeReplayOutcomesAreFixtures": true,
+    "sbfAndSplActuallyExecuted": true,
+    "fullModelBrowserPoolChecks": 3,
+    "fullModelBrowserWalletChecks": 11,
+    "realPersonalRpcUsed": false,
+    "browserRpcAndLoginAreFixtures": true,
+    "newModelDownloads": 0,
+    "staticAtlasTypes": 11751,
+    "largeNativeMinerCapacityMeasured": false
+  },
+  "backendStage": {
+    "bundleSha256": "e0347290e9ef33f1bb6598174791a70bb80621d86dfd82bcf0603ec3772819a8",
+    "sourceFiles": 30,
+    "uploadedToOriginalNode": true,
+    "activated": false,
+    "configurationEnabled": false,
+    "remoteHashesVerified": true,
+    "servicesRestarted": 0,
+    "existingNodeHealthReady": true
+  },
+  "activation": {
+    "originalNodePrivateRuntimeReadable": false,
+    "block": "EACCES for the existing private runtime; no privilege escalation attempted",
+    "postgresqlAndPrivateRuntimeConfigured": false,
+    "publicTaskPoolTrustPublished": false,
+    "newRewardBudgetAtoms": "0",
+    "operatorPublicChainTransactions": 0,
+    "mainnet": false,
+    "mainMerged": false
+  },
+  "remainingAcceptance": [
+    "Original administrator installation and retained-service rollback drill",
+    "Explicit finite reward authorization and approved calibrated catalog registration",
+    "Native replay CPU/memory/disk throughput on the original host",
+    "Actual personal RPC, funded wallet, submission and finalized settlement acceptance"
+  ],
+  "operationsGuide": "docs/FACTORY_POOL_V4_OPERATIONS.md"
+}

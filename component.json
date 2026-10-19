@@ -75,7 +75,10 @@
     "tools/upgrade_immediate_supply.py": "tools/upgrade_immediate_supply.py",
     "tools/upgrade_product_node.sh": "tools/upgrade_product_node.sh",
     "tools/upgrade_product_site_node.sh": "tools/upgrade_product_site_node.sh",
-    "tools/upgrade_wallet_mining_v3.sh": "tools/upgrade_wallet_mining_v3.sh"
+    "tools/upgrade_wallet_mining_v3.sh": "tools/upgrade_wallet_mining_v3.sh",
+    "tools/prepare_factory_pool_v4.py": "tools/prepare_factory_pool_v4.py",
+    "deploy/target-v2/factory-pool-v4.example.json": "deploy/target-v2/factory-pool-v4.example.json",
+    "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }
