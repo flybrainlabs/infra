@@ -1,0 +1,73 @@
+{
+  "schema": "flybrainlabs-dedicated-mining-wallet-v4-acceptance",
+  "recordedAtUtc": "2026-10-19T09:01:02.765008+00:00",
+  "websiteRevision": "contract-factory-v4-20261019-r10",
+  "status": "implemented-staged-verified-publication-pending",
+  "site": "https://flybrain.work/mining/",
+  "wallet": {
+    "ownership": "user-owned dedicated BIP39 wallet",
+    "newPhraseWords": 12,
+    "restorePhraseWords": [
+      12,
+      24
+    ],
+    "derivationPath": "m/44'/501'/0'/0'",
+    "backupRequired": true,
+    "backupWordChecks": 3,
+    "storage": "AES-256-GCM authenticated ciphertext in IndexedDB",
+    "passwordKdf": "PBKDF2-SHA-256, 310000 iterations",
+    "unlockAfterReload": true,
+    "automaticPayments": "explicit finite user cap, four-hour expiry, frozen factory scope",
+    "arbitraryTransfersAllowed": false,
+    "projectCollectsRentOrNetworkFee": false,
+    "pdaReclaimSupported": false,
+    "personalHeliusKeyRequired": true,
+    "sharedRpcFallback": false,
+    "mainnet": false
+  },
+  "stitch": {
+    "project": "5326488884783619575",
+    "desktop": "d5abdb2253f148759410924d860baf12",
+    "mobile": "8a1896dba71446ada8b482f66a6f1ed9",
+    "rawArtifactUrlsPublished": false,
+    "sampleEconomicValuesDiscarded": true
+  },
+  "verification": {
+    "walletCryptoAndPolicyGroups": 14,
+    "workerReadCapabilityGroups": 3,
+    "existingRecoveryGroups": 5,
+    "sbfGroups": 4,
+    "sbfTransactions": 2,
+    "sbfProgramSha256": "606eac05dda6210fc6cfa68f677060f3545b44aa8118983a1334c44e261a33e8",
+    "sbfEnvironment": "isolated LiteSVM with public frozen account fixtures",
+    "sbfPublicChainTransactions": 0,
+    "sbfTeamSolReceived": "0",
+    "stagedBrowserChecks": 8,
+    "realCachedModelWorkerSteps": true,
+    "modelDownloads": 0,
+    "observedPhraseOrPasswordNetworkLeaks": 0,
+    "realHeliusKeyUsed": false,
+    "actualExternalWalletExtensionRequired": false,
+    "publicBrowserChecks": 0
+  },
+  "workerCorrection": {
+    "cause": "V4 Worker constructed a reader without the required personal RPC connection",
+    "fix": "bounded MessagePort for finalized factory/current-task reads through the selected personal RPC",
+    "apiKeyInWorker": false,
+    "signingCapabilityInWorker": false
+  },
+  "retainedState": {
+    "frozenContractChanged": false,
+    "frozenCatalogChanged": false,
+    "newPublicRewardBudget": 0,
+    "newPublicChainTransactions": 0,
+    "nodeCodeChanged": false,
+    "modelsResultsOrIdentitiesDeleted": false,
+    "mainMerged": false
+  },
+  "limits": [
+    "Real personal-Helius funding and user-operated continued mining remain external acceptance work.",
+    "Current submission PDAs have no reclaim operation.",
+    "Existing Solana dependency audit advisories remain; no independent security or mainnet acceptance is claimed."
+  ]
+}

@@ -6,7 +6,7 @@
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "7bcf5146a6e6b1f5f37673feab4c64c4ae5550cc",
+      "commit": "ee9e8ee949d0c6b831d739b513ebddc6b9b56394",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
@@ -20,7 +20,7 @@
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "3db3ab0c9a1ab1d7c5bc7699dad54d41abacf088",
+      "commit": "9cd1bc60b122c333152ebc7b91c70ad41af1781d",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
@@ -43,7 +43,7 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "f76d0c448de034c0713da8017d477d822babcaaa",
+      "commit": "694b9060417579a5854641f9a94dcfd4efcc2644",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
@@ -54,7 +54,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "01a10b2d20d85fd99947dedea3b9fa6e72027687",
+      "commit": "e444aae23d98a85d5befcd3830bd757e78688035",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     }
@@ -69,9 +69,9 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-16T08:15:04.839294+00:00",
+    "componentVerificationRecordedAtUtc": "2026-10-19T09:02:57.380935+00:00",
     "verificationReport": "docs/TASK_FACTORY_V4_PUBLICATION.json",
-    "scope": "Owner-authorized dedicated SSH publication of the official Devnet V4 website, explicit task recovery and wallet login expiry correction; no API account operations",
+    "scope": "Owner-authorized SSH publication of dedicated mnemonic mining wallets, scoped payments and personal-RPC Worker verification; staged Devnet deployment only",
     "historicalBootstrap": {
       "complete": true,
       "verifiedRepositoryCount": 10,
@@ -136,7 +136,7 @@
     "originalUserMiningFailure": "Public RPC capacity errors observed; V4 full Worker/replay/payment/succession passed. Private node RPC and extension confirmation remain pending.",
     "localCompactCases": 32,
     "publicCompactCases": 32,
-    "pinnedWorkspaceFiles": 1060,
+    "pinnedWorkspaceFiles": 1073,
     "documentationBilingual": true,
     "stitchLocalUiChecks": 46,
     "stitchPublicUiChecks": 41,
@@ -874,5 +874,22 @@
     "attemptScopedRecoveryReceipts": true,
     "walletLoginExpiryAcceptance": "docs/WALLET_LOGIN_EXPIRY_V4_ACCEPTANCE.json",
     "expiredWalletLoginAction": "explicit sign-in before preparation, mining or task recovery"
+  },
+  "dedicatedMiningWalletV4": {
+    "websiteRevision": "contract-factory-v4-20261019-r10",
+    "status": "staged-verified-ready-for-devnet-deployment",
+    "acceptance": "docs/DEDICATED_MINING_WALLET_V4_ACCEPTANCE.json",
+    "walletOwnership": "user-owned BIP39 dedicated wallet",
+    "newPhraseWords": 12,
+    "encryptedLocalVault": true,
+    "automaticMiningPayments": "explicit finite session cap; frozen factory instructions only",
+    "personalRpcRequired": true,
+    "projectRentOrNetworkFee": 0,
+    "submissionRentReclaim": false,
+    "mainnet": false,
+    "stagedBrowserChecks": 8,
+    "offlinePolicyGroups": 14,
+    "sbfTransactions": 2,
+    "newPublicTransactions": 0
   }
 }
