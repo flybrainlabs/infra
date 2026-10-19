@@ -85,7 +85,7 @@
       "matchedWorkspaceFiles": 716,
       "verificationReport": "migration-acceptance.json"
     },
-    "deploymentVerificationRecordedAtUtc": "2026-10-19T09:11:40.692167+00:00",
+    "deploymentVerificationRecordedAtUtc": "2026-10-19T19:59:44.357541+00:00",
     "latestVerificationReport": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json"
   },
   "stateRetention": {
@@ -95,8 +95,8 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "websiteRevision": "contract-factory-v4-20261019-r10",
-    "changedWebsiteObjects": 8,
+    "websiteRevision": "contract-factory-v4-20261019-r12",
+    "changedWebsiteObjects": 36,
     "localBrowserLayouts": 10,
     "publicBrowserLayouts": 4,
     "officialModelDownloadRequests": 0,
@@ -137,10 +137,10 @@
     "localAdmissionChecks": 17,
     "publicAdmissionChecks": 17,
     "preparedWorkerFullModelExecution": true,
-    "originalUserMiningFailure": "Public RPC capacity errors observed; V4 full Worker/replay/payment/succession passed. Private node RPC and extension confirmation remain pending.",
+    "originalUserMiningFailure": "Waiting sessions now show their actual task/window state. Signed multi-catalog browser and VM flows passed locally; the original-node pool requires administrator activation, finite funding and real personal-RPC acceptance.",
     "localCompactCases": 32,
     "publicCompactCases": 32,
-    "pinnedWorkspaceFiles": 1073,
+    "pinnedWorkspaceFiles": 1093,
     "documentationBilingual": true,
     "stitchLocalUiChecks": 46,
     "stitchPublicUiChecks": 41,
@@ -202,7 +202,14 @@
     "taskRecoveryUnsignedSimulationSlot": 511646685,
     "dedicatedMiningWalletBrowserChecks": 8,
     "dedicatedMiningWalletSbfTransactions": 2,
-    "personalRpcWorkerReadCapability": true
+    "personalRpcWorkerReadCapability": true,
+    "continuousFactoryPoolAcceptance": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json",
+    "continuousFactoryPoolPubliclyActivated": false,
+    "continuousFactoryPoolBrowserChecks": 3,
+    "continuousFactoryPoolPublicHashChecks": 19,
+    "continuousFactoryPoolSbfTransactions": 22,
+    "postgresqlConcurrentClaimers": 100,
+    "postgresqlJobs": 1000
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -861,7 +868,7 @@
     "legacyNodeTaskGenerationDisabled": true,
     "legacyVerifierDisabled": true,
     "idleRestartAndNoDuplicatePaymentVerified": true,
-    "websiteRevision": "contract-factory-v4-20261019-r11",
+    "websiteRevision": "contract-factory-v4-20261019-r12",
     "sourceBundleSha256": "c1556c22ed55828e5820b11fdfe645e263897448aef0c07d6b4b6c944f32f6a5",
     "personalRpcAcceptance": "docs/PERSONAL_MINING_RPC_V4_ACCEPTANCE.json",
     "personalRpcProvider": "Helius",
@@ -885,10 +892,11 @@
     "dedicatedMiningWalletAcceptance": "docs/DEDICATED_MINING_WALLET_V4_ACCEPTANCE.json",
     "walletSignatureMode": "User-owned BIP39 local signer; explicit automatic payments while unlocked; no spending budget",
     "externalWalletExtensionRequiredForMining": false,
-    "automaticPaymentsBalancesAcceptance": "docs/MINING_AUTOMATIC_PAYMENTS_BALANCES_V4_ACCEPTANCE.json"
+    "automaticPaymentsBalancesAcceptance": "docs/MINING_AUTOMATIC_PAYMENTS_BALANCES_V4_ACCEPTANCE.json",
+    "continuousPoolAcceptance": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json"
   },
   "dedicatedMiningWalletV4": {
-    "websiteRevision": "contract-factory-v4-20261019-r11",
+    "websiteRevision": "contract-factory-v4-20261019-r12",
     "status": "deployed-devnet-public-browser-fixture-verified",
     "acceptance": "docs/MINING_AUTOMATIC_PAYMENTS_BALANCES_V4_ACCEPTANCE.json",
     "walletOwnership": "user-owned BIP39 dedicated wallet",
@@ -911,7 +919,8 @@
     "headerBalances": [
       "finalized SOL",
       "finalized FBW; pending rewards excluded"
-    ]
+    ],
+    "latestPoolAcceptance": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json"
   },
   "continuousFactorySupplyV4": {
     "status": "selected-design-and-calibrated-reserve; automatic-new-catalog-supply-not-deployed",
@@ -926,7 +935,7 @@
   },
   "continuousFactoryPoolV4": {
     "websiteRevision": "contract-factory-v4-20261019-r12",
-    "websiteDeployment": "staged",
+    "websiteDeployment": "deployed-and-publicly-verified",
     "acceptance": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json",
     "sourceImplemented": true,
     "originalNodePackageStaged": true,
@@ -935,6 +944,8 @@
     "publicTrustPublished": false,
     "newRewardBudgetAtoms": "0",
     "publicChainTransactions": 0,
-    "largeNativeMinerCapacityAccepted": false
+    "largeNativeMinerCapacityAccepted": false,
+    "publicResourceHashChecks": 19,
+    "publicWalletBrowserChecks": 11
   }
 }

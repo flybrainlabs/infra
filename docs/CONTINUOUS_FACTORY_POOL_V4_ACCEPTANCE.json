@@ -1,9 +1,9 @@
 {
   "schema": "flybrainlabs-continuous-factory-pool-v4-acceptance",
-  "recordedAtUtc": "2026-10-19T19:50:53.115044+00:00",
-  "status": "source-and-local-acceptance-complete; website-staged; original-node-pool-not-activated",
+  "recordedAtUtc": "2026-10-19T19:59:44.357541+00:00",
+  "status": "source-and-local-acceptance-complete; r12-website-deployed; original-node-pool-inactive",
   "websiteRevision": "contract-factory-v4-20261019-r12",
-  "websiteDeployed": false,
+  "websiteDeployed": true,
   "source": {
     "postgresqlPersistentJobs": true,
     "serverTimeLeasesAndFencing": true,
@@ -36,7 +36,11 @@
     "browserRpcAndLoginAreFixtures": true,
     "newModelDownloads": 0,
     "staticAtlasTypes": 11751,
-    "largeNativeMinerCapacityMeasured": false
+    "largeNativeMinerCapacityMeasured": false,
+    "publicResourceHashes": 19,
+    "publicWalletBrowserChecks": 11,
+    "deployedWebsiteObjects": 36,
+    "backupVerified": true
   },
   "backendStage": {
     "bundleSha256": "e0347290e9ef33f1bb6598174791a70bb80621d86dfd82bcf0603ec3772819a8",
