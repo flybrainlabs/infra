@@ -1,9 +1,9 @@
 {
   "schema": "flybrainlabs-automatic-payments-balances-v4-acceptance",
-  "recordedAtUtc": "2026-10-19T10:51:04.362388+00:00",
+  "recordedAtUtc": "2026-10-19T10:57:47.717531+00:00",
   "websiteRevision": "contract-factory-v4-20261019-r11",
   "site": "https://flybrain.work/mining/",
-  "status": "staged-browser-verified-awaiting-publication",
+  "status": "deployed-devnet-wallet-balances-and-frozen-task-continuation; new-catalog-supply-pending",
   "wallet": {
     "spendingBudget": false,
     "cumulativeSpendingCap": false,
@@ -67,7 +67,12 @@
     "realUserFullMiningAcceptance": false,
     "stagedBrowserChecks": 11,
     "realCachedModelWorkerSteps": true,
-    "observedSecretNetworkLeaks": 0
+    "observedSecretNetworkLeaks": 0,
+    "publicBrowserChecks": 11,
+    "publicHttpResources": 14,
+    "changedSiteObjects": 26,
+    "backupGzipVerified": true,
+    "remoteDependencyPins": 9
   },
   "futureTaskSupply": {
     "status": "calibrated-reserve-prepared-not-registered-or-funded",

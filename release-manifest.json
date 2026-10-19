@@ -70,7 +70,7 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-19T10:53:47.944404+00:00",
+    "componentVerificationRecordedAtUtc": "2026-10-19T10:57:47.718383+00:00",
     "verificationReport": "docs/TASK_FACTORY_V4_PUBLICATION.json",
     "scope": "Owner-authorized automatic mining payments without a spending budget, confirmed SOL/FBW header balances, active-session frozen-task continuation and calibrated unregistered reserve; no mainnet or new reward funding",
     "historicalBootstrap": {
@@ -84,7 +84,8 @@
       "matchedWorkspaceFiles": 716,
       "verificationReport": "migration-acceptance.json"
     },
-    "deploymentVerificationRecordedAtUtc": "2026-10-19T09:11:40.692167+00:00"
+    "deploymentVerificationRecordedAtUtc": "2026-10-19T09:11:40.692167+00:00",
+    "latestVerificationReport": "docs/MINING_AUTOMATIC_PAYMENTS_BALANCES_V4_ACCEPTANCE.json"
   },
   "stateRetention": {
     "modelDownloadRequired": false,
@@ -859,7 +860,7 @@
     "legacyNodeTaskGenerationDisabled": true,
     "legacyVerifierDisabled": true,
     "idleRestartAndNoDuplicatePaymentVerified": true,
-    "websiteRevision": "contract-factory-v4-20261019-r10",
+    "websiteRevision": "contract-factory-v4-20261019-r11",
     "sourceBundleSha256": "c1556c22ed55828e5820b11fdfe645e263897448aef0c07d6b4b6c944f32f6a5",
     "personalRpcAcceptance": "docs/PERSONAL_MINING_RPC_V4_ACCEPTANCE.json",
     "personalRpcProvider": "Helius",
@@ -874,39 +875,52 @@
     "miningBalancesUsePersonalRpc": true,
     "localBuildIndependentOfTaskWindow": true,
     "taskRecoveryAcceptance": "docs/CONTRACT_TASK_RECOVERY_V4_ACCEPTANCE.json",
-    "taskRecovery": "Authorized local wallet recovers the frozen task on explicit Start mining or Resume; no idle catalog keeper",
+    "taskRecovery": "Explicit Start/Resume can enter standby; an active unpaused session recovers eligible frozen tasks automatically; no idle catalog keeper",
     "idleExpirationTimer": false,
     "attemptScopedRecoveryReceipts": true,
     "walletLoginExpiryAcceptance": "docs/WALLET_LOGIN_EXPIRY_V4_ACCEPTANCE.json",
-    "expiredWalletLoginAction": "Automatic local site sign-in with an unlocked dedicated wallet; a fresh spending approval is required after reload",
+    "expiredWalletLoginAction": "Automatic local site sign-in while the wallet is unlocked; enabling automatic payments again is required after Lock or reload",
     "dedicatedMiningWalletRequired": true,
     "dedicatedMiningWalletAcceptance": "docs/DEDICATED_MINING_WALLET_V4_ACCEPTANCE.json",
-    "walletSignatureMode": "User-owned BIP39 local signer with finite per-session authorization",
-    "externalWalletExtensionRequiredForMining": false
+    "walletSignatureMode": "User-owned BIP39 local signer; explicit automatic payments while unlocked; no spending budget",
+    "externalWalletExtensionRequiredForMining": false,
+    "automaticPaymentsBalancesAcceptance": "docs/MINING_AUTOMATIC_PAYMENTS_BALANCES_V4_ACCEPTANCE.json"
   },
   "dedicatedMiningWalletV4": {
-    "websiteRevision": "contract-factory-v4-20261019-r10",
-    "status": "deployed-devnet-public-browser-verified",
-    "acceptance": "docs/DEDICATED_MINING_WALLET_V4_ACCEPTANCE.json",
+    "websiteRevision": "contract-factory-v4-20261019-r11",
+    "status": "deployed-devnet-public-browser-fixture-verified",
+    "acceptance": "docs/MINING_AUTOMATIC_PAYMENTS_BALANCES_V4_ACCEPTANCE.json",
     "walletOwnership": "user-owned BIP39 dedicated wallet",
     "newPhraseWords": 12,
     "encryptedLocalVault": true,
-    "automaticMiningPayments": "explicit finite session cap; frozen factory instructions only",
+    "automaticMiningPayments": "explicit approval while unlocked; no spending budget; frozen factory instructions only",
     "personalRpcRequired": true,
     "projectRentOrNetworkFee": 0,
     "submissionRentReclaim": false,
     "mainnet": false,
-    "stagedBrowserChecks": 8,
+    "stagedBrowserChecks": 11,
     "offlinePolicyGroups": 14,
     "sbfTransactions": 2,
     "newPublicTransactions": 0,
-    "publicBrowserChecks": 8,
+    "publicBrowserChecks": 11,
     "publicHttpResourceChecks": 14,
-    "changedSiteObjects": 26
+    "changedSiteObjects": 26,
+    "walletSpendingBudget": false,
+    "walletFourHourExpiry": false,
+    "headerBalances": [
+      "finalized SOL",
+      "finalized FBW; pending rewards excluded"
+    ]
   },
-  "preparedMiningUpdate": {
-    "websiteRevision": "contract-factory-v4-20261019-r11",
-    "status": "staged-browser-verified-awaiting-scoped-deployment",
-    "acceptance": "docs/MINING_AUTOMATIC_PAYMENTS_BALANCES_V4_ACCEPTANCE.json"
+  "continuousFactorySupplyV4": {
+    "status": "selected-design-and-calibrated-reserve; automatic-new-catalog-supply-not-deployed",
+    "design": "https://github.com/flybrainlabs/docs/blob/feat/contract-task-factory-v4-20261015/docs/CONTINUOUS_FACTORY_SUPPLY_V4.md",
+    "uniqueCalibratedReserveTasks": 16,
+    "historicalAndRegisteredGoalsExcluded": 39,
+    "newRegisteredTasks": 0,
+    "newRewardBudgetAtoms": "0",
+    "largeMinerLoadTest": false,
+    "nodeConfigurationAccess": "denied; no escalation attempted",
+    "mainnet": false
   }
 }
