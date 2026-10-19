@@ -6,7 +6,7 @@
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "ee9e8ee949d0c6b831d739b513ebddc6b9b56394",
+      "commit": "3b323a98afbd2e9f7dc63570b71d27506cb32513",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
@@ -20,7 +20,7 @@
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "9cd1bc60b122c333152ebc7b91c70ad41af1781d",
+      "commit": "797f695e748f65440bf25f6883a0b64b47414b96",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
@@ -43,18 +43,19 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "694b9060417579a5854641f9a94dcfd4efcc2644",
+      "commit": "4e7bd606d8daeb54abf52806173da9aaaf379730",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     },
     "research": {
       "url": "https://github.com/flybrainlabs/research.git",
-      "commit": "c100fe15b57a1eb4e2bfca747654a5a459cc86e9",
-      "publicationStatus": "verified"
+      "commit": "401ff58f11a3bc6137e1a1925c516e369527553d",
+      "publicationStatus": "verified",
+      "branch": "feat/contract-task-factory-v4-20261015"
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "e444aae23d98a85d5befcd3830bd757e78688035",
+      "commit": "84668f8879604c0dc5bdae141919efae6256f92c",
       "publicationStatus": "verified",
       "branch": "feat/contract-task-factory-v4-20261015"
     }
@@ -69,9 +70,9 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-19T09:02:57.380935+00:00",
+    "componentVerificationRecordedAtUtc": "2026-10-19T10:53:47.944404+00:00",
     "verificationReport": "docs/TASK_FACTORY_V4_PUBLICATION.json",
-    "scope": "Owner-authorized SSH publication and original-host Devnet deployment of dedicated mnemonic mining wallets, scoped automatic payments and credential-free Worker reads; no mainnet or API account operations",
+    "scope": "Owner-authorized automatic mining payments without a spending budget, confirmed SOL/FBW header balances, active-session frozen-task continuation and calibrated unregistered reserve; no mainnet or new reward funding",
     "historicalBootstrap": {
       "complete": true,
       "verifiedRepositoryCount": 10,
@@ -902,5 +903,10 @@
     "publicBrowserChecks": 8,
     "publicHttpResourceChecks": 14,
     "changedSiteObjects": 26
+  },
+  "preparedMiningUpdate": {
+    "websiteRevision": "contract-factory-v4-20261019-r11",
+    "status": "staged-browser-verified-awaiting-scoped-deployment",
+    "acceptance": "docs/MINING_AUTOMATIC_PAYMENTS_BALANCES_V4_ACCEPTANCE.json"
   }
 }

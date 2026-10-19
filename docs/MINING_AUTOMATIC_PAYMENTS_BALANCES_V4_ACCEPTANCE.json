@@ -1,0 +1,98 @@
+{
+  "schema": "flybrainlabs-automatic-payments-balances-v4-acceptance",
+  "recordedAtUtc": "2026-10-19T10:51:04.362388+00:00",
+  "websiteRevision": "contract-factory-v4-20261019-r11",
+  "site": "https://flybrain.work/mining/",
+  "status": "staged-browser-verified-awaiting-publication",
+  "wallet": {
+    "spendingBudget": false,
+    "cumulativeSpendingCap": false,
+    "fourHourExpiry": false,
+    "explicitAutomaticPayments": true,
+    "authorization": "only while local browser wallet remains unlocked; Lock or reload revokes",
+    "scope": "canonical existing factory instructions, unchanged mint and wallet beneficiary",
+    "feeSanityCeilingPreserved": true,
+    "personalHeliusRequired": true,
+    "sharedBrowserRpcFallback": false,
+    "projectRentOrNetworkFee": 0,
+    "pdaReclaimSupported": false
+  },
+  "balances": {
+    "location": "beside wallet in mining header",
+    "assets": [
+      "SOL",
+      "FBW"
+    ],
+    "source": "finalized personal RPC; FBW associated token account for frozen mint",
+    "pendingRewardsIncluded": false,
+    "unknown": "dash, not zero",
+    "failedSync": "retained data marked stale, timestamp in accessible description",
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "testedViewports": [
+      390,
+      1440
+    ]
+  },
+  "continuation": {
+    "afterExplicitStartOnly": true,
+    "idlePagesSend": false,
+    "closedClaimWindowCanEnterStandby": true,
+    "pauseAndLockGuardQueuedSends": true,
+    "verifiedCandidatesFinalizeBeforeExpiry": true,
+    "existingDeadlinesPreserved": true,
+    "ambiguousReceiptsRetained": true,
+    "autoCreatesNewCatalogs": false
+  },
+  "stitch": {
+    "project": "5326488884783619575",
+    "screen": "d6287f1626b040f0978495a1cc88b2a2",
+    "sampleAmountsAddressesProtocolClaimsSharedRpcCopyDiscarded": true,
+    "privateArtifactsPublished": false
+  },
+  "verification": {
+    "walletPolicyGroups": 14,
+    "contractRecoveryAndContinuationGroups": 8,
+    "persistedTransactionRecoveryGroups": 5,
+    "personalRpcGroups": 9,
+    "workerReadGroups": 3,
+    "sbfTransactions": 2,
+    "sbfEnvironment": "isolated LiteSVM with the retained compiled program",
+    "sbfTeamSolReceived": "0",
+    "realHeliusKeyUsed": false,
+    "publicChainTransactions": 0,
+    "modelDownloads": 0,
+    "realUserFullMiningAcceptance": false,
+    "stagedBrowserChecks": 11,
+    "realCachedModelWorkerSteps": true,
+    "observedSecretNetworkLeaks": 0
+  },
+  "futureTaskSupply": {
+    "status": "calibrated-reserve-prepared-not-registered-or-funded",
+    "existingRegisteredCatalogSize": 8,
+    "historicalAndRegisteredGoalsExcluded": 39,
+    "newDistinctCalibratedDescriptors": 16,
+    "calibrationInputsPerGoal": 20,
+    "heldOutInputsPerGoal": 8,
+    "heldOutSuccessesPerGoal": 2,
+    "fullEventCacheReused": true,
+    "newNativeRuns": 0,
+    "biologicalAcceptance": false,
+    "largeMinerLoadTest": false,
+    "newTasksRegistered": 0,
+    "newBudgetAtoms": "0",
+    "activationBlockedBy": "Original node denied private runtime configuration read with EACCES; no escalation attempted",
+    "remainingImplementation": "Persistent catalog dispatcher, finalized successor discovery, atomic signer/store/Worker switching, capacity and rollover acceptance",
+    "design": "CONTINUOUS_FACTORY_SUPPLY_V4.md"
+  },
+  "boundaries": {
+    "mainnet": false,
+    "newPublicTransactions": 0,
+    "nodeRuntimeChanged": false,
+    "contractExecutableChanged": false,
+    "newRewardsFunded": false,
+    "mainMerged": false
+  }
+}
