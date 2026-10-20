@@ -1,6 +1,6 @@
 {
   "schema": "flybrain-scientific-mining-v5-implementation-acceptance",
-  "recordedAtUtc": "2026-10-20T07:16:31.364135+00:00",
+  "recordedAtUtc": "2026-10-20T07:30:45.103959+00:00",
   "sourceImplemented": true,
   "scope": "Local numerical execution, actual isolated SBF/SPL, PostgreSQL and browser acceptance. Public V5 remains disabled.",
   "tests": {
@@ -68,8 +68,11 @@
     "revision": "scientific-mining-v5-20261020-r14",
     "completeAtlasTypes": 11751,
     "staticValidationPassed": true,
-    "deployed": false,
-    "publicRoundsEnabled": false
+    "deployed": true,
+    "publicRoundsEnabled": false,
+    "remoteFileHashesVerified": 94,
+    "publicHttpsBrowserSmoke": true,
+    "publicHttpBatchHashes": "not completed: configured HTTP proxy rejects CONNECT with 405; proxy settings unchanged"
   },
   "nodeDeployed": false,
   "realDevnetTransactions": 0,
@@ -79,5 +82,13 @@
   "mainMerged": false,
   "mainnet": false,
   "newMinting": false,
-  "productionFunds": false
+  "productionFunds": false,
+  "nodePackage": {
+    "stagedOnOriginalNode": true,
+    "checksumsVerified": 9,
+    "nativeCapabilitiesCheckedOnOriginalNode": true,
+    "serviceActivated": false,
+    "legacyNativeHandoffRequired": true,
+    "artifactSha256": "36253da99570921da4be4da1e10a158bd5638df1aa3b20cb764a41a2edc67c79"
+  }
 }

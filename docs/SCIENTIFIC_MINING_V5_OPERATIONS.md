@@ -11,6 +11,14 @@ signed transaction journal and funded V4 catalogs through the approved maintenan
 route. Do not print private runtime configuration or key files. Do not elevate
 from an SSH account that lacks access.
 
+On the original two-CPU, approximately 1 GiB node, do not run V4 replay or
+calibration concurrently with the V5 resident model. Before V5 activation, drain
+eligible legacy candidates under their frozen deadlines, close only eligible
+catalogs, and stop creating new V4 native work. Keep legacy gateway and payment
+recovery available for earned entitlements. If eligible V4 native work remains,
+keep V5 disabled until a shared scheduler has been implemented and measured.
+Never abandon an eligible legacy verification merely to free memory.
+
 Retain a complete rollback copy of source, private configuration and service
 definitions. Preserve all databases/WAL, model files, archives, scientific
 identities, cached browser data and accepted unpaid rewards. Do not rewrite or

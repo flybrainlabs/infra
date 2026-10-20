@@ -1003,6 +1003,12 @@
     "acceptance": "docs/SCIENTIFIC_MINING_V5_ACCEPTANCE.json",
     "mainnet": false,
     "newMinting": false,
-    "productionPayments": false
+    "productionPayments": false,
+    "websiteRevision": "scientific-mining-v5-20261020-r14",
+    "websiteDeployed": true,
+    "publicBrowserSmokeAccepted": true,
+    "nodePackageStaged": true,
+    "originalNodeNativeCapabilitiesAccepted": true,
+    "legacyNativeHandoffAccepted": false
   }
 }
