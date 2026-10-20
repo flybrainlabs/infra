@@ -6,59 +6,59 @@
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "1681f6cb7fa4e02be0be1a4a60c804574fb6ff5f",
+      "commit": "8f23c6705de09e8bb2c6062b64fdc3e84ebd259b",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
-      "branch": "feat/contract-task-factory-v4-20261015"
+      "branch": "chore/current-project-docs-20261020"
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "fa0ed0b7f0e0bc89eb9dac69d0c3482e91b79776",
+      "commit": "56264633a2b3eaba4f615aba58c70ca0a7bee8a9",
       "publicationStatus": "verified",
-      "branch": "feat/contract-task-factory-v4-20261015"
+      "branch": "chore/current-project-docs-20261020"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "ac6f7772da90ff1bb9cf614a405b1e7e64af6569",
+      "commit": "0417893fe9355e9baa8c902057c0a5c92a9dfa68",
       "publicationStatus": "verified",
-      "branch": "feat/contract-task-factory-v4-20261015"
+      "branch": "chore/current-project-docs-20261020"
     },
     "explorer": {
       "url": "https://github.com/flybrainlabs/explorer.git",
-      "commit": "2d95e66541f7030d297f0ac20732be2f7d46fbbc",
+      "commit": "611343208d77900331301ee70ff3777f339df0e3",
       "publicationStatus": "verified",
-      "branch": "main"
+      "branch": "chore/current-project-docs-20261020"
     },
     "protocol": {
       "url": "https://github.com/flybrainlabs/protocol.git",
-      "commit": "f5af1a4e86bcd7c3dde4ce9664db2ba859dfc2c9",
+      "commit": "2b8867088005ba400ee9c1a29a391b891f5d0da0",
       "publicationStatus": "verified",
-      "branch": "feat/contract-task-factory-v4-20261015"
+      "branch": "chore/current-project-docs-20261020"
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
-      "commit": "03a69513b1056b80357d500077644db0de70a26e",
+      "commit": "9faa6f546b6ba3f3de8ca7bef9bd5210de057b14",
       "publicationStatus": "verified",
-      "branch": "feat/contract-task-factory-v4-20261015"
+      "branch": "chore/current-project-docs-20261020"
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "52c6cef8079a80b98375dad055d8c81fefb8fbad",
+      "commit": "9f49cadc2d18d770e35ec21e610a7fd63bf4cdc1",
       "publicationStatus": "verified",
-      "branch": "feat/contract-task-factory-v4-20261015"
+      "branch": "chore/current-project-docs-20261020"
     },
     "research": {
       "url": "https://github.com/flybrainlabs/research.git",
-      "commit": "5f8f95f1b22656db14c56e34047c1b158874fb4f",
+      "commit": "454473fa1bcf6fbf4d82410fd43bb8052e43ba27",
       "publicationStatus": "verified",
-      "branch": "feat/contract-task-factory-v4-20261015"
+      "branch": "chore/current-project-docs-20261020"
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "076df7612765ea9a16f5f205ffddca66fe07111d",
+      "commit": "a99ac1721cfe392dcc0234b0454b5ae069a55f09",
       "publicationStatus": "verified",
-      "branch": "feat/contract-task-factory-v4-20261015"
+      "branch": "chore/current-project-docs-20261020"
     }
   },
   "publication": {
@@ -74,17 +74,6 @@
     "componentVerificationRecordedAtUtc": "2026-10-19T23:13:46.655757+00:00",
     "verificationReport": "docs/TASK_FACTORY_V4_PUBLICATION.json",
     "scope": "Active original-node continuous Devnet task pool, verified r13 public trust, 32 funded new tasks and two real SDK settlements; finite owner-authorized 6,400 FBW allocation; no new minting or main merge",
-    "historicalBootstrap": {
-      "complete": true,
-      "verifiedRepositoryCount": 10,
-      "remainingRepositoryCount": 0,
-      "apiIdentityVerified": true,
-      "sshIdentityVerified": true,
-      "repositoriesCreated": 10,
-      "freshRemoteBootstrap": "passed",
-      "matchedWorkspaceFiles": 716,
-      "verificationReport": "migration-acceptance.json"
-    },
     "deploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00",
     "latestVerificationReport": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json"
   },
