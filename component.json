@@ -78,7 +78,10 @@
     "tools/upgrade_wallet_mining_v3.sh": "tools/upgrade_wallet_mining_v3.sh",
     "tools/prepare_factory_pool_v4.py": "tools/prepare_factory_pool_v4.py",
     "deploy/target-v2/factory-pool-v4.example.json": "deploy/target-v2/factory-pool-v4.example.json",
-    "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json"
+    "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json",
+    "docs/SCIENTIFIC_MINING_V5_OPERATIONS.md": "docs/SCIENTIFIC_MINING_V5_OPERATIONS.md",
+    "tools/build_scientific_node_v5.mjs": "tools/build_scientific_node_v5.mjs",
+    "docs/SCIENTIFIC_MINING_V5_ACCEPTANCE.json": "docs/SCIENTIFIC_MINING_V5_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }

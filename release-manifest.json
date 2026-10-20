@@ -1,28 +1,28 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "contract-task-factory-v4-20261015",
+  "release": "scientific-mining-v5-20261020",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "8f23c6705de09e8bb2c6062b64fdc3e84ebd259b",
+      "commit": "fc04e137a1ac48f9172c7f9ea06e0662c74fb669",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
-      "branch": "chore/current-project-docs-20261020"
+      "branch": "feat/scientific-mining-20261020"
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "56264633a2b3eaba4f615aba58c70ca0a7bee8a9",
+      "commit": "1c86b080c8c51853c43effe87f57fd4593e71a9f",
       "publicationStatus": "verified",
-      "branch": "chore/current-project-docs-20261020"
+      "branch": "feat/scientific-mining-20261020"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "0417893fe9355e9baa8c902057c0a5c92a9dfa68",
+      "commit": "b9b430e65244315e2a3ffa2523404b818943a8f7",
       "publicationStatus": "verified",
-      "branch": "chore/current-project-docs-20261020"
+      "branch": "feat/scientific-mining-20261020"
     },
     "explorer": {
       "url": "https://github.com/flybrainlabs/explorer.git",
@@ -32,33 +32,33 @@
     },
     "protocol": {
       "url": "https://github.com/flybrainlabs/protocol.git",
-      "commit": "2b8867088005ba400ee9c1a29a391b891f5d0da0",
+      "commit": "3b86c3b81d38c8920e88ca681308cb51854b009c",
       "publicationStatus": "verified",
-      "branch": "chore/current-project-docs-20261020"
+      "branch": "feat/scientific-mining-20261020"
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
-      "commit": "9faa6f546b6ba3f3de8ca7bef9bd5210de057b14",
+      "commit": "ba0398f18861312abaa49a2b7d58e49a6379a726",
       "publicationStatus": "verified",
-      "branch": "chore/current-project-docs-20261020"
+      "branch": "feat/scientific-mining-20261020"
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "9f49cadc2d18d770e35ec21e610a7fd63bf4cdc1",
+      "commit": "7a74a8ee905e3f860b0f40d9f1d1043681a1938a",
       "publicationStatus": "verified",
-      "branch": "chore/current-project-docs-20261020"
+      "branch": "feat/scientific-mining-20261020"
     },
     "research": {
       "url": "https://github.com/flybrainlabs/research.git",
-      "commit": "454473fa1bcf6fbf4d82410fd43bb8052e43ba27",
+      "commit": "3de11421f287b0991fde4c22163c76cfaf9612eb",
       "publicationStatus": "verified",
-      "branch": "chore/current-project-docs-20261020"
+      "branch": "feat/scientific-mining-20261020"
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "a99ac1721cfe392dcc0234b0454b5ae069a55f09",
+      "commit": "8621f4fd708df74b1683418f6cfd1e5d09391d38",
       "publicationStatus": "verified",
-      "branch": "chore/current-project-docs-20261020"
+      "branch": "feat/scientific-mining-20261020"
     }
   },
   "publication": {
@@ -991,6 +991,18 @@
     "futureRewardExpansionAutomatic": false,
     "newMinting": false,
     "mainnet": false,
+    "productionPayments": false
+  },
+  "scientificMiningV5": {
+    "sourceImplemented": true,
+    "publicRoundsEnabled": false,
+    "nodeDeployment": "pending-authorized-maintenance",
+    "realDevnetAcceptance": false,
+    "realPersonalBrowserRpcAccepted": false,
+    "existingV4EntitlementsRetained": true,
+    "acceptance": "docs/SCIENTIFIC_MINING_V5_ACCEPTANCE.json",
+    "mainnet": false,
+    "newMinting": false,
     "productionPayments": false
   }
 }

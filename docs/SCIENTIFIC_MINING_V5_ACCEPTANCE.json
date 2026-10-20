@@ -1,0 +1,83 @@
+{
+  "schema": "flybrain-scientific-mining-v5-implementation-acceptance",
+  "recordedAtUtc": "2026-10-20T07:16:31.364135+00:00",
+  "sourceImplemented": true,
+  "scope": "Local numerical execution, actual isolated SBF/SPL, PostgreSQL and browser acceptance. Public V5 remains disabled.",
+  "tests": {
+    "simCore": 10,
+    "lifecycleAndLegacyProtocol": 15,
+    "targetProtocol": 2,
+    "actualWasmSession": true,
+    "legacyV4WalletSbfTransactions": 2,
+    "scientificSbfTransactions": 94,
+    "tenPlacesPaidInIsolatedVm": true,
+    "negativeStressOutcomePaid": true,
+    "duplicateComputationRejected": true,
+    "earlierInvalidCommitmentPreservesOrdering": true,
+    "signedHttpUpload": true,
+    "postgresqlRecovery": true,
+    "nodeRestartUsesOneVerifiedReport": true,
+    "selfContainedNodePackageHttpAccepted": true
+  },
+  "browser": {
+    "actualChromiumWorkerWasm": true,
+    "models": [
+      6,
+      165122
+    ],
+    "nativeArchiveHashAndMetricsMatch": true,
+    "actualOpfsAndIndexedDbRetention": true,
+    "rpcReads": "explicit isolated chain fixtures",
+    "gpu": "disabled for CPU/WASM acceptance",
+    "realPersonalRpc": false,
+    "bilingualEvidenceAndMobileWidths": [
+      320,
+      390,
+      1280
+    ]
+  },
+  "completeModelBenchmark": {
+    "neurons": 165122,
+    "hardware": "local x86_64 container, two-CPU quota; not the original node",
+    "warmSilentStressSamples": 20,
+    "warmSilentP50Ms": 2.470484,
+    "warmSilentP95Ms": 3.5082400000000002,
+    "silentInputsAreNotQualifyingDiscoveries": true,
+    "strongDenseFallbackMs": [
+      15790.114937,
+      13583.004407,
+      9951.82434
+    ],
+    "denseOracleMs": 15730.924845000001,
+    "coldFirstRequestRoundTripMs": 2938.8096407055855,
+    "peakChildRssKiB": 311316,
+    "excludes": [
+      "upload",
+      "queue",
+      "chain confirmation",
+      "finality"
+    ],
+    "universalInstantVerification": false
+  },
+  "hashes": {
+    "sbf": "ab40c8e8f4e0a1d9b189d8c735e63adc96606a31f7416abae8b21e6ce2a9aa4d",
+    "native": "77e2e1dfc5574059b769645ca01c4d13e5e59859db6b5911b43f39425eb3abbe",
+    "wasm": "13a98296d097bb641205968707ba6e8e175e2352df8653e2ecf595008c7954ea"
+  },
+  "website": {
+    "revision": "scientific-mining-v5-20261020-r14",
+    "completeAtlasTypes": 11751,
+    "staticValidationPassed": true,
+    "deployed": false,
+    "publicRoundsEnabled": false
+  },
+  "nodeDeployed": false,
+  "realDevnetTransactions": 0,
+  "independentOperatorsAccepted": false,
+  "biologicalValidation": false,
+  "globalOriginalityEstablished": false,
+  "mainMerged": false,
+  "mainnet": false,
+  "newMinting": false,
+  "productionFunds": false
+}
