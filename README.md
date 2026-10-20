@@ -21,7 +21,7 @@ Pinned multi-repository assembly, source ownership and publication checks, syste
 - `deploy/`
 - `release-manifest.json`
 
-Each imported file has one owning repository. `component.json` maps maintained
+Each maintained file has one owning repository. `component.json` maps maintained
 files into the shared build layout. Dependencies are pinned by commit in the
 [infrastructure release manifest](https://github.com/flybrainlabs/infra/blob/main/release-manifest.json).
 
@@ -49,7 +49,7 @@ python3 -B -m unittest discover -s ../flybrainlabs/infra/tests -p test_workspace
 python3 ../flybrainlabs/infra/tools/check_sources.py --repos ../flybrainlabs
 ```
 
-This transition keeps the existing cross-component import paths intact. Cloning
+The assembled layout keeps cross-component import paths intact. Cloning
 this repository alone does not supply its external components. The assembler
 creates a disposable build layout; all maintained edits belong to the owning
 repositories. Use `workspace.py sync` for intentional changes made in that layout,
@@ -81,8 +81,8 @@ and [status](https://github.com/flybrainlabs/docs/blob/main/docs/STATUS.md).
 Project code retains the declared `MIT OR Apache-2.0` license. Data descriptors
 and third-party assets retain their own source attribution and licenses; this
 code license does not relicense MaleCNS data or third-party libraries. The
-import preserves numerical/identity fixtures and does not reinterpret existing
-scientific or financial records. See [NOTICE](NOTICE).
+maintained sources preserve numerical/identity fixtures and the meaning of
+existing scientific and financial records. See [NOTICE](NOTICE).
 
 ## Wallet mining V3
 
