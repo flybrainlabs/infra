@@ -6,50 +6,59 @@
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "39ca21e7d3bb5148c580bf2f3b7580803ebd5514",
+      "commit": "cc13f59609e6d82e60e3ac531236ec3dce36dfdd",
       "publicationStatus": "verified",
       "visibility": "private",
-      "requiresAuthentication": true
+      "requiresAuthentication": true,
+      "branch": "chore/current-project-docs-main-20261020"
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "3da19d5d87d035ec2f22ee9e38fca5e7f202e0ad",
-      "publicationStatus": "verified"
+      "commit": "b7d016bde46e829c363b28b6b8a584b3a3f26dca",
+      "publicationStatus": "verified",
+      "branch": "chore/current-project-docs-main-20261020"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "fa2130326351945b2ca85ed47600b51c1122daac",
-      "publicationStatus": "verified"
+      "commit": "fe09dd8d80d4ba2aa7d593eeeca9e1a36c8e8156",
+      "publicationStatus": "verified",
+      "branch": "chore/current-project-docs-main-20261020"
     },
     "explorer": {
       "url": "https://github.com/flybrainlabs/explorer.git",
-      "commit": "2d95e66541f7030d297f0ac20732be2f7d46fbbc",
-      "publicationStatus": "verified"
+      "commit": "73e24538ebe985c8ce5463ef25fd4d9a1f38e6a8",
+      "publicationStatus": "verified",
+      "branch": "chore/current-project-docs-main-20261020"
     },
     "protocol": {
       "url": "https://github.com/flybrainlabs/protocol.git",
-      "commit": "c84df0b9fe52269762be73b27ceafb54d6b1906c",
-      "publicationStatus": "verified"
+      "commit": "85d2b15baa03a7ac92c93b66dcdb60f98e958931",
+      "publicationStatus": "verified",
+      "branch": "chore/current-project-docs-main-20261020"
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
-      "commit": "6dc997cc1c7bcecef467c49e9b4829bf282daf72",
-      "publicationStatus": "verified"
+      "commit": "f192520c639b0209fdbf0f796434837c786cca48",
+      "publicationStatus": "verified",
+      "branch": "chore/current-project-docs-main-20261020"
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "e437babe29caa344c0442eca0721987c9fb4d95a",
-      "publicationStatus": "verified"
+      "commit": "fde2393337529fd21a616d1937757e228f6e8685",
+      "publicationStatus": "verified",
+      "branch": "chore/current-project-docs-main-20261020"
     },
     "research": {
       "url": "https://github.com/flybrainlabs/research.git",
-      "commit": "c100fe15b57a1eb4e2bfca747654a5a459cc86e9",
-      "publicationStatus": "verified"
+      "commit": "027c61a746f7fb0bd7ce19e7289a1f688f7154c5",
+      "publicationStatus": "verified",
+      "branch": "chore/current-project-docs-main-20261020"
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "6bb39187f744873ba5ff0202cd9a46d2a18ceb29",
-      "publicationStatus": "verified"
+      "commit": "9dcc930e29a1c5586ff923112e30f08bf44a7ac8",
+      "publicationStatus": "verified",
+      "branch": "chore/current-project-docs-main-20261020"
     }
   },
   "publication": {
@@ -57,11 +66,7 @@
     "verifiedRepositoryCount": 10,
     "remainingRepositoryCount": 0,
     "apiIdentityVerified": true,
-    "sshIdentityVerified": true,
-    "repositoriesCreated": 10,
-    "freshRemoteBootstrap": "passed",
-    "matchedWorkspaceFiles": 716,
-    "verificationReport": "migration-acceptance.json"
+    "sshIdentityVerified": true
   },
   "stateRetention": {
     "modelDownloadRequired": false,
