@@ -56,7 +56,7 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "069ea7ee1692650aaad4bab2494b4b0d33a455f5",
+      "commit": "ecf989795c457f1671ff3fc8fd27ec1313660a60",
       "publicationStatus": "verified",
       "branch": "feat/continuous-mining-20261021"
     }
@@ -902,18 +902,18 @@
     "branch": "feat/continuous-mining-20261021",
     "websiteRevision": "continuous-mining-v4-20261021-r15d",
     "websiteDeployed": false,
-    "nodeActivated": false,
+    "nodeActivated": true,
     "requiredBackendCapability": "continuous-v4-20261021",
     "acceptance": "docs/CONTINUOUS_MINING_V4_20261021_ACCEPTANCE.json",
     "operations": "docs/CONTINUOUS_MINING_V4_20261021_OPERATIONS.md",
     "websiteBuildReportSha256": "81558734c87a59ddd4e79ef2d5b26f9f716116c438876f309f555911568c0d7d",
-    "publicFinancialTransactions": 0,
+    "publicFinancialTransactions": 2,
     "v5Activated": false,
     "mainnet": false,
     "newMinting": false,
     "mainMerged": false,
     "remainingCoreEvidence": [
-      "Competing actual native calibration/replay capacity",
+      "Newly submitted candidate competing with actual calibration",
       "Qualified full-model A-to-B asynchronous settlement timeline",
       "Original-node personal-RPC final-reward acceptance",
       "Observed long-duration soak"
@@ -922,6 +922,10 @@
     "nodeSourcePackageFiles": 39,
     "nodeSourcePackageActivation": false,
     "nodeSourcePackageStagedOnOriginalHost": true,
-    "nodeSourcePackageRemoteHashVerified": true
+    "nodeSourcePackageRemoteHashVerified": true,
+    "nodeActivationEvidence": "docs/CONTINUOUS_MINING_V4_ORIGINAL_NODE_20261021.json",
+    "publicOperatorExpiryTransactions": 2,
+    "minerTransactions": 0,
+    "backendObserverStartedAt": "2026-10-21T15:40:46.404649+00:00"
   }
 }

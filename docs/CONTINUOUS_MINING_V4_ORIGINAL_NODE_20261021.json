@@ -1,0 +1,112 @@
+{
+  "schema": "flybrainlabs-continuous-v4-original-node-deployment-20261021",
+  "updatedAt": "2026-10-21T15:43:11.764538+00:00",
+  "scope": "Original approved Devnet node; no alternate server",
+  "ownerAuthorizedPrivilegedMaintenance": true,
+  "sourceBranch": "feat/continuous-mining-20261021",
+  "nodeSourceCommit": "b21d6896ade5be5aecc5b8f2523544e8c21d445f",
+  "nodeBundleSha256": "fb91e3372724b7519aad3589184d3788e05c18c47cd7ea8950767f7b62386533",
+  "nodeActivatedAt": "2026-10-21T15:31:56.142625+00:00",
+  "backupVerified": true,
+  "sqliteIntegrity": "ok",
+  "migration": {
+    "migrationApplied": true,
+    "originalIdentitiesAndPacketsPreserved": true,
+    "counts": {
+      "jobs": 33,
+      "transactions": 49,
+      "science": 32
+    }
+  },
+  "candidatePreflightRecovery": "An installation directory search permission failure preceded migration. The unchanged original service was restored; corrected candidate imports passed before the successful switch.",
+  "calibrationToolPolicyReviewed": true,
+  "financialScopesExpanded": false,
+  "authenticatedDemand": {
+    "at": "2026-10-21T15:40:08.802Z",
+    "actualOpen": 2,
+    "scheduledAndOpenTasks": 30,
+    "finalizedOperatorExpiryTransactions": 2,
+    "minerTransactions": 0,
+    "rewardTransfers": 0,
+    "rewardAuthorizationAtoms": "640000000000",
+    "allocatedAuthorizationAtoms": "640000000000"
+  },
+  "nativeCompetition": {
+    "at": "2026-10-21T15:38:03.563Z",
+    "passedInStatedScope": true,
+    "actualColdCalibrationKernel": true,
+    "historicalValidCompleteReplayTrials": 2,
+    "productionNativeLane": true,
+    "replayWaitSeconds": 14.688816717,
+    "events": [
+      {
+        "kind": "calibration-request",
+        "elapsedSeconds": 0.0017877840000001014
+      },
+      {
+        "kind": "calibration-start",
+        "elapsedSeconds": 0.001993145000000027
+      },
+      {
+        "kind": "replay-request",
+        "elapsedSeconds": 0.5054607380000001
+      },
+      {
+        "kind": "calibration-yield",
+        "elapsedSeconds": 15.194162446
+      },
+      {
+        "kind": "replay-start",
+        "elapsedSeconds": 15.194277455
+      },
+      {
+        "kind": "replay-trial-0-verified",
+        "elapsedSeconds": 29.130220718
+      },
+      {
+        "kind": "replay-trial-1-verified",
+        "elapsedSeconds": 43.092622877000004
+      },
+      {
+        "kind": "replay-complete",
+        "elapsedSeconds": 43.092629354
+      }
+    ],
+    "actualResources": {
+      "peakAggregateRssKiB": 373132,
+      "maximumNativeProcesses": 1,
+      "samples": 429,
+      "cgroupMemoryPeakBytes": 488947712,
+      "cpuStat": "usage_usec 42786178\nuser_usec 41330614\nsystem_usec 1455563\ncore_sched.force_idle_usec 0\nnr_periods 441\nnr_throttled 332\nthrottled_usec 496150\nnr_bursts 0\nburst_usec 0"
+    },
+    "resourceLimits": {
+      "nativeConcurrency": 1,
+      "cpuQuotaPercent": 100,
+      "memoryMaxBytes": 536870912
+    },
+    "scope": "Actual cold calibration and historical valid complete-model A/B replay compete through the production native lane on original hardware. This is off-chain scheduling evidence; it is not a new submitted candidate or public reward acceptance."
+  },
+  "backendObservation": {
+    "startedAt": "2026-10-21T15:40:46.404649+00:00",
+    "plannedHours": 24,
+    "intervalSeconds": 30,
+    "readOnly": true,
+    "fullMiningSoakAccepted": false
+  },
+  "websiteRevision": "continuous-mining-v4-20261021-r15d",
+  "websiteDeployed": false,
+  "completeAcceptance": false,
+  "realPersonalRpcRewardAccepted": false,
+  "qualifiedSaveToNextDispatchObserved": false,
+  "v5Enabled": false,
+  "mainnet": false,
+  "newMinting": false,
+  "mainMerged": false,
+  "privateEvidenceSha256": {
+    "admin-backup-install.json": "5e9293542f205516a8d24fb8e0bc35936091d47f9f3bd69cc1eab6882e2f3ab4",
+    "admin-activation.json": "4e6c3ce30444cfad672401684d9de59fbd4fc78220a3cc9e959f7570ca0ff3cf",
+    "native-competition-original-node-resources.json": "41fb44a832e599b91d1f16737eeab3b52466ed6e8d71d1e3d7f15a8733d1c737",
+    "authenticated-demand-original-node.json": "b93a731fea05b3321a7bb49e134e529a3be8fbb62eebf71d29f5d230e4ce71a8",
+    "original-node-observer-start.json": "c9e305bd9edba1c38324ce7b5f85dc1800898d6735141b11d02bd1ee84197944"
+  }
+}

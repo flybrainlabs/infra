@@ -5,8 +5,11 @@
 Source publication and inactive packages do not activate the node, expand FBW
 or signer authorization, merge main, enable V5, issue tokens or broadcast public
 financial transactions. This release keeps the current V4 protocol and frozen
-scientific identity. The original approved maintenance account could not write
-the runtime directory; no alternative host or elevated account was used.
+scientific identity. On October 21 the owner authorized privileged maintenance
+of the original node. The matching service is now installed and healthy. Two
+bounded operator expiry transactions finalized during authenticated demand
+acceptance; no miner transaction or new reward allocation was made. See
+`CONTINUOUS_MINING_V4_ORIGINAL_NODE_20261021.json` for the deployment boundary.
 
 Use `release-manifest.json` for final component revisions. Starting revisions
 are recorded in the accompanying acceptance JSON. The website candidate is
@@ -33,7 +36,19 @@ no model, database, private runtime, wallet, key or activation step. The full
 model and native binary must be the previously approved versions; do not replace
 or redownload retained state during source maintenance.
 
-## Deployment sequence after the original maintenance gate is resolved
+## Deployment sequence and retained recovery procedure
+
+The October 21 deployment backed up the original unit, private configuration,
+SQLite and PostgreSQL state, journals, content and partial uploads before the
+service switch. An initial candidate directory permission failure occurred
+before any migration; the unchanged original service was restored, the new
+directory was corrected, and imports passed before the successful switch.
+The migration retained the original job identities, raw signed packets and
+scientific inventory. The calibration tool hash was explicitly reviewed for
+exclusive locking, frozen checkpoints, kernel timeout and cooperative yielding;
+scientific rules and finite reward/signer scopes were preserved.
+
+The following sequence also applies to subsequent maintenance:
 
 1. Record existing release hashes, original SQLite and PostgreSQL schema/data,
    WAL, content roots, upload grants, model cache, signed packets and pending
@@ -69,9 +84,9 @@ node --max-old-space-size=192 tools/factory_pool_service_v4.mjs /etc/flypow/fact
 
 Stop/restart through the installed service manager using its existing authorized
 maintenance entry. The process handles SIGTERM/SIGINT. Do not start a second
-uncoordinated legacy producer over the same runtime. A missing maintenance
-permission blocks installation; it does not authorize changing ownership or
-using a different account.
+uncoordinated legacy producer over the same runtime. A future maintenance
+permission failure must be handled through the existing approved administrator
+entry.
 
 ## Configuration and observation
 
@@ -122,9 +137,19 @@ An old unsigned/unknown receipt is not permission to make a replacement payment.
 
 ## Remaining acceptance gates
 
+The original node completed actual cold calibration competing with historical
+complete-model replay under one native process, a 100% single-core CPU quota
+and 512 MiB memory cap. The measured replay wait was 14.7 seconds. Aggregate RSS
+peaked at 373,132 KiB; cgroup memory including file cache peaked at 488,947,712
+bytes. New submitted-candidate competition still needs combined acceptance.
+
+A read-only 24-hour backend observer is running. Its samples establish only
+actual backend observation duration and readiness; browser/native candidate and
+reward timelines remain separate evidence.
+
 The complete qualified-candidate sequence “save A, compute B while A uploads or
 settles” has not yet been observed with the real full model and native verifier
 in one end-to-end run. Real personal RPC/payment/reward acceptance, actual
-competing native calibration capacity, physical mobile devices and the long
+new-candidate competition, physical mobile devices and the full mining long
 soak remain unaccepted. See every T01–T36 row in the evidence JSON. Keep the
-matching website and node activation gated until these results exist.
+matching website release gated until these results exist.

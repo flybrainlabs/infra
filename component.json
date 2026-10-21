@@ -85,7 +85,8 @@
     "tools/continuous_mining_soak_v4.py": "tools/continuous_mining_soak_v4.py",
     "docs/CONTINUOUS_MINING_V4_20261021_OPERATIONS.md": "docs/CONTINUOUS_MINING_V4_20261021_OPERATIONS.md",
     "docs/CONTINUOUS_MINING_V4_20261021_ACCEPTANCE.json": "docs/CONTINUOUS_MINING_V4_20261021_ACCEPTANCE.json",
-    "deploy/target-v2/flybrainlabs-factory-pool-v4.service": "deploy/target-v2/flybrainlabs-factory-pool-v4.service"
+    "deploy/target-v2/flybrainlabs-factory-pool-v4.service": "deploy/target-v2/flybrainlabs-factory-pool-v4.service",
+    "docs/CONTINUOUS_MINING_V4_ORIGINAL_NODE_20261021.json": "docs/CONTINUOUS_MINING_V4_ORIGINAL_NODE_20261021.json"
   },
   "project": "flybrainlabs"
 }

@@ -1,12 +1,12 @@
 {
   "schema": "flybrainlabs-continuous-mining-v4-acceptance-20261021",
-  "updatedAt": "2026-10-21T14:15:59.808752+00:00",
+  "updatedAt": "2026-10-21T15:43:11.764538+00:00",
   "branch": "feat/continuous-mining-20261021",
   "completeAcceptance": false,
   "websiteRevision": "continuous-mining-v4-20261021-r15d",
   "websiteDeployed": false,
-  "nodeActivated": false,
-  "publicFinancialTransactions": 0,
+  "nodeActivated": true,
+  "publicFinancialTransactions": 2,
   "v5Enabled": false,
   "mainMerged": false,
   "startingRevisions": {
@@ -44,7 +44,13 @@
     "sustainedComputeUtilization": null,
     "liveRewardAcceptance": false,
     "latestWarmStartToFirstProgressSeconds": 47.51960183866322,
-    "soakSmokeObservedSeconds": 2.00018522515893
+    "soakSmokeObservedSeconds": 2.00018522515893,
+    "originalNodeNativeReplayWaitSeconds": 14.688816717,
+    "originalNodePeakAggregateRssKiB": 373132,
+    "originalNodeCgroupMemoryPeakBytes": 488947712,
+    "originalNodeMaximumNativeProcesses": 1,
+    "originalNodeActualOpenAfterDemand": 2,
+    "backendObserverStartedAt": "2026-10-21T15:40:46.404649+00:00"
   },
   "matrix": [
     {
@@ -231,18 +237,20 @@
       "id": "T21",
       "status": "passed-isolated",
       "evidence": [
-        "pool-sbf-final.log"
+        "pool-sbf-final.log",
+        "CONTINUOUS_MINING_V4_ORIGINAL_NODE_20261021.json"
       ],
-      "scope": "Scheduled stock is excluded from actual open inventory; authentic demand opens independent tasks, and closed claim windows trigger replenishment planning."
+      "scope": "Scheduled stock is excluded from actual open inventory; authentic demand opens independent tasks, and closed claim windows trigger replenishment planning. On the original node, authenticated controlled demand restored two real funded claim windows through finalized independent keeper expiry operations."
     },
     {
       "id": "T22",
       "status": "partial",
       "evidence": [
         "calibration-equivalence-3/report.json",
-        "regression-factory_pool_capacity_v4.log"
+        "regression-factory_pool_capacity_v4.log",
+        "CONTINUOUS_MINING_V4_ORIGINAL_NODE_20261021.json"
       ],
-      "scope": "29-slice checkpoint equivalence uses complete-model cached streams. New native calibration competing with real full replay and CPU/RAM bounds remains unrun."
+      "scope": "Actual cold calibration yielded to historical valid complete-model A/B replay through the production native lane on original hardware. One native process, CPU quota and measured RSS/cgroup memory are recorded. A newly submitted competing candidate in the full live workflow remains required."
     },
     {
       "id": "T23",
@@ -362,9 +370,10 @@
         "final-active-pool-sbf.log",
         "website-build-r15d.json",
         "static-r15d-validation.log",
-        "source-policy-final.json"
+        "source-policy-final.json",
+        "CONTINUOUS_MINING_V4_ORIGINAL_NODE_20261021.json"
       ],
-      "scope": "Additive schema runs twice, read-only preflight emits no writes, inactive overlay validates, and component source is published with verified pins. Compatible live upgrade/rollback and complete live acceptance remain unrun."
+      "scope": "Additive schema runs twice, read-only preflight emits no writes, inactive overlay validates, and component source is published with verified pins. Compatible live upgrade/rollback and complete live acceptance remain unrun. The original-node additive migration preserved all original job identities, signed packet bytes and science records, with verified backups and a compatible service switch."
     },
     {
       "id": "T36",
@@ -373,9 +382,9 @@
       "scope": "The real full-model qualified-save A to Worker B timeline while A uploads/verifies/pays has not been executed in one end-to-end run. Real personal RPC, original-node activation and final live reward balance remain unaccepted."
     }
   ],
-  "remainingLiveGate": "Original approved runtime maintenance access and separately verified finite existing authorization/balances; no privilege escalation or alternate host.",
+  "remainingLiveGate": "The original-node maintenance gate is resolved. Real personal RPC and qualified multi-catalog candidate/settlement acceptance remain required; website deployment stays gated.",
   "pendingCoreEvidence": [
-    "T22 actual competing native calibration/replay capacity",
+    "T22 newly submitted candidate competing with native calibration in the full live workflow",
     "T36 complete qualified multi-catalog Worker/outbox/verification/payment timeline",
     "Actual public-network cold source download",
     "Real personal RPC and final reward balance",
@@ -390,7 +399,7 @@
       "node": "b21d6896ade5be5aecc5b8f2523544e8c21d445f",
       "web": "25d53ebef27baa736e28725ed12ccda84a511b5d",
       "research": "e3f804efecf6955d482b5b2583bc9f8ac1535e3f",
-      "docs": "069ea7ee1692650aaad4bab2494b4b0d33a455f5"
+      "docs": "ecf989795c457f1671ff3fc8fd27ec1313660a60"
     },
     "infrastructureRevision": "The commit containing this file",
     "mainMerged": false,
@@ -398,5 +407,6 @@
   },
   "finalBrowserEvidence": "browser-r15d.json",
   "finalBuildEvidence": "website-build-r15d.json",
-  "staticOverlayValidation": true
+  "staticOverlayValidation": true,
+  "originalNodeDeploymentEvidence": "docs/CONTINUOUS_MINING_V4_ORIGINAL_NODE_20261021.json"
 }
