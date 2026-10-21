@@ -139,3 +139,18 @@ runtime files, restarts the shared wallet and V4 services and checks readiness
 using the official Origin. Failure restores the original transports. Provider
 URLs and credentials are never written to public reports; a failed public
 provider probe does not change the current upstream.
+
+## Continuous V4 mining candidate
+
+Inactive node packaging, reviewed resource examples, read-only plans and bounded observation. The feature branch is `feat/continuous-mining-20261021`.
+
+Run from the assembled workspace with the existing pinned dependencies:
+
+```sh
+python3 tools/prepare_factory_pool_v4.py --help
+python3 tools/continuous_mining_soak_v4.py --help
+```
+
+See `docs/CONTINUOUS_MINING_V4_20261021.md` and the infrastructure
+`docs/CONTINUOUS_MINING_V4_20261021_ACCEPTANCE.json` for evidence boundaries.
+Source publication does not establish live acceptance or activate the service.

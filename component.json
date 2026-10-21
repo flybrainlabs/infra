@@ -81,7 +81,11 @@
     "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json": "docs/CONTINUOUS_FACTORY_POOL_V4_ACCEPTANCE.json",
     "docs/SCIENTIFIC_MINING_V5_OPERATIONS.md": "docs/SCIENTIFIC_MINING_V5_OPERATIONS.md",
     "tools/build_scientific_node_v5.mjs": "tools/build_scientific_node_v5.mjs",
-    "docs/SCIENTIFIC_MINING_V5_ACCEPTANCE.json": "docs/SCIENTIFIC_MINING_V5_ACCEPTANCE.json"
+    "docs/SCIENTIFIC_MINING_V5_ACCEPTANCE.json": "docs/SCIENTIFIC_MINING_V5_ACCEPTANCE.json",
+    "tools/continuous_mining_soak_v4.py": "tools/continuous_mining_soak_v4.py",
+    "docs/CONTINUOUS_MINING_V4_20261021_OPERATIONS.md": "docs/CONTINUOUS_MINING_V4_20261021_OPERATIONS.md",
+    "docs/CONTINUOUS_MINING_V4_20261021_ACCEPTANCE.json": "docs/CONTINUOUS_MINING_V4_20261021_ACCEPTANCE.json",
+    "deploy/target-v2/flybrainlabs-factory-pool-v4.service": "deploy/target-v2/flybrainlabs-factory-pool-v4.service"
   },
   "project": "flybrainlabs"
 }

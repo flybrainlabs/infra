@@ -1,0 +1,402 @@
+{
+  "schema": "flybrainlabs-continuous-mining-v4-acceptance-20261021",
+  "updatedAt": "2026-10-21T14:15:59.808752+00:00",
+  "branch": "feat/continuous-mining-20261021",
+  "completeAcceptance": false,
+  "websiteRevision": "continuous-mining-v4-20261021-r15d",
+  "websiteDeployed": false,
+  "nodeActivated": false,
+  "publicFinancialTransactions": 0,
+  "v5Enabled": false,
+  "mainMerged": false,
+  "startingRevisions": {
+    "protocol": "3b86c3b81d38c8920e88ca681308cb51854b009c",
+    "sdk": "7a74a8ee905e3f860b0f40d9f1d1043681a1938a",
+    "miner": "b9b430e65244315e2a3ffa2523404b818943a8f7",
+    "contracts": "ba0398f18861312abaa49a2b7d58e49a6379a726",
+    "research": "3de11421f287b0991fde4c22163c76cfaf9612eb",
+    "node": "1c86b080c8c51853c43effe87f57fd4593e71a9f",
+    "web": "fc04e137a1ac48f9172c7f9ea06e0662c74fb669",
+    "docs": "8621f4fd708df74b1683418f6cfd1e5d09391d38",
+    "infra": "2ef639a68fc1a55c4025281b3fced7902e0923cb",
+    "explorer": "611343208d77900331301ee70ff3777f339df0e3"
+  },
+  "statusMeaning": {
+    "passed-isolated": "The stated requirement is exercised only within the explicit fixture/integration scope; this is not live acceptance.",
+    "partial": "Some required evidence exists; the named remainder is unrun.",
+    "not-run": "The combined requirement has not been demonstrated."
+  },
+  "measurements": {
+    "warmStartToFirstProgressSeconds": 44.9074431899935,
+    "coldStartToFirstProgressSeconds": 399.39222094230354,
+    "coldOfficialSourceBytes": 1109008097,
+    "completeModelNeurons": 165122,
+    "warmSamples": 1,
+    "coldSamples": 1,
+    "coldSourceTransportFixture": true,
+    "personalRpcFixture": true,
+    "nativeReplayDecisionFixtureInSbfSuite": true,
+    "isolatedSbfTransactions": 22,
+    "historicalCatalogDatabaseFixtures": 132,
+    "calibrationCheckpointSlices": 29,
+    "soakObservedHours": 0,
+    "qualifiedSaveToNextDispatchSeconds": null,
+    "sustainedComputeUtilization": null,
+    "liveRewardAcceptance": false,
+    "latestWarmStartToFirstProgressSeconds": 47.51960183866322,
+    "soakSmokeObservedSeconds": 2.00018522515893
+  },
+  "matrix": [
+    {
+      "id": "T01",
+      "status": "partial",
+      "evidence": [
+        "browser-cold-2.json"
+      ],
+      "scope": "One Start fetched frozen complete sources, built the full model and computed; source transport and RPC were fixtures. Public-network cold download remains unrun."
+    },
+    {
+      "id": "T02",
+      "status": "partial",
+      "evidence": [
+        "browser-continuous-3.json",
+        "regression-factory_storage_v4.log"
+      ],
+      "scope": "Warm model reuse and result crash/index recovery pass. Cold corrupt-source-block/version isolation in a real browser remains unrun."
+    },
+    {
+      "id": "T03",
+      "status": "passed-isolated",
+      "evidence": [
+        "regression-continuous_session_v4.log",
+        "regression-goal_runner_v2.log"
+      ],
+      "scope": "Delayed preparation, duplicate Start, identity cancellation and Stop during awaited Resume were exercised with controller/RPC fixtures."
+    },
+    {
+      "id": "T04",
+      "status": "passed-isolated",
+      "evidence": [
+        "regression-continuous_session_v4.log"
+      ],
+      "scope": "Task activation and dispatch follow delayed model readiness; no early open is permitted by the exercised startup controller."
+    },
+    {
+      "id": "T05",
+      "status": "partial",
+      "evidence": [
+        "browser-continuous-3.json",
+        "browser-r15d.json"
+      ],
+      "scope": "A retained encrypted wallet is unlocked after refresh without restoring authority; saved-RPC revisit and all refresh boundaries need combined browser coverage."
+    },
+    {
+      "id": "T06",
+      "status": "passed-isolated",
+      "evidence": [
+        "regression-personal_rpc_v4.log",
+        "regression-mining_wallet_v4.log",
+        "browser-r15d.json"
+      ],
+      "scope": "RPC identity, invalid network/key fixtures and actual canonical wallet transaction policy pass; no real customer key was used."
+    },
+    {
+      "id": "T07",
+      "status": "partial",
+      "evidence": [
+        "regression-submission_outbox_v4.log",
+        "pool-sbf-final.log"
+      ],
+      "scope": "Independent queues and keeper opening before old verification pass. Real full-model qualified A-to-B overlap remains T36."
+    },
+    {
+      "id": "T08",
+      "status": "partial",
+      "evidence": [
+        "regression-submission_outbox_v4.log",
+        "regression-factory_wallet_recovery_v4.log"
+      ],
+      "scope": "A held old upload permits other outbox work; combined real Worker work across the longest financial confirmation wait remains unobserved."
+    },
+    {
+      "id": "T09",
+      "status": "partial",
+      "evidence": [
+        "regression-factory_pool_history_v4.log"
+      ],
+      "scope": "Pending-round preference and history exclusion pass selection tests; rejection/new-attempt reintegration needs full browser overlap coverage."
+    },
+    {
+      "id": "T10",
+      "status": "partial",
+      "evidence": [
+        "regression-factory_pool_v4.log",
+        "pool-sbf-final.log"
+      ],
+      "scope": "Recovery selection includes advance/expire/finalize; all three successor paths together in a real browser remain unrun."
+    },
+    {
+      "id": "T11",
+      "status": "partial",
+      "evidence": [
+        "regression-factory_storage_v4.log",
+        "regression-goal_runner_v2.log"
+      ],
+      "scope": "Original-store recovery and cancellation guards pass. Full cross-catalog overlapping upload/Worker/wallet-change acceptance is incomplete."
+    },
+    {
+      "id": "T12",
+      "status": "partial",
+      "evidence": [
+        "regression-factory_storage_v4.log",
+        "regression-submission_outbox_v4.log",
+        "final-factory_storage_v4.log"
+      ],
+      "scope": "Actual store code recovers side-file/state/index boundaries and reversed completion order under in-memory OPFS fixtures. Real browser termination at every boundary remains unrun."
+    },
+    {
+      "id": "T13",
+      "status": "partial",
+      "evidence": [
+        "regression-goal_runner_v2.log",
+        "regression-factory_storage_v4.log",
+        "final-factory_storage_v4.log"
+      ],
+      "scope": "Unsaved bytes retain original context and can save again; only persisted prefixes are recoverable after termination. All export/restart fault combinations remain unrun."
+    },
+    {
+      "id": "T14",
+      "status": "partial",
+      "evidence": [
+        "regression-continuous_session_v4.log",
+        "regression-goal_runner_v2.log",
+        "regression-submission_outbox_v4.log"
+      ],
+      "scope": "Controller RPC recovery, transient lease errors and persisted upload retry pass; combined live disconnection/restore is unrun."
+    },
+    {
+      "id": "T15",
+      "status": "passed-isolated",
+      "evidence": [
+        "regression-goal_runner_v2.log"
+      ],
+      "scope": "A single 503 retains intent and lease validity; successful renewal recovers, actual expiration cancels only the affected execution."
+    },
+    {
+      "id": "T16",
+      "status": "partial",
+      "evidence": [
+        "pool-sbf-final.log",
+        "regression-submission_outbox_v4.log"
+      ],
+      "scope": "Original winner/payment idempotence and terminal queue release pass; real competing-miner shared-queue saturation needs acceptance."
+    },
+    {
+      "id": "T17",
+      "status": "passed-isolated",
+      "evidence": [
+        "regression-factory_wallet_recovery_v4.log",
+        "pool-sbf-final.log"
+      ],
+      "scope": "Original journal/signature and idempotent business-effect recovery are exercised with isolated RPC/SBF. No public transfer is claimed."
+    },
+    {
+      "id": "T18",
+      "status": "partial",
+      "evidence": [
+        "regression-submission_outbox_v4.log",
+        "regression-mining_wallet_v4.log"
+      ],
+      "scope": "Shared candidate coordination and wallet serialization/reservation are tested; two real browser tabs with scarce balance and urgent Reveal are unrun."
+    },
+    {
+      "id": "T19",
+      "status": "partial",
+      "evidence": [
+        "regression-mining_wallet_v4.log",
+        "regression-goal_runner_v2.log"
+      ],
+      "scope": "Fee-only authorized recovery and explicit Pause during capacity wait pass. Combined browser funding arrival after Pause/lock/Stop is unrun."
+    },
+    {
+      "id": "T20",
+      "status": "partial",
+      "evidence": [
+        "pool-sbf-final.log",
+        "regression-factory_pool_capacity_v4.log"
+      ],
+      "scope": "Keeper opens independent funded catalogs before verification and fully allocated future budget does not gate old replay. New scientific production during a held native verification remains unobserved."
+    },
+    {
+      "id": "T21",
+      "status": "passed-isolated",
+      "evidence": [
+        "pool-sbf-final.log"
+      ],
+      "scope": "Scheduled stock is excluded from actual open inventory; authentic demand opens independent tasks, and closed claim windows trigger replenishment planning."
+    },
+    {
+      "id": "T22",
+      "status": "partial",
+      "evidence": [
+        "calibration-equivalence-3/report.json",
+        "regression-factory_pool_capacity_v4.log"
+      ],
+      "scope": "29-slice checkpoint equivalence uses complete-model cached streams. New native calibration competing with real full replay and CPU/RAM bounds remains unrun."
+    },
+    {
+      "id": "T23",
+      "status": "partial",
+      "evidence": [
+        "regression-factory_pool_v4.log",
+        "pool-sbf-final.log"
+      ],
+      "scope": "Permanent scientific markers, finite registration and signed manifests pass. Two real producer processes racing the final authorization remain unrun."
+    },
+    {
+      "id": "T24",
+      "status": "partial",
+      "evidence": [
+        "regression-factory_pool_capacity_v4.log",
+        "pool-recovery-2.log"
+      ],
+      "scope": "Future allocation exhaustion and blocked execution evidence are separated. All replenished reward/signer/SOL/fee authorization combinations remain unrun."
+    },
+    {
+      "id": "T25",
+      "status": "partial",
+      "evidence": [
+        "pool-sbf-final.log",
+        "regression-factory_wallet_recovery_v4.log"
+      ],
+      "scope": "Durable keeper/payment and original receipt idempotence pass; multi-process keeper crash immediately after broadcast remains unrun."
+    },
+    {
+      "id": "T26",
+      "status": "passed-isolated",
+      "evidence": [
+        "pool-recovery-2.log"
+      ],
+      "scope": "Actual PostgreSQL reconciliation resolves voted/expired/superseded fixtures, quarantines failed/unknown immutable packets and restores weighted capacity."
+    },
+    {
+      "id": "T27",
+      "status": "partial",
+      "evidence": [
+        "pool-recovery-2.log",
+        "pool-sbf-final.log"
+      ],
+      "scope": "Expired historical replay recovery and VALID-quorum finalization protection pass. Real native replay crossing its deadline needs a timed fault run."
+    },
+    {
+      "id": "T28",
+      "status": "partial",
+      "evidence": [
+        "regression-submission_outbox_v4.log",
+        "regression-factory_gateway_v4.log",
+        "pool-recovery-2.log",
+        "final-active-capacity.log"
+      ],
+      "scope": "Finite count/byte outbox, upload reservation limits and workload recovery pass. Sustained browser/server quota saturation with real full candidates is unrun."
+    },
+    {
+      "id": "T29",
+      "status": "partial",
+      "evidence": [
+        "regression-factory_gateway_v4.log"
+      ],
+      "scope": "Actual filesystem upload expiration, renewal, cleanup leases and immutable/orphan preservation pass. Native replay failure/crash temporary-copy retention still needs dedicated acceptance."
+    },
+    {
+      "id": "T30",
+      "status": "passed-isolated",
+      "evidence": [
+        "pool-recovery-2.log",
+        "regression-factory_pool_history_v4.log"
+      ],
+      "scope": "132 PostgreSQL lifecycle fixtures retain bounded renewable manifests, separate signed old history and unpaid-right reconciliation. This is not 132 chain deployments or a real historical token transfer."
+    },
+    {
+      "id": "T31",
+      "status": "passed-isolated",
+      "evidence": [
+        "pool-sbf-final.log"
+      ],
+      "scope": "Injected RPC and database discovery failures report unready with retained last-success age; resynchronization restores business readiness."
+    },
+    {
+      "id": "T32",
+      "status": "partial",
+      "evidence": [
+        "regression-goal_runner_v2.log",
+        "browser-continuous-3.json",
+        "browser-r15d.json"
+      ],
+      "scope": "Actual browser controlled hidden-page login renewal retains Start intent and wallet generation; V4 coordinator lifecycle tests pass. Real OS sleep/freeze and every upload/verification refresh boundary remain unrun."
+    },
+    {
+      "id": "T33",
+      "status": "passed-isolated",
+      "evidence": [
+        "regression-continuous_session_v4.log",
+        "regression-submission_outbox_v4.log",
+        "regression-goal_runner_v2.log",
+        "regression-mining_wallet_v4.log",
+        "browser-r15d.json"
+      ],
+      "scope": "Pause admits only original committed cleanup; lock/Stop/identity guards prevent subsequent signatures/dispatch in the exercised fixtures."
+    },
+    {
+      "id": "T34",
+      "status": "partial",
+      "evidence": [
+        "browser-continuous-3.json",
+        "browser-r15d.json"
+      ],
+      "scope": "Real complete-model browser progress and task switch were observed. Combined A-pending/B-computing UI with final rewards remains T36."
+    },
+    {
+      "id": "T35",
+      "status": "partial",
+      "evidence": [
+        "final-active-pool-sbf.log",
+        "website-build-r15d.json",
+        "static-r15d-validation.log",
+        "source-policy-final.json"
+      ],
+      "scope": "Additive schema runs twice, read-only preflight emits no writes, inactive overlay validates, and component source is published with verified pins. Compatible live upgrade/rollback and complete live acceptance remain unrun."
+    },
+    {
+      "id": "T36",
+      "status": "not-run",
+      "evidence": [],
+      "scope": "The real full-model qualified-save A to Worker B timeline while A uploads/verifies/pays has not been executed in one end-to-end run. Real personal RPC, original-node activation and final live reward balance remain unaccepted."
+    }
+  ],
+  "remainingLiveGate": "Original approved runtime maintenance access and separately verified finite existing authorization/balances; no privilege escalation or alternate host.",
+  "pendingCoreEvidence": [
+    "T22 actual competing native calibration/replay capacity",
+    "T36 complete qualified multi-catalog Worker/outbox/verification/payment timeline",
+    "Actual public-network cold source download",
+    "Real personal RPC and final reward balance",
+    "Real dual-tab scarce-funds acceptance",
+    "24\u201372 hour observed soak"
+  ],
+  "sourcePublication": {
+    "branch": "feat/continuous-mining-20261021",
+    "componentCommits": {
+      "sdk": "3b24b2002e91980cd174796e4e670db6cd53c12f",
+      "miner": "c1e312763d8451cd176dbae97ed9665cdec6fc18",
+      "node": "b21d6896ade5be5aecc5b8f2523544e8c21d445f",
+      "web": "25d53ebef27baa736e28725ed12ccda84a511b5d",
+      "research": "e3f804efecf6955d482b5b2583bc9f8ac1535e3f",
+      "docs": "069ea7ee1692650aaad4bab2494b4b0d33a455f5"
+    },
+    "infrastructureRevision": "The commit containing this file",
+    "mainMerged": false,
+    "sourceRemoteVerified": true
+  },
+  "finalBrowserEvidence": "browser-r15d.json",
+  "finalBuildEvidence": "website-build-r15d.json",
+  "staticOverlayValidation": true
+}

@@ -5,7 +5,9 @@
   "poolTrust": null,
   "databaseUrlFile": "/etc/flypow/factory-pool-v4-database-url",
   "rpcUpstream": null,
-  "origins": ["https://flybrain.work"],
+  "origins": [
+    "https://flybrain.work"
+  ],
   "database": "/var/lib/flypow/task-factory-v4/gateway.sqlite",
   "contentDir": "/var/lib/flypow/task-factory-v4/content",
   "partialDir": "/var/lib/flypow/task-factory-v4/partial",
@@ -28,5 +30,19 @@
   "maxCatalogFeeLamports": 1000000,
   "capacityObservations": null,
   "calibrationPolicy": null,
-  "port": 8792
+  "port": 8792,
+  "openTaskPolicy": {
+    "minimum": 1,
+    "target": 2,
+    "maximum": 4,
+    "idleTarget": 0,
+    "minimumWindowSeconds": 90,
+    "demandTtlSeconds": 120
+  },
+  "replayP95Seconds": 90,
+  "computeP95Seconds": 90,
+  "uploadP95Seconds": 120,
+  "confirmationMarginSeconds": 60,
+  "uploadReservationSeconds": 1800,
+  "partialRetentionSeconds": 86400
 }

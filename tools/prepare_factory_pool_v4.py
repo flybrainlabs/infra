@@ -7,7 +7,7 @@ def digest(data):return hashlib.sha256(data).hexdigest()
 def prepare(a):
     root=a.workspace.resolve();out=a.output.resolve()
     if out.exists() or out==root or out.is_relative_to(root):raise ValueError('Choose a fresh private output outside the workspace')
-    files={};pending=['tools/factory_pool_service_v4.mjs','tools/calibrate_factory_reserve_v4.py','web/data/target-mining-v2/brief/goal.json','config/factory-pool-v4.sql','package.json','package-lock.json','deploy/target-v2/factory-pool-v4.example.json','docs/FACTORY_POOL_V4_OPERATIONS.md']
+    files={};pending=['tools/factory_pool_service_v4.mjs','tools/factory_pool_inspect_v4.mjs','tools/continuous_mining_soak_v4.py','docs/CONTINUOUS_MINING_V4_20261021.md','docs/CONTINUOUS_MINING_V4_20261021_OPERATIONS.md','docs/CONTINUOUS_MINING_V4_20261021_ACCEPTANCE.json','deploy/target-v2/flybrainlabs-factory-pool-v4.service','tools/calibrate_factory_reserve_v4.py','web/data/target-mining-v2/brief/goal.json','config/factory-pool-v4.sql','package.json','package-lock.json','deploy/target-v2/factory-pool-v4.example.json','docs/FACTORY_POOL_V4_OPERATIONS.md']
     while pending:
         name=pending.pop();source=root/name;path=source.resolve()
         if not path.is_relative_to(root) or source.is_symlink() or not path.is_file():raise ValueError('Missing or unsafe source dependency: '+name)

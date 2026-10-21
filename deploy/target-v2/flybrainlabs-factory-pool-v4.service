@@ -1,0 +1,30 @@
+[Unit]
+Description=flybrainlabs independent V4 task pool and durable recovery
+After=network-online.target flybrainlabs-wallet-mining-v3.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=flypow
+Group=flypow
+WorkingDirectory=/opt/flypow/task-factory-v4/current
+ExecStart=/opt/flypow/runtime/node/bin/node --max-old-space-size=192 /opt/flypow/task-factory-v4/current/tools/factory_pool_service_v4.mjs /etc/flypow/factory-pool-v4-runtime.json
+Restart=on-failure
+RestartSec=15
+TimeoutStopSec=300
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/flypow/task-factory-v4
+CPUQuota=100%
+Nice=10
+IOWeight=50
+MemoryHigh=768M
+MemoryMax=1024M
+MemorySwapMax=256M
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target
