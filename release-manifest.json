@@ -71,9 +71,9 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-22T11:27:57.589587+00:00",
-    "verificationReport": "docs/SITE_LANGUAGES_20261022_ACCEPTANCE.json",
-    "scope": "Verified passive home anatomy and Chinese-last language ordering; website transfer pending; existing mining activation boundaries retained",
+    "componentVerificationRecordedAtUtc": "2026-10-22T11:32:58.812319+00:00",
+    "verificationReport": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json",
+    "scope": "Passive rotating home anatomy and Chinese-last language controls deployed; public WebGL, language persistence and HTTPS content hashes verified; existing mining activation gates retained",
     "latestVerificationReport": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json",
     "sourceOnly": false,
     "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00"
@@ -978,11 +978,11 @@
     "default": "en",
     "supported": [
       "en",
-      "zh",
       "fr",
       "ru",
       "ja",
-      "ko"
+      "ko",
+      "zh"
     ],
     "dictionaryKeysPerLanguage": 7274,
     "publicPages": 56,
@@ -996,12 +996,22 @@
     "publicBrowserLayouts": 72,
     "localBrowserLayouts": 672,
     "remoteDeployedObjects": 109,
-    "backupVerified": true
+    "backupVerified": true,
+    "displayOrder": [
+      "en",
+      "fr",
+      "ru",
+      "ja",
+      "ko",
+      "zh"
+    ],
+    "latestPresentationRevision": "home-ambient-20261022-r1",
+    "latestPresentationAcceptance": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json"
   },
   "homePresentation": {
     "revision": "home-ambient-20261022-r1",
     "baselineRevision": "site-languages-20261022-r1",
-    "websiteDeployed": false,
+    "websiteDeployed": true,
     "automaticRotation": true,
     "transparentBackground": true,
     "frame": false,
@@ -1017,6 +1027,11 @@
       "zh"
     ],
     "acceptance": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json",
-    "financialActions": 0
+    "financialActions": 0,
+    "publicActualWebGLLayouts": 18,
+    "publicLanguageLayouts": 36,
+    "publicHttpsHashObjects": 60,
+    "remoteDeployedObjects": 63,
+    "backupVerified": true
   }
 }

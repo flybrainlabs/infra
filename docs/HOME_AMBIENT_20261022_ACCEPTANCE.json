@@ -1,9 +1,9 @@
 {
   "schema": "flybrainlabs-home-ambient-acceptance-v1",
-  "observedAtUtc": "2026-10-22T11:27:07.170254+00:00",
+  "observedAtUtc": "2026-10-22T11:32:58.810887+00:00",
   "revision": "home-ambient-20261022-r1",
   "baselineRevision": "site-languages-20261022-r1",
-  "websiteDeployed": false,
+  "websiteDeployed": true,
   "languageOrder": [
     "en",
     "fr",
@@ -96,5 +96,52 @@
   "nodeRestarted": false,
   "sourceBranch": "feat/home-ambient-20261022",
   "buildReportSha256": "2ac8320e0d8c33d1b5da8ddce36f4d045fd9863a9b3eaf71a80d93edf2abffca",
-  "publicVerification": null
+  "publicVerification": {
+    "passed": true,
+    "actualWebGL": true,
+    "homeLayouts": 18,
+    "homeChecks": [
+      "The actual structural point cloud renders and its model-view matrix changes without user input",
+      "The actual WebGL context has an alpha channel for transparent composition",
+      "All six languages fit desktop, 390px and 320px layouts; the scene has no frame, background panel, controls or overlays",
+      "A real wheel event over the passive scene scrolls the document normally",
+      "Reduced-motion preference holds the actual rendered pose; normal preference resumes rotation"
+    ],
+    "languageRoutes": [
+      "/",
+      "/docs/grants/",
+      "/mining/"
+    ],
+    "languageLayouts": 36,
+    "languageChecks": [
+      "A fresh Chinese-language browser receives English by default",
+      "Every selected page renders all six languages at desktop and mobile widths",
+      "Each explicit preference survives refresh and navigation",
+      "An explicit language change synchronizes another open tab",
+      "Native documentation search finds the active article and retains valid anchors",
+      "Dynamic substitutions preserve numbers; protected text, code and form values remain unchanged",
+      "The language selector stays at the top of short-screen menus outside scrolling links"
+    ],
+    "physicalGPU": false,
+    "physicalMobile": false,
+    "externalFetchesIsolated": true,
+    "backendAcceptance": false
+  },
+  "status": "deployed-and-publicly-verified",
+  "backupVerified": true,
+  "remoteDeployedHashesVerified": 63,
+  "publicHttpsHashesVerified": 60,
+  "sourceWeb": {
+    "repository": "web",
+    "branch": "feat/home-ambient-20261022",
+    "commit": "5e70519a2c482db3bf5701570ce06a9a467a7971",
+    "remoteVerified": true,
+    "sourceAndPackageSecretScanPassed": true
+  },
+  "privateEvidenceDigests": {
+    "website-deployment.json": "e199e5858e903def8004d14b57d7e6570902f7041cd5eaa38e6a3c695c720f9b",
+    "public-object-verification.json": "7bd3f3fef9f4bacdb35fa4d40aa7785adbb98e63e5f2343f549341a519eb0014",
+    "browser-home-public.json": "f4e4e61aa15e5ed67eac5eaa28dbaad6f8272df78ac27b452f15ae869bebc4b2",
+    "browser-language-public.json": "b20c0c0c6997bfb691f57bc67ee4a0b933b14f352aae7009108d7dffb58dedf9"
+  }
 }
