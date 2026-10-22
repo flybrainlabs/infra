@@ -1,0 +1,177 @@
+{
+  "schema": "flybrain-validator-participation-acceptance-v1",
+  "recordedAtUtc": "2026-10-22T10:12:13.818673+00:00",
+  "sourceOwner": "flybrainlabs",
+  "scope": "Separate-host scientific replay workers, compatible settlement coordination and scientific public introduction",
+  "activeValidationWorkers": 4,
+  "distinctWorkerIdentities": 4,
+  "completeModelExecutedPerHost": true,
+  "nativeIntegrity": {
+    "schema": "flybrain-validator-fleet-native-acceptance-v1",
+    "at": "2026-10-22T10:05:50.278Z",
+    "elapsedMs": 57921,
+    "passed": true,
+    "completeModel": true,
+    "backgroundsPerWorker": 2,
+    "generateAndVerify": true,
+    "actualChainVotes": 0,
+    "newFinancialAuthorization": false,
+    "workers": [
+      {
+        "id": "validator-01",
+        "publicKey": "c638381f51c3f96cb2ac9e580779c32e926e5197e4925d613f9a91c211befc4a",
+        "fullReplay": true,
+        "completeTrials": 2,
+        "reportHash": "52f8da5b3a74aac06b1e05903741c7403e0ff1ba028a56fbe6410a792feddffc",
+        "signatureVerified": true,
+        "measurements": [
+          {
+            "steps": 256,
+            "resultRoot": "13ba0aba862894b7cad34b8c71dc940cd4f848f2ec540ab3e06064b3c86d9f75",
+            "bytes": 34731160,
+            "replayStatus": "VALID",
+            "fullReplay": true,
+            "replayVerified": true
+          },
+          {
+            "steps": 256,
+            "resultRoot": "dcaac1b1a5204dbd30869befe009f5afc6a8b7f7319fad772cfb063dff0eacaf",
+            "bytes": 34021352,
+            "replayStatus": "VALID",
+            "fullReplay": true,
+            "replayVerified": true
+          }
+        ]
+      },
+      {
+        "id": "validator-02",
+        "publicKey": "27c350eba3cd828120068bfe2280aff1a81fb80ba8a2621425741016fc5a4555",
+        "fullReplay": true,
+        "completeTrials": 2,
+        "reportHash": "6c9fd02566f7791b0c7f4ae432d8618d593b965e904caad54a4aaa3d433d847b",
+        "signatureVerified": true,
+        "measurements": [
+          {
+            "steps": 256,
+            "resultRoot": "13ba0aba862894b7cad34b8c71dc940cd4f848f2ec540ab3e06064b3c86d9f75",
+            "bytes": 34731160,
+            "replayStatus": "VALID",
+            "fullReplay": true,
+            "replayVerified": true
+          },
+          {
+            "steps": 256,
+            "resultRoot": "dcaac1b1a5204dbd30869befe009f5afc6a8b7f7319fad772cfb063dff0eacaf",
+            "bytes": 34021352,
+            "replayStatus": "VALID",
+            "fullReplay": true,
+            "replayVerified": true
+          }
+        ]
+      },
+      {
+        "id": "validator-03",
+        "publicKey": "43e7a96aef0c9e7a09f40fce86035672970603e3545f6acb5dff36dd5ffaed83",
+        "fullReplay": true,
+        "completeTrials": 2,
+        "reportHash": "13b417c897a89f783de3149a49b9f081e80c4047c211e67a75b8c2e81f9e627d",
+        "signatureVerified": true,
+        "measurements": [
+          {
+            "steps": 256,
+            "resultRoot": "13ba0aba862894b7cad34b8c71dc940cd4f848f2ec540ab3e06064b3c86d9f75",
+            "bytes": 34731160,
+            "replayStatus": "VALID",
+            "fullReplay": true,
+            "replayVerified": true
+          },
+          {
+            "steps": 256,
+            "resultRoot": "dcaac1b1a5204dbd30869befe009f5afc6a8b7f7319fad772cfb063dff0eacaf",
+            "bytes": 34021352,
+            "replayStatus": "VALID",
+            "fullReplay": true,
+            "replayVerified": true
+          }
+        ]
+      },
+      {
+        "id": "validator-04",
+        "publicKey": "626f040d447025383ba892272f84b3570d85726d0d4f1f6998c0f41a3f8e15da",
+        "fullReplay": true,
+        "completeTrials": 2,
+        "reportHash": "492dc8fec2c9db395f0ff3e07b7738b4b55d3400f45560700f5f7253774b8361",
+        "signatureVerified": true,
+        "measurements": [
+          {
+            "steps": 256,
+            "resultRoot": "13ba0aba862894b7cad34b8c71dc940cd4f848f2ec540ab3e06064b3c86d9f75",
+            "bytes": 34731160,
+            "replayStatus": "VALID",
+            "fullReplay": true,
+            "replayVerified": true
+          },
+          {
+            "steps": 256,
+            "resultRoot": "dcaac1b1a5204dbd30869befe009f5afc6a8b7f7319fad772cfb063dff0eacaf",
+            "bytes": 34021352,
+            "replayStatus": "VALID",
+            "fullReplay": true,
+            "replayVerified": true
+          }
+        ]
+      }
+    ],
+    "consensusHash": "dc18e606c24d57f06792b1decb6f11a27030c30af0518336dd26fd94bd644472"
+  },
+  "privateTransport": {
+    "authenticatedLoopback": true,
+    "pinnedSshHostKeys": true,
+    "readOnlyRpcCheckedOnEachHost": true,
+    "unauthenticatedAccessRejected": true,
+    "transactionSubmissionRejected": true,
+    "workerAndTunnelRecoveryPassed": true,
+    "bootServicesEnabled": true
+  },
+  "activation": {
+    "activated": true,
+    "businessReady": true,
+    "frozenSettlementPolicyPreserved": true,
+    "existingSignerAllowancesPreserved": true,
+    "newFinancialAuthorization": false,
+    "legacySerialWorkerDisabled": true
+  },
+  "website": {
+    "url": "https://flybrain.work",
+    "revision": "validation-participation-20261022",
+    "fixedValidatorCountPublished": false,
+    "changedFiles": 32,
+    "remoteHashesVerified": true,
+    "liveEnglishAndChineseRendered": true,
+    "mobileLayoutPassed": true,
+    "retainedAtlasTypes": 11751,
+    "retainedMiningWorkflow": true,
+    "publicHttpsHashesVerified": 7
+  },
+  "publicCandidateReplayAfterMigration": "Awaiting an eligible revealed public workload; native integrity checks did not create public candidates or votes",
+  "publication": {
+    "complete": true,
+    "sshIdentityVerified": "flybrainlabs",
+    "apiIdentityVerified": "flybrainlabs",
+    "normalPushes": true,
+    "mainMerged": false,
+    "componentCommits": {
+      "node": "cafddb79ba895a4403db8c23a98e4b2a84a56b87",
+      "web": "1ac2258a1c36a705aa5304ae1cb6c9ccea2fb9cf",
+      "docs": "fe3a733671af8b9f75f5eb9fb0bb5ddd55335059",
+      "explorer": "1d7b2ef15b440756387a35ebf998915d9472b6ce"
+    },
+    "componentSourcePolicyCiPassed": true,
+    "containingInfrastructureRevision": "The commit containing this record"
+  },
+  "workerPackage": {
+    "sha256": "56016820617d0a71d72b81152da54e28513b603e3d8d1b66eb57c01f165ebafc",
+    "reproducedFromAssembledSource": true,
+    "nativeIntegrityAcceptedOnEveryHost": true
+  }
+}

@@ -1,22 +1,22 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "continuous-mining-v4-20261021",
+  "release": "validation-participation-20261022",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "25d53ebef27baa736e28725ed12ccda84a511b5d",
+      "commit": "1ac2258a1c36a705aa5304ae1cb6c9ccea2fb9cf",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
-      "branch": "feat/continuous-mining-20261021"
+      "branch": "feat/validator-participation-20261022"
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "b21d6896ade5be5aecc5b8f2523544e8c21d445f",
+      "commit": "cafddb79ba895a4403db8c23a98e4b2a84a56b87",
       "publicationStatus": "verified",
-      "branch": "feat/continuous-mining-20261021"
+      "branch": "feat/validator-participation-20261022"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
@@ -26,9 +26,9 @@
     },
     "explorer": {
       "url": "https://github.com/flybrainlabs/explorer.git",
-      "commit": "611343208d77900331301ee70ff3777f339df0e3",
+      "commit": "1d7b2ef15b440756387a35ebf998915d9472b6ce",
       "publicationStatus": "verified",
-      "branch": "chore/current-project-docs-20261020"
+      "branch": "feat/validator-participation-20261022"
     },
     "protocol": {
       "url": "https://github.com/flybrainlabs/protocol.git",
@@ -56,9 +56,9 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "ecf989795c457f1671ff3fc8fd27ec1313660a60",
+      "commit": "fe3a733671af8b9f75f5eb9fb0bb5ddd55335059",
       "publicationStatus": "verified",
-      "branch": "feat/continuous-mining-20261021"
+      "branch": "feat/validator-participation-20261022"
     }
   },
   "publication": {
@@ -71,11 +71,11 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-21T14:15:59.808752+00:00",
-    "verificationReport": "docs/CONTINUOUS_MINING_V4_20261021_ACCEPTANCE.json",
-    "scope": "Verified continuous V4 candidate source publication and inactive artifacts; node activation and complete live acceptance remain pending. No public financial transactions, new minting or main merge.",
-    "latestVerificationReport": "docs/CONTINUOUS_MINING_V4_20261021_ACCEPTANCE.json",
-    "sourceOnly": true,
+    "componentVerificationRecordedAtUtc": "2026-10-22T10:25:51.342681+00:00",
+    "verificationReport": "docs/VALIDATOR_PARTICIPATION_V4_20261022_ACCEPTANCE.json",
+    "scope": "Separate-host signed scientific validation workers activated and public scientific introduction deployed. Existing task and financial authorizations preserved.",
+    "latestVerificationReport": "docs/VALIDATOR_PARTICIPATION_V4_20261022_ACCEPTANCE.json",
+    "sourceOnly": false,
     "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00"
   },
   "stateRetention": {
@@ -85,12 +85,18 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "at": "2026-10-21T14:15:59.808752+00:00",
-    "scope": "Candidate source and inactive builds; no live activation",
+    "at": "2026-10-22T10:25:51.342681+00:00",
+    "scope": "Signed distributed replay, compatible coordination, recovery and live scientific content",
     "componentSourceCiPassed": true,
-    "localRegressionSuitesPassed": 13,
-    "fullModelBrowserAcceptedInFixtureScope": true,
-    "liveCompleteAcceptance": false
+    "localRegressionSuitesPassed": 2,
+    "completeModelHostsAccepted": 4,
+    "workerAndTunnelRecoveryPassed": true,
+    "liveContentLanguagesVerified": [
+      "en",
+      "zh"
+    ],
+    "publicHttpsHashesVerified": 7,
+    "fullMiningAcceptanceScope": "Prior continuous-mining financial and long-duration gates retain their recorded status"
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -109,10 +115,10 @@
     "revision": "docs-bilingual-20261014-v1",
     "categories": 8,
     "articles": 26,
-    "words": 16472,
+    "words": 16511,
     "diagramDesigns": 8,
     "diagramInstances": 11,
-    "searchSections": 177,
+    "searchSections": 181,
     "publicHttpObjects": 65,
     "localReadingLayouts": 158,
     "publicReadingLayouts": 158,
@@ -889,12 +895,13 @@
     "mainnet": false,
     "newMinting": false,
     "productionPayments": false,
-    "websiteRevision": "scientific-mining-v5-20261020-r14",
+    "websiteRevision": "validation-participation-20261022",
     "websiteDeployed": true,
     "publicBrowserSmokeAccepted": true,
     "nodePackageStaged": true,
     "originalNodeNativeCapabilitiesAccepted": true,
-    "legacyNativeHandoffAccepted": false
+    "legacyNativeHandoffAccepted": false,
+    "websiteContentBaselineRevision": "scientific-mining-v5-20261020-r14"
   },
   "continuousMiningV4": {
     "sourceImplemented": true,
@@ -931,5 +938,25 @@
     "backendObservationSeconds": 51124.14707360091,
     "backendObservationNotReadySamples": 28,
     "browserStorageCrashBoundariesAcceptedInFixtureScope": 6
+  },
+  "validationParticipationV4": {
+    "nodeActivated": true,
+    "separateHostWorkers": 4,
+    "distinctAttestationIdentities": 4,
+    "minimumConsistentAttestations": 3,
+    "membership": "Voluntary user participation under task-specific admission and evidence policies",
+    "frozenSettlementPolicyPreserved": true,
+    "privateAuthenticatedLoopbackTransport": true,
+    "completeModelIntegrityPassedOnEachHost": true,
+    "workerAndTunnelRecoveryPassed": true,
+    "businessReady": true,
+    "websiteRevision": "validation-participation-20261022",
+    "websiteDeployed": true,
+    "fixedValidatorCountPublished": false,
+    "retainedMiningWorkflow": true,
+    "newFinancialAuthorization": false,
+    "mainMerged": false,
+    "acceptance": "docs/VALIDATOR_PARTICIPATION_V4_20261022_ACCEPTANCE.json",
+    "operations": "docs/VALIDATOR_PARTICIPATION_V4_OPERATIONS.md"
   }
 }
