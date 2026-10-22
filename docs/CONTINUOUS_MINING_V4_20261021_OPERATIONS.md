@@ -167,3 +167,36 @@ in one end-to-end run. Real personal RPC/payment/reward acceptance, actual
 new-candidate competition, physical mobile devices and the full mining long
 soak remain unaccepted. See every T01–T36 row in the evidence JSON. Keep the
 matching website release gated until these results exist.
+
+## Live personal RPC and source access
+
+The October 22 network recheck passed the owner's personal Helius key against
+the deployed Devnet genesis, finalized slot, executable program and factory
+account owner. Real Chromium also verified the key through the published UI
+and revalidated it after refreshing the same tab. These requests reached the
+provider; the earlier proxy CONNECT 405 is a historical failure. No proxy bypass,
+shared RPC fallback, wallet unlock or financial transaction was used.
+
+The assembled workspace includes a repeatable read-only browser check:
+
+```sh
+python3 tests/personal_rpc_live_v4_browser.py \
+  --workspace /path/to/assembled-workspace \
+  --profile /private/path/to/preserved-acceptance-profile \
+  --key-file /private/path/to/helius-api-key \
+  --report /private/path/to/browser-report.json
+```
+
+The private key file must have mode `0600`. The browser honors the configured
+HTTPS proxy and the key stays in its default tab storage. Reports export public
+states and RPC method names only. They exclude browser logs, screenshots,
+credentials and provider URLs. The test also probes browser CORS and bounded
+Range access for all three frozen official sources.
+
+For model preparation evidence, add `--prepare-model` with a preserved test
+profile. This invokes the existing prepare-only handler, verifies the frozen
+model identity and records whether the model was built or restored. It creates
+no wallet and never starts mining. This narrower model preparation check does
+not establish the single-Start mining workflow, a qualified candidate,
+submission, settlement, reward payment or a mining soak. See
+`CONTINUOUS_MINING_V4_NETWORK_20261022.json` for actual results and timestamps.

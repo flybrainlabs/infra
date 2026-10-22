@@ -1,0 +1,54 @@
+{
+  "schema": "flybrainlabs-continuous-mining-network-recheck-v4",
+  "date": "2026-10-22",
+  "scope": "Read-only live personal RPC validation and complete frozen model preparation; no wallet, mining start or financial action",
+  "networkRecovered": true,
+  "earlierProxyConnect405": "Historical; actual later Helius replies verified without bypass",
+  "livePersonalRpc": {
+    "observedAtUtc": "2026-10-22T09:42:47.724185+00:00",
+    "site": "https://flybrain.work",
+    "cluster": "devnet",
+    "uiValidation": true,
+    "sameTabRefreshRevalidation": true,
+    "frozenOfficialSourceCorsAndRange": true,
+    "sharedRpcFallback": false,
+    "credentialPublished": false
+  },
+  "completeModelPreparation": {
+    "observedAtUtc": "2026-10-22T08:51:33.642251+00:00",
+    "passed": true,
+    "prepareOnly": true,
+    "seconds": 989.9202292338014,
+    "sourceBytes": 1109008094,
+    "realNetworkSources": true,
+    "walletCreatedOrUnlocked": false,
+    "miningStarted": false,
+    "warmRecheck": "A later optional warm recheck timed out; not accepted"
+  },
+  "backendObservation": {
+    "observedAtUtc": "2026-10-22T08:44:25.206078+00:00",
+    "samples": 2048,
+    "seconds": 61414.842652526684,
+    "unavailableOrUnreadySamples": 28,
+    "finalSummaryAvailable": false,
+    "backendOnly": true,
+    "completeMiningSoak": false
+  },
+  "completeMiningAcceptance": false,
+  "qualifiedCandidateObserved": false,
+  "t22NewCandidateCalibrationCompetition": false,
+  "t36AtoBBackgroundSettlement": false,
+  "finalizedDedicatedWalletReward": false,
+  "financialActions": 0,
+  "nodeRestarts": 0,
+  "newRewardAuthorization": 0,
+  "mainnet": false,
+  "v5Activated": false,
+  "reproduction": "tests/personal_rpc_live_v4_browser.py; use the existing protected personal RPC file and preserve the browser profile",
+  "privateEvidenceDigests": {
+    "browser-rpc-and-model-live.json": "267fd1bacfca88f65a021fe35c5d2403a24e91986fe175c40da97d084f89dabd",
+    "browser-rpc-final-readonly.json": "55679e9d6cf79c8f77e64b432cae5e84cf90f77870942717e62f2a68f4cbb602",
+    "browser-rpc-model-warm-live.json": "f13caf8e139aa99a12b71f4a029a29f93b9b420efb14982df2780716613a7826",
+    "backend-observation.json": "3d3772aa141d5cfc7f89f771e61d01cc82c087a5748c90627c7b76b261544869"
+  }
+}

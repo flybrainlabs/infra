@@ -1,16 +1,16 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "validation-participation-20261022",
+  "release": "site-languages-20261022-r1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "1ac2258a1c36a705aa5304ae1cb6c9ccea2fb9cf",
+      "commit": "ceb9a740841755a6daa78eeb05d4e21511930348",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
-      "branch": "feat/validator-participation-20261022"
+      "branch": "feat/site-languages-20261022-live"
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
@@ -20,9 +20,9 @@
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "d7ea1b018f171b4b303bf574dd7abb628c36d997",
+      "commit": "d1c01b9364816353df007a61f54f19e214b50664",
       "publicationStatus": "verified",
-      "branch": "feat/continuous-mining-20261021"
+      "branch": "feat/site-languages-20261022-live"
     },
     "explorer": {
       "url": "https://github.com/flybrainlabs/explorer.git",
@@ -71,10 +71,10 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-22T10:25:51.342681+00:00",
+    "componentVerificationRecordedAtUtc": "2026-10-22T10:43:26.624860+00:00",
     "verificationReport": "docs/VALIDATOR_PARTICIPATION_V4_20261022_ACCEPTANCE.json",
-    "scope": "Separate-host signed scientific validation workers activated and public scientific introduction deployed. Existing task and financial authorizations preserved.",
-    "latestVerificationReport": "docs/VALIDATOR_PARTICIPATION_V4_20261022_ACCEPTANCE.json",
+    "scope": "Verified six-language package over the latest published content; website transfer pending; existing scientific and financial activation boundaries retained",
+    "latestVerificationReport": "docs/SITE_LANGUAGES_20261022_ACCEPTANCE.json",
     "sourceOnly": false,
     "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00"
   },
@@ -154,7 +154,11 @@
     "latestAdmissionAcceptance": "docs/MINING_ADMISSION_ACCEPTANCE.json",
     "languages": [
       "en",
-      "zh"
+      "zh",
+      "fr",
+      "ru",
+      "ja",
+      "ko"
     ],
     "defaultLanguage": "en",
     "chineseReadingUnits": 26291,
@@ -163,7 +167,12 @@
     "markdownDownloads": 52,
     "latestBilingualAcceptance": "docs/DOCUMENTATION_BILINGUAL_ACCEPTANCE.json",
     "canonicalLanguageAnchors": true,
-    "refreshLanguagePreference": true
+    "refreshLanguagePreference": true,
+    "sourceDownloadLanguages": [
+      "en",
+      "zh"
+    ],
+    "latestLanguageAcceptance": "docs/SITE_LANGUAGES_20261022_ACCEPTANCE.json"
   },
   "miningSession": {
     "project": "flybrainlabs",
@@ -937,7 +946,11 @@
     "latestDeploymentRecheck": "docs/CONTINUOUS_MINING_V4_20261022_RECHECK.json",
     "backendObservationSeconds": 51124.14707360091,
     "backendObservationNotReadySamples": 28,
-    "browserStorageCrashBoundariesAcceptedInFixtureScope": 6
+    "browserStorageCrashBoundariesAcceptedInFixtureScope": 6,
+    "latestNetworkAcceptance": "docs/CONTINUOUS_MINING_V4_NETWORK_20261022.json",
+    "realBrowserPersonalRpcReadOnlyAccepted": true,
+    "realCompleteModelPreparationReadOnlyAccepted": true,
+    "finalizedDedicatedWalletRewardAccepted": false
   },
   "validationParticipationV4": {
     "nodeActivated": true,
@@ -958,5 +971,26 @@
     "mainMerged": false,
     "acceptance": "docs/VALIDATOR_PARTICIPATION_V4_20261022_ACCEPTANCE.json",
     "operations": "docs/VALIDATOR_PARTICIPATION_V4_OPERATIONS.md"
+  },
+  "websiteLanguages": {
+    "revision": "site-languages-20261022-r1",
+    "baselineContentRevision": "validation-participation-20261022",
+    "default": "en",
+    "supported": [
+      "en",
+      "zh",
+      "fr",
+      "ru",
+      "ja",
+      "ko"
+    ],
+    "dictionaryKeysPerLanguage": 7274,
+    "publicPages": 56,
+    "documentationPages": 27,
+    "savedExplicitPreferences": true,
+    "websiteDeployed": false,
+    "acceptance": "docs/SITE_LANGUAGES_20261022_ACCEPTANCE.json",
+    "miningWorkflowRevision": "scientific-mining-v5-20261020-r14",
+    "financialActions": 0
   }
 }

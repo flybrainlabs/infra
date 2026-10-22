@@ -1,0 +1,121 @@
+{
+  "schema": "flybrainlabs-site-languages-acceptance-v1",
+  "observedAtUtc": "2026-10-22T10:42:11.022459+00:00",
+  "revision": "site-languages-20261022-r1",
+  "baselineRevision": "validation-participation-20261022",
+  "websiteDeployed": false,
+  "defaultLanguage": "en",
+  "languages": [
+    "en",
+    "zh",
+    "fr",
+    "ru",
+    "ja",
+    "ko"
+  ],
+  "dictionaryKeysPerLanguage": 7274,
+  "savedExplicitLanguageRetained": true,
+  "browserLocaleOverridesDefault": false,
+  "localBrowser": {
+    "passed": true,
+    "publicPages": 56,
+    "desktopAndMobileLayouts": 672,
+    "widths": [
+      320,
+      1440
+    ],
+    "checks": [
+      "A fresh Chinese-language browser receives English by default",
+      "Every selected page renders all six languages at desktop and mobile widths",
+      "Each explicit preference survives refresh and navigation",
+      "An explicit language change synchronizes another open tab",
+      "Native documentation search finds the active article and retains valid anchors",
+      "Dynamic substitutions preserve numbers; protected text, code and form values remain unchanged",
+      "The language selector stays at the top of short-screen menus outside scrolling links"
+    ],
+    "shortScreenSizes": [
+      [
+        320,
+        480
+      ],
+      [
+        390,
+        568
+      ],
+      [
+        667,
+        320
+      ]
+    ],
+    "physicalDevice": false,
+    "externalFetchesIsolated": true,
+    "backendAcceptance": false
+  },
+  "documentation": {
+    "passed": true,
+    "pages": 27,
+    "articles": 26,
+    "languages": [
+      "en",
+      "zh",
+      "fr",
+      "ru",
+      "ja",
+      "ko"
+    ],
+    "categories": 8,
+    "words": 16511,
+    "readingUnits": {
+      "en": 16511,
+      "zh": 26372
+    },
+    "diagrams": {
+      "en": 11,
+      "zh": 11,
+      "fr": 11,
+      "ru": 11,
+      "ja": 11,
+      "ko": 11
+    },
+    "internalLinks": 8871,
+    "searchSectionsPerLanguage": 181,
+    "publicMarkdownDownloads": 52,
+    "sourceDownloadLanguages": [
+      "en",
+      "zh"
+    ],
+    "canonicalAnchors": true,
+    "balancedHeadings": true,
+    "protectedCodeUnchanged": true
+  },
+  "staticExportRegressionTests": 8,
+  "placeholderAndOpaqueTokenIntegrity": true,
+  "reviewedCriticalWording": [
+    "navigation",
+    "wallet recovery and backup",
+    "unlimited automatic payment scope",
+    "PDA deposit and network costs",
+    "finite authorization definition"
+  ],
+  "completeAtlasValidation": {
+    "static_only": false,
+    "oauth_bridge_verified": true,
+    "types": 11751,
+    "files": 92751,
+    "bytes": 6531066972
+  },
+  "changedWebsiteObjects": 109,
+  "retainedScientificAndDeploymentIdentities": true,
+  "miningWorkflowRevision": "scientific-mining-v5-20261020-r14",
+  "continuousR15dActivated": false,
+  "v5Activated": false,
+  "financialActions": 0,
+  "walletCreatedOrUnlocked": false,
+  "newRewardAuthorization": 0,
+  "nodeRestartFromLanguageRelease": false,
+  "mainMerged": false,
+  "sourceBranch": "feat/site-languages-20261022-live",
+  "buildReportSha256": "ed662a3a57e04f8073d5e24e939a73ab5099105b97b1589b5a5d97ce917c027b",
+  "credentialExported": false,
+  "publicVerification": null
+}
