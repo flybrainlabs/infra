@@ -1,0 +1,90 @@
+{
+  "schema": "flybrainlabs-continuous-v4-deployment-recheck-20261022",
+  "updatedAt": "2026-10-22T05:57:17.407264+00:00",
+  "completeAcceptance": false,
+  "readOnlyNodeRecheck": true,
+  "runtimeCodeChanged": false,
+  "sourceTestCommit": "d7ea1b018f171b4b303bf574dd7abb628c36d997",
+  "sourceTestRemoteVerified": true,
+  "installedNode": {
+    "checkedAt": "2026-10-22T05:54:50.368048+00:00",
+    "active": true,
+    "restartsSinceActivation": 0,
+    "expectedReleaseDirectory": true,
+    "bundleSha256": "fb91e3372724b7519aad3589184d3788e05c18c47cd7ea8950767f7b62386533",
+    "matchingFiles": 39
+  },
+  "financialPreflight": {
+    "checkedAt": "2026-10-22T05:43:28.435Z",
+    "devnetVerified": true,
+    "rewardAuthorizationAtoms": "640000000000",
+    "allocatedAuthorizationAtoms": "640000000000",
+    "additionalRewardAuthorization": false,
+    "budgetConservationVerified": true,
+    "actualClaimOpen": 0,
+    "scheduledAndActiveFundedTasks": 30,
+    "openTaskPolicy": "Idle inventory is retained until authenticated ready-miner demand.",
+    "solvedUnpaidTasks": 0,
+    "unknownSignedPacketsRetained": 1
+  },
+  "backendObservation": {
+    "at": "2026-10-22T05:53:14.504884+00:00",
+    "samples": 1705,
+    "observedSeconds": 51124.14707360091,
+    "httpFailures": 0,
+    "notReadyCauses": {
+      "POOL_DISCOVERY_RETRY": 28
+    },
+    "maximumConsecutiveNotReadySamples": 4,
+    "lastSampleBusinessReady": true,
+    "backendOnly": true,
+    "fullMiningSoakAccepted": false
+  },
+  "browserStorage": {
+    "passed": true,
+    "crashBoundaries": 6,
+    "realTabsShareCandidateLock": true,
+    "syntheticScientificEvents": true,
+    "submissionIoFixture": true,
+    "completeModelComputation": false,
+    "walletSigning": false,
+    "evidence": "CONTINUOUS_MINING_V4_STORAGE_BROWSER_20261022.json"
+  },
+  "website": {
+    "deployedRevision": "scientific-mining-v5-20261020-r14",
+    "candidateRevision": "continuous-mining-v4-20261021-r15d",
+    "candidateDeployed": false,
+    "checkedAt": "2026-10-22T05:52:11.301811+00:00",
+    "baselinePathsChecked": 33,
+    "baselineMatches": true,
+    "candidateBuildHashesMatch": true,
+    "buildReportSha256": "81558734c87a59ddd4e79ef2d5b26f9f716116c438876f309f555911568c0d7d",
+    "publicHttpsCheck": "The execution environment proxy returned HTTP 405 on CONNECT; public-network browser/download acceptance remains unrun."
+  },
+  "newNodeInstalls": 0,
+  "nodeRestartsPerformed": 0,
+  "websiteTransfersPerformed": 0,
+  "publicFinancialTransactionsPerformed": 0,
+  "rewardTransfersPerformed": 0,
+  "mainMerged": false,
+  "v5Activated": false,
+  "mainnet": false,
+  "newMinting": false,
+  "remaining": [
+    "Approved private personal-RPC configuration location and actual dedicated-wallet final-reward acceptance",
+    "T22 new submitted candidate competing with calibration in the full live workflow",
+    "T36 qualified complete-model save A followed by computing B while A uploads, verifies, finalizes and pays",
+    "Remaining browser faults including scarce-funds tabs, actual sleep/freeze, native crash leftovers and compatible rollback",
+    "Public-network cold-download acceptance from an allowed execution environment",
+    "Observed 24\u201372 hour full-mining run, distinct from backend health samples",
+    "Deploy the matching website after the live acceptance gates pass"
+  ],
+  "privateEvidenceSha256": {
+    "node-financial-preflight.json": "fb50df316f33aabbeb0329997f9cac5900d31dece2ef9da5b61afdd896ffbe7d",
+    "node-installed-source-check.json": "7bce3f4865818811ab22b504cae7125131303e0dc8502e4a0f8ff88ed915abd7",
+    "backend-observation.json": "3f38502477b9a439ee286addcf4927b6d479a87ad71b429938b64d5184d41daf",
+    "backend-observation-aggregate.json": "d407b2363ea90d26db4d4c38eba9a5216f68f95e916d4030b0c056415c5a24ac",
+    "website-baseline-preflight.json": "a6eaae28ee6e6c11f81044cf3acca9ada05ca516b8d9d45f0511493521aa004f",
+    "browser-crash-final-2/report.json": "1f4f2632bfb5a40bad4bfebfacd787f40cdcfac2ca5c68be94786b18d04b86fa"
+  }
+}

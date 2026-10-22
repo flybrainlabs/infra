@@ -20,7 +20,7 @@
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "c1e312763d8451cd176dbae97ed9665cdec6fc18",
+      "commit": "d7ea1b018f171b4b303bf574dd7abb628c36d997",
       "publicationStatus": "verified",
       "branch": "feat/continuous-mining-20261021"
     },
@@ -920,12 +920,16 @@
     ],
     "nodeSourcePackageSha256": "fb91e3372724b7519aad3589184d3788e05c18c47cd7ea8950767f7b62386533",
     "nodeSourcePackageFiles": 39,
-    "nodeSourcePackageActivation": false,
+    "nodeSourcePackageActivation": true,
     "nodeSourcePackageStagedOnOriginalHost": true,
     "nodeSourcePackageRemoteHashVerified": true,
     "nodeActivationEvidence": "docs/CONTINUOUS_MINING_V4_ORIGINAL_NODE_20261021.json",
     "publicOperatorExpiryTransactions": 2,
     "minerTransactions": 0,
-    "backendObserverStartedAt": "2026-10-21T15:40:46.404649+00:00"
+    "backendObserverStartedAt": "2026-10-21T15:40:46.404649+00:00",
+    "latestDeploymentRecheck": "docs/CONTINUOUS_MINING_V4_20261022_RECHECK.json",
+    "backendObservationSeconds": 51124.14707360091,
+    "backendObservationNotReadySamples": 28,
+    "browserStorageCrashBoundariesAcceptedInFixtureScope": 6
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema": "flybrainlabs-continuous-mining-v4-acceptance-20261021",
-  "updatedAt": "2026-10-21T15:43:11.764538+00:00",
+  "updatedAt": "2026-10-22T05:57:17.407264+00:00",
   "branch": "feat/continuous-mining-20261021",
   "completeAcceptance": false,
   "websiteRevision": "continuous-mining-v4-20261021-r15d",
@@ -50,7 +50,12 @@
     "originalNodeCgroupMemoryPeakBytes": 488947712,
     "originalNodeMaximumNativeProcesses": 1,
     "originalNodeActualOpenAfterDemand": 2,
-    "backendObserverStartedAt": "2026-10-21T15:40:46.404649+00:00"
+    "backendObserverStartedAt": "2026-10-21T15:40:46.404649+00:00",
+    "latestBackendObservationSeconds": 51124.14707360091,
+    "backendObservationSamples": 1705,
+    "backendObservationNotReadySamples": 28,
+    "backendObservationHttpFailedSamples": 0,
+    "browserCrashBoundaries": 6
   },
   "matrix": [
     {
@@ -156,9 +161,10 @@
       "evidence": [
         "regression-factory_storage_v4.log",
         "regression-submission_outbox_v4.log",
-        "final-factory_storage_v4.log"
+        "final-factory_storage_v4.log",
+        "CONTINUOUS_MINING_V4_STORAGE_BROWSER_20261022.json"
       ],
-      "scope": "Actual store code recovers side-file/state/index boundaries and reversed completion order under in-memory OPFS fixtures. Real browser termination at every boundary remains unrun."
+      "scope": "Actual Chromium is killed at six response/receipt/state/index/enqueue boundaries. Real OPFS preserves complete receipts and incomplete files; restart recovers candidates before enqueue, and two actual tabs share the candidate Web Lock. Scientific events and submission I/O are fixtures. Live business Submission and payment effects at these crash boundaries remain unrun."
     },
     {
       "id": "T13",
@@ -211,9 +217,10 @@
       "status": "partial",
       "evidence": [
         "regression-submission_outbox_v4.log",
-        "regression-mining_wallet_v4.log"
+        "regression-mining_wallet_v4.log",
+        "CONTINUOUS_MINING_V4_STORAGE_BROWSER_20261022.json"
       ],
-      "scope": "Shared candidate coordination and wallet serialization/reservation are tested; two real browser tabs with scarce balance and urgent Reveal are unrun."
+      "scope": "Wallet serialization/reservation has isolated coverage. Two actual Chromium tabs share the candidate-operation Web Lock during an intentionally held fixture submission. Scarce-balance and urgent-Reveal wallet coordination across real tabs remain unrun."
     },
     {
       "id": "T19",
@@ -395,7 +402,7 @@
     "branch": "feat/continuous-mining-20261021",
     "componentCommits": {
       "sdk": "3b24b2002e91980cd174796e4e670db6cd53c12f",
-      "miner": "c1e312763d8451cd176dbae97ed9665cdec6fc18",
+      "miner": "d7ea1b018f171b4b303bf574dd7abb628c36d997",
       "node": "b21d6896ade5be5aecc5b8f2523544e8c21d445f",
       "web": "25d53ebef27baa736e28725ed12ccda84a511b5d",
       "research": "e3f804efecf6955d482b5b2583bc9f8ac1535e3f",
@@ -408,5 +415,6 @@
   "finalBrowserEvidence": "browser-r15d.json",
   "finalBuildEvidence": "website-build-r15d.json",
   "staticOverlayValidation": true,
-  "originalNodeDeploymentEvidence": "docs/CONTINUOUS_MINING_V4_ORIGINAL_NODE_20261021.json"
+  "originalNodeDeploymentEvidence": "docs/CONTINUOUS_MINING_V4_ORIGINAL_NODE_20261021.json",
+  "latestContinuationEvidence": "docs/CONTINUOUS_MINING_V4_20261022_RECHECK.json"
 }

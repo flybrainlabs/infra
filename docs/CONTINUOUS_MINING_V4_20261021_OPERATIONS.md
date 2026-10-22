@@ -147,6 +147,20 @@ A read-only 24-hour backend observer is running. Its samples establish only
 actual backend observation duration and readiness; browser/native candidate and
 reward timelines remain separate evidence.
 
+The October 22 continuation rechecked the installed 39-file node package and
+33 website baseline paths without reinstalling or transferring the website.
+At 05:53 UTC, 1,705 backend samples covered 51,124 seconds: no sampled HTTP
+failures, 28 discovery-related unready samples and at most four consecutive
+unready samples. The last sample was ready. This is still short of 24 hours and
+does not establish mining continuity. See
+`CONTINUOUS_MINING_V4_20261022_RECHECK.json` for the observation times and limits.
+
+`CONTINUOUS_MINING_V4_STORAGE_BROWSER_20261022.json` records actual Chromium
+termination at six OPFS save/handoff boundaries, recovery from the retained
+profile and shared candidate locking between two real tabs. Its scientific
+events and submission service are fixtures. Scarce-funds wallet concurrency,
+real candidate verification and reward acceptance remain separate gates.
+
 The complete qualified-candidate sequence “save A, compute B while A uploads or
 settles” has not yet been observed with the real full model and native verifier
 in one end-to-end run. Real personal RPC/payment/reward acceptance, actual

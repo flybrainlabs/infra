@@ -1,0 +1,173 @@
+{
+  "schema": "flybrainlabs-v4-browser-storage-crash-acceptance",
+  "passed": true,
+  "scope": "Real Chromium/OPFS/Web Locks/store/outbox; synthetic events and submission I/O",
+  "scientificFixtures": true,
+  "publicFinancialActions": 0,
+  "cases": [
+    {
+      "boundary": "before-response",
+      "browserKilled": true,
+      "savedTrialsRecovered": 0,
+      "recovered": {
+        "archiveSaved": false,
+        "candidateId": "aff61dd7a3148764edbf70b08de3d7e87bbcab3b259f21a9386947bed77fc80c",
+        "count": 1,
+        "outboxRecorded": false,
+        "partial": true,
+        "retainedResponseBytes": 0,
+        "roundId": "366779c36bba80cf75fb2b7e0b75bea31581ed31bcab9d4fb62d567f312de802",
+        "sciencePassed": false,
+        "trials": []
+      },
+      "fixtureSubmitCalls": 0,
+      "duplicateSubmitOnSecondTick": false
+    },
+    {
+      "boundary": "response-before-receipt",
+      "browserKilled": true,
+      "savedTrialsRecovered": 0,
+      "recovered": {
+        "archiveSaved": false,
+        "candidateId": "63df52b8ca5060baecc39f25910d30ee29591b959d09a014c0cc7a8aa8c01428",
+        "count": 1,
+        "outboxRecorded": false,
+        "partial": true,
+        "retainedResponseBytes": 1056,
+        "roundId": "3d6cd4427b38f1ce14208931e89884096c949c5f0d63f44ebeb2e0cda7b74ca6",
+        "sciencePassed": false,
+        "trials": []
+      },
+      "fixtureSubmitCalls": 0,
+      "duplicateSubmitOnSecondTick": false
+    },
+    {
+      "boundary": "receipt-before-state",
+      "browserKilled": true,
+      "savedTrialsRecovered": 1,
+      "recovered": {
+        "archiveSaved": true,
+        "candidateId": "a40c21eefe168ad92d14c4cf8005d172d0926bcb1ecf35d22f5652acb8c60a27",
+        "count": 1,
+        "outboxRecorded": false,
+        "partial": true,
+        "retainedResponseBytes": 1056,
+        "roundId": "2bb4822710b1955d52c8557823c1eab86377b6cf3dc62b02601cb697799fc35e",
+        "sciencePassed": false,
+        "trials": [
+          {
+            "bytes": 1056,
+            "repeatIndex": 0,
+            "resultRoot": "4a8952a0c6696eaf51a40926104002a30217e99898ad9b2234acb57fa7195e34",
+            "trialId": "495c1649ea9d0ec1112336132588c87959b635c09fa737999bed74d039af07ce"
+          }
+        ]
+      },
+      "fixtureSubmitCalls": 0,
+      "duplicateSubmitOnSecondTick": false
+    },
+    {
+      "boundary": "state-before-index",
+      "browserKilled": true,
+      "savedTrialsRecovered": 2,
+      "recovered": {
+        "archiveSaved": true,
+        "candidateId": "dcc1f01a5dfe35ebe9c0b17e3b904610310eea72e3d6fb23bbdc3266fc0fd802",
+        "count": 1,
+        "outboxRecorded": false,
+        "partial": false,
+        "retainedResponseBytes": 2112,
+        "roundId": "0a95f827ebb54d09d1ff5c2ba5f0a5dcaecc50538d2812ee3a6c61c599a8500c",
+        "sciencePassed": true,
+        "trials": [
+          {
+            "bytes": 1056,
+            "repeatIndex": 0,
+            "resultRoot": "4a8952a0c6696eaf51a40926104002a30217e99898ad9b2234acb57fa7195e34",
+            "trialId": "585bb20cbc755d895a22c4d889cfe4c5fc9e8b9e4f4495396581d54fdc563c2a"
+          },
+          {
+            "bytes": 1056,
+            "repeatIndex": 1,
+            "resultRoot": "4a8952a0c6696eaf51a40926104002a30217e99898ad9b2234acb57fa7195e34",
+            "trialId": "4c233d7074e6d4576ee8172a9e03f70533ea429c7a744124775e03494b435cab"
+          }
+        ]
+      },
+      "fixtureSubmitCalls": 1,
+      "duplicateSubmitOnSecondTick": false
+    },
+    {
+      "boundary": "saved-before-enqueue",
+      "browserKilled": true,
+      "savedTrialsRecovered": 2,
+      "recovered": {
+        "archiveSaved": true,
+        "candidateId": "96e8d170c57159068d4569fd08812681f7be0c6591d7743d55188cc7c52f9f2f",
+        "count": 1,
+        "outboxRecorded": false,
+        "partial": false,
+        "retainedResponseBytes": 2112,
+        "roundId": "aae2913eba3c273c137ef74c33d8f2845835e4c338de55cb6d660124983f1ad1",
+        "sciencePassed": true,
+        "trials": [
+          {
+            "bytes": 1056,
+            "repeatIndex": 0,
+            "resultRoot": "4a8952a0c6696eaf51a40926104002a30217e99898ad9b2234acb57fa7195e34",
+            "trialId": "041557edf668c8c0c93127396b42c4979804d8a30231120e1b82a7aab428e66a"
+          },
+          {
+            "bytes": 1056,
+            "repeatIndex": 1,
+            "resultRoot": "4a8952a0c6696eaf51a40926104002a30217e99898ad9b2234acb57fa7195e34",
+            "trialId": "47ab991910d286d0895cd92f409da62645cf81bb3cddcc1c9e3eed54d6b49050"
+          }
+        ]
+      },
+      "fixtureSubmitCalls": 1,
+      "duplicateSubmitOnSecondTick": false
+    },
+    {
+      "boundary": "enqueued-before-drive",
+      "browserKilled": true,
+      "savedTrialsRecovered": 2,
+      "recovered": {
+        "archiveSaved": true,
+        "candidateId": "c4b1ebc720f01785ba9f2976144c93890ad19fae178d4d8092601cf3371fb381",
+        "count": 1,
+        "outboxRecorded": true,
+        "partial": false,
+        "retainedResponseBytes": 2112,
+        "roundId": "ae40eb1ac273de3f483bb82de624aafb21ab96d0de6aa5b67c4d598d8cd7da7e",
+        "sciencePassed": true,
+        "trials": [
+          {
+            "bytes": 1056,
+            "repeatIndex": 0,
+            "resultRoot": "4a8952a0c6696eaf51a40926104002a30217e99898ad9b2234acb57fa7195e34",
+            "trialId": "2102351fc8845883ae0be79f2b5fdd582997d8420fb6f0d76bc5f463bea4e256"
+          },
+          {
+            "bytes": 1056,
+            "repeatIndex": 1,
+            "resultRoot": "4a8952a0c6696eaf51a40926104002a30217e99898ad9b2234acb57fa7195e34",
+            "trialId": "18e4e035b603b76dce728c94884c2253af5cc63a31ca10e5874d3d0e95ac8b18"
+          }
+        ]
+      },
+      "fixtureSubmitCalls": 1,
+      "duplicateSubmitOnSecondTick": false
+    }
+  ],
+  "realTabsShareCandidateLock": true,
+  "observedAtUtc": "2026-10-22T05:57:17.407264+00:00",
+  "sourceTestCommit": "d7ea1b018f171b4b303bf574dd7abb628c36d997",
+  "sourceSha256": {
+    "tests/factory_storage_browser_v4.py": "77d175ea0b325edad419a9fcbff15f4814edef14ae687562bc508ee4e560e990",
+    "tests/factory_storage_browser_v4.mjs": "07350a031717da0257f4811c833a3f5c53e7db474598e2379c11aacbd4b3d8df",
+    "web/candidate-store-v2.mjs": "c1e0688413d5e3bf732c160cea9bc22c6feec130c01e3a52a35726d222cb18ee",
+    "web/candidate-index.mjs": "979e2913d32616780a81337ca7472c75b8a3e61a131ca5c03589219fb977c7e9",
+    "web/submission-outbox-v4.mjs": "edad1876cece1c58a69503656bd44d81b0bcab03940ecf206bd238c83e25bf76"
+  }
+}
