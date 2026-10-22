@@ -1,9 +1,9 @@
 {
   "schema": "flybrainlabs-site-languages-acceptance-v1",
-  "observedAtUtc": "2026-10-22T10:42:11.022459+00:00",
+  "observedAtUtc": "2026-10-22T10:47:00.424220+00:00",
   "revision": "site-languages-20261022-r1",
   "baselineRevision": "validation-participation-20261022",
-  "websiteDeployed": false,
+  "websiteDeployed": true,
   "defaultLanguage": "en",
   "languages": [
     "en",
@@ -117,5 +117,48 @@
   "sourceBranch": "feat/site-languages-20261022-live",
   "buildReportSha256": "ed662a3a57e04f8073d5e24e939a73ab5099105b97b1589b5a5d97ce917c027b",
   "credentialExported": false,
-  "publicVerification": null
+  "publicVerification": {
+    "httpsObjectHashes": 83,
+    "browserPages": 6,
+    "browserLayouts": 72,
+    "checks": [
+      "A fresh Chinese-language browser receives English by default",
+      "Every selected page renders all six languages at desktop and mobile widths",
+      "Each explicit preference survives refresh and navigation",
+      "An explicit language change synchronizes another open tab",
+      "Native documentation search finds the active article and retains valid anchors",
+      "Dynamic substitutions preserve numbers; protected text, code and form values remain unchanged",
+      "The language selector stays at the top of short-screen menus outside scrolling links"
+    ],
+    "defaultEnglishInChineseLanguageBrowser": true,
+    "physicalDevice": false,
+    "externalFetchesIsolated": true,
+    "backendAcceptance": false,
+    "passed": true
+  },
+  "status": "deployed-and-publicly-verified",
+  "backupVerified": true,
+  "remoteBaselineAndReleaseHashesVerified": true,
+  "remoteDeployedObjects": 109,
+  "sourceComponents": [
+    {
+      "repository": "web",
+      "commit": "ceb9a740841755a6daa78eeb05d4e21511930348",
+      "branch": "feat/site-languages-20261022-live",
+      "remoteVerified": true,
+      "stagedFiles": 57
+    },
+    {
+      "repository": "miner",
+      "commit": "d1c01b9364816353df007a61f54f19e214b50664",
+      "branch": "feat/site-languages-20261022-live",
+      "remoteVerified": true,
+      "stagedFiles": 3
+    }
+  ],
+  "privatePublicationEvidenceDigests": {
+    "website-deployment.json": "35348091ca23abe7ae3da2357060185e0e4468155cc5d40124a1c4fa73f990cf",
+    "public-object-verification.json": "74d5522a68b0ff9a92d9b48e0bf45a8675b6e178ad2c3b356b6c34f3a15813db",
+    "browser-public-final.json": "a8958c576b024266fbbc953de9f71ecf31e870856780c271f9623c3faf065f3e"
+  }
 }

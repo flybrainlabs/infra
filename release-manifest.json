@@ -71,9 +71,9 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-22T10:43:26.624860+00:00",
-    "verificationReport": "docs/VALIDATOR_PARTICIPATION_V4_20261022_ACCEPTANCE.json",
-    "scope": "Verified six-language package over the latest published content; website transfer pending; existing scientific and financial activation boundaries retained",
+    "componentVerificationRecordedAtUtc": "2026-10-22T10:47:00.425653+00:00",
+    "verificationReport": "docs/SITE_LANGUAGES_20261022_ACCEPTANCE.json",
+    "scope": "Six-language website deployed over the latest validation participation content; public HTTPS hashes and browser language acceptance passed; existing financial activation gates retained",
     "latestVerificationReport": "docs/SITE_LANGUAGES_20261022_ACCEPTANCE.json",
     "sourceOnly": false,
     "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00"
@@ -988,9 +988,14 @@
     "publicPages": 56,
     "documentationPages": 27,
     "savedExplicitPreferences": true,
-    "websiteDeployed": false,
+    "websiteDeployed": true,
     "acceptance": "docs/SITE_LANGUAGES_20261022_ACCEPTANCE.json",
     "miningWorkflowRevision": "scientific-mining-v5-20261020-r14",
-    "financialActions": 0
+    "financialActions": 0,
+    "publicHttpsHashObjects": 83,
+    "publicBrowserLayouts": 72,
+    "localBrowserLayouts": 672,
+    "remoteDeployedObjects": 109,
+    "backupVerified": true
   }
 }
