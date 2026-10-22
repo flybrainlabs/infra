@@ -1,16 +1,16 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "site-languages-20261022-r1",
+  "release": "home-ambient-20261022-r1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "ceb9a740841755a6daa78eeb05d4e21511930348",
+      "commit": "5e70519a2c482db3bf5701570ce06a9a467a7971",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
-      "branch": "feat/site-languages-20261022-live"
+      "branch": "feat/home-ambient-20261022"
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
@@ -71,10 +71,10 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-22T10:47:00.425653+00:00",
+    "componentVerificationRecordedAtUtc": "2026-10-22T11:27:57.589587+00:00",
     "verificationReport": "docs/SITE_LANGUAGES_20261022_ACCEPTANCE.json",
-    "scope": "Six-language website deployed over the latest validation participation content; public HTTPS hashes and browser language acceptance passed; existing financial activation gates retained",
-    "latestVerificationReport": "docs/SITE_LANGUAGES_20261022_ACCEPTANCE.json",
+    "scope": "Verified passive home anatomy and Chinese-last language ordering; website transfer pending; existing mining activation boundaries retained",
+    "latestVerificationReport": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json",
     "sourceOnly": false,
     "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00"
   },
@@ -997,5 +997,26 @@
     "localBrowserLayouts": 672,
     "remoteDeployedObjects": 109,
     "backupVerified": true
+  },
+  "homePresentation": {
+    "revision": "home-ambient-20261022-r1",
+    "baselineRevision": "site-languages-20261022-r1",
+    "websiteDeployed": false,
+    "automaticRotation": true,
+    "transparentBackground": true,
+    "frame": false,
+    "controlButtons": false,
+    "reducedMotionRespected": true,
+    "passiveScrolling": true,
+    "languageOrder": [
+      "en",
+      "fr",
+      "ru",
+      "ja",
+      "ko",
+      "zh"
+    ],
+    "acceptance": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json",
+    "financialActions": 0
   }
 }

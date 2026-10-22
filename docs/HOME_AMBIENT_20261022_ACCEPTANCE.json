@@ -1,0 +1,100 @@
+{
+  "schema": "flybrainlabs-home-ambient-acceptance-v1",
+  "observedAtUtc": "2026-10-22T11:27:07.170254+00:00",
+  "revision": "home-ambient-20261022-r1",
+  "baselineRevision": "site-languages-20261022-r1",
+  "websiteDeployed": false,
+  "languageOrder": [
+    "en",
+    "fr",
+    "ru",
+    "ja",
+    "ko",
+    "zh"
+  ],
+  "defaultLanguage": "en",
+  "explicitSavedPreferenceRetained": true,
+  "staticLanguageOrderPages": 56,
+  "allSixDictionariesUnchanged": true,
+  "home": {
+    "automaticRotation": true,
+    "transparentCanvas": true,
+    "cardBorder": false,
+    "panelBackground": false,
+    "controlButtons": false,
+    "overlaidReadouts": false,
+    "passivePointerAndWheel": true,
+    "reducedMotionRespected": true,
+    "viewportFittedForRotation": true,
+    "structuralSampleUnchanged": true
+  },
+  "localWebGL": {
+    "passed": true,
+    "layouts": 18,
+    "widths": [
+      1440,
+      390,
+      320
+    ],
+    "checks": [
+      "The actual structural point cloud renders and its model-view matrix changes without user input",
+      "The actual WebGL context has an alpha channel for transparent composition",
+      "All six languages fit desktop, 390px and 320px layouts; the scene has no frame, background panel, controls or overlays",
+      "A real wheel event over the passive scene scrolls the document normally",
+      "Reduced-motion preference holds the actual rendered pose; normal preference resumes rotation"
+    ],
+    "renderer": "Real WebGL through Chromium SwiftShader",
+    "samplePoints": 24000,
+    "physicalGPU": false,
+    "reviewedScreenshotWidths": [
+      1440,
+      390
+    ]
+  },
+  "localLanguageRegression": {
+    "passed": true,
+    "routes": [
+      "/",
+      "/docs/grants/",
+      "/mining/"
+    ],
+    "layouts": 36,
+    "checks": [
+      "A fresh Chinese-language browser receives English by default",
+      "Every selected page renders all six languages at desktop and mobile widths",
+      "Each explicit preference survives refresh and navigation",
+      "An explicit language change synchronizes another open tab",
+      "Native documentation search finds the active article and retains valid anchors",
+      "Dynamic substitutions preserve numbers; protected text, code and form values remain unchanged",
+      "The language selector stays at the top of short-screen menus outside scrolling links"
+    ]
+  },
+  "completeStaticValidation": {
+    "static_only": false,
+    "oauth_bridge_verified": true,
+    "types": 11751,
+    "files": 92751,
+    "bytes": 6531067953
+  },
+  "changedWebsiteObjects": 63,
+  "retainedDataAndConfigurationHashes": {
+    "assets/data/atlas.json": "36fce23b7356960ac6d1d6fa488606e3c4372491b02b55b2bd20de63fde0b568",
+    "assets/data/brain.json": "331441b0c00bdbd4404aed68b07178598659ef7fc9fcfa9442b4590907b5377d",
+    "assets/wasm/flypow_sim_core.wasm": "13a98296d097bb641205968707ba6e8e175e2352df8653e2ecf595008c7954ea",
+    "assets/data/mining-deployment-v1.json": "dde74917c38b6dad78b8dc1b18215bf374a82462fe62d751c7db3ac057ed9c38",
+    "assets/data/task-factory-deployment-v4.json": "e6a5e631d04df4eb9c92498859a0231c66a1ef72b87194491b17ec2be12434d3",
+    "assets/data/scientific-deployment-v5.json": "ca58d05bbbfd3bec544384b10fe9512f8f7a2253fcf48b3ed6552a9d8bb144f0",
+    "assets/data/official-inputs.json": "8299b21c9133a8a1ae80a88edd65ac0c233b3d0492493221ba3cf9dd81a6c783"
+  },
+  "changedFilesIndependent": true,
+  "unchangedFilesHardlinked": true,
+  "backendAcceptance": false,
+  "financialActions": 0,
+  "mainMerged": false,
+  "r15dActivated": false,
+  "v5Activated": false,
+  "nodeRestarted": false,
+  "sourceBranch": "feat/home-ambient-20261022",
+  "buildReportSha256": "2ac8320e0d8c33d1b5da8ddce36f4d045fd9863a9b3eaf71a80d93edf2abffca",
+  "publicVerification": null
+}
