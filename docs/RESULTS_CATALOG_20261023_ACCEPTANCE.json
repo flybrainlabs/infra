@@ -1,0 +1,215 @@
+{
+  "schema": "fbw-results-catalog-acceptance-v1",
+  "verifiedAtUtc": "2026-10-23T10:09:08.384974+00:00",
+  "scope": "Source release and isolated local review; production not changed",
+  "branch": "feat/results-catalog-20261023",
+  "catalog": {
+    "schema": "fbw-research-projects-v1",
+    "version": "2026-10-23.1",
+    "projects": 9,
+    "uniqueLocalThumbnails": 9,
+    "projectSpecificDiagrams": 18,
+    "metricDefinitions": 40,
+    "initialState": "preparing + open",
+    "measuredValues": null
+  },
+  "sourceComponents": [
+    {
+      "repository": "web",
+      "branch": "feat/results-catalog-20261023",
+      "commit": "f850c8de81da2fee1b61be2919f3a9a9d0cf590d",
+      "author": "flybrainlabs",
+      "committer": "flybrainlabs",
+      "changedFiles": 56,
+      "remoteVerified": true,
+      "url": "https://github.com/flybrainlabs/web/commit/f850c8de81da2fee1b61be2919f3a9a9d0cf590d"
+    },
+    {
+      "repository": "node",
+      "branch": "feat/results-catalog-20261023",
+      "commit": "2375da1a40b8f56da15c37f857de6f35feddaadb",
+      "author": "flybrainlabs",
+      "committer": "flybrainlabs",
+      "changedFiles": 12,
+      "remoteVerified": true,
+      "url": "https://github.com/flybrainlabs/node/commit/2375da1a40b8f56da15c37f857de6f35feddaadb"
+    },
+    {
+      "repository": "sdk",
+      "branch": "feat/results-catalog-20261023",
+      "commit": "012697fcec2a88b006d5dd69435162c4fd530897",
+      "author": "flybrainlabs",
+      "committer": "flybrainlabs",
+      "changedFiles": 3,
+      "remoteVerified": true,
+      "url": "https://github.com/flybrainlabs/sdk/commit/012697fcec2a88b006d5dd69435162c4fd530897"
+    },
+    {
+      "repository": "docs",
+      "branch": "feat/results-catalog-20261023",
+      "commit": "b61f94a515eaf81679ea822ac45a95447404651e",
+      "author": "flybrainlabs",
+      "committer": "flybrainlabs",
+      "changedFiles": 2,
+      "remoteVerified": true,
+      "url": "https://github.com/flybrainlabs/docs/commit/b61f94a515eaf81679ea822ac45a95447404651e"
+    }
+  ],
+  "componentSourcePolicyCi": [
+    {
+      "repository": "web",
+      "commit": "f850c8de81da2fee1b61be2919f3a9a9d0cf590d",
+      "author": "flybrainlabs",
+      "committer": "flybrainlabs",
+      "checks": [
+        {
+          "name": "source-policy",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/flybrainlabs/web/actions/runs/39936450447/job/120357064578"
+        }
+      ]
+    },
+    {
+      "repository": "node",
+      "commit": "2375da1a40b8f56da15c37f857de6f35feddaadb",
+      "author": "flybrainlabs",
+      "committer": "flybrainlabs",
+      "checks": [
+        {
+          "name": "source-policy",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/flybrainlabs/node/actions/runs/39936483365/job/120357175357"
+        }
+      ]
+    },
+    {
+      "repository": "sdk",
+      "commit": "012697fcec2a88b006d5dd69435162c4fd530897",
+      "author": "flybrainlabs",
+      "committer": "flybrainlabs",
+      "checks": [
+        {
+          "name": "source-policy",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/flybrainlabs/sdk/actions/runs/39936517229/job/120357286644"
+        }
+      ]
+    },
+    {
+      "repository": "docs",
+      "commit": "b61f94a515eaf81679ea822ac45a95447404651e",
+      "author": "flybrainlabs",
+      "committer": "flybrainlabs",
+      "checks": [
+        {
+          "name": "source-policy",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/flybrainlabs/docs/actions/runs/39936551890/job/120357398156"
+        }
+      ]
+    }
+  ],
+  "localVerification": {
+    "browserChecks": 232,
+    "pageLanguageWidthCases": 44,
+    "privateSyntheticScreenshots": 36,
+    "nodeTests": 6,
+    "socialRegressionChecks": 141,
+    "staticExportTests": 8,
+    "nativeProjectRouteTests": 2,
+    "historicalProductTests": 10,
+    "explicitRetainedPublicPackageDownloadTest": true,
+    "historicalHttpListAndDetail": true,
+    "signedExpiryHashAndRange": true,
+    "communityTypecheck": true,
+    "communitySyntaxCheck": true,
+    "workspaceSafetyTests": 5,
+    "realEd25519Authentication": true,
+    "temporarySQLiteWAL": true,
+    "applicationRestartPersistence": true,
+    "stagedBackendModuleImports": true,
+    "localLauncherUsesNoDefaultAdministrator": true,
+    "oldMigrationBytesRetained": true,
+    "sourceSecretScan": true,
+    "originalWorktreesPreserved": true,
+    "unexpectedConsoleErrors": 0,
+    "expectedInjectedNetworkErrors": 8,
+    "additionalWorkflowChecks": 20
+  },
+  "staticReview": {
+    "revision": "results-catalog-20261023-r1",
+    "retainedBaselineRevision": "home-ambient-20261022-r1",
+    "changedObjects": 77,
+    "atlasTypes": 11751,
+    "files": 92787,
+    "bytes": 6531802536,
+    "atlasRetained": true,
+    "oauthBridgeRetained": true
+  },
+  "handbook": {
+    "articles": 26,
+    "languages": [
+      "en",
+      "zh",
+      "fr",
+      "ru",
+      "ja",
+      "ko"
+    ],
+    "searchSectionsPerLanguage": 183,
+    "publicMarkdownDownloads": 52,
+    "canonicalAnchors": true
+  },
+  "backendDelta": {
+    "fileCount": 5,
+    "archiveSha256": "43fc7eefdcc8dca6c7738d7dc34a06c8c3d2602eada818cbc014b46a6da38569",
+    "files": {
+      "tools/social_community.mjs": {
+        "sha256": "1807070dab9a87d7949f0446dfbdf9d9f49d70e5790a3ac239a603611bf23c2f",
+        "bytes": 50496
+      },
+      "tools/social_server.mjs": {
+        "sha256": "0af58741d2db1c12121c91458a3d00de484f29bcb10ba7a9a33dc2e12f71bfae",
+        "bytes": 11695
+      },
+      "tools/project_recruitment.mjs": {
+        "sha256": "cb1ccd255fe6f93b49b12727b5f4167794ecccc6af91c3a3725aad80672655d8",
+        "bytes": 19288
+      },
+      "config/social-community-v4.sql": {
+        "sha256": "af262990a1a2c85636f3beed714dcaafa08f5b0227a7f7a292624296a98a2897",
+        "bytes": 1946
+      },
+      "config/research-projects-v1.json": {
+        "sha256": "3dec7e9ac99c63f6594b0a2b9b4d6bcd0f1dd8c45bf7daab55c909f2ed75001a",
+        "bytes": 91299
+      }
+    },
+    "retainedMigrationSha256": {
+      "1": "829fb58a2281be20607175790734269f18343c895adef3f57010000ccf4a7c6a",
+      "2": "ec586cdc2b1eda6ef40e23b307dc1096998ca37afaf71b102626d8c0303144f8",
+      "3": "aa6620c7c7a0387e81b08529228eec0bebc6d50928409828264b9dac7096c59e"
+    }
+  },
+  "boundaries": {
+    "websiteDeployed": false,
+    "productionMigrationExecuted": false,
+    "productionServiceRestarted": false,
+    "productionFixtureApplicants": 0,
+    "modelDownloads": 0,
+    "trainingStarted": false,
+    "miningStarted": false,
+    "chainTransactions": 0,
+    "notificationsSent": 0,
+    "actualExtensionWalletConfirmation": false,
+    "physicalDeviceAcceptance": false,
+    "mainMerged": false
+  },
+  "operations": "docs/RESULTS_CATALOG_OPERATIONS.md",
+  "implementationReport": "docs/RESULTS_CATALOG_IMPLEMENTATION.md",
+  "infrastructureVerification": "The containing infrastructure commit and its source-policy CI are verified separately after publication."
+}

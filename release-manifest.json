@@ -1,22 +1,22 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "home-ambient-20261022-r1",
+  "release": "results-catalog-20261023-r1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "5e70519a2c482db3bf5701570ce06a9a467a7971",
+      "commit": "f850c8de81da2fee1b61be2919f3a9a9d0cf590d",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
-      "branch": "feat/home-ambient-20261022"
+      "branch": "feat/results-catalog-20261023"
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "2f007b197b656d49cd332df0032aa042b0adbbf5",
+      "commit": "2375da1a40b8f56da15c37f857de6f35feddaadb",
       "publicationStatus": "verified",
-      "branch": "feat/validator-stake-20261023"
+      "branch": "feat/results-catalog-20261023"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
@@ -44,9 +44,9 @@
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "5a756347fe0f0184e943e7bfd7fcc75a8f9edab2",
+      "commit": "012697fcec2a88b006d5dd69435162c4fd530897",
       "publicationStatus": "verified",
-      "branch": "feat/validator-stake-20261023"
+      "branch": "feat/results-catalog-20261023"
     },
     "research": {
       "url": "https://github.com/flybrainlabs/research.git",
@@ -56,9 +56,9 @@
     },
     "docs": {
       "url": "https://github.com/flybrainlabs/docs.git",
-      "commit": "fe3a733671af8b9f75f5eb9fb0bb5ddd55335059",
+      "commit": "b61f94a515eaf81679ea822ac45a95447404651e",
       "publicationStatus": "verified",
-      "branch": "feat/validator-participation-20261022"
+      "branch": "feat/results-catalog-20261023"
     }
   },
   "publication": {
@@ -71,11 +71,11 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-23T04:31:35.263321+00:00",
-    "verificationReport": "docs/CONTINUOUS_QUORUM_V4_20261023_ACCEPTANCE.json",
-    "scope": "Deadline-aware signed quorum activated; encrypted cold recovery and isolated SQL restore verified; existing website and mining financial activation gates retained",
-    "latestVerificationReport": "docs/CONTINUOUS_QUORUM_V4_20261023_ACCEPTANCE.json",
-    "sourceOnly": false,
+    "componentVerificationRecordedAtUtc": "2026-10-23T10:09:41.683165+00:00",
+    "verificationReport": "docs/RESULTS_CATALOG_20261023_ACCEPTANCE.json",
+    "scope": "Nine-project bilingual catalog, persistent recruitment and protected administration; isolated local acceptance and source publication only",
+    "latestVerificationReport": "docs/RESULTS_CATALOG_20261023_ACCEPTANCE.json",
+    "sourceOnly": true,
     "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00",
     "previousComponentVerificationRecordedAtUtc": "2026-10-22T11:32:58.812319+00:00",
     "previousVerificationReport": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json"
@@ -87,15 +87,17 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "at": "2026-10-23T05:56:45.940174+00:00",
-    "scope": "Owner-approved finite Devnet validator collateral, fixed-term escrow, worker/coordinator admission, complete-model integrity and retained-state verification",
-    "implementationSourceCiPassed": true,
-    "localBondSbfChecks": 16,
-    "bondSbfRejectedTransactions": 19,
-    "allFourBondsFinalized": true,
-    "currentBondedWorkersReady": 4,
-    "fullContinuousMiningAcceptance": false,
-    "containingInfrastructureCommitVerification": "Verified separately after publication; source-policy results are bound to their exact reported commit."
+    "at": "2026-10-23T10:09:41.683165+00:00",
+    "scope": "Source release and isolated local results catalog/recruitment acceptance",
+    "sourceOnly": true,
+    "componentSourceCiPassed": true,
+    "browserChecks": 232,
+    "pageLanguageWidthCases": 44,
+    "staticExportTests": 8,
+    "historicalPackageHttpDownloadTest": true,
+    "productionWebsiteChanged": false,
+    "productionDatabaseChanged": false,
+    "containingInfrastructureCommitVerification": "Verified separately after publication; exact containing SHA and CI recorded in private publication evidence."
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -1102,5 +1104,47 @@
     "acceptance": "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json",
     "operations": "docs/VALIDATOR_BOND_V1_OPERATIONS.md",
     "verifiedAtUtc": "2026-10-23T05:56:45.940174+00:00"
+  },
+  "previousRelease": "home-ambient-20261022-r1",
+  "previousLatestVerification": {
+    "at": "2026-10-23T05:56:45.940174+00:00",
+    "scope": "Owner-approved finite Devnet validator collateral, fixed-term escrow, worker/coordinator admission, complete-model integrity and retained-state verification",
+    "implementationSourceCiPassed": true,
+    "localBondSbfChecks": 16,
+    "bondSbfRejectedTransactions": 19,
+    "allFourBondsFinalized": true,
+    "currentBondedWorkersReady": 4,
+    "fullContinuousMiningAcceptance": false,
+    "containingInfrastructureCommitVerification": "Verified separately after publication; source-policy results are bound to their exact reported commit."
+  },
+  "resultsCatalog": {
+    "version": "2026-10-23.1",
+    "branch": "feat/results-catalog-20261023",
+    "sourceImplemented": true,
+    "websiteDeployed": false,
+    "productionMigrationExecuted": false,
+    "productionServicesRestarted": false,
+    "initialStage": "preparing",
+    "initialRecruitment": "open",
+    "projects": 9,
+    "uniqueSvgThumbnails": 9,
+    "projectSpecificDiagrams": 18,
+    "metricDefinitions": 40,
+    "observedMetricValues": null,
+    "catalogOwner": "node/config/research-projects-v1.json",
+    "newMigrationVersion": 4,
+    "actualEd25519SessionAcceptance": true,
+    "browserFixtureWallets": true,
+    "actualExtensionWalletConfirmation": false,
+    "localApplicationPersistence": true,
+    "notificationsSent": 0,
+    "chainTransactions": 0,
+    "trainingOrMiningStarted": false,
+    "modelDownloads": 0,
+    "mainMerged": false,
+    "acceptance": "docs/RESULTS_CATALOG_20261023_ACCEPTANCE.json",
+    "operations": "docs/RESULTS_CATALOG_OPERATIONS.md",
+    "implementation": "docs/RESULTS_CATALOG_IMPLEMENTATION.md",
+    "previouslyRecordedCommunityMigrationVersion": 3
   }
 }
