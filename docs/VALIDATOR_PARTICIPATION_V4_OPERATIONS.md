@@ -97,6 +97,7 @@ health must reject unauthenticated requests.
 
 ```sh
 node tests/factory_validator_fleet_v4.mjs
+node tests/factory_validator_quorum_v4.mjs
 node tests/factory_pool_capacity_v4.mjs
 ```
 
@@ -111,3 +112,32 @@ The public introduction describes voluntary user participation, the declared tas
 policy, complete-model replay and signed evidence. Keep deployment inventories,
 host addresses, access keys, authentication tokens and private archives outside
 public builds. Public product copy does not prescribe the participant count.
+
+## Deadline and slow-member handling
+
+The coordinator derives the replay collection budget from finalized chain time
+and the task verification deadline, retaining the configured confirmation margin
+for the existing settlement path. The fleet applies the shorter of this budget
+and its worker request timeout. The optional private `requestTimeoutMs` setting
+is a positive integer at most 600000; omission retains the existing upper bound.
+No funding, task descriptor, participant identity or signature domain changes.
+
+A collection may complete when the agreed signed group meets its configured
+minimum and no unfinished group can overtake it. For the current three-of-four
+policy this allows three matching reports to proceed while one member is slow.
+For a minority threshold the collector waits when a larger result remains
+possible. An unattainable quorum produces a retryable infrastructure outcome;
+missing or mismatching evidence is not a fabricated scientific rejection.
+
+Completion or expiry cancels outstanding HTTP waits. A remote native process may
+still finish and persist its signed report. A busy member can reject another
+request; it never supplies a duplicate vote. Late responses cannot modify the
+returned report. Existing accepted evidence remains shared across the frozen
+settlement signers, whose chain eligibility and deadline are rechecked before
+financial submission. Node counts do not imply multiplied candidate throughput.
+
+The quorum test uses loopback HTTP and fixture science. The
+capacity tests retain finite budget and shared native-lane checks. PostgreSQL
+recovery tests must use a newly isolated acceptance socket, never the production
+database. Native self-checks and these suites are separate from real candidate,
+finalized reward and continuous-mining acceptance.

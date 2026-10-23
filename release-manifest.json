@@ -14,9 +14,9 @@
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "cafddb79ba895a4403db8c23a98e4b2a84a56b87",
+      "commit": "2781f4a86ed0355b919290785ebedd408a1f16ed",
       "publicationStatus": "verified",
-      "branch": "feat/validator-participation-20261022"
+      "branch": "feat/continuous-quorum-20261023"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
@@ -1033,5 +1033,24 @@
     "publicHttpsHashObjects": 60,
     "remoteDeployedObjects": 63,
     "backupVerified": true
+  },
+  "continuousQuorumV4": {
+    "nodeActivated": true,
+    "nodeCommit": "2781f4a86ed0355b919290785ebedd408a1f16ed",
+    "deadlineAwareCollection": true,
+    "slowMemberTransportCancellationPassed": true,
+    "liveNativeSelfChecksPassed": true,
+    "privateRuntimeAndFinancialAuthorizationPreserved": true,
+    "encryptedColdReplicaVerified": true,
+    "isolatedRecoveryFingerprintMatchesLive": true,
+    "automaticFailoverConfigured": false,
+    "fullMiningAcceptanceComplete": false,
+    "websiteTransferred": false,
+    "acceptance": "docs/CONTINUOUS_QUORUM_V4_20261023_ACCEPTANCE.json",
+    "operations": "docs/VALIDATOR_PARTICIPATION_V4_OPERATIONS.md",
+    "newRewardAuthorization": false,
+    "mainMerged": false,
+    "v5Activated": false,
+    "verifiedAtUtc": "2026-10-23T04:25:55.164779+00:00"
   }
 }

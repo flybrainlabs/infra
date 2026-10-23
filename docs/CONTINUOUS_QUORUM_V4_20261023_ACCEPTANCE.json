@@ -1,0 +1,128 @@
+{
+  "schema": "flybrainlabs-continuous-quorum-v4-acceptance-20261023",
+  "updatedAtUtc": "2026-10-23T04:25:55.164779+00:00",
+  "branch": "feat/continuous-quorum-20261023",
+  "nodeCommit": "2781f4a86ed0355b919290785ebedd408a1f16ed",
+  "nodeRemoteVerified": true,
+  "nodeSourcePolicyCiPassed": true,
+  "scope": "Deadline-aware signed report collection and private cold recovery for the dated owner-operated scientific fleet",
+  "nodeActivated": true,
+  "websiteTransferred": false,
+  "websiteBaselineRevision": "home-ambient-20261022-r1",
+  "liveMiningAcceptanceComplete": false,
+  "newRewardAuthorization": false,
+  "newPublicChainSignatures": 0,
+  "mainMerged": false,
+  "v5Activated": false,
+  "quorumPolicy": {
+    "configuredParticipantsAtAcceptance": 4,
+    "minimumMatchingAttestationsAtAcceptance": 3,
+    "fixedNetworkMembership": false,
+    "independentOperatorsEstablished": false,
+    "earlyCompletionCannotBeOvertaken": true,
+    "configuredOrderResolvesFinalMinorityTie": true,
+    "requestTimeoutUpperBoundMs": 600000,
+    "finalizedChainDeadlineAndConfirmationMargin": true,
+    "outstandingHttpWaitsCancelled": true,
+    "remoteNativeWorkMayStillFinish": true,
+    "returnedEvidenceUnaffectedByLateResponses": true,
+    "existingSettlementKeysAndDomainsPreserved": true
+  },
+  "localTests": [
+    {
+      "name": "factory_validator_quorum_v4",
+      "passed": true,
+      "scope": "Actual loopback HTTP with fixture scientific reports; no model computation, wallet persistence or chain I/O",
+      "cases": 11
+    },
+    {
+      "name": "factory_validator_fleet_v4",
+      "passed": true,
+      "scope": "Fixture/integration scope recorded by the named suite"
+    },
+    {
+      "name": "factory_pool_capacity_v4",
+      "passed": true,
+      "scope": "Fixture/integration scope recorded by the named suite"
+    },
+    {
+      "name": "factory_pool_recovery_v4",
+      "passed": true,
+      "scope": "Fixture/integration scope recorded by the named suite"
+    }
+  ],
+  "localTestBoundary": "Loopback HTTP uses fixture scientific reports; PostgreSQL recovery regression uses isolated chain/packet fixtures. These do not establish public miner rewards.",
+  "nativeSelfCheck": {
+    "completeFrozenModel": true,
+    "backgroundsPerWorker": 2,
+    "generateAndVerify": true,
+    "heldFourthRequestPassed": true,
+    "threeWorkerElapsedMs": 58284,
+    "allFourWorkerElapsedMs": 58750,
+    "allFourReportsAgree": true,
+    "productionParticipantConfigUnchanged": true,
+    "scope": "Actual native complete-model self-checks, including deliberately held loopback transport; not a newly revealed public candidate or payment"
+  },
+  "activation": {
+    "privateRuntimeBytesUnchanged": true,
+    "privateFleetBytesUnchanged": true,
+    "privateBackupOwnershipAndModesPreserved": true,
+    "sourceFilesChanged": 2,
+    "otherInstalledSourceFilesUnchanged": 39,
+    "coordinatorRestartAttemptsThisContinuation": 2,
+    "initialPreparationFailureRecovered": true,
+    "preparationIssue": "The existing database URI specifies Unix socket and user in query parameters; backup now uses the existing service identity for peer authentication.",
+    "successfulMaintenanceToReadinessSeconds": 76.85245694313198,
+    "businessReady": true,
+    "readyScientificParticipants": 4,
+    "financialAuthorizationUnchanged": true
+  },
+  "coldRecovery": {
+    "separateApprovedHostCopyVerified": true,
+    "encryptedFiles": 3,
+    "authenticatedEncryption": "AES-256-GCM",
+    "recoveryKeyRetainedSeparately": true,
+    "plaintextKeysCopiedToReplica": false,
+    "replicaSqlAuthenticatedDecryptPassed": true,
+    "isolatedSqlRestorePassed": true,
+    "immutableRawPacketFingerprintMatchesLive": true,
+    "jobPayloadFingerprintMatchesLive": true,
+    "scientificIdentityFingerprintMatchesLive": true,
+    "catalogPlanFingerprintMatchesLive": true,
+    "retainedTransactions": 51,
+    "retainedJobs": 35,
+    "retainedScientificIdentities": 32,
+    "retainedCatalogs": 2,
+    "unknownOriginalTransactionRetained": true,
+    "coordinatorPromoted": false,
+    "physicalWalReplicationTested": false,
+    "automaticFailoverConfigured": false,
+    "scope": "Encrypted point-in-time cold snapshot and isolated logical SQL recovery; live standby routing, fencing, promotion and recurring backup refresh remain unaccepted"
+  },
+  "backendObservation": {
+    "samples": 2880,
+    "timerObservedSeconds": 86400.0052377889,
+    "sampleSpanSeconds": 86376.44169611903,
+    "unreadyOrFailedSamples": 28,
+    "scope": "Read-only backend observation; no browser computation or financial actions",
+    "completeMiningSoakAccepted": false
+  },
+  "taskSupplyAtActivation": {
+    "fundedScheduledOrActiveTasks": 30,
+    "actualOpenClaimWindows": 0,
+    "unallocatedRewardAtoms": "0",
+    "idlePolicyDemandDriven": true,
+    "additionalFiniteAuthorizationRequiredForNewAllocation": true
+  },
+  "remaining": [
+    "Locate the existing dedicated Devnet miner wallet private configuration or browser profile without requesting its seed.",
+    "Obtain the next finite reward authorization before allocation beyond existing funded stock, with finalized funding and reserved/unpaid rights rechecked.",
+    "Complete real single-Start personal-RPC computation, durable candidate, distributed replay, frozen settlement and finalized reward receipt.",
+    "Complete T22 new-candidate calibration competition and T36 saved A with actual B computation during A upload/verification/settlement.",
+    "Measure automatic calibrated task generation/registration against real consumption, including finite budget, scientific envelope and admission boundaries.",
+    "Complete the outstanding browser, network, transaction, concurrency, quota, freeze and compatible upgrade/recovery matrix.",
+    "Implement and exercise recurring backup refresh, compatible control-plane standby, relay/transport recovery, single-writer fencing and promotion.",
+    "Validate sustained host resources and actual 24\u201372-hour complete mining with measured throughput and fairness.",
+    "Rebuild the gated r15d website over the then-current approved home/language baseline and publish only after genuine mining gates pass."
+  ]
+}
