@@ -87,16 +87,15 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "at": "2026-10-23T04:31:35.263321+00:00",
-    "scope": "Deadline quorum deployment and authenticated cold recovery",
-    "nodeSourceCiPassed": true,
-    "localRegressionSuitesPassed": 4,
-    "completeModelSelfCheckFaultCasesPassed": 2,
-    "encryptedColdReplicaVerified": true,
-    "isolatedRecoveryFingerprintsMatchLive": true,
-    "componentRemoteObjectsVerified": 10,
-    "automaticFailoverConfigured": false,
-    "completeMiningAcceptance": false
+    "at": "2026-10-23T05:56:45.940174+00:00",
+    "scope": "Owner-approved finite Devnet validator collateral, fixed-term escrow, worker/coordinator admission, complete-model integrity and retained-state verification",
+    "implementationSourceCiPassed": true,
+    "localBondSbfChecks": 16,
+    "bondSbfRejectedTransactions": 19,
+    "allFourBondsFinalized": true,
+    "currentBondedWorkersReady": 4,
+    "fullContinuousMiningAcceptance": false,
+    "containingInfrastructureCommitVerification": "Verified separately after publication; source-policy results are bound to their exact reported commit."
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -970,7 +969,13 @@
     "newFinancialAuthorization": false,
     "mainMerged": false,
     "acceptance": "docs/VALIDATOR_PARTICIPATION_V4_20261022_ACCEPTANCE.json",
-    "operations": "docs/VALIDATOR_PARTICIPATION_V4_OPERATIONS.md"
+    "operations": "docs/VALIDATOR_PARTICIPATION_V4_OPERATIONS.md",
+    "collateralAdmission": {
+      "required": true,
+      "minimumFbw": 100000,
+      "cluster": "devnet",
+      "acceptance": "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json"
+    }
   },
   "websiteLanguages": {
     "revision": "site-languages-20261022-r1",
@@ -1068,28 +1073,34 @@
     "fullMiningAcceptanceScope": "Prior continuous-mining financial and long-duration gates retain their recorded status"
   },
   "validatorBondV1": {
-    "schema": "flybrain-validator-bond-v1-acceptance-20261023",
-    "atUtc": "2026-10-23T05:17:27.738661+00:00",
-    "status": "source-tested-deployment-pending",
-    "ownerApproved": {
-      "cluster": "devnet",
-      "validatorsThisRollout": 4,
-      "perValidatorFbw": 100000,
-      "totalFbw": 400000,
-      "minimumDays": 30,
-      "minimumExitDays": 7
-    },
-    "deployed": false,
-    "funded": false,
-    "bondsFinalized": 0,
+    "status": "devnet-deployed-funded-and-bond-admission-verified",
+    "cluster": "devnet",
+    "programId": "BT1tr1W545fwMJ13LDC1dtCvSTcWdzHazAW8gGuJgLZ1",
+    "mint": "HCdV49RkqtC7pPwzHCYg5KtkmU8opifjojLbAyZXKgQW",
+    "minimumFbw": 100000,
+    "minimumAtoms": "10000000000000",
+    "lockDays": 30,
+    "minimumExitDays": 7,
+    "exitClearanceRequired": true,
     "slashingEnabled": false,
-    "trustedExitClearanceRequired": true,
-    "historicalSettlementPreserved": true,
+    "bondsThisRollout": 4,
+    "totalFbwLocked": 400000,
+    "allFourFinalized": true,
+    "coordinatorActivated": true,
+    "workersActivated": 4,
+    "minimumScientificAttestations": 3,
+    "sourceBranch": "feat/validator-stake-20261023",
+    "nodeCommit": "2f007b197b656d49cd332df0032aa042b0adbbf5",
+    "sdkCommit": "5a756347fe0f0184e943e7bfd7fcc75a8f9edab2",
+    "contractsCommit": "8998ee5729aa9f04001cd562c376afd0cd3a71fd",
+    "fundingPool": "validator",
     "additionalMiningRewardAuthorization": false,
-    "mainnet": false,
     "newMinting": false,
+    "websiteTransferred": false,
     "fullContinuousMiningAcceptance": false,
+    "public37DayExitObserved": false,
+    "acceptance": "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json",
     "operations": "docs/VALIDATOR_BOND_V1_OPERATIONS.md",
-    "acceptance": "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json"
+    "verifiedAtUtc": "2026-10-23T05:56:45.940174+00:00"
   }
 }

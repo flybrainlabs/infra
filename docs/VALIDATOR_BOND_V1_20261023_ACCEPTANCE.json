@@ -1,7 +1,7 @@
 {
   "schema": "flybrain-validator-bond-v1-acceptance-20261023",
-  "atUtc": "2026-10-23T05:17:27.738661+00:00",
-  "status": "source-tested-deployment-pending",
+  "atUtc": "2026-10-23T05:56:45.940174+00:00",
+  "status": "devnet-deployed-funded-and-bond-admission-verified",
   "ownerApproved": {
     "cluster": "devnet",
     "validatorsThisRollout": 4,
@@ -9,6 +9,288 @@
     "totalFbw": 400000,
     "minimumDays": 30,
     "minimumExitDays": 7
+  },
+  "program": {
+    "schema": "flybrain-validator-bond-deployment-v1",
+    "cluster": "devnet",
+    "genesisHash": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+    "programId": "BT1tr1W545fwMJ13LDC1dtCvSTcWdzHazAW8gGuJgLZ1",
+    "mint": "HCdV49RkqtC7pPwzHCYg5KtkmU8opifjojLbAyZXKgQW",
+    "clearanceAuthority": "2EG7CLQ2pXw2XeqtwDPt7e1UDcBfeZQ2rs2ai5EnvUdE",
+    "policy": "9YK36GAeKeyrMe4u9MG94awUAuunG2uj94cRoQ2bCJEP",
+    "programData": "DJUy9yDLACBwWiPbk6nif5YHQEiK2G92wLu96yH3pd9b",
+    "elfSha256": "6c4d0a87228e8298658f97d4cbe54c902d4503a56d46d07c356b1a96171b2688",
+    "elfBytes": 98752,
+    "minimumFbw": 100000,
+    "minimumAtoms": "10000000000000",
+    "lockDays": 30,
+    "exitWaitDays": 7,
+    "exitClearanceRequired": true,
+    "slashingEnabled": false,
+    "finalized": true,
+    "upgradeAuthorityRetained": true,
+    "initialSol": 6916984680,
+    "finalSol": 6411086840,
+    "receipts": {
+      "create-reviewed-buffer": {
+        "signature": "3uZqBtvbqjKQ75XgN5RhjrsdUkPdBXfmHAqkrLR9q6DFSK7Mg5w5sSz9TLy5b5Br1yr53s1B58PhSFY2d7K7jngh",
+        "slot": "514138516",
+        "feeLamports": "10000",
+        "computeUnits": 2520,
+        "commitment": "finalized"
+      },
+      "deploy-separate-validator-bond": {
+        "signature": "3we76sdZDxbCLS8GMUqTZtwL4ZzmUaVR8DzUcgheTgJuQ7DE3Q1hvaG7REzKpoB8odagCM9MFpd18B9hkCYFaLMs",
+        "slot": "514138983",
+        "feeLamports": "10000",
+        "computeUnits": 2670,
+        "commitment": "finalized"
+      },
+      "initialize-fixed-bond-policy": {
+        "signature": "51ueFnNCcTiGyCdcA3wkmLntDph3VqJaafPr1YRgYajiS7JgHfMBST3uYNrvZVu7WC5TLNVmy78wvbGNbX7rXSGY",
+        "slot": "514138998",
+        "feeLamports": "5000",
+        "computeUnits": 12858,
+        "commitment": "finalized"
+      }
+    },
+    "atUtc": "2026-10-23T05:21:26.504Z"
+  },
+  "policy": {
+    "activation": "An identity must have finalized active collateral before worker startup and each new dispatch",
+    "minimumAtoms": "10000000000000",
+    "lockSeconds": 2592000,
+    "minimumExitSeconds": 604800,
+    "clock": "on-chain Solana Clock",
+    "earliestWithdrawalDay": 37,
+    "automaticExit": false,
+    "exitStopsNewAdmissions": true,
+    "inFlightWorkCanFinish": true,
+    "ownerAndTrustedClearanceSignaturesRequired": true,
+    "unresolvedResponsibilitiesMayExtendExit": true,
+    "slashingEnabled": false,
+    "yieldPromised": false,
+    "upgradeAuthorityRetained": true,
+    "independentAuditClaimed": false
+  },
+  "funding": {
+    "source": "Existing Devnet validator pool through a distinct finite owner-approved collateral-sponsorship stage",
+    "stage": "FfyT8xMbFuk2vsVxCPnY5ToqQ6VRiG6u6SyHgVSfe3tM",
+    "stageClosed": true,
+    "totalAtoms": "40000000000000",
+    "sourcePool": "GvdAPG57nqjuZ33P4rncNR34RuG5b13iRnQyFyxSkwfs",
+    "fundingTransactions": 14,
+    "allFundingFinalized": true,
+    "validatorPoolDebitAtoms": "40000000000000",
+    "validatorPoolBalanceAfterAtoms": "5572998400000000",
+    "validatorPoolAvailableAfterAtoms": "5572998400000000",
+    "sponsorshipIsNotEarnedScientificWork": true,
+    "additionalMiningRewardAuthorization": false
+  },
+  "bonds": [
+    {
+      "id": "validator-01",
+      "address": "ELmSo4YuMU7CuZFHHC2NFUeTmCRd1btKTcXWS46avQnd",
+      "bond": "2QbvNWg9PL8gpT5gE1X1NVt1TZ8TjmKaqz4jyEBdqh52",
+      "vault": "3qawB11sinae4jqmiknpFSJrkt4YQYxPPSM63XBZeRR2",
+      "atoms": "10000000000000",
+      "ownerLiquidAtoms": "0",
+      "state": "active",
+      "activatedAtUtc": "2026-10-23T05:34:25.000Z",
+      "earliestExitRequestUtc": "2026-11-22T05:34:25.000Z",
+      "earliestWithdrawalIfImmediatelyRequestedAndClearedUtc": "2026-11-29T05:34:25.000Z",
+      "bondRentLamports": 1950720,
+      "vaultRentLamports": 1488440,
+      "sourceRentLamports": 1488440,
+      "fundingReceipt": {
+        "signature": "3pNGvoqc18XKVzkEQPQ6WRxq3eHVBxtj33X6UN7uXB58jnKnn3pzrQ6LgR6SZ7xcJy6rXmU3me8Xfm8NMacZaVHn",
+        "slot": "514140824",
+        "feeLamports": "15000",
+        "computeUnits": 52617,
+        "commitment": "finalized"
+      },
+      "stakingSignature": "4114769XExLJeEBw9MEYn6P7Vv1arTEoNezg18K32JSnwURw9oRQnK3QUq8UsfqMQ2iFcAi73dnrH8tEhs217oLy",
+      "stakingSlot": 514142279,
+      "stakingFeeLamports": 10000
+    },
+    {
+      "id": "validator-02",
+      "address": "3gDe3nJXPC4Gb2BtUiLPCJGwTjmwmkE8qwxKNsSkwc8L",
+      "bond": "5x3bMTybPZjVzbD5T7rcuWKEpCBNr5eRjmVQqf564JjW",
+      "vault": "CkCdfaxA4tNLv3LSFWSptWkMewYcSRhxVKM7JnmtVWAW",
+      "atoms": "10000000000000",
+      "ownerLiquidAtoms": "0",
+      "state": "active",
+      "activatedAtUtc": "2026-10-23T05:34:32.000Z",
+      "earliestExitRequestUtc": "2026-11-22T05:34:32.000Z",
+      "earliestWithdrawalIfImmediatelyRequestedAndClearedUtc": "2026-11-29T05:34:32.000Z",
+      "bondRentLamports": 1950720,
+      "vaultRentLamports": 1488440,
+      "sourceRentLamports": 1488440,
+      "fundingReceipt": {
+        "signature": "4SQxcSexdyzPWHe4ebuqLNUeMGDtV4yvHCwSAZc3vJ8tkZghk2ug19YNDvav6xFHNctrkL2KGhUf4QPE9EEnHP26",
+        "slot": "514141244",
+        "feeLamports": "15000",
+        "computeUnits": 49617,
+        "commitment": "finalized"
+      },
+      "stakingSignature": "3vkz97GU4KC52re9Nk518eSqZXfGeHkkdCikkxGEC6Qarpa4Miupj2h9a7EpEUMbjJWn4zSYxLUpxyV68ohDMiLR",
+      "stakingSlot": 514142308,
+      "stakingFeeLamports": 10000
+    },
+    {
+      "id": "validator-03",
+      "address": "5a5CX886Etj99DJXAikq5qdtY2dfGVUKp4MvZGjGbXqk",
+      "bond": "2cP14qXWRTp4cwRk1iz4oS4x6A4En1uVkawgCV4D6Soe",
+      "vault": "8fSqs3o9DnXvAbvJcsWn3jvjbzPXFt44w1AGr6BA2zq5",
+      "atoms": "10000000000000",
+      "ownerLiquidAtoms": "0",
+      "state": "active",
+      "activatedAtUtc": "2026-10-23T05:34:39.000Z",
+      "earliestExitRequestUtc": "2026-11-22T05:34:39.000Z",
+      "earliestWithdrawalIfImmediatelyRequestedAndClearedUtc": "2026-11-29T05:34:39.000Z",
+      "bondRentLamports": 1950720,
+      "vaultRentLamports": 1488440,
+      "sourceRentLamports": 1488440,
+      "fundingReceipt": {
+        "signature": "2PGaoYZqwyfJ5aob9VwE9oFPwMvHGBN2hoM2NTkNo35AfBqeXkFAwz6Jvw6MiYXpcnR6KsTNZQS9CpATnQyCB3wB",
+        "slot": "514141540",
+        "feeLamports": "15000",
+        "computeUnits": 49617,
+        "commitment": "finalized"
+      },
+      "stakingSignature": "3ss5u2CanKPVETDqZpM3UcoUabbAPFbEw8gEnELhBZ9sKWpvxUXE8LFGmEBvy4yWZtWVrB9iXvy3Cw197zXv1VpT",
+      "stakingSlot": 514142339,
+      "stakingFeeLamports": 10000
+    },
+    {
+      "id": "validator-04",
+      "address": "7dF8y1ura3XroxnDkgQJo1gMtAv7rQ8Vme87qec4Wcch",
+      "bond": "8gah23pZpa4NDkXuaZoXzUXCpLvLiMU27xPhm7z4xwLv",
+      "vault": "6LYjFeouufjfZD8EBVsBMyLcCBNrUMxGP8eUSsw8aSFP",
+      "atoms": "10000000000000",
+      "ownerLiquidAtoms": "0",
+      "state": "active",
+      "activatedAtUtc": "2026-10-23T05:34:46.000Z",
+      "earliestExitRequestUtc": "2026-11-22T05:34:46.000Z",
+      "earliestWithdrawalIfImmediatelyRequestedAndClearedUtc": "2026-11-29T05:34:46.000Z",
+      "bondRentLamports": 1950720,
+      "vaultRentLamports": 1488440,
+      "sourceRentLamports": 1488440,
+      "fundingReceipt": {
+        "signature": "2rQ2npsFY51AVWEUK7gBD8FRz3S3gCH3YeZd9VHypMxhwHFDJo33EEEAzt9tVDZ3j4XR1feRkbkvLAk5TqHhxdg6",
+        "slot": "514141831",
+        "feeLamports": "15000",
+        "computeUnits": 79617,
+        "commitment": "finalized"
+      },
+      "stakingSignature": "5269j7duGPWQ7CQMSzx3bAfy6j8bLyqRDKMQCWbd8dM8eYeF3udyQG8t8Kyfztp2A9eUmLbxrRTqEWuiEdYgJmT4",
+      "stakingSlot": 514142368,
+      "stakingFeeLamports": 10000
+    }
+  ],
+  "allFourBondsFinalized": true,
+  "allFourOwnerLiquidTokenBalancesZero": true,
+  "cost": {
+    "projectWalletBeforeLamports": 6916984680,
+    "projectWalletAfterLamports": 6370418760,
+    "projectWalletNetDebitLamports": 546565920,
+    "scope": "Observed Devnet payer net debit, including separate program deployment, account rent and transaction fees; FBW is locked principal"
+  },
+  "chainFinalCheck": {
+    "atUtc": "2026-10-23T05:51:10.110Z",
+    "finalizedSlot": 514146483,
+    "mint": "HCdV49RkqtC7pPwzHCYg5KtkmU8opifjojLbAyZXKgQW",
+    "currentSupplyAtoms": "31183324299999990",
+    "historicalSupplyCapAtoms": "31183324300000000",
+    "belowHistoricalCapAtoms": "10",
+    "documentedPriorBurnReference": "contracts/deploy/wallet-mining-v3/acceptance.json",
+    "preOperationSupplyNotSampled": true,
+    "mintAuthorityRevoked": true,
+    "freezeAuthorityAbsent": true,
+    "newMinting": false,
+    "minerAvailableUnchanged": true,
+    "communityAvailableUnchanged": true
+  },
+  "sourceComponents": {
+    "contracts": {
+      "commit": "8998ee5729aa9f04001cd562c376afd0cd3a71fd",
+      "branch": "feat/validator-stake-20261023",
+      "remoteVerified": true
+    },
+    "sdk": {
+      "commit": "5a756347fe0f0184e943e7bfd7fcc75a8f9edab2",
+      "branch": "feat/validator-stake-20261023",
+      "remoteVerified": true
+    },
+    "node": {
+      "commit": "2f007b197b656d49cd332df0032aa042b0adbbf5",
+      "branch": "feat/validator-stake-20261023",
+      "remoteVerified": true
+    },
+    "infra": {
+      "commit": "4cde51102ae26fae1df57574911f059b63fc107f",
+      "branch": "feat/validator-stake-20261023",
+      "remoteVerified": true
+    }
+  },
+  "implementationSourceCi": {
+    "atUtc": "2026-10-23T05:45:41.218189+00:00",
+    "passed": true,
+    "repositories": {
+      "contracts": {
+        "commit": "8998ee5729aa9f04001cd562c376afd0cd3a71fd",
+        "passed": true,
+        "runs": [
+          {
+            "conclusion": "success",
+            "databaseId": 39904810014,
+            "headSha": "8998ee5729aa9f04001cd562c376afd0cd3a71fd",
+            "status": "completed",
+            "workflowName": "Source policy"
+          }
+        ]
+      },
+      "sdk": {
+        "commit": "5a756347fe0f0184e943e7bfd7fcc75a8f9edab2",
+        "passed": true,
+        "runs": [
+          {
+            "conclusion": "success",
+            "databaseId": 39904836237,
+            "headSha": "5a756347fe0f0184e943e7bfd7fcc75a8f9edab2",
+            "status": "completed",
+            "workflowName": "Source policy"
+          }
+        ]
+      },
+      "node": {
+        "commit": "2f007b197b656d49cd332df0032aa042b0adbbf5",
+        "passed": true,
+        "runs": [
+          {
+            "conclusion": "success",
+            "databaseId": 39904862665,
+            "headSha": "2f007b197b656d49cd332df0032aa042b0adbbf5",
+            "status": "completed",
+            "workflowName": "Source policy"
+          }
+        ]
+      },
+      "infra": {
+        "commit": "4cde51102ae26fae1df57574911f059b63fc107f",
+        "passed": true,
+        "runs": [
+          {
+            "conclusion": "success",
+            "databaseId": 39907445756,
+            "headSha": "4cde51102ae26fae1df57574911f059b63fc107f",
+            "status": "completed",
+            "workflowName": "Source policy"
+          }
+        ]
+      }
+    }
   },
   "localTests": {
     "atUtc": "2026-10-23T05:14:24.770787+00:00",
@@ -77,15 +359,188 @@
       }
     ]
   },
-  "deployed": false,
-  "funded": false,
-  "bondsFinalized": 0,
-  "slashingEnabled": false,
-  "trustedExitClearanceRequired": true,
-  "historicalSettlementPreserved": true,
-  "additionalMiningRewardAuthorization": false,
-  "mainnet": false,
-  "newMinting": false,
+  "deployedUnfundedStartupRejection": {
+    "exitCode": 0,
+    "reports": [
+      {
+        "passed": true,
+        "atUtc": "2026-10-23T05:33:06.349Z",
+        "scope": "Actual deployed candidate import, actual Devnet bond policy and a fresh unfunded test public key; no wallet transfer or native work",
+        "rejection": "VALIDATOR_BOND_REQUIRED",
+        "productionPortUntouched": true,
+        "newPublicChainTransactions": 0
+      }
+    ],
+    "stderrBytes": 77
+  },
+  "correctedBundleStartupSmoke": {
+    "passed": true,
+    "sha256": "59d8a054d63fd87b4e29ada1a0d24a146d0515922f14292cb3ad3d315edae753",
+    "actualBundledStartup": true
+  },
+  "nativeCompleteModelAcceptance": {
+    "schema": "flybrain-validator-bond-native-acceptance-v1",
+    "atUtc": "2026-10-23T05:50:23.811Z",
+    "passed": true,
+    "elapsedMs": 56622,
+    "nonce": "67aa17897aa706cedda54314e3c7db068bb2d9f609c9429a",
+    "completeFrozenModel": true,
+    "backgroundsPerWorker": 2,
+    "productionThresholdUnchanged": true,
+    "consensusHash": "dc18e606c24d57f06792b1decb6f11a27030c30af0518336dd26fd94bd644472",
+    "workers": [
+      {
+        "id": "validator-01",
+        "publicKey": "c638381f51c3f96cb2ac9e580779c32e926e5197e4925d613f9a91c211befc4a",
+        "bond": {
+          "schema": "flybrain-validator-bond-status-v1",
+          "validator": "ELmSo4YuMU7CuZFHHC2NFUeTmCRd1btKTcXWS46avQnd",
+          "bond": "2QbvNWg9PL8gpT5gE1X1NVt1TZ8TjmKaqz4jyEBdqh52",
+          "vault": "3qawB11sinae4jqmiknpFSJrkt4YQYxPPSM63XBZeRR2",
+          "amountAtoms": "10000000000000",
+          "generation": "1",
+          "activatedAt": "1792733665",
+          "minimumLockUntil": "1795325665",
+          "state": "active",
+          "exitRequestedAt": "0",
+          "withdrawAfter": "0",
+          "finalizedSlot": 514146055
+        },
+        "signatureVerified": true,
+        "reportHash": "c32223d4c6f9a7a198ea96ea471621903085479803b757aaf28ca1df700b320d",
+        "completeTrials": 2,
+        "resultRoots": [
+          "13ba0aba862894b7cad34b8c71dc940cd4f848f2ec540ab3e06064b3c86d9f75",
+          "dcaac1b1a5204dbd30869befe009f5afc6a8b7f7319fad772cfb063dff0eacaf"
+        ]
+      },
+      {
+        "id": "validator-02",
+        "publicKey": "27c350eba3cd828120068bfe2280aff1a81fb80ba8a2621425741016fc5a4555",
+        "bond": {
+          "schema": "flybrain-validator-bond-status-v1",
+          "validator": "3gDe3nJXPC4Gb2BtUiLPCJGwTjmwmkE8qwxKNsSkwc8L",
+          "bond": "5x3bMTybPZjVzbD5T7rcuWKEpCBNr5eRjmVQqf564JjW",
+          "vault": "CkCdfaxA4tNLv3LSFWSptWkMewYcSRhxVKM7JnmtVWAW",
+          "amountAtoms": "10000000000000",
+          "generation": "1",
+          "activatedAt": "1792733672",
+          "minimumLockUntil": "1795325672",
+          "state": "active",
+          "exitRequestedAt": "0",
+          "withdrawAfter": "0",
+          "finalizedSlot": 514146055
+        },
+        "signatureVerified": true,
+        "reportHash": "9547c75794f8bb14984fa651358b2aca71ffc20df1e76e6dd77d00af04beaf11",
+        "completeTrials": 2,
+        "resultRoots": [
+          "13ba0aba862894b7cad34b8c71dc940cd4f848f2ec540ab3e06064b3c86d9f75",
+          "dcaac1b1a5204dbd30869befe009f5afc6a8b7f7319fad772cfb063dff0eacaf"
+        ]
+      },
+      {
+        "id": "validator-03",
+        "publicKey": "43e7a96aef0c9e7a09f40fce86035672970603e3545f6acb5dff36dd5ffaed83",
+        "bond": {
+          "schema": "flybrain-validator-bond-status-v1",
+          "validator": "5a5CX886Etj99DJXAikq5qdtY2dfGVUKp4MvZGjGbXqk",
+          "bond": "2cP14qXWRTp4cwRk1iz4oS4x6A4En1uVkawgCV4D6Soe",
+          "vault": "8fSqs3o9DnXvAbvJcsWn3jvjbzPXFt44w1AGr6BA2zq5",
+          "amountAtoms": "10000000000000",
+          "generation": "1",
+          "activatedAt": "1792733679",
+          "minimumLockUntil": "1795325679",
+          "state": "active",
+          "exitRequestedAt": "0",
+          "withdrawAfter": "0",
+          "finalizedSlot": 514146055
+        },
+        "signatureVerified": true,
+        "reportHash": "2a76198f0876dae415185dcf21c6670e5dd29237b4e7e5a2bfd3d153dc57cb9a",
+        "completeTrials": 2,
+        "resultRoots": [
+          "13ba0aba862894b7cad34b8c71dc940cd4f848f2ec540ab3e06064b3c86d9f75",
+          "dcaac1b1a5204dbd30869befe009f5afc6a8b7f7319fad772cfb063dff0eacaf"
+        ]
+      },
+      {
+        "id": "validator-04",
+        "publicKey": "626f040d447025383ba892272f84b3570d85726d0d4f1f6998c0f41a3f8e15da",
+        "bond": {
+          "schema": "flybrain-validator-bond-status-v1",
+          "validator": "7dF8y1ura3XroxnDkgQJo1gMtAv7rQ8Vme87qec4Wcch",
+          "bond": "8gah23pZpa4NDkXuaZoXzUXCpLvLiMU27xPhm7z4xwLv",
+          "vault": "6LYjFeouufjfZD8EBVsBMyLcCBNrUMxGP8eUSsw8aSFP",
+          "amountAtoms": "10000000000000",
+          "generation": "1",
+          "activatedAt": "1792733686",
+          "minimumLockUntil": "1795325686",
+          "state": "active",
+          "exitRequestedAt": "0",
+          "withdrawAfter": "0",
+          "finalizedSlot": 514146056
+        },
+        "signatureVerified": true,
+        "reportHash": "089aa3dcc54bafc590ec10828d37d187a40e41328f552218539681108c0dbf23",
+        "completeTrials": 2,
+        "resultRoots": [
+          "13ba0aba862894b7cad34b8c71dc940cd4f848f2ec540ab3e06064b3c86d9f75",
+          "dcaac1b1a5204dbd30869befe009f5afc6a8b7f7319fad772cfb063dff0eacaf"
+        ]
+      }
+    ],
+    "scope": "Actual complete-model generation and replay on four funded nodes; no newly submitted public candidate, miner wallet transaction or reward acceptance"
+  },
+  "activation": {
+    "fourWorkersActivated": 4,
+    "coordinatorBusinessReady": true,
+    "coordinatorRelease": "/opt/flypow/task-factory-v4/releases/validator-bond-20261023",
+    "workerRelease": "/opt/flypow/validators/bond-20261023-r2",
+    "successfulMaintenanceSeconds": 56.249165,
+    "privateRuntimeBytesUnchanged": true,
+    "scientificThreshold": 3,
+    "existingScientificAndSettlementIdentitiesPreserved": true,
+    "currentHealthyBondedMembers": 4,
+    "durableReportedAdmissionsVerified": 4,
+    "firstBundleActivationFailedAndRolledBack": true,
+    "bundleFix": "Retain CommonJS filename and directory globals for native optional dependency loading",
+    "providerRateLimitHandledWithCooldownAndRetainedPacketReconciliation": true,
+    "firstNativeAcceptanceAttemptUnaccepted": true,
+    "finalNativeAcceptancePassed": true
+  },
+  "retainedState": {
+    "databaseFingerprintMatchesPriorVerifiedSnapshot": true,
+    "transactions": 51,
+    "finalizedOriginalTransactions": 50,
+    "unknownOriginalTransactions": 1,
+    "jobPayloads": 35,
+    "scienceIdentities": 32,
+    "catalogPlans": 2,
+    "cachesAndOriginalPacketsRetained": true
+  },
+  "privateRecovery": {
+    "fourOwnerIdentityBackupsVerified": true,
+    "authenticatedEncryption": "AES-256-GCM",
+    "encryptedOwnerAndJournalCopyVerifiedOnSeparateApprovedHost": true,
+    "authenticatedDecryptMatches": true,
+    "ciphertextSha256": "1b301ba7391906860ac749d8ab38a29f37a8f7ba76ef38b3ec46ac49ee049c9b",
+    "plaintextKeysCopiedToReplica": false,
+    "keyCopiedToReplica": false,
+    "automaticFailoverConfigured": false
+  },
+  "websiteTransferred": false,
+  "websiteRevision": "home-ambient-20261022-r1",
   "fullContinuousMiningAcceptance": false,
-  "operations": "docs/VALIDATOR_BOND_V1_OPERATIONS.md"
+  "public37DayExitObserved": false,
+  "mainnet": false,
+  "mainMerged": false,
+  "v5Activated": false,
+  "operations": "docs/VALIDATOR_BOND_V1_OPERATIONS.md",
+  "remainingBoundaries": [
+    "A real 37-day public-chain exit has not elapsed; clock rules were exercised only by real SBF in an isolated VM.",
+    "Trusted clearance must check every outstanding responsibility before co-signing withdrawal. Automated clearance and slashing are not implemented.",
+    "Dedicated-wallet single-Start public candidate, settlement, finalized miner rewards and full mining soak retain their independent acceptance gates.",
+    "Recurring recovery refresh, standby control services, single-writer fencing and actual promotion remain unaccepted."
+  ]
 }
