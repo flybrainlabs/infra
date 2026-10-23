@@ -95,7 +95,11 @@
     "docs/CONTINUOUS_MINING_V4_NETWORK_20261022.json": "docs/CONTINUOUS_MINING_V4_NETWORK_20261022.json",
     "docs/SITE_LANGUAGES_20261022_ACCEPTANCE.json": "docs/SITE_LANGUAGES_20261022_ACCEPTANCE.json",
     "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json",
-    "docs/CONTINUOUS_QUORUM_V4_20261023_ACCEPTANCE.json": "docs/CONTINUOUS_QUORUM_V4_20261023_ACCEPTANCE.json"
+    "docs/CONTINUOUS_QUORUM_V4_20261023_ACCEPTANCE.json": "docs/CONTINUOUS_QUORUM_V4_20261023_ACCEPTANCE.json",
+    "tools/deploy_validator_bond_v1.mjs": "tools/deploy_validator_bond_v1.mjs",
+    "docs/VALIDATOR_BOND_V1_OPERATIONS.md": "docs/VALIDATOR_BOND_V1_OPERATIONS.md",
+    "tools/fund_validator_bonds_v1.mjs": "tools/fund_validator_bonds_v1.mjs",
+    "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json": "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }

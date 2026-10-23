@@ -14,9 +14,9 @@
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "2781f4a86ed0355b919290785ebedd408a1f16ed",
+      "commit": "2f007b197b656d49cd332df0032aa042b0adbbf5",
       "publicationStatus": "verified",
-      "branch": "feat/continuous-quorum-20261023"
+      "branch": "feat/validator-stake-20261023"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
@@ -38,15 +38,15 @@
     },
     "contracts": {
       "url": "https://github.com/flybrainlabs/contracts.git",
-      "commit": "ba0398f18861312abaa49a2b7d58e49a6379a726",
+      "commit": "8998ee5729aa9f04001cd562c376afd0cd3a71fd",
       "publicationStatus": "verified",
-      "branch": "feat/scientific-mining-20261020"
+      "branch": "feat/validator-stake-20261023"
     },
     "sdk": {
       "url": "https://github.com/flybrainlabs/sdk.git",
-      "commit": "3b24b2002e91980cd174796e4e670db6cd53c12f",
+      "commit": "5a756347fe0f0184e943e7bfd7fcc75a8f9edab2",
       "publicationStatus": "verified",
-      "branch": "feat/continuous-mining-20261021"
+      "branch": "feat/validator-stake-20261023"
     },
     "research": {
       "url": "https://github.com/flybrainlabs/research.git",
@@ -1066,5 +1066,30 @@
     ],
     "publicHttpsHashesVerified": 7,
     "fullMiningAcceptanceScope": "Prior continuous-mining financial and long-duration gates retain their recorded status"
+  },
+  "validatorBondV1": {
+    "schema": "flybrain-validator-bond-v1-acceptance-20261023",
+    "atUtc": "2026-10-23T05:17:27.738661+00:00",
+    "status": "source-tested-deployment-pending",
+    "ownerApproved": {
+      "cluster": "devnet",
+      "validatorsThisRollout": 4,
+      "perValidatorFbw": 100000,
+      "totalFbw": 400000,
+      "minimumDays": 30,
+      "minimumExitDays": 7
+    },
+    "deployed": false,
+    "funded": false,
+    "bondsFinalized": 0,
+    "slashingEnabled": false,
+    "trustedExitClearanceRequired": true,
+    "historicalSettlementPreserved": true,
+    "additionalMiningRewardAuthorization": false,
+    "mainnet": false,
+    "newMinting": false,
+    "fullContinuousMiningAcceptance": false,
+    "operations": "docs/VALIDATOR_BOND_V1_OPERATIONS.md",
+    "acceptance": "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json"
   }
 }

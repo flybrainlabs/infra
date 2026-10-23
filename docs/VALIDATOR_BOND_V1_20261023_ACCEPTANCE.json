@@ -1,0 +1,91 @@
+{
+  "schema": "flybrain-validator-bond-v1-acceptance-20261023",
+  "atUtc": "2026-10-23T05:17:27.738661+00:00",
+  "status": "source-tested-deployment-pending",
+  "ownerApproved": {
+    "cluster": "devnet",
+    "validatorsThisRollout": 4,
+    "perValidatorFbw": 100000,
+    "totalFbw": 400000,
+    "minimumDays": 30,
+    "minimumExitDays": 7
+  },
+  "localTests": {
+    "atUtc": "2026-10-23T05:14:24.770787+00:00",
+    "passed": true,
+    "tests": [
+      {
+        "test": "validator_bond_sbf",
+        "exitCode": 0,
+        "results": [
+          {
+            "passed": true,
+            "scope": "Isolated real SBF/SPL execution and finalized-read interface; signed HTTP scientific reports are fixtures; VM clock only, no public-chain time travel",
+            "checks": 16,
+            "successfulTransactions": 10,
+            "rejectedTransactions": 19,
+            "minimumFbw": 100000,
+            "lockDays": 30,
+            "unbondDays": 7,
+            "ownerAndClearanceRequired": true,
+            "noSlashingInstruction": true,
+            "unbondedStartupRejected": true,
+            "unbondedOrExitingDispatchRejected": true,
+            "signedWrongGenerationRejected": true
+          }
+        ]
+      },
+      {
+        "test": "factory_validator_fleet_v4",
+        "exitCode": 0,
+        "results": [
+          {
+            "passed": true,
+            "signedQuorum": true,
+            "divergenceRejected": true,
+            "tamperingRejected": true,
+            "nonceBound": true,
+            "duplicateIdentityRejected": true,
+            "loopbackRequired": true
+          }
+        ]
+      },
+      {
+        "test": "factory_validator_quorum_v4",
+        "exitCode": 0,
+        "results": [
+          {
+            "passed": true,
+            "cases": 11,
+            "checks": [
+              "Three signed matches finish while a fourth native job is held; cancelled transport and a busy fourth do not block the next candidate or mutate evidence",
+              "Two conflicting pairs produce no accepted report",
+              "Forged evidence cannot complete a quorum",
+              "An impossible quorum fails before waiting for unresponsive members",
+              "A bounded collection deadline cancels remaining transport without fabricating a scientific rejection",
+              "The task deadline takes precedence over the longer configured worker timeout",
+              "Expired or invalid collection budgets dispatch no replay",
+              "A minority threshold cannot return an early group that a larger unfinished group can overtake",
+              "A final equal-sized minority tie retains configured member order regardless of reply order",
+              "Existing accepted evidence is reused for the next settlement signer without starting another collection",
+              "The coordinator derives collection time from finalized chain time and reserves the configured confirmation margin, despite local clock offset"
+            ],
+            "scope": "Actual loopback HTTP with fixture scientific reports; no model computation, wallet persistence or chain I/O",
+            "chainWrites": 0
+          }
+        ]
+      }
+    ]
+  },
+  "deployed": false,
+  "funded": false,
+  "bondsFinalized": 0,
+  "slashingEnabled": false,
+  "trustedExitClearanceRequired": true,
+  "historicalSettlementPreserved": true,
+  "additionalMiningRewardAuthorization": false,
+  "mainnet": false,
+  "newMinting": false,
+  "fullContinuousMiningAcceptance": false,
+  "operations": "docs/VALIDATOR_BOND_V1_OPERATIONS.md"
+}
