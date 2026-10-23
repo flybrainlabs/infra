@@ -13,11 +13,31 @@ const check=(ok,code)=>{if(!ok)throw new Error(code);};
 const hash=v=>new Uint8Array(createHash('sha256').update(v).digest());
 const bytes=v=>Buffer.from(v,'hex');
 const loadKey=async path=>{const b=await readFile(path);return b.length===32?Keypair.fromSeed(b):Keypair.fromSecretKey(Uint8Array.from(JSON.parse(b.toString())));};
+// Keep administrative traffic below the public provider's rate and honor its
+// cooldown. Existing signed packets are reconciled by the retained journal.
+function operatorFetch(){
+ let tail=Promise.resolve(),next=0;
+ return (url,options)=>{
+  const run=async()=>{
+   for(let attempt=0;attempt<5;attempt++){
+    await new Promise(ok=>setTimeout(ok,Math.max(0,next-Date.now())));
+    const response=await fetch(url,{...options,signal:AbortSignal.timeout(30000)});next=Date.now()+3000;
+    if(response.status!==429)return response;
+    const value=response.headers.get('retry-after'),seconds=Number(value),date=Date.parse(value||'');
+    const requested=Number.isFinite(seconds)&&seconds>0?seconds*1000:Number.isFinite(date)?Math.max(0,date-Date.now()):0;
+    next=Date.now()+Math.max(requested,30000*(attempt+1));
+    if(attempt===4)return response;
+    await response.arrayBuffer();
+   }
+  };
+  const current=tail.then(run,run);tail=current.catch(()=>{});return current;
+ };
+}
 export async function fundValidatorBonds({runtimePath,fleetPath,planPath,privateDirectory,apply=false}){
  const c=JSON.parse(await readFile(runtimePath,'utf8')),fleet=JSON.parse(await readFile(fleetPath,'utf8')),plan=JSON.parse(await readFile(planPath,'utf8'));
  check(plan.cluster==='devnet'&&plan.genesisHash===DEVNET_GENESIS&&plan.ownerRequested===true&&plan.validatorCount===4&&plan.perValidatorAtoms===String(MINIMUM_BOND_ATOMS)&&plan.totalAtoms===String(MINIMUM_BOND_ATOMS*4n),'Exact approved collateral scope required');
  check(fleet.members.length===4&&new Set(fleet.members.map(m=>m.publicKey)).size===4,'Four distinct scientific owners required');
- const authority=await loadKey(c.authorityKeyFile),signers=await Promise.all(c.verifierKeyFiles.map(loadKey)),conn=new Connection(c.rpcUpstream,{commitment:'finalized',disableRetryOnRateLimit:true});
+ const authority=await loadKey(c.authorityKeyFile),signers=await Promise.all(c.verifierKeyFiles.map(loadKey)),conn=new Connection(c.rpcUpstream,{commitment:'finalized',disableRetryOnRateLimit:true,fetch:operatorFetch()});
  check(authority.publicKey.toBase58()===plan.authority&&await conn.getGenesisHash()===DEVNET_GENESIS,'Project and Devnet identity required');
  const program=new PublicKey(c.deployment.programId),a=addresses(program),global=async()=>decodeGlobal((await conn.getAccountInfo(a.global,'finalized')).data),g=await global();
  check(new PublicKey(g.mint).toBase58()===plan.mint&&new PublicKey(g.authority).equals(authority.publicKey)&&signers.length>=2&&signers.slice(0,2).every(s=>g.settlers.some(k=>new PublicKey(k).equals(s.publicKey))),'Existing authority, mint and settlement signers required');
