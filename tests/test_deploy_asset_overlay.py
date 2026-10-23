@@ -67,5 +67,16 @@ class AssetOverlayTests(unittest.TestCase):
         self.save();(self.release/'assets/research-app.mjs').write_text('unreviewed')
         self.rejected('Release changed')
 
+    def test_new_reviewed_module_reaches_destination_checks(self):
+        target=self.release/'assets/task-supply-status-v4.mjs';target.write_text('export const informational=true;')
+        self.build['changed_files'][str(target.relative_to(self.release))]={'old_sha256':None,'new_sha256':sha(target)}
+        self.save()
+        with patch.object(deploy.subprocess,'check_output',side_effect=NetworkBoundary):
+            with self.assertRaises(NetworkBoundary):deploy.deploy(self.args)
+
+    def test_existing_path_cannot_be_declared_new(self):
+        self.build['changed_files']['assets/research-app.mjs']['old_sha256']=None
+        self.save();self.rejected('already exists')
+
 
 if __name__=='__main__':unittest.main()

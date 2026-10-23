@@ -99,7 +99,9 @@
     "tools/deploy_validator_bond_v1.mjs": "tools/deploy_validator_bond_v1.mjs",
     "docs/VALIDATOR_BOND_V1_OPERATIONS.md": "docs/VALIDATOR_BOND_V1_OPERATIONS.md",
     "tools/fund_validator_bonds_v1.mjs": "tools/fund_validator_bonds_v1.mjs",
-    "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json": "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json"
+    "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json": "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json",
+    "docs/BACKGROUND_MINING_V4_OPERATIONS.md": "docs/BACKGROUND_MINING_V4_OPERATIONS.md",
+    "docs/BACKGROUND_MINING_V4_20261023_ACCEPTANCE.json": "docs/BACKGROUND_MINING_V4_20261023_ACCEPTANCE.json"
   },
   "project": "flybrainlabs"
 }

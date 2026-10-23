@@ -1,28 +1,28 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "home-ambient-20261022-r1",
+  "release": "mining-continuous-session-20261023-r4",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "5e70519a2c482db3bf5701570ce06a9a467a7971",
+      "commit": "55f238ccff83c09692f340bcd27c1de229e94cca",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
-      "branch": "feat/home-ambient-20261022"
+      "branch": "feat/mining-background-20261023"
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
-      "commit": "2f007b197b656d49cd332df0032aa042b0adbbf5",
+      "commit": "15bf2e82ca304cde1d66b0ab4fdba51f395eb118",
       "publicationStatus": "verified",
-      "branch": "feat/validator-stake-20261023"
+      "branch": "feat/mining-background-20261023"
     },
     "miner": {
       "url": "https://github.com/flybrainlabs/miner.git",
-      "commit": "d1c01b9364816353df007a61f54f19e214b50664",
+      "commit": "f893bfb2b0446f05526d0bf7debcf48411490e93",
       "publicationStatus": "verified",
-      "branch": "feat/site-languages-20261022-live"
+      "branch": "feat/mining-background-20261023"
     },
     "explorer": {
       "url": "https://github.com/flybrainlabs/explorer.git",
@@ -71,10 +71,10 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-23T04:31:35.263321+00:00",
+    "componentVerificationRecordedAtUtc": "2026-10-23T07:10:34.547561+00:00",
     "verificationReport": "docs/CONTINUOUS_QUORUM_V4_20261023_ACCEPTANCE.json",
-    "scope": "Deadline-aware signed quorum activated; encrypted cold recovery and isolated SQL restore verified; existing website and mining financial activation gates retained",
-    "latestVerificationReport": "docs/CONTINUOUS_QUORUM_V4_20261023_ACCEPTANCE.json",
+    "scope": "V4 background UI correction published over the retained home/language release; validator bonds and financial mining gates retained",
+    "latestVerificationReport": "docs/BACKGROUND_MINING_V4_20261023_ACCEPTANCE.json",
     "sourceOnly": false,
     "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00",
     "previousComponentVerificationRecordedAtUtc": "2026-10-22T11:32:58.812319+00:00",
@@ -87,15 +87,17 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "at": "2026-10-23T05:56:45.940174+00:00",
-    "scope": "Owner-approved finite Devnet validator collateral, fixed-term escrow, worker/coordinator admission, complete-model integrity and retained-state verification",
-    "implementationSourceCiPassed": true,
-    "localBondSbfChecks": 16,
-    "bondSbfRejectedTransactions": 19,
-    "allFourBondsFinalized": true,
-    "currentBondedWorkersReady": 4,
-    "fullContinuousMiningAcceptance": false,
-    "containingInfrastructureCommitVerification": "Verified separately after publication; source-policy results are bound to their exact reported commit."
+    "at": "2026-10-23T09:04:11.638607+00:00",
+    "scope": "Continuous V4 session, wallet entry, opened-task history, and bounded internal validator RPC reads",
+    "websiteDeployed": true,
+    "publicObjectHashChecks": 17,
+    "localBrowserChecks": 12,
+    "publicBrowserChecks": 5,
+    "completeContinuousMiningAcceptance": false,
+    "containingInfrastructureCommitVerification": "Verified separately after normal publication.",
+    "newPublicCandidateRewardFinalized": true,
+    "newPublicCandidateRewardFBW": "200",
+    "nextTaskOpened": true
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -949,7 +951,11 @@
     "latestNetworkAcceptance": "docs/CONTINUOUS_MINING_V4_NETWORK_20261022.json",
     "realBrowserPersonalRpcReadOnlyAccepted": true,
     "realCompleteModelPreparationReadOnlyAccepted": true,
-    "finalizedDedicatedWalletRewardAccepted": false
+    "finalizedDedicatedWalletRewardAccepted": false,
+    "latestApprovedWebsiteBaseline": "mining-continuous-session-20261023-r4",
+    "publicCandidateDistributedRewardAccepted": true,
+    "publicCandidateRewardAcceptance": "docs/BACKGROUND_MINING_V4_20261023_ACCEPTANCE.json",
+    "controlledSingleStartPersonalRpcBrowserAccepted": false
   },
   "validationParticipationV4": {
     "nodeActivated": true,
@@ -1102,5 +1108,60 @@
     "acceptance": "docs/VALIDATOR_BOND_V1_20261023_ACCEPTANCE.json",
     "operations": "docs/VALIDATOR_BOND_V1_OPERATIONS.md",
     "verifiedAtUtc": "2026-10-23T05:56:45.940174+00:00"
+  },
+  "priorBackgroundMiningVerification": {
+    "at": "2026-10-23T05:56:45.940174+00:00",
+    "scope": "Owner-approved finite Devnet validator collateral, fixed-term escrow, worker/coordinator admission, complete-model integrity and retained-state verification",
+    "implementationSourceCiPassed": true,
+    "localBondSbfChecks": 16,
+    "bondSbfRejectedTransactions": 19,
+    "allFourBondsFinalized": true,
+    "currentBondedWorkersReady": 4,
+    "fullContinuousMiningAcceptance": false,
+    "containingInfrastructureCommitVerification": "Verified separately after publication; source-policy results are bound to their exact reported commit."
+  },
+  "backgroundMiningV4": {
+    "websiteRevision": "mining-continuous-session-20261023-r4",
+    "deployed": true,
+    "acceptance": "docs/BACKGROUND_MINING_V4_20261023_ACCEPTANCE.json",
+    "operations": "docs/BACKGROUND_MINING_V4_OPERATIONS.md",
+    "hiddenTabApplicationPause": false,
+    "siteNavigation": "Keep the active mining document and open other site pages in another tab",
+    "browserExitExecution": false,
+    "readOnlyTaskInventory": true,
+    "existingTaskInventorySample": {
+      "actualOpen": 1,
+      "actualActive": 2,
+      "plannedActive": 2,
+      "openableCatalogs": 0,
+      "plannedOpen": 1,
+      "scheduledAndOpenTasks": 28,
+      "preparedTasks": 0
+    },
+    "observedAtPublicCheckStartedAtUtc": "2026-10-23T08:57:26Z",
+    "newRewardAuthorization": false,
+    "completeContinuousMiningAcceptance": false,
+    "automaticTimeCountAndRoundStops": false,
+    "manualPauseStopAndLock": true,
+    "plainSubmissionStages": true,
+    "unopenedInventoryInHistory": false,
+    "disabledScientificRoundsHidden": true,
+    "walletPhraseBeforePassword": true,
+    "passwordUnlockActivatesPayments": true,
+    "continuousOutboxActivated": false,
+    "realPublicCandidateRewardFinalized": true
+  },
+  "validatorInternalRpcV4": {
+    "nodeCommit": "15bf2e82ca304cde1d66b0ab4fdba51f395eb118",
+    "readOnly": true,
+    "requestGapMs": 800,
+    "maximumQueuedReads": 64,
+    "upstreamTimeoutMs": 15000,
+    "coalesceConcurrentFreshReads": true,
+    "cacheCompletedFreshAccountReads": false,
+    "personalMinerRpcInstalled": false,
+    "relayBundleSha256": "a0658c6a3b527a21a5293c0d35acc6c2c165f650228946ed86436f8eb2625e6a",
+    "activated": true,
+    "verifiedAtUtc": "2026-10-23T08:53:50Z"
   }
 }
