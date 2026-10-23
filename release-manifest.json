@@ -73,9 +73,9 @@
     "mainMerged": false,
     "componentVerificationRecordedAtUtc": "2026-10-23T10:09:41.683165+00:00",
     "verificationReport": "docs/RESULTS_CATALOG_20261023_ACCEPTANCE.json",
-    "scope": "Nine-project bilingual catalog, persistent recruitment and protected administration; isolated local acceptance and source publication only",
+    "scope": "Source publication and owner-authorized scoped results catalog/community production installation",
     "latestVerificationReport": "docs/RESULTS_CATALOG_20261023_PUBLICATION.json",
-    "sourceOnly": true,
+    "sourceOnly": false,
     "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00",
     "previousComponentVerificationRecordedAtUtc": "2026-10-22T11:32:58.812319+00:00",
     "previousVerificationReport": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json"
@@ -87,16 +87,16 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "at": "2026-10-23T10:09:41.683165+00:00",
-    "scope": "Source release and isolated local results catalog/recruitment acceptance",
-    "sourceOnly": true,
+    "at": "2026-10-23T12:14:06.772182+00:00",
+    "scope": "Production results catalog and additive community recruitment publication",
+    "sourceOnly": false,
     "componentSourceCiPassed": true,
     "browserChecks": 232,
     "pageLanguageWidthCases": 44,
     "staticExportTests": 8,
     "historicalPackageHttpDownloadTest": true,
-    "productionWebsiteChanged": false,
-    "productionDatabaseChanged": false,
+    "productionWebsiteChanged": true,
+    "productionDatabaseChanged": true,
     "containingInfrastructureCommitVerification": "Verified separately after publication; exact containing SHA and CI recorded in private publication evidence.",
     "resultsCatalogProduction": {
       "revision": "results-catalog-20261023-r1",
@@ -107,7 +107,8 @@
       "migrationVersion": 4,
       "publicReadOnlyChecks": 111,
       "acceptance": "docs/RESULTS_CATALOG_20261023_PUBLICATION.json"
-    }
+    },
+    "publicReadOnlyChecks": 111
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -1168,5 +1169,18 @@
       "publicReadOnlyChecks": 111,
       "acceptance": "docs/RESULTS_CATALOG_20261023_PUBLICATION.json"
     }
+  },
+  "resultsCatalogSourceAcceptance": {
+    "at": "2026-10-23T10:09:41.683165+00:00",
+    "scope": "Source release and isolated local results catalog/recruitment acceptance",
+    "sourceOnly": true,
+    "componentSourceCiPassed": true,
+    "browserChecks": 232,
+    "pageLanguageWidthCases": 44,
+    "staticExportTests": 8,
+    "historicalPackageHttpDownloadTest": true,
+    "productionWebsiteChanged": false,
+    "productionDatabaseChanged": false,
+    "containingInfrastructureCommitVerification": "Verified separately after publication; exact containing SHA and CI recorded in private publication evidence."
   }
 }
