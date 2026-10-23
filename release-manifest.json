@@ -1,16 +1,16 @@
 {
   "schema": "flybrain-release-manifest-v1",
   "owner": "flybrainlabs",
-  "release": "results-catalog-20261023-r1",
+  "release": "results-svg-compressed-20261023-r1",
   "infrastructureRevision": "the commit containing this manifest",
   "repositories": {
     "web": {
       "url": "https://github.com/flybrainlabs/web.git",
-      "commit": "f850c8de81da2fee1b61be2919f3a9a9d0cf590d",
+      "commit": "9e78ad998d8618882fb4a655884dbbfd4a718873",
       "publicationStatus": "verified",
       "visibility": "private",
       "requiresAuthentication": true,
-      "branch": "feat/results-catalog-20261023"
+      "branch": "feat/results-artwork-20261023"
     },
     "node": {
       "url": "https://github.com/flybrainlabs/node.git",
@@ -71,10 +71,10 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-23T10:09:41.683165+00:00",
+    "componentVerificationRecordedAtUtc": "2026-10-23T13:24:11.803212+00:00",
     "verificationReport": "docs/RESULTS_CATALOG_20261023_ACCEPTANCE.json",
-    "scope": "Source publication and owner-authorized scoped results catalog/community production installation",
-    "latestVerificationReport": "docs/RESULTS_CATALOG_20261023_PUBLICATION.json",
+    "scope": "Frontend SVG artwork and lossless static delivery only",
+    "latestVerificationReport": "docs/RESULTS_SVG_DELIVERY_20261023_ACCEPTANCE.json",
     "sourceOnly": false,
     "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00",
     "previousComponentVerificationRecordedAtUtc": "2026-10-22T11:32:58.812319+00:00",
@@ -87,28 +87,31 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "at": "2026-10-23T12:14:06.772182+00:00",
-    "scope": "Production results catalog and additive community recruitment publication",
+    "at": "2026-10-23T13:24:11.803212+00:00",
+    "scope": "Frontend SVG artwork and lossless static delivery only",
     "sourceOnly": false,
     "componentSourceCiPassed": true,
-    "browserChecks": 232,
+    "webCommit": "9e78ad998d8618882fb4a655884dbbfd4a718873",
+    "remoteDependencyObjectsVerified": 9,
+    "localBrowserChecks": 232,
     "pageLanguageWidthCases": 44,
-    "staticExportTests": 8,
-    "historicalPackageHttpDownloadTest": true,
+    "staticExportAndDeliveryTests": 11,
+    "publicReadOnlyChecks": 180,
     "productionWebsiteChanged": true,
-    "productionDatabaseChanged": true,
-    "containingInfrastructureCommitVerification": "Verified separately after publication; exact containing SHA and CI recorded in private publication evidence.",
-    "resultsCatalogProduction": {
-      "revision": "results-catalog-20261023-r1",
-      "verifiedAtUtc": "2026-10-23T12:14:06.772182+00:00",
-      "sourceInfrastructureBeforeRecord": "7d18c9374b30edb4d884bc05e43c24f804f3fea9",
-      "frontendBaseline": "mining-continuous-session-20261023-r4",
-      "scope": "Scoped frontend overlay and five-file community delta; unrelated deployed runtime slices retained",
-      "migrationVersion": 4,
-      "publicReadOnlyChecks": 111,
-      "acceptance": "docs/RESULTS_CATALOG_20261023_PUBLICATION.json"
+    "productionDatabaseChanged": false,
+    "resultsSvgDelivery": {
+      "revision": "results-svg-compressed-20261023-r1",
+      "baselineRevision": "results-catalog-20261023-r1",
+      "verifiedAtUtc": "2026-10-23T13:24:11.803212+00:00",
+      "scope": "Frontend SVG artwork and lossless static delivery only",
+      "installedObjects": 401,
+      "retainedAlreadyMatchingObjects": 1,
+      "publicReadOnlyChecks": 180,
+      "productionDatabaseChanged": false,
+      "servicesRestarted": 0,
+      "acceptance": "docs/RESULTS_SVG_DELIVERY_20261023_ACCEPTANCE.json"
     },
-    "publicReadOnlyChecks": 111
+    "containingInfrastructureCommitVerification": "The exact containing commit and CI are verified after publication and recorded in private evidence."
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -1116,7 +1119,7 @@
     "operations": "docs/VALIDATOR_BOND_V1_OPERATIONS.md",
     "verifiedAtUtc": "2026-10-23T05:56:45.940174+00:00"
   },
-  "previousRelease": "home-ambient-20261022-r1",
+  "previousRelease": "results-catalog-20261023-r1",
   "previousLatestVerification": {
     "at": "2026-10-23T05:56:45.940174+00:00",
     "scope": "Owner-approved finite Devnet validator collateral, fixed-term escrow, worker/coordinator admission, complete-model integrity and retained-state verification",
@@ -1168,6 +1171,18 @@
       "migrationVersion": 4,
       "publicReadOnlyChecks": 111,
       "acceptance": "docs/RESULTS_CATALOG_20261023_PUBLICATION.json"
+    },
+    "resultsSvgDelivery": {
+      "revision": "results-svg-compressed-20261023-r1",
+      "baselineRevision": "results-catalog-20261023-r1",
+      "verifiedAtUtc": "2026-10-23T13:24:11.803212+00:00",
+      "scope": "Frontend SVG artwork and lossless static delivery only",
+      "installedObjects": 401,
+      "retainedAlreadyMatchingObjects": 1,
+      "publicReadOnlyChecks": 180,
+      "productionDatabaseChanged": false,
+      "servicesRestarted": 0,
+      "acceptance": "docs/RESULTS_SVG_DELIVERY_20261023_ACCEPTANCE.json"
     }
   },
   "resultsCatalogSourceAcceptance": {
@@ -1182,5 +1197,42 @@
     "productionWebsiteChanged": false,
     "productionDatabaseChanged": false,
     "containingInfrastructureCommitVerification": "Verified separately after publication; exact containing SHA and CI recorded in private publication evidence."
+  },
+  "priorResultsCatalogProductionVerification": {
+    "at": "2026-10-23T12:14:06.772182+00:00",
+    "scope": "Production results catalog and additive community recruitment publication",
+    "sourceOnly": false,
+    "componentSourceCiPassed": true,
+    "browserChecks": 232,
+    "pageLanguageWidthCases": 44,
+    "staticExportTests": 8,
+    "historicalPackageHttpDownloadTest": true,
+    "productionWebsiteChanged": true,
+    "productionDatabaseChanged": true,
+    "containingInfrastructureCommitVerification": "Verified separately after publication; exact containing SHA and CI recorded in private publication evidence.",
+    "resultsCatalogProduction": {
+      "revision": "results-catalog-20261023-r1",
+      "verifiedAtUtc": "2026-10-23T12:14:06.772182+00:00",
+      "sourceInfrastructureBeforeRecord": "7d18c9374b30edb4d884bc05e43c24f804f3fea9",
+      "frontendBaseline": "mining-continuous-session-20261023-r4",
+      "scope": "Scoped frontend overlay and five-file community delta; unrelated deployed runtime slices retained",
+      "migrationVersion": 4,
+      "publicReadOnlyChecks": 111,
+      "acceptance": "docs/RESULTS_CATALOG_20261023_PUBLICATION.json"
+    },
+    "publicReadOnlyChecks": 111
+  },
+  "resultsSvgDelivery": {
+    "revision": "results-svg-compressed-20261023-r1",
+    "projects": 9,
+    "format": "SVG",
+    "bitmapReferencesOnly": true,
+    "preparedBrotliImageBytes": 7982,
+    "observedPublicBrotliImageBytes": 8151,
+    "losslessTextFiles": 194,
+    "websiteDeployed": true,
+    "backendChanged": false,
+    "acceptance": "docs/RESULTS_SVG_DELIVERY_20261023_ACCEPTANCE.json",
+    "operations": "docs/RESULTS_SVG_DELIVERY_20261023.md"
   }
 }
