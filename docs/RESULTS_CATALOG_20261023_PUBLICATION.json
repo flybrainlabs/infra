@@ -1,0 +1,84 @@
+{
+  "schema": "fbw-results-catalog-production-publication-v1",
+  "verifiedAtUtc": "2026-10-23T12:14:06.772182+00:00",
+  "scope": "Owner-authorized results catalog and additive community recruitment publication",
+  "website": "https://flybrain.work/results/",
+  "revision": "results-catalog-20261023-r1",
+  "priorWebsiteRevision": "mining-continuous-session-20261023-r4",
+  "projects": 9,
+  "thumbnails": 9,
+  "projectDiagrams": 18,
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "projectState": "preparing",
+  "recruitmentState": "open",
+  "observedMetricValues": null,
+  "frontend": {
+    "reviewedChangedObjects": 77,
+    "publicHashChecks": 48,
+    "retainedR4PublicObjectsChecked": 8,
+    "previousObjectsBackedUp": true,
+    "remainingWebsiteObjectsRetained": true,
+    "includesHomeAndMiningWalletCorrections": true
+  },
+  "backend": {
+    "additiveDeltaFiles": 5,
+    "archiveSha256": "43fc7eefdcc8dca6c7738d7dc34a06c8c3d2602eada818cbc014b46a6da38569",
+    "databaseMigrationVersion": 4,
+    "retainedMigrationVersions": [
+      1,
+      2,
+      3
+    ],
+    "consistentSqliteBackupVerified": true,
+    "isolatedLiveCopyMigrationAndPriorCodeRollbackPassed": true,
+    "repeatedMigrationPassed": true,
+    "priorCommunityRowsPreserved": true,
+    "configuredAdministratorCount": 1,
+    "privateRuntimeUnchanged": true,
+    "communityServiceRestarts": 1,
+    "otherServicesRestarted": 0,
+    "proxyChanged": false,
+    "healthResponseSchemaVersionRetained": 3
+  },
+  "verification": {
+    "publicReadOnlyChecks": 111,
+    "publicBackendOriginAndAuthenticationChecks": 4,
+    "publicBrowserErrors": 0,
+    "nineDetailsBothLanguages": true,
+    "desktopAndMobile": true,
+    "unknownProjectHttpStatus": 404,
+    "legacyResultApiAndDetailPassed": true,
+    "legacyQueryRoutingPassed": true,
+    "authorizedDownloadRangeStatus": 206,
+    "authorizedDownloadBytesRead": 16,
+    "actualExtensionWalletApproval": false,
+    "productionApplicantWritesByAcceptance": 0,
+    "syntheticApplicantsCreatedInProduction": 0
+  },
+  "boundaries": {
+    "trainingStarted": false,
+    "miningStartedByPublication": false,
+    "modelDownloads": 0,
+    "chainTransactions": 0,
+    "notificationsSent": 0,
+    "mainMerged": false,
+    "mainnetActivated": false,
+    "fullContinuousOutboxActivated": false
+  },
+  "sourceComponents": {
+    "web": "f850c8de81da2fee1b61be2919f3a9a9d0cf590d",
+    "node": "2375da1a40b8f56da15c37f857de6f35feddaadb",
+    "sdk": "012697fcec2a88b006d5dd69435162c4fd530897",
+    "docs": "b61f94a515eaf81679ea822ac45a95447404651e"
+  },
+  "sourceInfrastructureBeforePublicationRecord": "7d18c9374b30edb4d884bc05e43c24f804f3fea9",
+  "sourceScopeNote": "The frontend overlay retains the verified deployed R4 baseline. The backend is a five-file delta over the actual current community installation, not a full replacement of unrelated runtime slices.",
+  "backupIndex": "Restricted operational checkpoint; not distributed in public source",
+  "followupBoundaries": [
+    "Actual extension-wallet and physical-device confirmation are not established by read-only publication checks.",
+    "The existing full continuous-mining acceptance backlog remains separate."
+  ]
+}

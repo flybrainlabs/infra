@@ -1,8 +1,12 @@
 # Results catalog and recruitment operations
 
-This is a source and local-review release. It does not deploy the website,
-migrate production, restart services, send notifications or authorize training,
-mining, fees or token transfers. Approve an installation plan separately.
+The initial source and local-review release did not authorize deployment. The
+subsequent owner-authorized publication is recorded in
+`RESULTS_CATALOG_PUBLICATION_20261023.md` and
+`RESULTS_CATALOG_20261023_PUBLICATION.json`. The runbook below remains the
+installation and recovery procedure; future changes require their applicable
+authorization. Recruitment does not authorize training, mining, fees, token
+transfers or notifications.
 
 ## Source ownership and prerequisites
 
@@ -200,7 +204,9 @@ After explicit production approval, an operator should:
 7. Verify real public routing, allowed-origin CORS and existing wallet login using
    a designated review account. Do not inject synthetic applications into production.
 
-This task performs none of these production steps.
+The initial source review performed none of these production steps. The later
+explicitly authorized installation and its actual scope are recorded in the
+publication documents linked above.
 
 ## Rollback and retained applications
 

@@ -74,7 +74,7 @@
     "componentVerificationRecordedAtUtc": "2026-10-23T10:09:41.683165+00:00",
     "verificationReport": "docs/RESULTS_CATALOG_20261023_ACCEPTANCE.json",
     "scope": "Nine-project bilingual catalog, persistent recruitment and protected administration; isolated local acceptance and source publication only",
-    "latestVerificationReport": "docs/RESULTS_CATALOG_20261023_ACCEPTANCE.json",
+    "latestVerificationReport": "docs/RESULTS_CATALOG_20261023_PUBLICATION.json",
     "sourceOnly": true,
     "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00",
     "previousComponentVerificationRecordedAtUtc": "2026-10-22T11:32:58.812319+00:00",
@@ -97,7 +97,17 @@
     "historicalPackageHttpDownloadTest": true,
     "productionWebsiteChanged": false,
     "productionDatabaseChanged": false,
-    "containingInfrastructureCommitVerification": "Verified separately after publication; exact containing SHA and CI recorded in private publication evidence."
+    "containingInfrastructureCommitVerification": "Verified separately after publication; exact containing SHA and CI recorded in private publication evidence.",
+    "resultsCatalogProduction": {
+      "revision": "results-catalog-20261023-r1",
+      "verifiedAtUtc": "2026-10-23T12:14:06.772182+00:00",
+      "sourceInfrastructureBeforeRecord": "7d18c9374b30edb4d884bc05e43c24f804f3fea9",
+      "frontendBaseline": "mining-continuous-session-20261023-r4",
+      "scope": "Scoped frontend overlay and five-file community delta; unrelated deployed runtime slices retained",
+      "migrationVersion": 4,
+      "publicReadOnlyChecks": 111,
+      "acceptance": "docs/RESULTS_CATALOG_20261023_PUBLICATION.json"
+    }
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -1146,5 +1156,17 @@
     "operations": "docs/RESULTS_CATALOG_OPERATIONS.md",
     "implementation": "docs/RESULTS_CATALOG_IMPLEMENTATION.md",
     "previouslyRecordedCommunityMigrationVersion": 3
+  },
+  "productionDeployments": {
+    "resultsCatalog": {
+      "revision": "results-catalog-20261023-r1",
+      "verifiedAtUtc": "2026-10-23T12:14:06.772182+00:00",
+      "sourceInfrastructureBeforeRecord": "7d18c9374b30edb4d884bc05e43c24f804f3fea9",
+      "frontendBaseline": "mining-continuous-session-20261023-r4",
+      "scope": "Scoped frontend overlay and five-file community delta; unrelated deployed runtime slices retained",
+      "migrationVersion": 4,
+      "publicReadOnlyChecks": 111,
+      "acceptance": "docs/RESULTS_CATALOG_20261023_PUBLICATION.json"
+    }
   }
 }
