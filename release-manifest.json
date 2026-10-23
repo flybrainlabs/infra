@@ -71,12 +71,14 @@
     "apiIdentityVerified": true,
     "apiAccountOperations": 0,
     "mainMerged": false,
-    "componentVerificationRecordedAtUtc": "2026-10-22T11:32:58.812319+00:00",
-    "verificationReport": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json",
-    "scope": "Passive rotating home anatomy and Chinese-last language controls deployed; public WebGL, language persistence and HTTPS content hashes verified; existing mining activation gates retained",
-    "latestVerificationReport": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json",
+    "componentVerificationRecordedAtUtc": "2026-10-23T04:31:35.263321+00:00",
+    "verificationReport": "docs/CONTINUOUS_QUORUM_V4_20261023_ACCEPTANCE.json",
+    "scope": "Deadline-aware signed quorum activated; encrypted cold recovery and isolated SQL restore verified; existing website and mining financial activation gates retained",
+    "latestVerificationReport": "docs/CONTINUOUS_QUORUM_V4_20261023_ACCEPTANCE.json",
     "sourceOnly": false,
-    "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00"
+    "priorDeploymentVerificationRecordedAtUtc": "2026-10-19T23:09:04.998084+00:00",
+    "previousComponentVerificationRecordedAtUtc": "2026-10-22T11:32:58.812319+00:00",
+    "previousVerificationReport": "docs/HOME_AMBIENT_20261022_ACCEPTANCE.json"
   },
   "stateRetention": {
     "modelDownloadRequired": false,
@@ -85,18 +87,16 @@
   },
   "project": "flybrainlabs",
   "latestVerification": {
-    "at": "2026-10-22T10:25:51.342681+00:00",
-    "scope": "Signed distributed replay, compatible coordination, recovery and live scientific content",
-    "componentSourceCiPassed": true,
-    "localRegressionSuitesPassed": 2,
-    "completeModelHostsAccepted": 4,
-    "workerAndTunnelRecoveryPassed": true,
-    "liveContentLanguagesVerified": [
-      "en",
-      "zh"
-    ],
-    "publicHttpsHashesVerified": 7,
-    "fullMiningAcceptanceScope": "Prior continuous-mining financial and long-duration gates retain their recorded status"
+    "at": "2026-10-23T04:31:35.263321+00:00",
+    "scope": "Deadline quorum deployment and authenticated cold recovery",
+    "nodeSourceCiPassed": true,
+    "localRegressionSuitesPassed": 4,
+    "completeModelSelfCheckFaultCasesPassed": 2,
+    "encryptedColdReplicaVerified": true,
+    "isolatedRecoveryFingerprintsMatchLive": true,
+    "componentRemoteObjectsVerified": 10,
+    "automaticFailoverConfigured": false,
+    "completeMiningAcceptance": false
   },
   "walletMiningV3": {
     "testOnly": true,
@@ -1052,5 +1052,19 @@
     "mainMerged": false,
     "v5Activated": false,
     "verifiedAtUtc": "2026-10-23T04:25:55.164779+00:00"
+  },
+  "priorValidationParticipationVerification": {
+    "at": "2026-10-22T10:25:51.342681+00:00",
+    "scope": "Signed distributed replay, compatible coordination, recovery and live scientific content",
+    "componentSourceCiPassed": true,
+    "localRegressionSuitesPassed": 2,
+    "completeModelHostsAccepted": 4,
+    "workerAndTunnelRecoveryPassed": true,
+    "liveContentLanguagesVerified": [
+      "en",
+      "zh"
+    ],
+    "publicHttpsHashesVerified": 7,
+    "fullMiningAcceptanceScope": "Prior continuous-mining financial and long-duration gates retain their recorded status"
   }
 }
